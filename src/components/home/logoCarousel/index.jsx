@@ -1,0 +1,52 @@
+"use client";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
+import Image from "next/image";
+import "./gradient.css";
+
+export default function LogoCarousel() {
+  const items = [
+    { path: "https://www.criptoswaps.com/trading/wcsusdt", image: "/images/carousel-images/criptoswaps.png", title: "Criptoswaps" },
+    { path: "https://coinpaprika.com/tr/coin/wcs-weecoins", image: "/images/carousel-images/Coinpaprika.png", title: "Coinpaprika" },
+    { path: "https://coinmarketcap.com/currencies/weecoins", image: "/images/carousel-images/CoinMarketCap.png", title: "CoinMarketCap" },
+    { path: "https://coincost.net/en/currency/weecoins", image: "/images/carousel-images/coincostlogo.png", title: "CoinCost" },
+    { path: "https://azbit.com/exchange/WCS_USDT", image: "/images/carousel-images/Azbit-AZ.png", title: "Azbit" },
+    { path: "https://www.coinbase.com/tr/price/weecoins", image: "/images/carousel-images/Coinbase-New.png", title: "Coinbase" },
+  ];
+  return (
+    <section className="fluid gridContainer relative mt-4 flex h-36 w-full items-center overflow-hidden">
+      <div className="logoCarousel-graient-left fluid absolute inset-y-0 left-0 z-10 w-64"></div>
+      <div className="logoCarousel-graient-right fluid absolute inset-y-0 right-0 z-10 w-64"></div>
+      <Carousel
+        plugins={[
+          Autoplay({
+            delay: 2000,
+            stopOnHover: true,
+            playOnInit: true,
+            loop: true,
+            stopOnLastSnap: false,
+            stopOnInteraction: false,
+            stopOnMouseEnter: true,
+          }),
+        ]}
+        className="fluid relative w-full"
+      >
+        <CarouselContent>
+          {items.map((item, index) => (
+            <CarouselItem key={index} className="flex basis-1/5 items-center">
+              <div className="flex items-center text-gray-600 hover:text-gray-900">
+                <Image
+                  src={item.image}
+                  className="brightness-50 grayscale hover:brightness-75 hover:grayscale-0"
+                  width={120}
+                  height={60}
+                  alt={item.title}
+                />
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+      </Carousel>
+    </section>
+  );
+}

@@ -7,6 +7,7 @@ import "../globals.css";
 import Header from "@/components/common/header";
 import localFont from "next/font/local";
 import { customMetaData } from "@/components/MetaData";
+import Footer from "@/components/common/footer";
 
 export const metadata = { ...customMetaData };
 
@@ -53,6 +54,7 @@ export default async function RootLayout({ children, params }) {
             <main className="fluid gridContainer overflow-x-hidden font-inter">
               <Header />
               {children}
+              <Footer />
             </main>
           </ThemeProvider>
         </NextIntlClientProvider>

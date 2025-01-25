@@ -28,15 +28,17 @@ export default function AccessToKnowledge() {
         {cardItems.map((item, index) => (
           <div
             key={index}
-            className="flex h-full w-full max-w-[520px] flex-col items-center justify-center rounded-2xl border border-solid border-[#1B1B1B]/10 px-10 py-10 shadow-lg"
+            className="group flex h-full w-full max-w-[520px] flex-col items-center justify-center rounded-2xl border border-solid border-[#1B1B1B]/10 px-10 py-10 shadow-lg"
           >
-            <Image
-              src={item.image}
-              width={330}
-              height={330}
-              alt="weecoins access to knowledge image"
-              className="h-full max-h-[330px] w-full max-w-[330px] object-cover drop-shadow-lg"
-            />
+            <div>
+              <Image
+                src={item.image}
+                width={330}
+                height={330}
+                alt="weecoins access to knowledge image"
+                className="h-full max-h-[330px] w-full max-w-[330px] object-cover drop-shadow-lg transition-transform duration-300 group-hover:scale-105"
+              />
+            </div>
             <div className="flex flex-col items-center justify-center bg-gradient-to-t from-light-833E15 to-black bg-clip-text text-center text-transparent">
               <h4 className="text-nowrap font-dmSans text-2xl font-bold leading-[60px]">{item.title}</h4>
               <p className="font-inter text-base font-light leading-[23px]">{item.description}</p>

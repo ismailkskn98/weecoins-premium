@@ -21,10 +21,10 @@ export default function Navbar({ isFixed }) {
           key={index}
           href={item.path}
           className={classNames("text-nowrap capitalize transition-all duration-200", {
-            "text-black": item.path === pathname,
-            "text-black/60 hover:text-black": item.path !== pathname,
-            "text-white/60 hover:text-white": isFixed && item.path !== pathname,
-            "text-white": isFixed && item.path === pathname,
+            "text-black dark:text-white": item.path === pathname,
+            "text-black/60 hover:text-black dark:text-white/70 dark:hover:text-white": item.path !== pathname,
+            "text-white/70 hover:text-white dark:text-black/70 dark:hover:text-black": isFixed && item.path !== pathname,
+            "text-white dark:text-black": isFixed && item.path === pathname,
           })}
         >
           {item.label}

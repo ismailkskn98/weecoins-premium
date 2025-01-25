@@ -10,7 +10,7 @@ export default function NavLogo({ isFixed }) {
         alt="weecoins premium logo black"
         width={300}
         height={150}
-        className="h-full max-h-36 w-full max-w-72"
+        className="max-h-36 max-w-72"
         quality={100}
       />
     </Link>

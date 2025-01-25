@@ -36,7 +36,7 @@ export default function AccessToKnowledge() {
                 width={330}
                 height={330}
                 alt="weecoins access to knowledge image"
-                className="h-full max-h-[330px] w-full max-w-[330px] object-cover drop-shadow-lg transition-transform duration-300 group-hover:scale-105"
+                className="max-h-[330px] max-w-[330px] object-cover drop-shadow-lg transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <div className="flex flex-col items-center justify-center bg-gradient-to-t from-light-833E15 to-black bg-clip-text text-center text-transparent">

@@ -11,7 +11,7 @@ export default function Footer() {
             alt="weecoins logo footer"
             width={350}
             height={200}
-            className="h-full max-h-[350px] w-full max-w-[200px] object-contain"
+            className="max-h-[350px] max-w-[200px] object-contain"
           />
         </article>
         <article className="text-center font-inter text-base font-light text-light-EAEEFE">

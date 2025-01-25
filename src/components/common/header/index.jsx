@@ -6,6 +6,7 @@ import BlackButton from "../BlackButton";
 import NavLogo from "./NavLogo";
 import { useWindowScroll } from "react-use";
 import classNames from "classnames";
+import LanguageChange from "../LanguageChange";
 
 export default function Header() {
   const navContaninerRef = useRef(null);
@@ -38,6 +39,7 @@ export default function Header() {
         <article className="flex items-center gap-6">
           <Navbar isFixed={isFixed} />
           <ModeToggle />
+          <LanguageChange />
           <BlackButton isFixed={isFixed} target={"_blank"} href={"https://backoffice.weecoins.org/"} label={"Back Office"} />
         </article>
       </header>

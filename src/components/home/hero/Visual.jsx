@@ -9,7 +9,7 @@ export default function Visual() {
         alt="weecoins material"
         width={216}
         height={197}
-        className="top-image absolute -left-56 -top-24 z-10 h-full max-h-[194px] w-full max-w-[216px] drop-shadow-2xl"
+        className="top-image absolute -left-56 -top-24 z-10 max-h-[194px] max-w-[216px] drop-shadow-2xl"
         // style={{ filter: "blur(2px)" }}
       />
       <Image
@@ -17,14 +17,14 @@ export default function Visual() {
         alt="weecoins premium logo"
         width={500}
         height={500}
-        className="center-image relative z-10 flex h-full max-h-[500px] w-full max-w-[500px] justify-end object-cover drop-shadow-2xl"
+        className="center-image relative z-10 flex max-h-[500px] max-w-[500px] justify-end object-cover drop-shadow-2xl"
       />
       <Image
         src="/images/weecoins-material-bottom.png"
         alt="weecoins material"
         width={231}
         height={231}
-        className="bottom-image absolute -bottom-48 -right-32 z-20 h-full max-h-[231px] w-full max-w-[231px] drop-shadow-2xl"
+        className="bottom-image absolute -bottom-48 -right-32 z-20 max-h-[231px] max-w-[231px] drop-shadow-2xl"
         // style={{ filter: "blur(4px)" }}
       />
     </article>

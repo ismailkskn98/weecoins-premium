@@ -12,7 +12,7 @@ export default function HeroContent() {
           width={150}
           height={90}
           alt="WeeCoins Premium logo"
-          className="absolute -left-44 -top-10 -z-10 h-full w-full -rotate-180 object-cover"
+          className="absolute -left-44 -top-10 -z-10 -rotate-180 object-cover"
         />
         <h2 className="realtive flex flex-col items-start bg-gradient-to-t from-light-833E15 to-black bg-clip-text font-dmSans text-[90px] font-bold text-transparent">
           WeeCoins<span className="-mt-9">Premium</span>

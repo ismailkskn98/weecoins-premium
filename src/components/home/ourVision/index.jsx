@@ -27,7 +27,7 @@ export default function OurVision() {
           alt="weecoins premium material"
           width={362}
           height={362}
-          className="h-full w-full rotate-12 object-cover"
+          className="rotate-12 object-cover"
         />
       </div>
       <div className="absolute bottom-7 right-3 h-full max-h-[362px] w-full max-w-[362px]">
@@ -36,7 +36,7 @@ export default function OurVision() {
           alt="weecoins premium material"
           width={362}
           height={362}
-          className="h-full w-full rotate-12 object-cover"
+          className="rotate-12 object-cover"
         />
       </div>
     </section>

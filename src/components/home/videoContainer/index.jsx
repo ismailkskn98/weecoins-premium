@@ -22,7 +22,7 @@ export default function VideoContainer() {
           alt="weecoins material"
           width={240}
           height={240}
-          className="h-full max-h-[240px] w-full max-w-[240px] object-cover drop-shadow-xl"
+          className="max-h-[240px] max-w-[240px] object-cover drop-shadow-xl"
         />
       </div>
       <div className="fluid absolute -left-16 bottom-1/3 z-10">
@@ -31,7 +31,7 @@ export default function VideoContainer() {
           alt="weecoins material"
           width={240}
           height={240}
-          className="h-full max-h-[240px] w-full max-w-[240px] object-cover drop-shadow-xl"
+          className="max-h-[240px] max-w-[240px] object-cover drop-shadow-xl"
         />
       </div>
     </section>

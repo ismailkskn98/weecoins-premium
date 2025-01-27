@@ -2,15 +2,17 @@ import { Link } from "@/i18n/routing";
 import classNames from "classnames";
 import React from "react";
 
-export default function BlackButton({ label, href, ReactIcon, target, isFixed = false }) {
+export default function BlackButton({ label, href, ReactIcon, target, isFixed = false, isTopShow = false }) {
   return (
     <Link
       href={href}
       target={target ? target : "_self"}
-      className={classNames("relative rounded-10 px-15px py-10px text-base font-medium transition-all duration-300", {
+      className={classNames("relative text-nowrap text-sm font-medium transition-all duration-300 lg:text-base", {
         "flex items-center gap-1 overflow-hidden": ReactIcon,
-        "bg-black text-white hover:bg-black/80 dark:bg-white dark:text-black dark:hover:bg-white/80": !isFixed,
-        "bg-white text-black hover:bg-white/80 dark:bg-black dark:text-white dark:hover:bg-black/80": isFixed,
+        "rounded-sm bg-black px-2 py-1 text-white hover:bg-black/80 dark:bg-white dark:text-black dark:hover:bg-white/80 xl:rounded-10 xl:px-15px xl:py-10px":
+          !isFixed && isTopShow,
+        "rounded-sm bg-white px-2 py-1 text-black hover:bg-white/80 dark:bg-black dark:text-white dark:hover:bg-black/80 xl:rounded-10 xl:px-15px xl:py-10px":
+          isFixed,
       })}
     >
       {label}

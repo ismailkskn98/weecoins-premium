@@ -15,16 +15,16 @@ export default function Navbar({ isFixed }) {
   ];
 
   return (
-    <nav className="flex items-center gap-6">
+    <nav className="hidden items-center gap-6 lg:flex">
       {navItems.map((item, index) => (
         <Link
           key={index}
           href={item.path}
           className={classNames("text-nowrap capitalize transition-all duration-200", {
-            "text-black dark:text-white": item.path === pathname,
-            "text-black/60 hover:text-black dark:text-white/70 dark:hover:text-white": item.path !== pathname,
-            "text-white/70 hover:text-white dark:text-black/70 dark:hover:text-black": isFixed && item.path !== pathname,
+            "text-black dark:text-white": !isFixed && item.path === pathname,
             "text-white dark:text-black": isFixed && item.path === pathname,
+            "text-black/60 hover:text-black dark:text-white/80 dark:hover:text-white": !isFixed && item.path !== pathname,
+            "text-white/70 hover:text-white dark:text-black/70 dark:hover:text-black": isFixed && item.path !== pathname,
           })}
         >
           {item.label}

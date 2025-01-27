@@ -5,16 +5,16 @@ import React from "react";
 
 export default function HeroContent() {
   return (
-    <article className="flex flex-col items-start gap-6">
+    <article className="flex w-full flex-col items-center justify-center gap-6 lg:items-start xl:w-auto 2xl:justify-start">
       <div className="relative">
         <Image
           src="/images/weecoins-text-bg.svg"
           width={150}
           height={90}
           alt="WeeCoins Premium logo"
-          className="absolute -left-44 -top-10 -z-10 -rotate-180 object-cover"
+          className="absolute -left-24 -top-9 -z-10 h-full w-full max-w-[360px] -rotate-180 object-cover xl:-left-36 xl:max-w-[390px]"
         />
-        <h2 className="realtive flex flex-col items-start bg-gradient-to-t from-light-833E15 to-black bg-clip-text font-dmSans text-[90px] font-bold text-transparent">
+        <h2 className="realtive flex flex-col items-center bg-gradient-to-t from-light-833E15 to-dark-0d0d0d bg-clip-text font-dmSans text-[80px] font-bold text-transparent dark:to-dark-808080 lg:items-start 2xl:text-[90px]">
           WeeCoins<span className="-mt-9">Premium</span>
         </h2>
       </div>

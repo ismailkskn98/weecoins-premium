@@ -3,8 +3,8 @@
   background: linear-gradient(10deg, var(--color-gradient-f7cf68) 0%, var(--color-light-eaeefe) 59%);
 }
 .heroGradientDark {
-  background: rgb(17, 16, 0);
-  background: linear-gradient(180deg, rgba(17, 16, 0, 1) 0%, rgba(247, 207, 104, 0.36458333333333337) 59%);
+  background: var(--color-light-183ec2);
+  background: linear-gradient(10deg, var(--color-gradient-f7cf68) 0%, var(--color-dark-0d0d0d) 59%);
 }
 
 .center-image {

@@ -3,7 +3,7 @@ import React from "react";
 import SocialMedia from "./SocialMedia";
 export default function Footer() {
   return (
-    <section className="fluid gridContainer bg-[#111] py-10">
+    <section className="fluid gridContainer max-h-[150px] self-end bg-[#111] py-10">
       <footer className="flex w-full items-center justify-between border-t border-solid border-light-gradient-f7cf68/10 pt-5">
         <article>
           <Image

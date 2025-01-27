@@ -1,5 +1,12 @@
+import AboutContent from "@/components/about/AboutContent";
+import PageTitle from "@/components/common/PageTitle";
 import React from "react";
 
 export default function About() {
-  return <div>page</div>;
+  return (
+    <>
+      <PageTitle title={"About us"} subtitle={"Today we are inspiring story from the very beginning to our days"} />
+      <AboutContent />
+    </>
+  );
 }

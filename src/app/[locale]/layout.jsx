@@ -51,7 +51,7 @@ export default async function RootLayout({ children, params }) {
       >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-            <main className="fluid gridContainer overflow-x-hidden font-inter">
+            <main className="fluid gridContainer min-h-screen overflow-x-hidden font-inter">
               <Header />
               {children}
               <Footer />

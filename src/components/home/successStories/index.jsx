@@ -89,8 +89,8 @@ export default function SuccessStories() {
             ))}
           </Marquee>
 
-          <div className="pointer-events-none absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-white dark:from-dark-0d0d0d"></div>
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-white dark:from-dark-0d0d0d"></div>
+          <div className="pointer-events-none absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-light-EAEEFE dark:from-dark-0d0d0d"></div>
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-light-EAEEFE dark:from-dark-0d0d0d"></div>
         </div>
       </article>
     </section>

@@ -14,7 +14,13 @@ export default function HeaderActions({ isTopShow = false, isFixed = false }) {
     >
       <ModeToggle isFixed={isFixed} />
       <LanguageChange isFixed={isFixed} />
-      <BlackButton isFixed={isFixed} target={"_blank"} href={"https://backoffice.weecoins.org/"} label={"Back Office"} isTopShow={true} />
+      <BlackButton
+        isFixed={isFixed}
+        target={"_blank"}
+        href={"https://backoffice.weecoins.org/"}
+        label={"Back Office"}
+        isTopShow={isTopShow}
+      />
     </div>
   );
 }

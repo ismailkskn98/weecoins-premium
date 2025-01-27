@@ -1,15 +1,25 @@
-import React from "react";
+"use client";
+import React, { useTransition } from "react";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useLocale } from "next-intl";
 import Image from "next/image";
 import classNames from "classnames";
+import { usePathname, useRouter } from "@/i18n/routing";
 
 export default function LanguageChange({ isFixed }) {
-  const locale = useLocale();
-  console.log(locale);
+  const locale = useLocale(); // tr || en || py || az
+  const router = useRouter();
+  const pathname = usePathname(); // / || /about || /services vs.
+  const [, startTransition] = useTransition(); // useTransition bu tür ağır işlemleri düşük öncelikli hale getirerek, UI'nin daha akıcı çalışmasını sağlar.
+
   return (
     <article>
-      <Select defaultValue="tr" onValueChange={() => {}}>
+      <Select
+        defaultValue={locale}
+        onValueChange={(value) => {
+          startTransition(() => router.replace(pathname, { locale: value }));
+        }}
+      >
         <SelectTrigger
           className={classNames("w-[180px] border-none bg-transparent text-sm uppercase lg:text-base", {
             "text-black dark:text-white": !isFixed,

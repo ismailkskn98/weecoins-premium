@@ -14,7 +14,7 @@ export default function VideoContainer() {
       />
       <VideoDialog />
       <VideoCards />
-      <div className="fluid absolute inset-0 -z-10 bg-gradient-to-t from-light-833E15 to-light-EAEEFE dark:to-dark-0d0d0d"></div>
+      <div className="fluid absolute inset-0 -z-10 bg-gradient-to-t from-light-gradient-f7cf68 to-light-EAEEFE dark:from-light-833E15 dark:to-dark-0d0d0d"></div>
       <div className="fluid absolute -right-16 top-1/4 z-10">
         <Image
           src="/images/weecoins-material-bottom.png"

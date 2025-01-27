@@ -6,7 +6,7 @@ import { Link, usePathname } from "@/i18n/routing";
 import classNames from "classnames";
 import HeaderActions from "./HeaderActions";
 
-export default function MobileNavbar() {
+export default function MobileNavbar({ isFixed = false }) {
   const pathname = usePathname();
 
   const navItems = [
@@ -20,7 +20,12 @@ export default function MobileNavbar() {
   return (
     <Sheet>
       <SheetTrigger className="lg:hidden">
-        <CgMenuRightAlt className="text-3xl" />
+        <CgMenuRightAlt
+          className={classNames("text-3xl", {
+            "text-black dark:text-white": !isFixed,
+            "text-white": isFixed,
+          })}
+        />
       </SheetTrigger>
       <SheetContent className="flex h-full w-full flex-col items-center justify-between bg-light-EAEEFE py-8 dark:bg-dark-0d0d0d">
         <SheetHeader className="flex h-full max-h-14 w-full items-center justify-start">

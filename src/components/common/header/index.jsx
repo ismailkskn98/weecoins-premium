@@ -13,7 +13,7 @@ export default function Header() {
   const [isFixed, setIsFixed] = useState(false);
 
   useEffect(() => {
-    if (currentScrollY > 50) {
+    if (currentScrollY > 70) {
       setIsFixed(true);
     } else {
       setIsFixed(false);
@@ -23,7 +23,7 @@ export default function Header() {
   return (
     <section
       ref={navContaninerRef}
-      className={classNames("fluid gridContainer fixed inset-x-0 border-none transition-all duration-75", {
+      className={classNames("fluid gridContainer fixed inset-x-0 border-none transition-all duration-300", {
         "top-0 z-10 bg-light-EAEEFE dark:bg-dark-0d0d0d": !isFixed,
         "top-4 z-[70] bg-transparent": isFixed,
       })}
@@ -46,7 +46,7 @@ export default function Header() {
         <NavLogo isFixed={isFixed} />
         <div className="flex items-center gap-6">
           <Navbar isFixed={isFixed} />
-          <MobileNavbar />
+          <MobileNavbar isFixed={isFixed} />
           <HeaderActions isTopShow={false} isFixed={isFixed} />
         </div>
       </header>

@@ -66,7 +66,7 @@ const thirdRow = reviews.slice((2 * reviews.length) / 3);
 
 export default function SuccessStories() {
   return (
-    <section className="relative mb-[60px] mt-[92px] flex flex-col items-center justify-center overflow-x-hidden text-center">
+    <section className="relative mb-[60px] mt-[92px] flex flex-col items-center justify-center gap-10 overflow-x-hidden text-center">
       <SectionTitle
         title="Başarı Hikayeleri"
         description="Burada kullanıcılarımızın deneyimlerini ve başarı hikayelerini bulabilirsiniz. İlham verici hikayelere göz atın ve kendi hikayenizi paylaşın."
@@ -89,8 +89,8 @@ export default function SuccessStories() {
             ))}
           </Marquee>
 
-          <div className="pointer-events-none absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-white dark:from-background"></div>
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-white dark:from-background"></div>
+          <div className="pointer-events-none absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-white dark:from-dark-0d0d0d"></div>
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-white dark:from-dark-0d0d0d"></div>
         </div>
       </article>
     </section>

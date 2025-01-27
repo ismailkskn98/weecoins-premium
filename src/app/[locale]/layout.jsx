@@ -47,7 +47,7 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={locale} suppressHydrationWarning>
       <body
-        className={`bg-white ${DmSans.variable} ${Inter.variable} ${Switzer.variable} text-black antialiased dark:bg-black dark:text-white`}
+        className={`bg-white ${DmSans.variable} ${Inter.variable} ${Switzer.variable} text-black antialiased dark:bg-dark-0d0d0d dark:text-light-EAEEFE`}
       >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>

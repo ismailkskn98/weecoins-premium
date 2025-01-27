@@ -14,7 +14,7 @@ export default function NavLogo({ isFixed }) {
         quality={100}
       />
       <Image
-        src={!isFixed ? "/images/logo-text-white.png" : "/images/logo-text-black.png"}
+        src={"/images/logo-text-white.png"}
         alt="weecoins premium logo black"
         width={300}
         height={150}

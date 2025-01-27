@@ -13,7 +13,7 @@ export default function LanguageChange({ isFixed }) {
         <SelectTrigger
           className={classNames("w-[180px] border-none bg-transparent text-sm uppercase lg:text-base", {
             "text-black dark:text-white": !isFixed,
-            "text-white dark:text-black": isFixed,
+            "text-white": isFixed,
           })}
         >
           <SelectValue placeholder="" className="text-sm sm:text-base" />

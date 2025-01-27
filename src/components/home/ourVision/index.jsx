@@ -7,7 +7,7 @@ import SectionTitle from "@/components/common/SectionTitle";
 export default function OurVision() {
   return (
     <section className="fluid gridContainer relative py-32">
-      <div className="fluid absolute inset-0 -z-10 bg-gradient-to-t from-light-gradient-f7cf68 to-white"></div>
+      <div className="fluid absolute inset-0 -z-10 bg-gradient-to-t from-light-gradient-f7cf68 to-light-EAEEFE dark:from-light-833E15 dark:to-dark-0d0d0d"></div>
       <article className="mx-auto flex max-w-lg flex-col items-center justify-center gap-10">
         <div className="flex flex-col items-center justify-center gap-5 text-center">
           <SectionTitle
@@ -17,7 +17,7 @@ export default function OurVision() {
           />
         </div>
         <div className="flex items-center justify-center gap-4">
-          <BlackButton href="/roadMap" label="Yol Haritamız" />
+          <BlackButton href="/roadMap" label="Yol Haritamız" isTopShow={false} isFixed={false} />
           <LearnMore href={"/about"} />
         </div>
       </article>
@@ -36,7 +36,7 @@ export default function OurVision() {
           alt="weecoins premium material"
           width={362}
           height={362}
-          className="rotate-12 object-cover"
+          className="0 rotate-12 object-cover"
         />
       </div>
     </section>

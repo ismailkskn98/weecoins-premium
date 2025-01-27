@@ -11,8 +11,9 @@ export default function BlackButton({ label, href, ReactIcon, target, isFixed = 
         "flex items-center gap-1 overflow-hidden": ReactIcon,
         "rounded-sm bg-black px-2 py-1 text-white hover:bg-black/80 dark:bg-white dark:text-black dark:hover:bg-white/80 xl:rounded-10 xl:px-15px xl:py-10px":
           !isFixed && isTopShow,
-        "rounded-sm bg-white px-2 py-1 text-black hover:bg-white/80 dark:bg-black dark:text-white dark:hover:bg-black/80 xl:rounded-10 xl:px-15px xl:py-10px":
-          isFixed,
+        "rounded-sm bg-white px-2 py-1 text-black hover:bg-white/80 xl:rounded-10 xl:px-15px xl:py-10px": isFixed,
+        "rounded-sm bg-black px-2 py-1 text-white hover:bg-black/80 dark:bg-white dark:text-black dark:hover:bg-white/80 xl:rounded-10 xl:px-15px xl:py-10px":
+          !isFixed && !isTopShow,
       })}
     >
       {label}

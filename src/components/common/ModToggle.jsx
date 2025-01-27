@@ -16,7 +16,7 @@ export function ModeToggle({ isFixed }) {
         asChild
         className={classNames("border border-solid ring-0 focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0", {
           "border-gray-300 bg-transparent hover:bg-light-EAEEFE/30 dark:border-gray-700 dark:hover:bg-transparent": !isFixed,
-          "border-gray-700 bg-transparent hover:bg-light-EAEEFE/30 dark:border-black/30 dark:text-black dark:hover:bg-transparent": isFixed,
+          "border-gray-700 bg-transparent hover:bg-light-EAEEFE/30 dark:border-white/30 dark:text-white dark:hover:bg-transparent": isFixed,
         })}
       >
         <Button variant="outline" className="h-9 w-9 lg:h-10 lg:w-10" size="icon">

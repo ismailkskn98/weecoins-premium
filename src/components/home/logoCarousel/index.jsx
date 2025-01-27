@@ -2,7 +2,6 @@
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
-import "./gradient.css";
 
 export default function LogoCarousel() {
   const items = [
@@ -15,8 +14,9 @@ export default function LogoCarousel() {
   ];
   return (
     <section className="fluid gridContainer relative mt-4 flex h-36 w-full items-center overflow-hidden">
-      <div className="logoCarousel-graient-left fluid absolute inset-y-0 left-0 z-10 w-64"></div>
-      <div className="logoCarousel-graient-right fluid absolute inset-y-0 right-0 z-10 w-64"></div>
+      <div className="absolute inset-y-0 left-0 z-10 w-64 bg-gradient-to-r to-light-EAEEFE/60 dark:from-dark-0d0d0d/30 dark:to-dark-0d0d0d/60"></div>
+      <div className="absolute inset-y-0 right-0 z-10 w-64 bg-gradient-to-l from-light-EAEEFE/30 to-white/60 dark:from-dark-0d0d0d/30 dark:to-dark-0d0d0d/60"></div>
+
       <Carousel
         plugins={[
           Autoplay({

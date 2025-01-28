@@ -1,6 +1,105 @@
 {
+  "Header": {
+    "navbar": {
+      "home": "Anasayfa",
+      "about": "Hakkımızda",
+      "services": "Servisler",
+      "roadmap": "Yol Haritası",
+      "gallery": "Galeri",
+      "contact": "İletişim"
+    },
+    "modToggle": {
+      "dark": "Koyu",
+      "light": "Açık",
+      "system": "Sistem"
+    }
+  },
   "HomePage": {
-    "title": "Merhaba Dünya!",
-    "about": "Hakkımızda sayfasına ilerle"
-  }
+    "hero": {
+      "description": "Projelerimize katılın ve prestijli bir yaşam sürün. Beklentilerinize uygun yatırım fırsatları WeeCoins Premium ile sizleri bekliyor.",
+      "button": "Bize Ulaşın",
+      "learnMore": "Detaylı bilgi"
+    },
+    "videoContainer": {
+      "title": "Meet WEECOINS Premium",
+      "description": "WCP, blok zinciri teknolojisi aracılığıyla yenilenebilir enerji projelerine güvenli, şeffaf ve verimli bir şekilde yatırım yapmanızı sağlar.",
+      "cards": {
+        "smartContracts": {
+          "title": "Akıllı Sözleşmeler",
+          "description": "Solidity dili kullanılarak geliştirilen akıllı sözleşme teknolojisi ile işlemleriniz güvenli ve garantilidir."
+        },
+        "automaticLiquidityPool": {
+          "title": "Otomatik Likidite Havuzu",
+          "description": "Likidite havuzlarını otomatik olarak oluşturma ve yönetme özelliği ile işlem kolaylığı sağlar."
+        },
+        "stakingYieldFarming": {
+          "title": "Verim Tarımı Staking",
+          "description": "Kullanıcılara tokenlarını stake ederek veya likidite sağlayarak ödül kazanma fırsatı sunar."
+        },
+        "joinNow": {
+          "title": "Hemen Katılın",
+          "description": "WeeCoins Premium'un eğitim platformuna bugün katılın ve yenilikçi bir öğrenme deneyiminin parçası olun."
+        }
+      }
+    },
+    "accessToKnowledge": {
+      "title": "Bilgiye Sınırsız Erişim",
+      "description": "Çevrimiçi eğitim, erişilebilirliği ve esnekliği nedeniyle dünya çapında giderek daha fazla tercih edilen bir öğrenme yöntemi haline geldi. Bu platform herkese her konuda, her yerde, her zaman kaliteli eğitim alma fırsatını sunuyor.",
+      "cards": {
+        "discoverThePower": {
+          "title": "Bilginin Gücünü Keşfedin",
+          "description": "WeeCoins Premium ile sınırsız öğrenme olanaklarına erişin. İster bir konuda uzmanlaşın, ister yeni bir hobi edinin, WCP’nin sunduğu platformda aradığınız içeriği bulabilirsiniz."
+        },
+        "whyWeecoins": {
+          "title": "Neden WeeCoins Premium ile Eğitim?",
+          "description": "WCP kullanarak yapılan ödemeler, eğitim alanında gerçekleştirilen her işlemle birlikte değer kazanır. Her yeni ders, her yeni katılımcı, WCP’nin değerini artırarak ekosistemi genişletir."
+        }
+      }
+    },
+    "successStories": {
+      "title": "Başarı Hikayeleri",
+      "description": "Burada kullanıcılarımızın deneyimlerini ve başarı hikayelerini bulabilirsiniz. İlham verici hikayelere göz atın ve kendi hikayenizi paylaşın."
+    },
+    "ourVision": {
+      "title": "Vizyonumuzu Paylaşıyoruz",
+      "description": "Şirketimizin misyonu ve değerleri hakkında daha fazla bilgi edinin. Başarı hikayelerimizi inceleyin ve geleceğe birlikte yön verelim.",
+      "button": "Yol Haritamız"
+    }
+  },
+  "AboutPage": {
+    "title": "Hakkımızda",
+    "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
+    "home": "Anasayfa",
+    "content": {
+      "title": "WEECOINS Premium Teknolojisi",
+      "description": "WeeCoins Premium, blockchain teknolojisini kullanarak finansal özgürlüğü ve ekonomik katılımı genişletmeyi hedefleyen yenilikçi bir kripto ekosistemidir. Güvenli, hızlı ve düşük maliyetli işlem yapabilmeyi sağlayan WeeGold ağı üzerine inşa edilen sistemimiz, kullanıcılarımıza benzersiz bir dijital varlık deneyimi sunmaktadır.",
+      "cards": {
+        "safe": {
+          "title": "Güvenli",
+          "description": "Proof-of-Stake konsensüs mekanizmasıyla çalışan WeeGold ağı, maksimum güvenlik sağlar."
+        },
+        "speed": {
+          "title": "Hızlı",
+          "description": "Optimize edilmiş blok zinciri yapımız sayesinde işlemler anında gerçekleşir."
+        },
+        "cost": {
+          "title": "Güvenli",
+          "description": "Kullanıcılarımızın daha düşük işlem ücretleriyle işlem yapmasını sağlıyoruz."
+        }
+      },
+      "ourMission": {
+        "title": "Misyonumuz",
+        "description": "Kripto varlıklarla işlem yapmayı kolaylaştırarak, bireylerin ve işletmelerin finansal sistemlere erişimini artırmak ve daha adil bir ekonomi oluşturmaktır."
+      },
+      "ourVision": {
+        "title": "Vizyonumuz",
+        "description": "Blockchain teknolojisini herkes için erişilebilir hale getirerek, global çapta yaygın olarak kullanılan bir dijital ödeme ve yatırım aracı olmak."
+      },
+      "linkCard": {
+        "title": "Neden WeeCoins Premium?",
+        "description": "WeeCoins Premium ekosistemi, yalnızca bir kripto para birimi olmanın ötesinde, anlaşmalı mağazalarda alışveriş yapma, varlık transferi ve akıllı sözleşmeler gibi birçok hizmet sunarak geniş bir kullanım alanına sahiptir. Geleceğin finans dünyasında yerinizi almak için siz de WeeCoins Premium ailesine katılın!"
+      }
+    }
+  },
+  "ServicesPage": {}
 }

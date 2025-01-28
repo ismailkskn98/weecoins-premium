@@ -60,7 +60,7 @@ export default function LanguageChange({ isFixed }) {
                 alt="Русский"
                 width={24}
                 height={18}
-                className="h43 w-5 object-cover lg:h-[18px] lg:w-6"
+                className="h-4 w-5 object-cover lg:h-[18px] lg:w-6"
               />
               <span className="text-sm lg:text-base">PY</span>
             </span>
@@ -72,7 +72,7 @@ export default function LanguageChange({ isFixed }) {
                 alt="Azərbaycan"
                 width={24}
                 height={18}
-                className="h43 w-5 object-cover lg:h-[18px] lg:w-6"
+                className="h-4 w-5 object-cover lg:h-[18px] lg:w-6"
               />
               <span className="text-sm lg:text-base">AZ</span>
             </span>

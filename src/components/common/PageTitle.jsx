@@ -8,8 +8,10 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Slash } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function PageTitle({ title, subtitle }) {
+  const t = useTranslations("AboutPage");
   return (
     <section className="fluid gridContainer relative mt-32 h-auto py-4 md:mt-20 md:h-[300px]">
       <div className="fluid absolute inset-0 -z-10 bg-about-bg-light bg-cover bg-center bg-no-repeat dark:bg-about-bg-dark"></div>
@@ -23,7 +25,7 @@ export default function PageTitle({ title, subtitle }) {
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
-              <BreadcrumbLink href="/">Home</BreadcrumbLink>
+              <BreadcrumbLink href="/">{t("home")}</BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator>
               <Slash />

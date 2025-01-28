@@ -2,16 +2,18 @@
 import React from "react";
 import { Link, usePathname } from "@/i18n/routing";
 import classNames from "classnames";
+import { useTranslations } from "next-intl";
 export default function Navbar({ isFixed }) {
+  const t = useTranslations("Header");
   const pathname = usePathname();
 
   const navItems = [
-    { path: "/", label: "Anasayfa" },
-    { path: "/about", label: "Hakkımızda" },
-    { path: "/services", label: "Servisler" },
-    { path: "/roadmap", label: "Yol Haritası" },
-    { path: "/gallery", label: "Galeri" },
-    { path: "/contact", label: "İletişim" },
+    { path: "/", label: t("navbar.home") },
+    { path: "/about", label: t("navbar.about") },
+    { path: "/services", label: t("navbar.services") },
+    { path: "/roadmap", label: t("navbar.roadmap") },
+    { path: "/gallery", label: t("navbar.gallery") },
+    { path: "/contact", label: t("navbar.contact") },
   ];
 
   return (

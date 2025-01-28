@@ -1,6 +1,107 @@
 {
+  "Header": {
+    "navbar": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "roadmap": "Roadmap",
+      "gallery": "Gallery",
+      "contact": "Contact"
+    },
+    "modToggle": {
+      "dark": "Dark",
+      "light": "Light",
+      "system": "System"
+    }
+  },
   "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
-  }
+    "hero": {
+      "description": "Join our projects and live a prestigious life. Investment opportunities that meet your expectations are waiting for you with WeeCoins Premium.",
+      "button": "Contact Us",
+      "learnMore": "Learn More"
+    },
+    "videoContainer": {
+      "title": "Meet WEECOINS Premium",
+      "description": "WCP allows you to invest in renewable energy projects securely, transparently, and efficiently through blockchain technology.",
+      "cards": {
+        "smartContracts": {
+          "title": "Smart Contracts",
+          "description": "Your transactions are secure and guaranteed with smart contract technology developed using Solidity."
+        },
+        "automaticLiquidityPool": {
+          "title": "Automatic Liquidity Pool",
+          "description": "Provides ease of transaction with the ability to automatically create and manage liquidity pools."
+        },
+        "stakingYieldFarming": {
+          "title": "Staking Yield Farming",
+          "description": "Offers users the opportunity to earn rewards by staking tokens or providing liquidity."
+        },
+        "joinNow": {
+          "title": "Join Now",
+          "description": "Join WeeCoins Premium's educational platform today and become part of an innovative learning experience."
+        }
+      }
+    },
+    "accessToKnowledge": {
+      "title": "Unlimited Access to Knowledge",
+      "description": "Online education has become a preferred method of learning worldwide due to its accessibility and flexibility. This platform offers everyone the opportunity to receive quality education anywhere, anytime, on any subject.",
+      "cards": {
+        "discoverThePower": {
+          "title": "Discover the Power of Knowledge",
+          "description": "Access unlimited learning opportunities with WeeCoins Premium. Whether you want to specialize in a subject or pick up a new hobby, you can find the content you're looking for on the WCP platform."
+        },
+        "whyWeecoins": {
+          "title": "Why Education with WeeCoins Premium?",
+          "description": "Payments made using WCP gain value with every educational transaction. Each new lesson, each new participant, increases the value of WCP and expands the ecosystem."
+        }
+      }
+    },
+    "successStories": {
+      "title": "Success Stories",
+      "description": "Here you can find the experiences and success stories of our users. Browse through the inspiring stories and share your own."
+    },
+    "ourVision": {
+      "title": "Sharing Our Vision",
+      "description": "Learn more about our company's mission and values. Explore our success stories and let's shape the future together.",
+      "button": "Our Roadmap",
+      "learnMore": "Learn More"
+    }
+  },
+  "AboutPage": {
+    "title": "About Us",
+    "subtitle": "We are an inspiring story from the beginning to today",
+    "home": "Home",
+    "content": {
+      "title": "WEECOINS Premium Technology",
+      "description": "WeeCoins Premium is an innovative crypto ecosystem that aims to expand financial freedom and economic participation by using blockchain technology. Built on the WeeGold network, which enables secure, fast, and low-cost transactions, our system provides users with a unique digital asset experience.",
+      "cards": {
+        "safe": {
+          "title": "Safe",
+          "description": "The WeeGold network, which operates with the Proof-of-Stake consensus mechanism, provides maximum security."
+        },
+        "speed": {
+          "title": "Fast",
+          "description": "Thanks to our optimized blockchain structure, transactions happen instantly."
+        },
+        "cost": {
+          "title": "Cost-effective",
+          "description": "We ensure that our users can perform transactions with lower fees."
+        }
+      },
+      "ourMission": {
+        "title": "Our Mission",
+        "description": "Our mission is to facilitate transactions with crypto assets, increase access to financial systems for individuals and businesses, and create a fairer economy."
+      },
+      "ourVision": {
+        "title": "Our Vision",
+        "description": "To make blockchain technology accessible to everyone and become a widely used digital payment and investment tool globally."
+      },
+      "linkCard": {
+        "title": "Why WeeCoins Premium?",
+        "description": "The WeeCoins Premium ecosystem offers many services beyond just a cryptocurrency, such as shopping at partner stores, asset transfers, and smart contracts. Join the WeeCoins Premium family to take your place in the future of finance!",
+        "learnMore": "Learn More"
+      }
+    }
+  },
+  "ServicesPage": {}
 }

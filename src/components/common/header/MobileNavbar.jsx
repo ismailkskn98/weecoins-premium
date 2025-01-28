@@ -6,18 +6,20 @@ import { CgMenuRightAlt } from "react-icons/cg";
 import { Link, usePathname } from "@/i18n/routing";
 import classNames from "classnames";
 import HeaderActions from "./HeaderActions";
+import { useTranslations } from "next-intl";
 
 export default function MobileNavbar({ isFixed = false }) {
+  const t = useTranslations("Header");
   const pathname = usePathname();
   const [navOpen, setNavOpen] = useState(false);
 
   const navItems = [
-    { path: "/", label: "Anasayfa" },
-    { path: "/about", label: "Hakkımızda" },
-    { path: "/services", label: "Servisler" },
-    { path: "/roadmap", label: "Yol Haritası" },
-    { path: "/gallery", label: "Galeri" },
-    { path: "/contact", label: "İletişim" },
+    { path: "/", label: t("navbar.home") },
+    { path: "/about", label: t("navbar.about") },
+    { path: "/services", label: t("navbar.services") },
+    { path: "/roadmap", label: t("navbar.roadmap") },
+    { path: "/gallery", label: t("navbar.gallery") },
+    { path: "/contact", label: t("navbar.contact") },
   ];
   return (
     <Sheet onOpenChange={() => {}} open={navOpen}>

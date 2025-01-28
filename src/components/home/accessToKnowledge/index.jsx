@@ -1,29 +1,26 @@
 import SectionTitle from "@/components/common/SectionTitle";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 export default function AccessToKnowledge() {
+  const t = useTranslations("HomePage");
   const cardItems = [
     {
-      title: "Bilginin Gücünü Keşfedin",
-      description:
-        "WeeCoins Premium ile sınırsız öğrenme olanaklarına erişin. İster bir konuda uzmanlaşın, ister yeni bir hobi edinin, WCP’nin sunduğu platformda aradığınız içeriği bulabilirsiniz.",
+      title: t("accessToKnowledge.cards.discoverThePower.title"),
+      description: t("accessToKnowledge.cards.discoverThePower.description"),
       image: "/images/access-card-1.png",
     },
     {
-      title: "Neden WeeCoins Premium ile Eğitim?",
-      description:
-        "WCP kullanarak yapılan ödemeler, eğitim alanında gerçekleştirilen her işlemle birlikte değer kazanır. Her yeni ders, her yeni katılımcı, WCP’nin değerini artırarak ekosistemi genişletir.",
+      title: t("accessToKnowledge.cards.whyWeecoins.title"),
+      description: t("accessToKnowledge.cards.whyWeecoins.description"),
       image: "/images/access-card-2.png",
     },
   ];
 
   return (
     <section className="mt-[92px] flex w-full flex-col items-center justify-center gap-[60px]">
-      <SectionTitle
-        title="Bilgiye Sınırsız Erişim"
-        description="Çevrimiçi eğitim, erişilebilirliği ve esnekliği nedeniyle dünya çapında giderek daha fazla tercih edilen bir öğrenme yöntemi haline geldi. Bu platform herkese her konuda, her yerde, her zaman kaliteli eğitim alma fırsatını sunuyor."
-      />
+      <SectionTitle title={t("accessToKnowledge.title")} description={t("accessToKnowledge.description")} />
       <article className="mx-auto flex flex-col items-center gap-6 lg:flex-row">
         {cardItems.map((item, index) => (
           <div

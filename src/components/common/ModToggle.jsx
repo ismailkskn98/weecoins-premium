@@ -6,8 +6,10 @@ import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import classNames from "classnames";
+import { useTranslations } from "next-intl";
 
 export function ModeToggle({ isFixed }) {
+  const t = useTranslations("Header");
   const { setTheme } = useTheme();
 
   return (
@@ -31,9 +33,9 @@ export function ModeToggle({ isFixed }) {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="border-none bg-light-EAEEFE text-black dark:bg-[#111] dark:text-white">
-        <DropdownMenuItem onClick={() => setTheme("light")}>Light</DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("dark")}>Dark</DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("system")}>System</DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("light")}>{t("modToggle.light")}</DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("dark")}>{t("modToggle.dark")}</DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("system")}>{t("modToggle.system")}</DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );

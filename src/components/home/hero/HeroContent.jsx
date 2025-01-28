@@ -1,9 +1,11 @@
 import LearnMore from "@/components/common/LearnMore";
 import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 export default function HeroContent() {
+  const t = useTranslations("HomePage");
   return (
     <article className="flex w-full flex-col items-center justify-center gap-6 lg:items-start xl:w-auto 2xl:justify-start">
       <div className="relative">
@@ -19,15 +21,13 @@ export default function HeroContent() {
         </h2>
       </div>
 
-      <p className="-mt-4 w-full max-w-[457px] font-inter text-[22px] text-light-010D3E">
-        Projelerimize katılın ve prestijli bir yaşam sürün. Beklentilerinize uygun yatırım fırsatları WeeCoins Premium ile sizleri bekliyor.
-      </p>
+      <p className="-mt-4 w-full max-w-[457px] font-inter text-[22px] text-light-010D3E">{t("hero.description")}</p>
       <div className="flex items-center gap-4">
         <Link
           href={"/contact"}
           className="relative z-10 overflow-hidden rounded-10 bg-gradient-to-tr from-[#F8944A] to-[#F6D171] px-15px py-10px text-base font-medium text-light-833E15 before:absolute before:bottom-0 before:left-0 before:top-0 before:-z-10 before:h-full before:w-10/12 before:origin-bottom-left before:scale-50 before:rounded-10 before:bg-[#F8944A] before:opacity-50 before:transition-all before:duration-200 before:content-[''] hover:before:w-full hover:before:origin-bottom-left hover:before:scale-100 hover:before:opacity-100"
         >
-          Bize Ulaşın
+          {t("hero.button")}
         </Link>
         <LearnMore href={"/about"} />
       </div>

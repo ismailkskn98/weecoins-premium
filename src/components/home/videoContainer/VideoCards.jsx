@@ -3,27 +3,29 @@ import { FaRegHandshake } from "react-icons/fa";
 import { AiOutlineRobot } from "react-icons/ai";
 import { TfiCup } from "react-icons/tfi";
 import { FaChartLine } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 export default function VideoCards() {
+  const t = useTranslations("HomePage");
   const cards = [
     {
-      title: "Akıllı Sözleşmeler",
-      description: "Solidity dili kullanılarak geliştirilen akıllı sözleşme teknolojisi ile işlemleriniz güvenli ve garantilidir.",
+      title: t("videoContainer.cards.smartContracts.title"),
+      description: t("videoContainer.cards.smartContracts.description"),
       icon: FaRegHandshake,
     },
     {
-      title: "Otomatik Likidite Havuzu",
-      description: "Likidite havuzlarını otomatik olarak oluşturma ve yönetme özelliği ile işlem kolaylığı sağlar.",
+      title: t("videoContainer.cards.automaticLiquidityPool.title"),
+      description: t("videoContainer.cards.automaticLiquidityPool.description"),
       icon: AiOutlineRobot,
     },
     {
-      title: "Verim Tarımı Staking",
-      description: "Kullanıcılara tokenlarını stake ederek veya likidite sağlayarak ödül kazanma fırsatı sunar.",
+      title: t("videoContainer.cards.stakingYieldFarming.title"),
+      description: t("videoContainer.cards.stakingYieldFarming.description"),
       icon: TfiCup,
     },
     {
-      title: "Hemen Katılın",
-      description: "WeeCoins Premium'un eğitim platformuna bugün katılın ve yenilikçi bir öğrenme deneyiminin parçası olun. ",
+      title: t("videoContainer.cards.joinNow.title"),
+      description: t("videoContainer.cards.joinNow.description"),
       icon: FaChartLine,
     },
   ];

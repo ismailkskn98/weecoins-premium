@@ -2,6 +2,7 @@ import SectionTitle from "@/components/common/SectionTitle";
 import { Marquee } from "@/components/ui/marquee";
 import React from "react";
 import MarqueeCard from "./MarqueeCard";
+import { useTranslations } from "next-intl";
 
 const reviews = [
   {
@@ -65,12 +66,10 @@ const secondRow = reviews.slice(reviews.length / 3, (2 * reviews.length) / 3);
 const thirdRow = reviews.slice((2 * reviews.length) / 3);
 
 export default function SuccessStories() {
+  const t = useTranslations("HomePage");
   return (
     <section className="relative mb-[60px] mt-[92px] flex flex-col items-center justify-center gap-10 overflow-x-hidden text-center">
-      <SectionTitle
-        title="Başarı Hikayeleri"
-        description="Burada kullanıcılarımızın deneyimlerini ve başarı hikayelerini bulabilirsiniz. İlham verici hikayelere göz atın ve kendi hikayenizi paylaşın."
-      />
+      <SectionTitle title={t("successStories.title")} description={t("successStories.description")} />
       <article className="overflow-x-hidden">
         <div className="relative flex max-h-[780px] w-full items-center justify-center gap-5 overflow-hidden rounded-lg md:shadow-xl">
           <Marquee vertical pauseOnHover className="[--duration:20s]">

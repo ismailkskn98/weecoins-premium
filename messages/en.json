@@ -103,5 +103,25 @@
       }
     }
   },
-  "ServicesPage": {}
+  "RoadMapPage": {
+    "title": "Roadmap",
+    "subtitle": "An inspiring journey from the beginning to today",
+    "cards": {
+      "WE3DUCATION": {
+        "title": "WE3DUCATION",
+        "description": "This platform offers everyone the opportunity to access quality education on any subject, anywhere, at any time.",
+        "date": "2025 - First Quarter"
+      },
+      "WE3STATE": {
+        "title": "WE3STATE",
+        "description": "The global real estate market, with its trillion-dollar size, dynamic structure, and increasing needs driven by population growth, holds great profit potential. From this perspective, we offer you an ecosystem where you can invest in projects using WCP, partner with new projects, and share profits from completed ones.",
+        "date": "2025 - First Half"
+      },
+      "WE3NERGY": {
+        "title": "WE3NERGY",
+        "description": "With WeeCoins Premium (WCP), you can also be part of this revolution by investing in solar and wind energy projects to build a sustainable future. Thanks to blockchain technology, WCP enables you to invest in renewable energy projects securely, transparently, and efficiently.",
+        "date": "2026 - First Quarter"
+      }
+    }
+  }
 }

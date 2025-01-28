@@ -103,5 +103,25 @@
       }
     }
   },
-  "ServicesPage": {}
+  "RoadMapPage": {
+    "title": "Yol Xəritəsi",
+    "subtitle": "Başlanğıcdan bugünkü günə qədər ruhlandırıcı bir hekayə",
+    "cards": {
+      "WE3DUCATION": {
+        "title": "WE3DUCATION",
+        "description": "Bu platform hər kəsə hər hansı bir mövzuda, istənilən vaxt və istənilən yerdə keyfiyyətli təhsil alma fürsəti təqdim edir.",
+        "date": "2025 - Birinci Rüb"
+      },
+      "WE3STATE": {
+        "title": "WE3STATE",
+        "description": "Trilyonlarla dollar dəyərində olan qlobal daşınmaz əmlak bazarı dinamik strukturu və artan əhali ehtiyacları ilə böyük qazanc potensialına malikdir. Bu baxımdan, sizə WCP istifadə edərək investisiya edə biləcəyiniz, yeni layihələrdə ortaq ola biləcəyiniz və tamamlanmış layihələrdən qazanc payı əldə edə biləcəyiniz bir ekosistem təklif edirik.",
+        "date": "2025 - İlk Yarım"
+      },
+      "WE3NERGY": {
+        "title": "WE3NERGY",
+        "description": "WeeCoins Premium (WCP) ilə bu inqilabın bir hissəsi ola bilər, günəş və külək enerjisi layihələrinə sərmayə qoyaraq davamlı bir gələcək qura bilərsiniz. Blokçeyn texnologiyasının sayəsində WCP sizə yenilənə bilən enerji layihələrinə təhlükəsiz, şəffaf və səmərəli bir şəkildə sərmayə qoymaq imkanı yaradır.",
+        "date": "2026 - Birinci Rüb"
+      }
+    }
+  }
 }

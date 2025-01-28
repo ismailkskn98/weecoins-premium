@@ -101,5 +101,25 @@
       }
     }
   },
-  "ServicesPage": {}
+  "RoadMapPage": {
+    "title": "Yol Haritası",
+    "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
+    "cards": {
+      "WE3DUCATION": {
+        "title": "WE3DUCATION",
+        "description": "Bu platform; öğrenmek isteyen herkese, herhangi bir konuda, herhangi bir yerde ve herhangi bir zamanda kaliteli eğitim alma fırsatı sunuyor.",
+        "date": "2025 - İlk Çeyrek"
+      },
+      "WE3STATE": {
+        "title": "WE3STATE",
+        "description": "Global emlak piyasası, trilyonlarca dolarlık büyüklüğüyle, dinamik yapısı ve sürekli artan nüfusun getirdiği ihtiyaçlarla büyük bir kar potansiyeline sahiptir. Buradan hareketle size WCP kullanarak yatırım yapabileceğiniz, yeni başlayacak projelere ortak olabileceğiniz ve tamamlanan projelerden kar payı alabileceğiniz bir ekosistem sunuyoruz.",
+        "date": "2025 - İlk Yarım"
+      },
+      "WE3NERGY": {
+        "title": "WE3NERGY",
+        "description": "WeeCoins Premium (WCP) ile siz de bu devrimin bir parçası olabilir; güneş ve rüzgar enerjisi projelerine yatırım yaparak sürdürülebilir bir gelecek inşa edebilirsiniz. WCP, blokzincir teknolojisi sayesinde, yenilenebilir enerji projelerine güvenli, şeffaf ve etkin bir yolla yatırım yapmanızı sağlar.",
+        "date": "2026 - İlk Çeyrek"
+      }
+    }
+  }
 }

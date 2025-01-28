@@ -1,4 +1,4 @@
-import AboutMain from "@/components/about/AboutMain";
+import AboutMain from "@/components/about";
 import PageTitle from "@/components/common/PageTitle";
 import { useTranslations } from "next-intl";
 import React from "react";

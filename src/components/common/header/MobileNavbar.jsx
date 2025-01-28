@@ -1,5 +1,6 @@
-import React from "react";
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger, SheetFooter } from "@/components/ui/sheet";
+"use client";
+import React, { useState } from "react";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger, SheetFooter } from "@/components/ui/sheet";
 import Image from "next/image";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { Link, usePathname } from "@/i18n/routing";
@@ -8,6 +9,7 @@ import HeaderActions from "./HeaderActions";
 
 export default function MobileNavbar({ isFixed = false }) {
   const pathname = usePathname();
+  const [navOpen, setNavOpen] = useState(false);
 
   const navItems = [
     { path: "/", label: "Anasayfa" },
@@ -18,16 +20,20 @@ export default function MobileNavbar({ isFixed = false }) {
     { path: "/contact", label: "İletişim" },
   ];
   return (
-    <Sheet>
+    <Sheet onOpenChange={() => {}} open={navOpen}>
       <SheetTrigger className="lg:hidden">
         <CgMenuRightAlt
+          onClick={() => setNavOpen((prev) => !prev)}
           className={classNames("text-3xl", {
             "text-black dark:text-white": !isFixed,
             "text-white": isFixed,
           })}
         />
       </SheetTrigger>
-      <SheetContent className="flex h-full w-full flex-col items-center justify-between bg-light-EAEEFE py-8 dark:bg-dark-0d0d0d">
+      <SheetContent
+        setNavOpen={setNavOpen}
+        className="flex h-full w-full flex-col items-center justify-between bg-light-EAEEFE py-8 dark:bg-dark-0d0d0d"
+      >
         <SheetHeader className="flex h-full max-h-14 w-full items-center justify-start">
           <SheetTitle className="flex h-full w-full items-center justify-start">
             <Image
@@ -50,6 +56,7 @@ export default function MobileNavbar({ isFixed = false }) {
           <nav className="flex flex-col items-center justify-center gap-8 text-xl">
             {navItems.map((item, index) => (
               <Link
+                onClick={() => setNavOpen((prev) => !prev)}
                 key={index}
                 href={item.path}
                 className={classNames("text-nowrap capitalize transition-all duration-200", {

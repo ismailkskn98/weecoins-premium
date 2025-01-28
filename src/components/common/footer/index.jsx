@@ -3,8 +3,8 @@ import React from "react";
 import SocialMedia from "./SocialMedia";
 export default function Footer() {
   return (
-    <section className="fluid gridContainer max-h-[150px] self-end bg-[#111] py-10">
-      <footer className="flex w-full items-center justify-between border-t border-solid border-light-gradient-f7cf68/10 pt-5">
+    <section className="fluid gridContainer h-auto self-end bg-[#111] py-10 md:max-h-[150px]">
+      <footer className="flex w-full flex-col items-center justify-between gap-6 border-t border-solid border-light-gradient-f7cf68/10 pt-10 md:flex-row">
         <article>
           <Image
             src="/images/logo-text-white-footer.png"

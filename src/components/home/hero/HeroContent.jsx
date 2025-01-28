@@ -21,11 +21,11 @@ export default function HeroContent() {
         </h2>
       </div>
 
-      <p className="-mt-4 w-full max-w-[650px] font-inter text-[22px] text-light-010D3E">{t("hero.description")}</p>
+      <p className="-mt-4 w-full max-w-[650px] font-inter text-[22px] text-[#3d3d3d]">{t("hero.description")}</p>
       <div className="flex items-center gap-4 xl:mt-2 xl:gap-6">
         <Link
           href={"/contact"}
-          className="relative z-10 overflow-hidden rounded-10 bg-gradient-to-tr from-[#F8944A] to-[#F6D171] px-15px py-10px text-base font-medium text-light-833E15 shadow-xl before:absolute before:bottom-0 before:left-0 before:top-0 before:-z-10 before:h-full before:w-10/12 before:origin-bottom-left before:scale-50 before:rounded-10 before:bg-[#F8944A] before:opacity-50 before:transition-all before:duration-200 before:content-[''] hover:before:w-full hover:before:origin-bottom-left hover:before:scale-100 hover:before:opacity-100 xl:px-6 xl:py-3 xl:text-xl"
+          className="relative z-10 overflow-hidden rounded-sm bg-gradient-to-tr from-[#F8944A] to-[#F6D171] px-15px py-10px text-base font-medium text-light-833E15 shadow-xl before:absolute before:bottom-0 before:left-0 before:top-0 before:-z-10 before:h-full before:w-10/12 before:origin-bottom-left before:scale-50 before:rounded-md before:bg-[#F8944A] before:opacity-50 before:transition-all before:duration-200 before:content-[''] hover:before:w-full hover:before:origin-bottom-left hover:before:scale-100 hover:before:opacity-100 xl:px-6 xl:py-3 xl:text-xl"
         >
           {t("hero.button")}
         </Link>

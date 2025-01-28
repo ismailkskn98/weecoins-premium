@@ -1,11 +1,13 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { Link, usePathname } from "@/i18n/routing";
-import classNames from "classnames";
+import { hover, motion } from "motion/react";
 import { useTranslations } from "next-intl";
+import classNames from "classnames";
 export default function Navbar({ isFixed }) {
   const t = useTranslations("Header");
   const pathname = usePathname();
+  const [hoveredPath, setHoverPath] = useState(false);
 
   const navItems = [
     { path: "/", label: t("navbar.home") },
@@ -16,18 +18,51 @@ export default function Navbar({ isFixed }) {
   ];
 
   return (
-    <nav className="hidden items-center gap-6 lg:flex">
+    <nav className="hidden items-center lg:flex">
       {navItems.map((item, index) => (
         <Link
           key={index}
           href={item.path}
-          className={classNames("text-nowrap capitalize transition-all duration-200", {
-            "text-black dark:text-white": !isFixed && item.path === pathname,
-            "text-white": isFixed && item.path === pathname,
-            "text-black/60 hover:text-black dark:text-white/80 dark:hover:text-white": !isFixed && item.path !== pathname,
-            "text-white/80 hover:text-white": isFixed && item.path !== pathname,
-          })}
+          onMouseEnter={() => setHoverPath(item.path)}
+          onMouseLeave={() => setHoverPath(false)}
+          className={classNames(
+            "relative text-nowrap border-b border-transparent px-6 py-1.5 capitalize text-black transition-all duration-300 dark:text-white",
+            {
+              "text-black dark:text-white": !isFixed && !(hoveredPath === item.path),
+              "text-white dark:!text-black": !isFixed && hoveredPath === item.path,
+              "text-white dark:text-white": isFixed && !(hoveredPath === item.path),
+              "!text-black dark:!text-black": isFixed && hoveredPath === item.path,
+            },
+          )}
         >
+          {pathname === item.path && (
+            <motion.div
+              layoutId="active"
+              className={classNames("absolute inset-0 -bottom-4 -z-10 border-b", {
+                "border-dark-0d0d0d dark:border-light-EAEEFE": !isFixed,
+                "border-light-EAEEFE dark:border-light-EAEEFE": isFixed,
+              })}
+              transition={{
+                type: "spring",
+                stiffness: 380,
+                damping: 30,
+              }}
+            />
+          )}
+          {hoveredPath === item.path && (
+            <motion.div
+              layoutId="hover"
+              className={classNames("absolute inset-0 -z-10 rounded-md", {
+                "bg-dark-0d0d0d dark:bg-light-EAEEFE": !isFixed,
+                "dark:bg-light-EAEEFE": isFixed,
+              })}
+              transition={{
+                type: "spring",
+                stiffness: 380,
+                damping: 30,
+              }}
+            />
+          )}
           {item.label}
         </Link>
       ))}

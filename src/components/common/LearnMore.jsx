@@ -8,9 +8,9 @@ export default function LearnMore({ href }) {
   return (
     <Link
       href={href}
-      className="group flex items-center gap-1 font-inter font-medium text-black transition-all duration-150 hover:underline hover:underline-offset-4 dark:text-white xl:gap-2 xl:text-xl"
+      className="group flex items-center gap-1 font-inter font-medium text-black transition-all duration-150 hover:underline hover:underline-offset-4 dark:text-white xl:gap-2 xl:text-lg"
     >
-      {t("hero.learnMore")} <FaArrowRight className="h-4 w-4 transition-all duration-200 group-hover:translate-x-1 xl:h-5 xl:w-5" />
+      {t("hero.learnMore")} <FaArrowRight className="h-4 w-4 transition-all duration-200 group-hover:translate-x-1" />
     </Link>
   );
 }

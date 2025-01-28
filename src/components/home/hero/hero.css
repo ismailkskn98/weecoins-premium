@@ -1,10 +1,10 @@
 .heroGradientLight {
   background: var(--color-light-183ec2);
-  background: linear-gradient(10deg, var(--color-gradient-f7cf68) 0%, var(--color-light-eaeefe) 59%);
+  background: linear-gradient(10deg, var(--color-gradient-f7cf68) 0%, var(--color-light-eaeefe) 75%);
 }
 .heroGradientDark {
   background: var(--color-light-183ec2);
-  background: linear-gradient(10deg, var(--color-gradient-f7cf68) 0%, var(--color-dark-0d0d0d) 59%);
+  background: linear-gradient(10deg, var(--color-gradient-f7cf68) 0%, var(--color-dark-0d0d0d) 75%);
 }
 
 .center-image {

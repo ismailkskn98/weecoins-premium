@@ -44,7 +44,7 @@ export default function Header() {
         })}
       >
         <NavLogo isFixed={isFixed} />
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-7">
           <Navbar isFixed={isFixed} />
           <MobileNavbar isFixed={isFixed} />
           <HeaderActions isTopShow={false} isFixed={isFixed} />

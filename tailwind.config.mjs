@@ -110,8 +110,10 @@ const config = {
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
       },
       backgroundImage: {
-        "about-bg-light": "url('/images/about-bg-light.svg')",
-        "about-bg-dark": "url('/images/about-bg-dark.svg')",
+        // "page-title-bg-light": "url('/images/page-title-bg-light.svg')",
+        // "page-title-bg-dark": "url('/images/page-title-bg-dark.svg')",
+        "page-title-bg-light": "url('/images/page-title-bg-light-2.svg')",
+        "page-title-bg-dark": "url('/images/page-title-bg-dark-2.svg')",
       },
     },
   },

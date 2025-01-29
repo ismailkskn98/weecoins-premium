@@ -27,7 +27,7 @@ export default function Header() {
 
   useGSAP(() => {
     gsap.from(headerRef.current, {
-      y: 300,
+      y: 200,
       opacity: 0,
       duration: 0.3,
     });

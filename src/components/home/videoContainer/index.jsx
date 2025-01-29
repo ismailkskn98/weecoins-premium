@@ -8,7 +8,7 @@ import VideoContainerAnimate from "./VideoContainerAnimate";
 export default function VideoContainer() {
   const t = useTranslations("HomePage");
   return (
-    <section className="fluid gridContainer relative mt-28 flex flex-col items-center justify-center gap-10 overflow-x-hidden pb-24">
+    <section className="video-container fluid gridContainer relative mt-28 flex flex-col items-center justify-center gap-10 overflow-x-hidden pb-24">
       <SectionTitle title={t("videoContainer.title")} description={t("videoContainer.description")} />
       <VideoDialog />
       <VideoCards />

@@ -36,10 +36,7 @@ export default function MobileNavbar({ isFixed = false }) {
           })}
         />
       </SheetTrigger>
-      <SheetContent
-        setNavOpen={setNavOpen}
-        className="flex h-full w-full flex-col items-center justify-between bg-light-EAEEFE py-8 dark:bg-dark-0d0d0d"
-      >
+      <SheetContent className="flex h-full w-full flex-col items-center justify-between bg-light-EAEEFE py-8 dark:bg-dark-0d0d0d">
         <SheetHeader className="flex h-full max-h-14 w-full items-center justify-start">
           <SheetTitle className="flex h-full w-full items-center justify-start">
             <Image

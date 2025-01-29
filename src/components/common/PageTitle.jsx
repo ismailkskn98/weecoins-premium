@@ -13,8 +13,8 @@ import { useTranslations } from "next-intl";
 export default function PageTitle({ title, subtitle }) {
   const t = useTranslations("AboutPage");
   return (
-    <section className="fluid gridContainer relative mt-32 h-auto py-4 md:mt-20 md:h-[300px]">
-      <div className="fluid bg-page-title-bg-light dark:bg-page-title-bg-dark absolute inset-0 -z-20 bg-cover bg-center bg-no-repeat"></div>
+    <section className="fluid gridContainer relative mt-32 h-auto py-4 shadow-sm md:mt-20 md:h-[300px]">
+      <div className="fluid absolute inset-0 -z-20 bg-page-title-bg-light bg-cover bg-center bg-no-repeat dark:bg-page-title-bg-dark"></div>
       {/* <div className="to-light-f88540/20 fluid absolute inset-0 -z-20 bg-gradient-to-br from-light-gradient-f7cf68/20 dark:from-dark-0d0d0d dark:to-light-833E15/30"></div> */}
       {/* <div className="fluid absolute inset-0 -z-20 bg-black/5" /> */}
       <div className="relative mx-auto flex h-full flex-col items-center justify-center gap-4 px-6 text-center">

@@ -21,7 +21,12 @@ export default function MobileNavbar({ isFixed = false }) {
     { path: "/contact", label: t("navbar.contact") },
   ];
   return (
-    <Sheet onOpenChange={() => {}} open={navOpen}>
+    <Sheet
+      onOpenChange={() => {
+        setNavOpen(!navOpen);
+      }}
+      open={navOpen}
+    >
       <SheetTrigger className="lg:hidden">
         <CgMenuRightAlt
           onClick={() => setNavOpen((prev) => !prev)}

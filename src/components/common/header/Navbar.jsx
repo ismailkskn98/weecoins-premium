@@ -27,12 +27,6 @@ export default function Navbar({ isFixed }) {
           onMouseLeave={() => setHoverPath(false)}
           className={classNames(
             "relative text-nowrap border-b border-transparent px-5 py-1.5 capitalize text-black transition-all duration-300 dark:text-white",
-            // {
-            //   "text-black dark:text-white": !isFixed && !(hoveredPath === item.path),
-            //   "text-white dark:!text-black": !isFixed && hoveredPath === item.path,
-            //   "text-white dark:text-white": isFixed && !(hoveredPath === item.path),
-            //   "!text-black dark:!text-black": isFixed && hoveredPath === item.path,
-            // },
             {
               "text-black dark:text-white": !isFixed && !(hoveredPath === item.path),
               "text-white dark:!text-light-f88540": !isFixed && hoveredPath === item.path,
@@ -59,8 +53,6 @@ export default function Navbar({ isFixed }) {
             <motion.div
               layoutId="hover"
               className={classNames("absolute inset-0 -z-10 rounded-md", {
-                // "bg-dark-0d0d0d dark:bg-light-EAEEFE": !isFixed,
-                // "dark:bg-light-EAEEFE": isFixed,
                 "border border-solid border-transparent bg-dark-0d0d0d dark:border-light-f88540 dark:bg-transparent": !isFixed,
                 "border border-solid border-transparent bg-light-EAEEFE dark:border-light-f88540 dark:bg-transparent": isFixed,
               })}

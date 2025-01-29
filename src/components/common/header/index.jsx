@@ -23,7 +23,7 @@ export default function Header() {
   return (
     <section
       ref={navContaninerRef}
-      className={classNames("fluid gridContainer fixed inset-x-0 border-none transition-all duration-300", {
+      className={classNames("fluid gridContainer fixed inset-x-0 overflow-hidden border-none transition-all duration-300", {
         "top-0 z-10 bg-light-EAEEFE dark:bg-dark-0d0d0d": !isFixed,
         "top-4 z-[70] bg-transparent": isFixed,
       })}

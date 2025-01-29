@@ -56,6 +56,7 @@ body {
     --color-light-183ec2: #183ec2;
     --color-light-331808: #833e15;
     --color-light-f88540: #f88540;
+    --color-light-ffc107: #ffc107;
     --color-gradient-f7cf68: #f7cf68;
 
     /* Dark Theme Colors */
@@ -125,6 +126,12 @@ body {
     height: auto;
     width: auto;
     aspect-ratio: auto;
+  }
+}
+
+@layer utilities {
+  .pageSection {
+    @apply fluid gridContainer relative flex pt-16 transition-colors duration-300 md:pt-24;
   }
 }
 

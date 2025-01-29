@@ -19,6 +19,7 @@ const config = {
           "183EC2": "#183EC2",
           "833E15": "#833e15",
           f88540: "#f88540",
+          ffc107: "#ffc107",
           "gradient-f7cf68": "#f7cf68",
         },
         dark: {

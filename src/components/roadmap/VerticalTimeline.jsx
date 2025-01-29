@@ -26,7 +26,7 @@ export default function VerticalTimelineContainer() {
       title: t("cards.WE3NERGY.title"),
       description: t("cards.WE3NERGY.description"),
       date: t("cards.WE3NERGY.date"),
-      icon: FaChartLine,
+      icon: BiSolidZap,
     },
   ];
 

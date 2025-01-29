@@ -6,11 +6,16 @@ import { useWindowScroll } from "react-use";
 import classNames from "classnames";
 import HeaderActions from "./HeaderActions";
 import MobileNavbar from "./MobileNavbar";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(useGSAP);
 
 export default function Header() {
   const navContaninerRef = useRef(null);
   const { y: currentScrollY } = useWindowScroll();
   const [isFixed, setIsFixed] = useState(false);
+  const headerRef = useRef(null);
 
   useEffect(() => {
     if (currentScrollY > 70) {
@@ -19,6 +24,14 @@ export default function Header() {
       setIsFixed(false);
     }
   }, [currentScrollY]);
+
+  useGSAP(() => {
+    gsap.from(headerRef.current, {
+      y: 300,
+      opacity: 0,
+      duration: 0.3,
+    });
+  }, []);
 
   return (
     <section
@@ -37,6 +50,7 @@ export default function Header() {
         <HeaderActions isTopShow={true} isFixed={isFixed} />
       </div>
       <header
+        ref={headerRef}
         className={classNames("flex w-full items-center justify-between rounded-2xl py-5 transition-all duration-300", {
           "bg-transparent": !isFixed,
           "bg-gradient-to-t from-black/85 to-black px-10 backdrop-blur-0 dark:bg-black/35 dark:from-transparent dark:to-transparent dark:backdrop-blur-3xl":

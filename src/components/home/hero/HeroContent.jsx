@@ -1,15 +1,40 @@
+"use client";
 import LearnMore from "@/components/common/LearnMore";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import React from "react";
+import React, { useRef } from "react";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+
+gsap.registerPlugin(useGSAP);
 
 export default function HeroContent() {
   const t = useTranslations("HomePage");
+  const HeroContentRef = useRef(null);
+  const HeroContentImageRef = useRef(null);
+
+  useGSAP(() => {
+    gsap.from(HeroContentRef.current, {
+      scale: 0,
+      duration: 0.3,
+    });
+  }, []);
+  useGSAP(() => {
+    gsap.from(HeroContentImageRef.current, {
+      opacity: 0,
+      duration: 0.3,
+    });
+  }, []);
+
   return (
-    <article className="flex w-full flex-col items-start justify-center gap-6 lg:items-start xl:w-auto 2xl:justify-start">
+    <article
+      ref={HeroContentRef}
+      className="flex w-full flex-col items-start justify-center gap-6 lg:items-start xl:w-auto 2xl:justify-start"
+    >
       <div className="relative">
         <Image
+          ref={HeroContentImageRef}
           src="/images/weecoins-text-bg.svg"
           width={150}
           height={90}

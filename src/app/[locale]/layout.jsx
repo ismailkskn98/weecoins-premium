@@ -8,6 +8,7 @@ import Header from "@/components/common/header";
 import localFont from "next/font/local";
 import { customMetaData } from "@/components/MetaData";
 import Footer from "@/components/common/footer";
+import { Toaster } from "@/components/ui/sonner";
 
 export const metadata = { ...customMetaData };
 
@@ -52,6 +53,7 @@ export default async function RootLayout({ children, params }) {
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
             <main className="fluid gridContainer min-h-screen overflow-x-hidden font-inter">
+              <Toaster position="top-center" richColors />
               <Header />
               {children}
               <Footer />

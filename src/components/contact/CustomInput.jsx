@@ -8,7 +8,7 @@ import { FiAtSign } from "react-icons/fi";
 export default function CustomInput(props) {
   const [isFocusInput, setIsFocusInput] = useState(false);
   const [field, meta] = useField(props.name);
-  console.log(meta);
+
   return (
     <div className="relative w-full">
       <input

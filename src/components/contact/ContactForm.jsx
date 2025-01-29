@@ -4,6 +4,7 @@ import { Formik, Form } from "formik";
 import { contactSchema } from "./validationSchema";
 import CustomInput from "./CustomInput";
 import CustomTextarea from "./CustomTextarea";
+import { toast } from "sonner";
 
 const initialValues = {
   name: "",
@@ -13,8 +14,14 @@ const initialValues = {
 
 export default function ContactForm() {
   const handleSubmit = (values, actions) => {
-    console.log(values);
-    // actions.resetForm();
+    try {
+      console.log(values);
+      actions.resetForm();
+      toast.success("Mesajınız iletilmiştir. Teşekkürler!");
+    } catch (error) {
+      console.log(error);
+      toast.error("Bir hata oluştu.");
+    }
   };
 
   return (

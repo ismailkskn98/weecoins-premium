@@ -8,8 +8,9 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "./carosuel.css";
 import classNames from "classnames";
+import Image from "next/image";
 
-export default function VideoCarousel({ activeVideo, currentVideo }) {
+export default function VideoCarousel({ activeVideo, currentVideo, items }) {
   const [slidesPerView, setSlidesPerView] = useState(2);
 
   useEffect(() => {
@@ -30,6 +31,7 @@ export default function VideoCarousel({ activeVideo, currentVideo }) {
 
     return () => window.removeEventListener("resize", updateSlidesPerView);
   }, []);
+
   return (
     <Swiper
       spaceBetween={slidesPerView === 2 ? 20 : 50}
@@ -38,43 +40,31 @@ export default function VideoCarousel({ activeVideo, currentVideo }) {
       //   pagination={{ clickable: true }}
       loop={true}
       modules={[Navigation, Pagination, Autoplay]}
-      onSwiper={(swiper) => console.log(swiper)}
-      //   onSlideChange={() => console.log("slide change")}
+      // onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log("slide change")}
       className={classNames("", {
         "h-[200px]": slidesPerView !== 2,
         "h-[150px]": slidesPerView === 2,
       })}
     >
-      <SwiperSlide onClick={() => activeVideo(1)} className="cursor-pointer rounded-xl bg-red-300">
-        Slide 1
-      </SwiperSlide>
-      <SwiperSlide onClick={() => activeVideo(2)} className="cursor-pointer rounded-xl bg-red-300">
-        Slide 2
-      </SwiperSlide>
-      <SwiperSlide onClick={() => activeVideo(3)} className="cursor-pointer rounded-xl bg-red-300">
-        Slide 3
-      </SwiperSlide>
-      <SwiperSlide onClick={() => activeVideo(4)} className="cursor-pointer rounded-xl bg-red-300">
-        Slide 4
-      </SwiperSlide>
-      <SwiperSlide onClick={() => activeVideo(5)} className="cursor-pointer rounded-xl bg-red-300">
-        Slide 5
-      </SwiperSlide>
-      <SwiperSlide onClick={() => activeVideo(6)} className="cursor-pointer rounded-xl bg-red-300">
-        Slide 6
-      </SwiperSlide>
-      <SwiperSlide onClick={() => activeVideo(7)} className="cursor-pointer rounded-xl bg-red-300">
-        Slide 7
-      </SwiperSlide>
-      <SwiperSlide onClick={() => activeVideo(8)} className="cursor-pointer rounded-xl bg-red-300">
-        Slide 8
-      </SwiperSlide>
-      <SwiperSlide onClick={() => activeVideo(9)} className="cursor-pointer rounded-xl bg-red-300">
-        Slide 9
-      </SwiperSlide>
-      <SwiperSlide onClick={() => activeVideo(10)} className="cursor-pointer rounded-xl bg-red-300">
-        Slide 10
-      </SwiperSlide>
+      {items.map((item) => {
+        // console.log(item);
+        return (
+          <SwiperSlide
+            key={item.id.videoId}
+            onClick={() => activeVideo(item.id.videoId, item.snippet.title)}
+            className="cursor-pointer overflow-hidden rounded-xl"
+          >
+            <Image
+              src={item.snippet.thumbnails.high.url}
+              alt={item.snippet.title}
+              width={400}
+              height={360}
+              className="h-full w-full object-cover"
+            />
+          </SwiperSlide>
+        );
+      })}
     </Swiper>
   );
 }

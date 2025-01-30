@@ -11,18 +11,16 @@ export default function Visual() {
 
   useGSAP(
     () => {
-      gsap.to(".hero-logo-image", {
+      gsap.from(".hero-logo-image", {
         // rotate: 360,
         // y: 150,
-        scale: 0.5,
-        duration: 1,
+        scale: 0,
         ease: "sine",
         stagger: {
-          each: 0.2, // her biri arasındaki zaman farkı
+          each: 0.2,
           repeat: -1,
           yoyo: true,
           from: "random",
-          // from: "center",
         },
       });
     },

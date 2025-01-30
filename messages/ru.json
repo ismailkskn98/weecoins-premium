@@ -107,18 +107,105 @@
     "cards": {
       "WE3DUCATION": {
         "title": "WE3DUCATION",
-        "description": "Эта платформа предоставляет каждому возможность получить качественное образование по любому предмету, в любое время и в любом месте.",
+        "slug": "we3education",
+        "description": "Эта платформа предоставляет возможность каждому, кто хочет учиться, получать качественное образование по любой теме, в любом месте и в любое время.",
         "date": "2025 - Первый квартал"
       },
       "WE3STATE": {
         "title": "WE3STATE",
-        "description": "Глобальный рынок недвижимости с его триллионным объемом, динамичной структурой и растущими потребностями, вызванными увеличением населения, обладает огромным потенциалом для прибыли. Мы предлагаем вам экосистему, где вы можете инвестировать в проекты с использованием WCP, становиться партнером новых проектов и делить прибыль от завершенных.",
-        "date": "2025 - Первая половина года"
+        "slug": "we3state",
+        "description": "Глобальный рынок недвижимости с триллионным оборотом обладает огромным потенциалом прибыли благодаря своей динамичной структуре и растущим потребностям населения. Исходя из этого, мы предлагаем вам экосистему, где вы можете инвестировать с помощью WCP, участвовать в новых проектах и получать долю прибыли от завершенных проектов.",
+        "date": "2025 - Первая половина"
       },
       "WE3NERGY": {
         "title": "WE3NERGY",
-        "description": "С WeeCoins Premium (WCP) вы также можете стать частью этой революции, инвестируя в проекты солнечной и ветровой энергии для создания устойчивого будущего. Благодаря технологии блокчейн, WCP позволяет вам безопасно, прозрачно и эффективно инвестировать в проекты возобновляемой энергии.",
+        "slug": "we3energy",
+        "description": "С WeeCoins Premium (WCP) вы можете стать частью этой революции, инвестируя в проекты солнечной и ветровой энергетики для создания устойчивого будущего. Благодаря технологии блокчейн, WCP позволяет безопасно, прозрачно и эффективно инвестировать в возобновляемые источники энергии.",
         "date": "2026 - Первый квартал"
+      },
+      "weeZard": {
+        "slug": "a-part-of-the-weecoins-ecosystem",
+        "shortTitle": "WeeZard – Chast' Ekosistemy Weecoins",
+        "shortDescription": "WeeZard – eto innovatsionnyy proyekt, vklyuchayushchiesya v ekosistemu Weecoins Premium. Eta igrovaya platforma predostavlyayet pol'zovatelyam vozmozhnosti dlya razvlecheniya i zarabotka, vkladya v prinimanie WCP v ekosisteme Weecoins.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Kak rabotayet Ekosistema Weecoins Premium?",
+            "content": "Weecoins Premium – eto desentralizovannaya finansovaya sistema, osnova kotoroy zakladyvayet blokcheyn-tekhnologii. Pol'zovateli mogut poluchat', investirovat' i torgovat' WCP cherez razlichnye proyekte vnutri ekosistemy. Ekosistema Weecoins obespechivayet prozrachnost' i bezopasnost', nakhodya sotsial'nuyu podderzhku dlya proyektov."
+          },
+          "whyUse": {
+            "title": "Pochemu vam nuzhno ispol'zovat' WeeZard?",
+            "content": "Zarabatyvayte, igroyu – WeeZard predostavlyayet pol'zovatelyam igry, takie kak Jackpot, Kazu Kazan i Mayn Tarlası, dlya nakopleniya WCP.\nPassivnyy dokhod s igrami Miner i Cryptonaut – Pol'zovateli mogut postoyanno nakaplivat' WCP, igroy v igry.\nZarabotayte bol'she, sozdav komandu – WeeZard predostavlyayet systemu rekomendatsiy, chtoby pomoch' pol'zovatelyam pri privlechenii novykh dorogikh."
+          },
+          "contribution": {
+            "title": "Kak WeeZard vneset vklad v ekosistemu Weecoins?",
+            "content": "Uvelichivaet ispol'zovanie WCP: WeeZard nakhodya igry s ispol'zovaniem WCP, podderzhivayet rost ekosistemy.\nGlobal'noye rasprostranenie: WeeZard privlekaet pol'zovateley so vsego mira, uvelichivaya populyarnost' Weecoins Premium.\nSozdanie postoyannogo oborota: Pol'zovateli mogut ispol'zovat' nakoplennye WCP v WeeZard dlya pokupok na drugih proyektakh Weecoins (WeeCard, WeeSale, WeePoint).\nPodderzhivaet stoimost' WCP: Ekonomika igry pomogaet sokhranit' WCP v oborote i sokhranit' ustoychivost' ekosistemy."
+          }
+        },
+        "detailedText": "WeeZard – eto innovatsionnyy proyekt, vklyuchayushchiesya v ekosistemu Weecoins Premium. Eta igrovaya platforma predostavlyayet pol'zovatelyam vozmozhnosti dlya razvlecheniya i zarabotka, vkladya v prinimanie WCP v ekosisteme Weecoins."
+      },
+      "weeCard": {
+        "slug": "the-digital-business-card-solution-of-weecoins-ecosystem",
+        "shortTitle": "WeeCard – Tsifrovaya Vizitka v Ekosisteme Weecoins",
+        "shortDescription": "WeeCard – eto innovatsionnyy reshenie tsifrovoy vizitki, integriruyushchiesya v Weecoins Premium. WeeCard predostavlyayet vozmozhnost' odnovremenno delit'sya profesional'nym identichnost'yu i uvelichivat' ispol'zovanie WCP, podderzhivaya rosta ekosistemy.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Kak rabotayet Ekosistema Weecoins Premium?",
+            "content": "Weecoins Premium – eto desentralizovannaya finansovaya sistema, postroennaya na blokcheyne. Pol'zovateli mogut nakaplivat', investirovat' i torgovat' WCP cherez proyekt WeeCard."
+          },
+          "whyUse": {
+            "title": "Pochemu ispol'zovat' WeeCard?",
+            "content": "Tsifrovaya Vizitka: WeeCard predostavlyayet vozmozhnost' delit'sya vsemi kontaktami cherez QR-kod i unikal'nye ssylki.\nPostoyannoye Obnovleniye: V otlichie ot fizicheskikh vizitok, WeeCard pozvolyayet odinakovyye dannyye obnovlyat' nezamedlitel'no.\nRasshireniye vashego biznes-seta: Sobirayte vse vashye sotsial'nye media, sayt i profesional'nuyu informatsiyu v odnom dokumente.\nZarabatyvayte s WeeCard: Pol'zovateli mogut prodavat' WeeCard i nakaplivat' WCP."
+          },
+          "contribution": {
+            "title": "Kak WeeCard vneset vklad v ekosistemu Weecoins?",
+            "content": "Uvelichivaet ispol'zovanie WCP: WeeCard predostavlyayet WCP v kachestve platezhnego sredstva, podderzhivaya oborot v ekosisteme.\nPodderzhivaet global'noye rasprostranenie: WeeCard pozvolyayet pol'zovatelyam uvelichivat' populyarnost' Weecoins Premium na mezhdunarodnom urovne.\nIntegratsiya s proyektami Weecoins: WeeCard mozhno ispol'zovat' v drugih proyektakh Weecoins (WeeZard, WeeSale, WeePoint).\nUvelichivayet stoimost' WCP: Ispol'zovanie WeeCard v biznes-setakh podderzhivayet ustoychivost' ekosistemy."
+          }
+        },
+        "detailedText": "WeeCard – eto innovatsionnyy reshenie tsifrovoy vizitki, integriruyushchiesya v Weecoins Premium. WeeCard predostavlyayet vozmozhnost' odnovremenno delit'sya profesional'nym identichnost'yu i uvelichivat' ispol'zovanie WCP, podderzhivaya rosta ekosistemy."
+      },
+      "weeSale": {
+        "slug": "the-innovative-e-commerce-platform-of-weecoins-ecosystem",
+        "shortTitle": "WeeSale – Torgovaya Platforma Weecoins",
+        "shortDescription": "WeeSale – eto bezopasnyy i uzhivayushchiesya torgovaya platforma v Weecoins Premium. WeeSale predostavlyayet vozmozhnost' pokupat' i prodavat' novye i b/ya tovarov, stimuliruyushchiesya WCP ispol'zovaniem v ekosisteme.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Kak rabotayet Ekosistema Weecoins Premium?",
+            "content": "Weecoins Premium – eto blokcheynovaya desentralizovannaya finansovaya sistema, predostavlyayushchaya pol'zovatelyam vozmozhnosti dlya investirovaniya i torgovli WCP v razlichnykh proyektakh ekosistemy."
+          },
+          "whyUse": {
+            "title": "Pochemu WeeSale?",
+            "content": "Bezopasnyy Pokupka/Prodazha: WeeSale predostavlyayet bezopasnyy prozessi pokupki i prodazhi dlya vsekh tovarov.\nTorgovlya s WCP: WeeSale pozvolyayet prodavat' tovari s ispol'zovaniem WCP.\nDopolnitel'nye vozmozhnosti dlya zarabotka: Pol'zovateli mogut privlekat' drugikh, ispol'zuya ssylki dlya dobitka passivnogo dokhoda."
+          },
+          "contribution": {
+            "title": "Kak WeeSale vneset vklad v ekosistemu Weecoins?",
+            "content": "Uvelichivayet oborot WCP: Pokupateli i prodavtsy mozhut ispol'zovat' WCP dlya dopychki tovarov i uslug.\nRasshiryaet global'nuyu populyarnost': WeeSale privlekaet novykh pol'zovateley so vsego mira.\nObespechivayet stabil'noye nastroystvo dlya ekosistemy."
+          }
+        },
+        "detailedText": "WeeSale – eto bezopasnyy i uzhivayushchiesya torgovaya platforma v Weecoins Premium. WeeSale predostavlyayet vozmozhnost' pokupat' i prodavat' novye i b/ya tovarov, stimuliruyushchiesya WCP ispol'zovaniem v ekosisteme."
+      },
+      "weekobi": {
+        "slug": "the-innovative-commerce-and-loyalty-system-of-weecoins-ecosystem",
+        "shortTitle": "Weekobi – Torgovaya Sistema Loyaldosti Weecoins",
+        "shortDescription": "Weekobi – eto intellektual'naya platforma dlya torgovli i loial'nosti, integriruyushchiesya v Weecoins Premium. Weekobi predostavlyayet tovaram podderzhku i predlagaet komissii na osnove prodazhok, cherez WeePoint prilozhenie.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Kak rabotayet Ekosistema Weecoins Premium?",
+            "content": "Weecoins Premium – eto blokcheynovaya sistema, predostavlyayushchaya vozmozhnosti dlya nakopleniya i ispol'zovaniya WCP v proyektakh, takikh kak WeeZard, WeeSale i Weekobi."
+          },
+          "whyUse": {
+            "title": "Pochemu Weekobi?",
+            "content": "Privlekaet bol'she klientov: Weekobi predostavlyayet platformy dlya privlecheniya novykh klientov.\nVnesite den'gi v ekosistemu Weecoins: Kupiv tovar, pol'zovatel' mozhet nakaplivat' WCP i ispol'zovat' eto dlya novykh pokupok."
+          },
+          "contribution": {
+            "title": "Kak Weekobi vneset vklad v ekosistemu Weecoins?",
+            "content": "Uvelichivayet spros na WCP: Weekobi pomogaet prodazhnykh tovarov i pokupateley, nakaplivaya WCP dlya novykh zadanij.\nPosil'nit global'nye pozitsii: Weekobi soedinyayet novykh klientov s vsego mira."
+          }
+        },
+        "detailedText": "Weekobi – eto intellektual'naya platforma dlya torgovli i loial'nosti, integriruyushchiesya v Weecoins Premium. Weekobi predostavlyayet tovaram podderzhku i predlagaet komissii na osnove prodazhok, cherez WeePoint prilozhenie."
       }
     }
   }

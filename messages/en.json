@@ -106,20 +106,104 @@
     "title": "Roadmap",
     "subtitle": "An inspiring journey from the beginning to today",
     "cards": {
-      "WE3DUCATION": {
+      "wE3DUCATION": {
         "title": "WE3DUCATION",
-        "description": "This platform offers everyone the opportunity to access quality education on any subject, anywhere, at any time.",
-        "date": "2025 - First Quarter"
+        "description": "Bu platform; öğrenmek isteyen herkese, herhangi bir konuda, herhangi bir yerde ve herhangi bir zamanda kaliteli eğitim alma fırsatı sunuyor.",
+        "date": "2025 - İlk Çeyrek"
       },
-      "WE3STATE": {
+      "wE3STATE": {
         "title": "WE3STATE",
-        "description": "The global real estate market, with its trillion-dollar size, dynamic structure, and increasing needs driven by population growth, holds great profit potential. From this perspective, we offer you an ecosystem where you can invest in projects using WCP, partner with new projects, and share profits from completed ones.",
-        "date": "2025 - First Half"
+        "description": "Global emlak piyasası, trilyonlarca dolarlık büyüklüğüyle, dinamik yapısı ve sürekli artan nüfusun getirdiği ihtiyaçlarla büyük bir kar potansiyeline sahiptir. Buradan hareketle size WCP kullanarak yatırım yapabileceğiniz, yeni başlayacak projelere ortak olabileceğiniz ve tamamlanan projelerden kar payı alabileceğiniz bir ekosistem sunuyoruz.",
+        "date": "2025 - İlk Yarım"
       },
-      "WE3NERGY": {
+      "wE3NERGY": {
         "title": "WE3NERGY",
-        "description": "With WeeCoins Premium (WCP), you can also be part of this revolution by investing in solar and wind energy projects to build a sustainable future. Thanks to blockchain technology, WCP enables you to invest in renewable energy projects securely, transparently, and efficiently.",
-        "date": "2026 - First Quarter"
+        "description": "WeeCoins Premium (WCP) ile siz de bu devrimin bir parçası olabilir; güneş ve rüzgar enerjisi projelerine yatırım yaparak sürdürülebilir bir gelecek inşa edebilirsiniz. WCP, blokzincir teknolojisi sayesinde, yenilenebilir enerji projelerine güvenli, şeffaf ve etkin bir yolla yatırım yapmanızı sağlar.",
+        "date": "2026 - İlk Çeyrek"
+      },
+      "weeZard": {
+        "slug": "a-part-of-the-weecoins-ecosystem",
+        "shortTitle": "WeeZard – A Part of the Weecoins Ecosystem",
+        "shortDescription": "WeeZard is an innovative project integrated into the Weecoins Premium ecosystem. This gaming platform offers users both entertainment and earning opportunities, contributing to the adoption of WCP within the Weecoins ecosystem.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "How Does the Weecoins Premium Ecosystem Work?",
+            "content": "Weecoins Premium offers a decentralized financial system built on blockchain technology. Users can earn WCP, make investments, and trade, while different projects within the ecosystem support each other to drive growth. Weecoins Ecosystem ensures transparency and security while fostering sustainability."
+          },
+          "whyUse": {
+            "title": "Why Should You Use WeeZard?",
+            "content": "Earn While Having Fun – WeeZard offers games like Jackpot, Scratch and Win, and Minesweeper, allowing users to earn WCP while playing.\nMining and Cryptonaut Games for Passive Income – Users can accumulate WCP regularly by playing games.\nBuild Teams for More Earnings – Through the referral system, WeeZard allows users to earn extra income by inviting friends."
+          },
+          "contribution": {
+            "title": "How Does WeeZard Contribute to the Weecoins Ecosystem?",
+            "content": "Increase WCP Usage: WeeZard promotes the use of WCP through in-game mechanics, contributing to the growth of the ecosystem.\nGlobal Reach: WeeZard attracts global users, increasing awareness of Weecoins Premium.\nContinuous Circulation: Users can spend the WCP earned in WeeZard on other Weecoins projects like WeeCard, WeeSale, and WeePoint.\nSupport the Value of WCP: The in-game economy encourages the circulation of WCP, strengthening the ecosystem’s sustainability."
+          }
+        },
+        "detailedText": "WeeZard is an innovative project integrated into the Weecoins Premium ecosystem. This gaming platform offers users both entertainment and earning opportunities, contributing to the adoption of WCP within the Weecoins ecosystem."
+      },
+      "weeCard": {
+        "slug": "the-digital-business-card-solution-of-weecoins-ecosystem",
+        "shortTitle": "WeeCard – The Digital Business Card Solution of the Weecoins Ecosystem",
+        "shortDescription": "WeeCard is an innovative digital business card solution integrated into the Weecoins Premium ecosystem. It brings traditional business cards into the digital age, allowing individuals and businesses to share their professional identities in a modern way, while also contributing to the growth of the Weecoins ecosystem by increasing the use of WCP.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "How Does the Weecoins Premium Ecosystem Work?",
+            "content": "Weecoins Premium is a blockchain-based decentralized financial system. Users can earn WCP, invest, and trade within the ecosystem. It supports various projects to drive the adoption of WCP and expand the ecosystem."
+          },
+          "whyUse": {
+            "title": "Why Should You Use WeeCard?",
+            "content": "Digital Business Card Solution: WeeCard allows individuals and businesses to share their contact details through QR codes and unique links.\nAlways Up-to-Date: Unlike physical business cards, your information can be continuously updated and changes are reflected instantly.\nExpand Your Network: Collect all your professional details including social media, website, and more into one business card to grow your network.\nEarn Revenue with WeeCard: Users can earn WCP by selling WeeCards and engage with the Weecoins ecosystem."
+          },
+          "contribution": {
+            "title": "How Does WeeCard Contribute to the Weecoins Ecosystem?",
+            "content": "Increase WCP Usage: WeeCard is only available for purchase using WCP, creating continuous demand within the ecosystem.\nSupport Global Adoption: Individuals and businesses sharing their digital cards across the globe help increase the visibility of Weecoins Premium.\nIntegration Across Ecosystem: WeeCard holders can use their earned WCP within other Weecoins projects like WeeZard, WeeSale, and WeePoint.\nSupport the Value of WCP: Using WeeCard strengthens the Weecoins ecosystem and drives up the value of WCP."
+          }
+        },
+        "detailedText": "WeeCard is an innovative digital business card solution integrated into the Weecoins Premium ecosystem. It brings traditional business cards into the digital age, allowing individuals and businesses to share their professional identities in a modern way, while also contributing to the growth of the Weecoins ecosystem by increasing the use of WCP."
+      },
+      "weeSale": {
+        "slug": "the-innovative-e-commerce-platform-of-weecoins-ecosystem",
+        "shortTitle": "WeeSale – The Innovative E-Commerce Platform of the Weecoins Ecosystem",
+        "shortDescription": "WeeSale is a secure and profitable e-commerce platform integrated into the Weecoins Premium ecosystem. It allows users to buy and sell both new and second-hand products, while promoting the use of WCP and contributing to the growth of the ecosystem.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "How Does the Weecoins Premium Ecosystem Work?",
+            "content": "Weecoins Premium is a blockchain-based decentralized financial system. Users can earn, spend, and trade WCP within various projects, including WeeCard, WeeZard, WeePoint, and WeeSale."
+          },
+          "whyUse": {
+            "title": "Why Should You Use WeeSale?",
+            "content": "Safe and Easy Shopping: Users can securely list and purchase new or second-hand products directly with buyers.\nSell Using WCP: WeeSale promotes the use of WCP for listing products, enhancing the ecosystem’s transaction volume.\nMore Earning Opportunities: You can earn passive income by referring others to the platform and receiving commissions for their activities.\nGlobal Marketplace: With its multilingual infrastructure, WeeSale is designed to attract users from around the world, expanding the ecosystem's global reach."
+          },
+          "contribution": {
+            "title": "How Does WeeSale Contribute to the Weecoins Ecosystem?",
+            "content": "Increase WCP Circulation: Sellers can buy promotions and additional listings with WCP, ensuring continuous demand for the coin.\nSupport Global Reach: WeeSale helps expand the Weecoins Premium ecosystem globally by increasing user participation.\nKeep Users Engaged: Users can spend their earned WCP across other Weecoins projects like WeeZard, WeeCard, and WeePoint.\nSupport the Value of WCP: The use of WCP within the platform helps keep the coin in circulation, supporting its value and the ecosystem."
+          }
+        },
+        "detailedText": "WeeSale is a secure and profitable e-commerce platform integrated into the Weecoins Premium ecosystem. It allows users to buy and sell both new and second-hand products, while promoting the use of WCP and contributing to the growth of the ecosystem."
+      },
+      "weekobi": {
+        "slug": "the-innovative-commerce-and-loyalty-system-of-weecoins-ecosystem",
+        "shortTitle": "Weekobi – The Innovative Commerce and Loyalty System of the Weecoins Ecosystem",
+        "shortDescription": "Weekobi is an intelligent commerce platform integrated into the Weecoins Premium ecosystem, bringing together stores and customers. Stores can join the system for free, attracting new customers, while growing through a sales-based advertising model where they pay commissions for the sales made through the Weepoint app. Customers earn WCP as they shop, becoming part of the ecosystem.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "How Does the Weecoins Premium Ecosystem Work?",
+            "content": "Weecoins Premium is a decentralized blockchain-based financial system. Users can earn, spend, and trade WCP through projects like WeeZard, WeeSale, WeePoint, and Weekobi, enhancing the ecosystem's growth."
+          },
+          "whyUse": {
+            "title": "Why Should You Use Weekobi?",
+            "content": "Attract More Customers: Weekobi helps stores reach their target audience more quickly.\nBe Part of the Weecoins Ecosystem: Earn WCP by shopping and use it across the entire ecosystem.\nBoost Sales with the Advertising Model: Stores and users can benefit from a sales-based advertising model that increases revenue."
+          },
+          "contribution": {
+            "title": "How Does Weekobi Contribute to the Weecoins Ecosystem?",
+            "content": "Increase Demand for WCP: Weekobi allows stores and customers to earn WCP, which increases demand for the coin.\nSupport Global Expansion: As more stores join Weekobi, the global user base of Weecoins Premium grows.\nSupport the Value of the Ecosystem: Users and stores can use their earned WCP across other ecosystem projects, further strengthening the ecosystem."
+          }
+        },
+        "detailedText": "Weekobi is an intelligent commerce platform integrated into the Weecoins Premium ecosystem, bringing together stores and customers. Stores can join the system for free, attracting new customers, while growing through a sales-based advertising model where they pay commissions for the sales made through the Weepoint app. Customers earn WCP as they shop, becoming part of the ecosystem."
       }
     }
   }

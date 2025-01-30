@@ -108,18 +108,105 @@
     "cards": {
       "WE3DUCATION": {
         "title": "WE3DUCATION",
-        "description": "Bu platform hər kəsə hər hansı bir mövzuda, istənilən vaxt və istənilən yerdə keyfiyyətli təhsil alma fürsəti təqdim edir.",
+        "slug": "we3education",
+        "description": "Bu platform öyrənmək istəyən hər kəsə istənilən mövzuda, istənilən yerdə və istənilən vaxt keyfiyyətli təhsil almaq imkanı təqdim edir.",
         "date": "2025 - Birinci Rüb"
       },
       "WE3STATE": {
         "title": "WE3STATE",
-        "description": "Trilyonlarla dollar dəyərində olan qlobal daşınmaz əmlak bazarı dinamik strukturu və artan əhali ehtiyacları ilə böyük qazanc potensialına malikdir. Bu baxımdan, sizə WCP istifadə edərək investisiya edə biləcəyiniz, yeni layihələrdə ortaq ola biləcəyiniz və tamamlanmış layihələrdən qazanc payı əldə edə biləcəyiniz bir ekosistem təklif edirik.",
-        "date": "2025 - İlk Yarım"
+        "slug": "we3state",
+        "description": "Trilyon dollarlıq həcmi olan qlobal daşınmaz əmlak bazarı dinamik strukturu və artan əhali tələbləri sayəsində böyük qazanc potensialına malikdir. Buna əsaslanaraq, sizə WCP vasitəsilə sərmayə qoya biləcəyiniz, yeni layihələrə şərik ola biləcəyiniz və tamamlanmış layihələrdən qazanc əldə edə biləcəyiniz bir ekosistem təklif edirik.",
+        "date": "2025 - Birinci Yarımil"
       },
       "WE3NERGY": {
         "title": "WE3NERGY",
-        "description": "WeeCoins Premium (WCP) ilə bu inqilabın bir hissəsi ola bilər, günəş və külək enerjisi layihələrinə sərmayə qoyaraq davamlı bir gələcək qura bilərsiniz. Blokçeyn texnologiyasının sayəsində WCP sizə yenilənə bilən enerji layihələrinə təhlükəsiz, şəffaf və səmərəli bir şəkildə sərmayə qoymaq imkanı yaradır.",
+        "slug": "we3energy",
+        "description": "WeeCoins Premium (WCP) ilə günəş və külək enerjisi layihələrinə sərmayə qoyaraq davamlı bir gələcək qurmaq üçün bu inqilabın bir hissəsi ola bilərsiniz. Blokçeyn texnologiyası sayəsində WCP sizə bərpa olunan enerji layihələrinə təhlükəsiz, şəffaf və effektiv şəkildə sərmayə qoymağa imkan verir.",
         "date": "2026 - Birinci Rüb"
+      },
+      "weeZard": {
+        "slug": "a-part-of-the-weecoins-ecosystem",
+        "shortTitle": "WeeZard – Weecoins Ekosisteminin Bir Parçası",
+        "shortDescription": "WeeZard, Weecoins Premium ekosisteminə daxil olan yenilikçi bir layihədir. Bu oyun platforması istifadəçilərə həm əyləncə, həm də qazanc imkanı təqdim edərək WCP-nin Weecoins ekosistemində qəbul edilməsinə töhfə verir.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Necə İşləyir?",
+            "content": "Weecoins Premium, blokçeyn texnologiyasına əsaslanan mərkəzləşdirilməmiş maliyyə sistemidir. İstifadəçilər, ekosistem daxilindəki fərqli layihələr vasitəsilə WCP qazana bilər, investisiya edə bilər və ticarət edə bilər. Weecoins ekosistemi, şəffaflıq və təhlükəsizlik təmin edərkən, layihələrin bir-birini dəstəkləyərək böyüməsinə imkan verir."
+          },
+          "whyUse": {
+            "title": "Niyə WeeZard istifadə etməlisiniz?",
+            "content": "Əylənərək Qazanın – WeeZard, istifadəçilərə Jackpot, Kazı Kazan və Mayın Tarlası kimi oyunlar təqdim edərək WCP qazanma imkanı təmin edir.\nMiner və Cryptonaut Oyunları ilə Passiv Gəlir – İstifadəçilər oyun oynayaraq müntəzəm olaraq WCP toplaya bilərlər.\nKomanda Quraraq Daha Çox Qazanın – WeeZard, referans sistemi ilə istifadəçilərə dostlarını dəvət edərək əlavə gəlir əldə etməyə imkan verir."
+          },
+          "contribution": {
+            "title": "WeeZard Weecoins Ekosisteminə Necə Töfhə Verir?",
+            "content": "WCP İstifadəsini Artırır: Oyun içində WCP istifadəni təşviq edərək ekosistemin böyüməsinə dəstək olur.\nQlobal Yayılma: WeeZard, dünya miqyasında istifadəçiləri özünə cəlb edir və Weecoins Premium-un tanınmasını artırır.\nDavamlı Dövriyyə Yaradılır: İstifadəçilər qazandıqları WCP-ləri WeeZard-da digər Weecoins layihələrində (WeeCard, WeeSale, WeePoint) istifadə edə bilərlər.\nWCP-nin Dəyərini Dəstəkləyir: Oyun içi iqtisadiyyat, WCP-nin dövriyyədə qalmasına və ekosistemin davamlı olmasına kömək edir."
+          }
+        },
+        "detailedText": "WeeZard, Weecoins Premium ekosisteminə daxil olan yenilikçi bir layihədir. Bu oyun platforması istifadəçilərə həm əyləncə, həm də qazanc imkanı təqdim edərək WCP-nin Weecoins ekosistemində qəbul edilməsinə töhfə verir."
+      },
+      "weeCard": {
+        "slug": "the-digital-business-card-solution-of-weecoins-ecosystem",
+        "shortTitle": "WeeCard – Weecoins Ekosisteminin Dijital Kartvizit Həlli",
+        "shortDescription": "WeeCard, Weecoins Premium ekosisteminə inteqrasiya olunmuş yenilikçi bir dijital kartvizit həllidir. Ənənəvi kartvizitləri rəqəmsal dünyaya daşıyan WeeCard, fərdlərə və müəssisələrə peşəkar kimliklərini müasir şəkildə paylaşmağa imkan verir, eyni zamanda WCP istifadəsini artıraraq Weecoins ekosisteminin böyüməsinə töhfə verir.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Necə İşləyir?",
+            "content": "Weecoins Premium, blokçeyn əsasında qurulmuş mərkəzləşdirilməmiş maliyyə sistemidir. İstifadəçilər WCP qazana, investisiya edə və ticarət edə bilərlər. Weecoins ekosistemi, müxtəlif layihələri dəstəkləyərək WCP-nin qəbul edilməsini artırır."
+          },
+          "whyUse": {
+            "title": "Niyə WeeCard istifadə etməlisiniz?",
+            "content": "Dijital Kartvizit Həlli: WeeCard, istifadəçilərə QR kodlar və xüsusi keçidlər vasitəsilə bütün əlaqə məlumatlarını paylaşmağa imkan verir.\nHəmişə Yenilənə Bilən: Fiziki kartvizitlərdən fərqli olaraq, məlumatlarınız hər zaman yenilənə bilər və dəyişikliklər dərhal göstərilə bilər.\nİş Bağlantılarınızı Genişləndirin: Sosial media hesablarınızı, veb saytınızı və digər peşəkar məlumatlarınızı bir kartvizitdə toplayaraq şəbəkənizi genişləndirin.\nWeeCard ilə Gəlir Qazanın: İstifadəçilər WeeCard satışları edərək WCP qazana və Weecoins ekosistemindən faydalana bilərlər."
+          },
+          "contribution": {
+            "title": "WeeCard Weecoins Ekosisteminə Necə Töfhə Verir?",
+            "content": "WCP İstifadəsini Artırır: WeeCard yalnız WCP ilə alınır, bu da Weecoins ekosistemində davamlı tələb yaradır.\nQlobal Yayılmanı Dəstəkləyir: Weecoins Premium-u istifadə edən fərdlər və müəssisələr, dijital kartvizitlərini dünya miqyasında paylaşaraq ekosistemin tanınmasını artırır.\nEkosistem Daxilində İnteqrasiya Yaradılır: WeeCard sahibləri qazandıqları WCP-ləri WeeZard, WeeSale və WeePoint kimi digər Weecoins layihələrində istifadə edə bilərlər.\nWCP-nin Dəyərini Artırır: İstifadəçilər və müəssisələr, peşəkar şəbəkələrini genişləndirmək üçün WeeCard-ə investisiya edərək ekosistemin davamlılığını dəstəkləyirlər."
+          }
+        },
+        "detailedText": "WeeCard, Weecoins Premium ekosisteminə inteqrasiya olunmuş yenilikçi bir dijital kartvizit həllidir. Ənənəvi kartvizitləri rəqəmsal dünyaya daşıyan WeeCard, fərdlərə və müəssisələrə peşəkar kimliklərini müasir şəkildə paylaşmağa imkan verir, eyni zamanda WCP istifadəsini artıraraq Weecoins ekosisteminin böyüməsinə töhfə verir."
+      },
+      "weeSale": {
+        "slug": "the-innovative-e-commerce-platform-of-weecoins-ecosystem",
+        "shortTitle": "WeeSale – Weecoins Ekosisteminin Yenilikçi Ticarət Platforması",
+        "shortDescription": "WeeSale, Weecoins Premium ekosisteminə inteqrasiya olunmuş təhlükəsiz və gəlirli bir elektron ticarət platformasıdır. İstifadəçilərə yeni və ikinci əl məhsullarını almaq və satmaq imkanı təqdim edən WeeSale, WCP istifadəsini təşviq edərək ekosistemin böyüməsinə dəstək verir.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Necə İşləyir?",
+            "content": "Weecoins Premium, blokçeyn əsasında qurulmuş mərkəzləşdirilməmiş maliyyə sistemidir və ekosistem daxilindəki müxtəlif layihələri dəstəkləyərək WCP-nin qəbul edilməsini artırır. İstifadəçilər WeeCard, WeeZard, WeePoint və WeeSale kimi layihələr vasitəsilə WCP qazana, istifadə edə və investisiya edə bilərlər."
+          },
+          "whyUse": {
+            "title": "Niyə WeeSale istifadə etməlisiniz?",
+            "content": "Təhlükəsiz və Asan Alış-veriş: İstifadəçilər məhsullarını təhlükəsiz şəkildə sata bilər və alıcılarla birbaşa əlaqə quraraq məhsul alışı həyata keçirə bilərlər.\nWCP ilə Satış Edin: WeeSale, istifadəçilərin məhsullarını WCP ilə satmalarını təşviq edərək ekosistem daxilində əməliyyat həcmini artırır.\nDaha Çox Qazanc İmkanı: Öz referans linkinizlə başqalarını WeeSale-ə dəvət edərək onların platformada etdikləri doping, əlavə elan və digər əməliyyatlardan passiv gəlir əldə edə bilərsiniz.\nQlobal Bazar: Çoxdilli altyapısı ilə WeeSale, dünya miqyasında bir bazar olmağı hədəfləyir, beləliklə Weecoins ekosistemi daha da genişlənir."
+          },
+          "contribution": {
+            "title": "WeeSale Weecoins Ekosisteminə Necə Töfhə Verir?",
+            "content": "WCP-nin Dövriyyəsini Artırır: Satıcılar, əlavə reklam promosyonları almaq üçün WCP istifadə edə bilərlər ki, bu da WCP-nin dövriyyədə qalmasını təmin edir.\nQlobal Yayılmanı Dəstəkləyir: WeeSale daha çox istifadəçi cəlb etməklə, Weecoins Premium ekosistemini qlobal miqyasda genişləndirir.\nİstifadəçilərini Maraqlı Saxlayır: WeeSale platformasında qazandığınız WCP-ləri WeeZard, WeeCard və WeePoint kimi digər layihələrdə istifadə edərək ekosistemi daha da gücləndirirsiniz.\nWCP-nin Dəyərini Artırır: Platformada WCP istifadəsi sayəsində ekosistemin dəyəri artır."
+          }
+        },
+        "detailedText": "WeeSale, Weecoins Premium ekosisteminə inteqrasiya olunmuş təhlükəsiz və gəlirli bir elektron ticarət platformasıdır. İstifadəçilərə yeni və ikinci əl məhsullarını almaq və satmaq imkanı təqdim edən WeeSale, WCP istifadəsini təşviq edərək ekosistemin böyüməsinə dəstək verir."
+      },
+      "weekobi": {
+        "slug": "the-innovative-commerce-and-loyalty-system-of-weecoins-ecosystem",
+        "shortTitle": "Weekobi – Weecoins Ekosisteminin Ticarət və Loyallıq Sistemi",
+        "shortDescription": "Weekobi, Weecoins Premium ekosisteminə inteqrasiya olunmuş ağıllı ticarət platformasıdır. Mağazalar, müştərilərini cəlb etmək və satışlarını artırmaq üçün Weekobi-yə qoşula bilər. Həmçinin satış əsaslı reklam modeli ilə satıcılar, Weepoint tətbiqi vasitəsilə həyata keçirilən satışlardan komissiyalar ödəyir. Müştərilər alış-veriş edərək WCP qazanır və ekosistemin bir hissəsi olurlar.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Necə İşləyir?",
+            "content": "Weecoins Premium, blokçeyn texnologiyası ilə qurulmuş mərkəzləşdirilməmiş maliyyə sistemidir. İstifadəçilər WeeZard, WeeSale, WeePoint və Weekobi kimi layihələrdən faydalanaraq WCP qazanır və digər ekosistem layihələrində istifadə edirlər."
+          },
+          "whyUse": {
+            "title": "Niyə Weekobi istifadə etməlisiniz?",
+            "content": "Daha çox Müştəri Cəlb Edin: Weekobi, mağazaların hədəf auditoriyalarına daha sürətli çatmalarını təmin edir.\nWeecoins Ekosisteminin Bir Parçası Olun: Alış-veriş edərək WCP qazanmaq və qazancınızı digər ekosistem layihələrində istifadə etmək imkanı.\nSatışları Artırın: Mağazalar, satış əsaslı reklam modeli ilə gəlir əldə edə bilər və daha çox müştəri cəlb edərək gəlirlərini artırar."
+          },
+          "contribution": {
+            "title": "Weekobi Weecoins Ekosisteminə Necə Töfhə Verir?",
+            "content": "WCP-nin Tələbini Artırır: Weekobi mağazalar və müştərilər arasında WCP istifadəsini təşviq edir, bu da WCP-nin dövriyyə həcmini artırır.\nQlobal Yayılma: Mağazalar, Weekobi-yə qoşulmaqla, Weecoins Premium ekosisteminin qlobal miqyasda inkişafına dəstək olur.\nEkosistemin Gücləndirilməsi: İstifadəçilər qazandıqları WCP-ni digər ekosistem layihələrində istifadə edərək bütün ekosistemi gücləndirirlər."
+          }
+        },
+        "detailedText": "Weekobi, Weecoins Premium ekosisteminə inteqrasiya olunmuş ağıllı ticarət platformasıdır. Mağazalar, müştərilərini cəlb etmək və satışlarını artırmaq üçün Weekobi-yə qoşula bilər. Həmçinin satış əsaslı reklam modeli ilə satıcılar, Weepoint tətbiqi vasitəsilə həyata keçirilən satışlardan komissiyalar ödəyir. Müştərilər alış-veriş edərək WCP qazanır və ekosistemin bir hissəsi olurlar."
       }
     }
   }

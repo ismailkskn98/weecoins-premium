@@ -46,7 +46,7 @@ export default function HeroContent() {
         </h2>
       </div>
 
-      <p className="-mt-4 w-full max-w-[650px] font-inter text-[22px] text-[#3d3d3d]">{t("hero.description")}</p>
+      <p className="-mt-4 w-full max-w-[650px] font-inter text-[22px] text-zinc-800 dark:text-zinc-200">{t("hero.description")}</p>
       <div className="flex items-center gap-4 xl:mt-2 xl:gap-6">
         <Link
           href={"/contact"}

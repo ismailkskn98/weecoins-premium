@@ -40,7 +40,7 @@ export default function VideoContainerAnimate() {
     <>
       <div ref={materialTopRef} className="fluid absolute right-16 top-1/4 z-10">
         <Image
-          src="/images/weecoins-material-bottom.png"
+          src="/images/weecoins-material-bottom.webp"
           alt="weecoins material"
           width={240}
           height={240}
@@ -49,7 +49,7 @@ export default function VideoContainerAnimate() {
       </div>
       <div ref={materialBottomRef} className="fluid absolute bottom-1/3 left-16 z-10">
         <Image
-          src="/images/logo-xl.png"
+          src="/images/logo-xl.webp"
           alt="weecoins material"
           width={240}
           height={240}

@@ -1,25 +1,30 @@
 import PageTitle from "@/components/common/PageTitle";
-import GalleryMain from "@/components/gallery";
-import VideoCarouselContainer from "@/components/gallery/VideoCarouselContainer";
+import NewsFromUsMain from "@/components/newsFromUs";
+import VideoCarouselContainer from "@/components/newsFromUs/VideoCarouselContainer";
 import React from "react";
 
-export default async function NewsFromUs() {
-  let data = [];
+const getYoutubeVideos = async () => {
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/youtube`);
+
     if (!response.ok) {
       throw new Error("Veri çekme işlemi başarısız oldu.");
     }
-    data = await response.json();
+    return response.json();
   } catch (error) {
     console.error("Hata:", error);
   }
+};
+
+export default async function NewsFromUs() {
+  const data = await getYoutubeVideos();
+
   return (
     <>
       <PageTitle title={"Bizden Haberler"} subtitle={"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptas?"} />
-      <GalleryMain>
+      <NewsFromUsMain>
         <VideoCarouselContainer data={data.videos} />
-      </GalleryMain>
+      </NewsFromUsMain>
     </>
   );
 }

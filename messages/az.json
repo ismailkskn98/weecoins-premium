@@ -3,7 +3,7 @@
     "navbar": {
       "home": "Əsas səhifə",
       "about": "Haqqımızda",
-      "roadmap": "Yol xəritəsi",
+      "ecosystem": "Ekosistem",
       "gallery": "Qalereya",
       "contact": "Əlaqə"
     },
@@ -102,7 +102,7 @@
       }
     }
   },
-  "RoadMapPage": {
+  "EcosystemPage": {
     "title": "Yol Xəritəsi",
     "subtitle": "Başlanğıcdan bugünkü günə qədər ruhlandırıcı bir hekayə",
     "cards": {

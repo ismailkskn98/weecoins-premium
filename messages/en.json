@@ -3,7 +3,7 @@
     "navbar": {
       "home": "Home",
       "about": "About Us",
-      "roadmap": "Roadmap",
+      "ecosystem": "Ecosystem",
       "gallery": "Gallery",
       "contact": "Contact"
     },
@@ -102,7 +102,7 @@
       }
     }
   },
-  "RoadMapPage": {
+  "EcosystemPage": {
     "title": "Roadmap",
     "subtitle": "An inspiring journey from the beginning to today",
     "cards": {

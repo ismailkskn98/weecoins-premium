@@ -4,87 +4,50 @@ import React from "react";
 import MarqueeCard from "./MarqueeCard";
 import { useTranslations } from "next-intl";
 
-const reviews = [
-  {
-    name: "John",
-    body: "Salam. Mən Ramil Murtuzov. 4 aydır Weecoins & Weecomi İnternational şirkətinin üzvüyəm. Bu şirkətdən...",
-    img: "https://avatar.vercel.sh/john",
-    date: "01.01.2023",
-  },
-  {
-    name: "John",
-    body: "Salam. Mən Ramil Murtuzov. 4 aydır Weecoins & Weecomi İnternational şirkətinin üzvüyəm. Bu şirkətdən...",
-    img: "https://avatar.vercel.sh/john",
-    date: "01.01.2023",
-  },
-  {
-    name: "John",
-    body: "Salam. Mən Ramil Murtuzov. 4 aydır Weecoins & Weecomi İnternational şirkətinin üzvüyəm. Bu şirkətdən...",
-    img: "https://avatar.vercel.sh/john",
-    date: "01.01.2023",
-  },
-  {
-    name: "John",
-    body: "Salam. Mən Ramil Murtuzov. 4 aydır Weecoins & Weecomi İnternational şirkətinin üzvüyəm. Bu şirkətdən...",
-    img: "https://avatar.vercel.sh/john",
-    date: "01.01.2023",
-  },
-  {
-    name: "John",
-    body: "Salam. Mən Ramil Murtuzov. 4 aydır Weecoins & Weecomi İnternational şirkətinin üzvüyəm. Bu şirkətdən...",
-    img: "https://avatar.vercel.sh/john",
-    date: "01.01.2023",
-  },
-  {
-    name: "John",
-    body: "Salam. Mən Ramil Murtuzov. 4 aydır Weecoins & Weecomi İnternational şirkətinin üzvüyəm. Bu şirkətdən...",
-    img: "https://avatar.vercel.sh/john",
-    date: "01.01.2023",
-  },
-  {
-    name: "John",
-    body: "Salam. Mən Ramil Murtuzov. 4 aydır Weecoins & Weecomi İnternational şirkətinin üzvüyəm. Bu şirkətdən...",
-    img: "https://avatar.vercel.sh/john",
-    date: "01.01.2023",
-  },
-  {
-    name: "John",
-    body: "Salam. Mən Ramil Murtuzov. 4 aydır Weecoins & Weecomi İnternational şirkətinin üzvüyəm. Bu şirkətdən...",
-    img: "https://avatar.vercel.sh/john",
-    date: "01.01.2023",
-  },
-  {
-    name: "John",
-    body: "Salam. Mən Ramil Murtuzov. 4 aydır Weecoins & Weecomi İnternational şirkətinin üzvüyəm. Bu şirkətdən...",
-    img: "https://avatar.vercel.sh/john",
-    date: "01.01.2023",
-  },
-];
-
-const firstRow = reviews.slice(0, reviews.length / 3);
-const secondRow = reviews.slice(reviews.length / 3, (2 * reviews.length) / 3);
-const thirdRow = reviews.slice((2 * reviews.length) / 3);
-
-export default function SuccessStories() {
+export default function SuccessStories({ data }) {
   const t = useTranslations("HomePage");
+  const firstRow = data.slice(0, data.length / 3);
+  const secondRow = data.slice(data.length / 3, (2 * data.length) / 3);
+  const thirdRow = data.slice((2 * data.length) / 3);
   return (
     <section className="relative mb-[60px] mt-[92px] flex flex-col items-center justify-center gap-10 overflow-x-hidden text-center">
       <SectionTitle title={t("successStories.title")} description={t("successStories.description")} />
       <article className="overflow-x-hidden">
         <div className="relative flex max-h-[780px] w-full items-center justify-center gap-5 overflow-hidden rounded-lg md:shadow-xl">
           <Marquee vertical pauseOnHover className="[--duration:20s]">
-            {firstRow.map((review, index) => (
-              <MarqueeCard key={index} name={review.name} description={review.body} avatar={review.img} date={review.date} />
+            {firstRow.map((item, index) => (
+              <MarqueeCard
+                key={index}
+                name={item.name + " " + item.surname}
+                description={item.body}
+                avatar={item.image}
+                date={item.created_at}
+                flag={item.language}
+              />
             ))}
           </Marquee>
           <Marquee vertical pauseOnHover className="[--duration:20s]">
-            {secondRow.map((review, index) => (
-              <MarqueeCard key={index} name={review.name} description={review.body} avatar={review.img} date={review.date} />
+            {secondRow.map((item, index) => (
+              <MarqueeCard
+                key={index}
+                name={item.name + " " + item.surname}
+                description={item.body}
+                avatar={item.image}
+                date={item.created_at}
+                flag={item.language}
+              />
             ))}
           </Marquee>
           <Marquee vertical pauseOnHover className="[--duration:20s]">
-            {thirdRow.map((review, index) => (
-              <MarqueeCard key={index} name={review.name} description={review.body} avatar={review.img} date={review.date} />
+            {thirdRow.map((item, index) => (
+              <MarqueeCard
+                key={index}
+                name={item.name + " " + item.surname}
+                description={item.body}
+                avatar={item.image}
+                date={item.created_at}
+                flag={item.language}
+              />
             ))}
           </Marquee>
 

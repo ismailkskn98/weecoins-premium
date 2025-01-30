@@ -3,7 +3,7 @@
     "navbar": {
       "home": "Anasayfa",
       "about": "Hakkımızda",
-      "roadmap": "Yol Haritası",
+      "ecosystem": "Ekosistem",
       "gallery": "Bizden Haberler",
       "contact": "İletişim"
     },
@@ -68,7 +68,7 @@
   "AboutPage": {
     "title": "Hakkımızda",
     "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
-    "home": "Ev",
+    "home": "Anasayfa",
     "content": {
       "title": "WEECOINS Premium Teknolojisi",
       "description": "WeeCoins Premium, blockchain teknolojisini kullanarak finansal özgürlüğü ve ekonomik katılımı genişletmeyi hedefleyen yenilikçi bir kripto ekosistemidir. Güvenli, hızlı ve düşük maliyetli işlem yapabilmeyi sağlayan WeeGold ağı üzerine inşa edilen sistemimiz, kullanıcılarımıza benzersiz bir dijital varlık deneyimi sunmaktadır.",
@@ -100,7 +100,7 @@
       }
     }
   },
-  "RoadMapPage": {
+  "EcosystemPage": {
     "title": "Yol Haritası",
     "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
     "cards": {

@@ -48,7 +48,7 @@ export default function VideoCarousel({ activeVideo, currentVideo, items }) {
       })}
     >
       {items.map((item) => {
-        console.log(item);
+        // console.log(item);
         return (
           <SwiperSlide
             key={item.id.videoId}

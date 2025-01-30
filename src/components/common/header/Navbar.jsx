@@ -12,7 +12,7 @@ export default function Navbar({ isFixed }) {
   const navItems = [
     { path: "/", label: t("navbar.home") },
     { path: "/about", label: t("navbar.about") },
-    { path: "/roadmap", label: t("navbar.roadmap") },
+    { path: "/ecosystem", label: t("navbar.ecosystem") },
     { path: "/news-from-us", label: t("navbar.gallery") },
     { path: "/contact", label: t("navbar.contact") },
   ];

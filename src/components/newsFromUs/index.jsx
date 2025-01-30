@@ -1,7 +1,7 @@
 import React from "react";
 import PageGradientBg from "../common/PageGradientBg";
 
-export default function GalleryMain({ children }) {
+export default function NewsFromUsMain({ children }) {
   return (
     <section className="pageSection mb:pb-24 pb-16">
       <div className="fluid absolute inset-0 -z-20 block sm:hidden">

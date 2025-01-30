@@ -20,15 +20,16 @@ export default function CustomInput(props) {
           field.onBlur(e);
         }}
         className={classNames("w-full rounded-md border border-solid bg-transparent py-10px pl-3 pr-8 text-sm text-zinc-700", {
-          "border-zinc-300 focus:outline-1 focus:outline-light-f88540/30": !meta.error,
+          "border-zinc-300 focus:outline-1 focus:outline-light-f88540/30 dark:border-zinc-600": !meta.error,
           "border-red-500 focus:outline-none": meta.error,
         })}
       />
       {meta.touched && meta.error ? <div className="absolute -bottom-5 left-[2px] z-10 text-xs text-red-500">*{meta.error}</div> : null}
       <div
         className={classNames("pointer-events-none absolute rounded-md px-2 text-sm transition-all duration-300", {
-          "-top-[11px] left-1 bg-light-EAEEFE text-xs text-zinc-700": isFocusInput || (!isFocusInput && field.value.length),
-          "left-2 top-1/2 -translate-y-1/2 bg-transparent text-sm text-zinc-600": !isFocusInput && !field.value.length,
+          "-top-[11px] left-1 bg-light-EAEEFE text-xs text-zinc-700 dark:bg-dark-0d0d0d":
+            isFocusInput || (!isFocusInput && field.value.length),
+          "left-2 top-1/2 -translate-y-1/2 bg-transparent text-sm text-zinc-600 dark:text-zinc-400": !isFocusInput && !field.value.length,
         })}
       >
         {props.label}
@@ -38,14 +39,14 @@ export default function CustomInput(props) {
           <BsPersonVcard
             className={classNames("", {
               "text-red-500": meta.error && meta.touched,
-              "text-zinc-600": !meta.error && !meta.touched,
+              "text-zinc-600 dark:text-zinc-400": !meta.error && !meta.touched,
             })}
           />
         ) : (
           <FiAtSign
             className={classNames("", {
               "text-red-500": meta.error && meta.touched,
-              "text-zinc-700": !meta.error && !meta.touched,
+              "text-zinc-600 dark:text-zinc-400": !meta.error && !meta.touched,
             })}
           />
         )}

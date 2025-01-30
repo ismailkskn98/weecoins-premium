@@ -48,12 +48,12 @@ export default function VideoCarousel({ activeVideo, currentVideo, items }) {
       })}
     >
       {items.map((item) => {
-        // console.log(item);
+        console.log(item);
         return (
           <SwiperSlide
             key={item.id.videoId}
-            onClick={() => activeVideo(item.id.videoId, item.snippet.title)}
-            className="cursor-pointer overflow-hidden rounded-xl"
+            onClick={() => activeVideo(item.id.videoId, item.snippet.title, item.snippet.thumbnails.high.url)}
+            className="group relative cursor-pointer overflow-hidden rounded-xl"
           >
             <Image
               src={item.snippet.thumbnails.high.url}
@@ -62,6 +62,12 @@ export default function VideoCarousel({ activeVideo, currentVideo, items }) {
               height={360}
               className="h-full w-full object-cover"
             />
+            <div className="absolute inset-x-0 bottom-0 hidden origin-bottom scale-y-0 rounded-b-xl bg-black/70 px-3 py-5 text-center text-xs text-white transition-all duration-200 group-hover:scale-y-100 sm:block">
+              {item.snippet.title}
+            </div>
+            <div className="absolute inset-x-0 bottom-0 flex h-1/3 origin-bottom items-center justify-center rounded-b-xl bg-black/70 px-1 py-2 text-center text-xs text-white sm:hidden">
+              {item.snippet.title.length > 40 ? item.snippet.title.substring(0, 40) + "..." : item.snippet.title}
+            </div>
           </SwiperSlide>
         );
       })}

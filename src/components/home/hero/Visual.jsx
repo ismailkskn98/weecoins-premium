@@ -33,7 +33,7 @@ export default function Visual() {
         alt="weecoins premium logo"
         width={500}
         height={500}
-        className="heroLogo center-image relative z-10 flex max-w-full justify-end object-cover drop-shadow-2xl sm:max-h-[410px] sm:max-w-[410px] xl:max-h-[450px] xl:max-w-[450px] 2xl:max-h-[500px] 2xl:max-w-[500px]"
+        className="heroLogo center-image relative z-10 flex max-w-[250px] justify-end object-cover drop-shadow-2xl sm:max-h-[410px] sm:max-w-[410px] xl:max-h-[450px] xl:max-w-[450px] 2xl:max-h-[500px] 2xl:max-w-[500px]"
       />
       <Image
         src="/images/weecoins-material-bottom.webp"

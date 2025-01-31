@@ -6,7 +6,7 @@ async function fetchVideos(videoDuration) {
   const url = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&channelId=${CHANNEL_ID}&part=snippet&type=video&order=date&maxResults=40&videoDuration=${videoDuration}`;
 
   const response = await fetch(url);
-  console.log(response);
+  // console.log(response);
   const data = await response.json();
   return data.items || [];
 }

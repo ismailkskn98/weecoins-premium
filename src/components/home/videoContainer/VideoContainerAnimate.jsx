@@ -38,7 +38,7 @@ export default function VideoContainerAnimate() {
 
   return (
     <>
-      <div ref={materialTopRef} className="fluid absolute right-16 top-1/4 z-10">
+      <div ref={materialTopRef} className="fluid absolute right-16 top-1/4 z-10 hidden lg:block">
         <Image
           src="/images/weecoins-material-bottom.webp"
           alt="weecoins material"
@@ -47,7 +47,7 @@ export default function VideoContainerAnimate() {
           className="max-h-[240px] max-w-[240px] object-cover drop-shadow-xl"
         />
       </div>
-      <div ref={materialBottomRef} className="fluid absolute bottom-1/3 left-16 z-10">
+      <div ref={materialBottomRef} className="fluid absolute bottom-1/3 left-16 z-10 hidden lg:block">
         <Image
           src="/images/logo-xl.webp"
           alt="weecoins material"

@@ -53,7 +53,7 @@ export default function Header() {
         ref={headerRef}
         className={classNames("flex w-full items-center justify-between rounded-2xl py-5 transition-all duration-300", {
           "bg-transparent": !isFixed,
-          "bg-gradient-to-t from-black/85 to-black px-10 dark:bg-black/35": isFixed,
+          "bg-gradient-to-t from-black/85 to-black px-3 dark:bg-black/35 sm:px-5 md:px-10": isFixed,
         })}
       >
         <NavLogo isFixed={isFixed} />

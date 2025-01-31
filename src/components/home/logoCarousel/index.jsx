@@ -14,8 +14,8 @@ export default function LogoCarousel() {
   ];
   return (
     <section className="fluid gridContainer relative mt-4 flex h-36 w-full items-center overflow-hidden">
-      <div className="fluid absolute inset-y-0 left-0 z-10 w-64 bg-gradient-to-r from-light-EAEEFE/70 to-light-EAEEFE/80 dark:from-dark-0d0d0d/30 dark:to-dark-0d0d0d/60"></div>
-      <div className="fluid absolute inset-y-0 right-0 z-10 w-64 bg-gradient-to-l from-light-EAEEFE/70 to-light-EAEEFE/80 dark:from-dark-0d0d0d/30 dark:to-dark-0d0d0d/60"></div>
+      <div className="fluid absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-l from-light-EAEEFE/70 to-light-EAEEFE/80 dark:from-dark-0d0d0d/30 dark:to-dark-0d0d0d/60 sm:w-36 md:w-52 lg:w-64"></div>
+      <div className="fluid absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-r from-light-EAEEFE/70 to-light-EAEEFE/80 dark:from-dark-0d0d0d/30 dark:to-dark-0d0d0d/60 sm:w-36 md:w-52 lg:w-64"></div>
 
       <Carousel
         plugins={[

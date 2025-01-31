@@ -10,7 +10,7 @@ export default function NavLogo({ isFixed }) {
         alt="weecoins premium logo black"
         width={300}
         height={150}
-        className="inline h-full max-h-36 w-full max-w-72 dark:hidden"
+        className="inline h-full max-h-28 w-full max-w-60 dark:hidden sm:max-h-36 sm:max-w-72"
         quality={100}
       />
       <Image
@@ -18,7 +18,7 @@ export default function NavLogo({ isFixed }) {
         alt="weecoins premium logo black"
         width={300}
         height={150}
-        className="hidden h-full max-h-36 w-full max-w-72 dark:inline"
+        className="h-fullmax-h-28 hidden w-full max-w-60 dark:inline sm:max-h-36 sm:max-w-72"
         quality={100}
       />
     </Link>

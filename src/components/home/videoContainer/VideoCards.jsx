@@ -31,9 +31,9 @@ export default function VideoCards() {
   ];
 
   return (
-    <article className="flex w-full items-start justify-between gap-5">
+    <article className="grid w-full grid-cols-1 justify-items-center gap-y-5 sm:grid-cols-2 lg:grid-cols-4 lg:justify-items-start">
       {cards.map((card, index) => (
-        <div key={index} className="item-start flex max-w-64 flex-col gap-[10px] py-10 text-black dark:text-light-EAEEFE">
+        <div key={index} className="item-start flex max-w-64 flex-col gap-[10px] py-2 text-black dark:text-light-EAEEFE sm:py-5 lg:py-10">
           <card.icon className="h-10 w-10" />
           <h4 className="font-dmSans text-lg font-bold">{card.title}</h4>
           <p className="font-inter text-base leading-6">{card.description}</p>

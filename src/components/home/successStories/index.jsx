@@ -1,6 +1,7 @@
+"use client";
 import SectionTitle from "@/components/common/SectionTitle";
 import { Marquee } from "@/components/ui/marquee";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import MarqueeCard from "./MarqueeCard";
 import { useTranslations } from "next-intl";
 
@@ -9,12 +10,29 @@ export default function SuccessStories({ data }) {
   const firstRow = data.slice(0, data.length / 3);
   const secondRow = data.slice(data.length / 3, (2 * data.length) / 3);
   const thirdRow = data.slice((2 * data.length) / 3);
+  const [mobileRow, setMobileRow] = useState(secondRow);
+
+  useEffect(() => {
+    const mobileRowEdit = () => {
+      if (window.innerWidth > 640) {
+        setMobileRow(secondRow);
+      } else {
+        setMobileRow([...firstRow, ...thirdRow, ...secondRow]);
+      }
+    };
+
+    mobileRowEdit();
+    window.addEventListener("resize", mobileRowEdit);
+
+    return () => window.removeEventListener("resize", mobileRowEdit);
+  }, []);
+
   return (
     <section className="relative mb-[60px] mt-[92px] flex flex-col items-center justify-center gap-10 overflow-x-hidden text-center">
       <SectionTitle title={t("successStories.title")} description={t("successStories.description")} />
       <article className="overflow-x-hidden">
         <div className="relative flex max-h-[780px] w-full items-center justify-center gap-5 overflow-hidden rounded-lg md:shadow-xl">
-          <Marquee vertical pauseOnHover className="[--duration:20s]">
+          <Marquee vertical pauseOnHover className="hidden [--duration:20s] sm:block">
             {firstRow.map((item, index) => (
               <MarqueeCard
                 key={index}
@@ -26,8 +44,8 @@ export default function SuccessStories({ data }) {
               />
             ))}
           </Marquee>
-          <Marquee vertical pauseOnHover className="[--duration:20s]">
-            {secondRow.map((item, index) => (
+          <Marquee vertical pauseOnHover className="[--duration:40s] sm:[--duration:20s]">
+            {mobileRow.map((item, index) => (
               <MarqueeCard
                 key={index}
                 name={item.name + " " + item.surname}
@@ -38,7 +56,7 @@ export default function SuccessStories({ data }) {
               />
             ))}
           </Marquee>
-          <Marquee vertical pauseOnHover className="[--duration:20s]">
+          <Marquee vertical pauseOnHover className="hidden [--duration:20s] lg:block">
             {thirdRow.map((item, index) => (
               <MarqueeCard
                 key={index}

@@ -25,7 +25,7 @@ export default function AccessToKnowledge() {
         {cardItems.map((item, index) => (
           <div
             key={index}
-            className="group flex h-full w-full max-w-[520px] flex-col items-center justify-center rounded-2xl border border-solid border-[#1B1B1B]/10 px-10 py-10 shadow-lg dark:border-light-EAEEFE/30"
+            className="group flex h-full w-full flex-col items-center justify-center rounded-2xl border border-solid border-[#1B1B1B]/10 px-4 py-10 shadow-lg dark:border-light-EAEEFE/30 sm:px-10 md:max-w-[520px]"
           >
             <div>
               <Image
@@ -33,12 +33,14 @@ export default function AccessToKnowledge() {
                 width={330}
                 height={330}
                 alt="weecoins access to knowledge image"
-                className="max-h-[330px] max-w-[330px] object-cover drop-shadow-lg -hue-rotate-180 transition-transform duration-300 group-hover:scale-105"
+                className="h-full w-full max-w-[280px] object-cover drop-shadow-lg -hue-rotate-180 transition-transform duration-300 group-hover:scale-105 sm:max-w-[400px] md:max-w-[520px]"
               />
             </div>
-            <div className="flex flex-col items-center justify-center bg-gradient-to-t from-light-833E15 to-black bg-clip-text text-center text-transparent dark:from-light-EAEEFE dark:to-light-EAEEFE">
-              <h4 className="text-nowrap font-dmSans text-2xl font-bold leading-[60px]">{item.title}</h4>
-              <p className="font-inter text-base font-light leading-[23px]">{item.description}</p>
+            <div className="flex flex-col items-center justify-center gap-2 bg-gradient-to-t from-light-833E15 to-black bg-clip-text text-center text-transparent dark:from-light-EAEEFE dark:to-light-EAEEFE md:gap-0">
+              <h4 className="text-wrap font-dmSans text-xl font-bold leading-9 sm:text-2xl md:text-nowrap md:leading-[60px]">
+                {item.title}
+              </h4>
+              <p className="font-inter text-sm font-light leading-5 sm:text-base sm:leading-[23px]">{item.description}</p>
             </div>
           </div>
         ))}

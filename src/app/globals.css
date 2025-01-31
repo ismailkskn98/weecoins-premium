@@ -13,23 +13,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (min-width: 1024) {
-  html {
-    overflow-y: scroll;
-  }
-  body::-webkit-scrollbar {
-    width: 12px; /* Scroll genişliği */
-  }
-
-  body::-webkit-scrollbar-track {
-    background-color: transparent !important;
-  }
-
-  body::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.3); /* Hafif şeffaflık */
-  }
-}
-
 .gridContainer {
   display: grid;
   grid-template-columns: 1fr min(1660px, 94%) 1fr;

@@ -1,14 +1,14 @@
 import PageTitle from "@/components/common/PageTitle";
-import EcosystemMain from "@/components/ecosystem";
+import OurProjectsMain from "@/components/ourProjects";
 import { useTranslations } from "next-intl";
 import React from "react";
 
-export default function Ecosystem() {
-  const t = useTranslations("EcosystemPage");
+export default function OurProjects() {
+  const t = useTranslations("OurProjectsPage");
   return (
     <>
       <PageTitle title={t("title")} subtitle={t("subtitle")} />
-      <EcosystemMain />
+      <OurProjectsMain />
     </>
   );
 }

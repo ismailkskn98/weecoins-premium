@@ -5,7 +5,7 @@
 }
 
 .vertical-timeline-element-icon {
-  background: rgba(255, 255, 255, 0.3);
+  background: var(--color-light-331808);
   box-shadow: none !important;
 }
 .vertical-timeline-element-icon svg {

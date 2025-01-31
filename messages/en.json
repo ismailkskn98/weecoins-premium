@@ -3,8 +3,8 @@
     "navbar": {
       "home": "Home",
       "about": "About Us",
-      "ecosystem": "Ecosystem",
-      "gallery": "Gallery",
+      "ourProjects": "Our Projects",
+      "newsFromUs": "Gallery",
       "contact": "Contact"
     },
     "modToggle": {
@@ -102,7 +102,7 @@
       }
     }
   },
-  "EcosystemPage": {
+  "OurProjectsPage": {
     "title": "Roadmap",
     "subtitle": "An inspiring journey from the beginning to today",
     "cards": {
@@ -204,6 +204,72 @@
           }
         },
         "detailedText": "Weekobi is an intelligent commerce platform integrated into the Weecoins Premium ecosystem, bringing together stores and customers. Stores can join the system for free, attracting new customers, while growing through a sales-based advertising model where they pay commissions for the sales made through the Weepoint app. Customers earn WCP as they shop, becoming part of the ecosystem."
+      }
+    }
+  },
+  "NewsFromUs": {
+    "title": "Hakkımızda",
+    "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
+    "newspapers": {
+      "weecoins": {
+        "title": "Weecomi Disrupts the Crypto Industry with Weecoins",
+        "subtitle": "Weecomi International has entered the cryptocurrency industry by launching its own cryptocurrency and exchange under its sub-brand Weecoins.",
+        "description": "The mobile crypto payment system Weecoins is being launched as a platform and application that will enable users to send and receive cryptocurrency and earn money while facilitating mobile payments for local shopping, e-commerce, flight tickets, hotel reservations, and daily transactions. Weecomi International's Founder and President Özkan Cıbır has been helping small and medium-sized businesses adapt to technology and transition into mobile commerce since 2013.",
+        "interview": {
+          "weecoinsInfo": {
+            "title": "Mr. Özkan, can you provide information about Weecomi International and Weecoins?",
+            "description": "Weecoins was established in 2013 as a subsidiary of Weecomi International, operating in Turkey, Azerbaijan, Russia, Ukraine, Kazakhstan, Kyrgyzstan, and Georgia. Weecoins was created to provide more attractive payment options to the stores and customers that Weecomi International has built over the years. By establishing its own currency infrastructure, Weecoins encourages customers to use Weecoins for transactions, offering additional discounts and promotions. Our goal is to build the world's largest shopping community and merge physical and online commerce through e-commerce.",
+            "slogan": "We will break new ground in today's and future economies."
+          },
+          "ozkanCibir": "Özkan Cıbır: 'Weecoins will be a marketplace. We will digitize businesses through local sales teams, call centers, and local advertisements. The business network will be supported by online and mass marketing. As the Weecomi mobile application, we will act as a payment system partner, and businesses within the payment system pools will have the potential to become Weecomi businesses.'",
+          "ozkanCibirSlogan": "Crazy ideas change the world.",
+          "cibir": "Cıbır: 'Until 2009, there were only 8 million millionaires worldwide. After 2014, there was a millionaire boom, and by 2020, this number exceeded 17 million. So, what caused this change? It was cryptocurrencies, which are widely discussed today but known by only 2% of the global population. The daily trading volume of the world's top 10 cryptocurrency exchanges is $56 million. Yes, the world is changing much faster than it did in the 2000s. Those who see the opportunity and adapt to this change achieve their dreams.'",
+          "difference": {
+            "title": "What sets you apart from other cryptocurrency companies?",
+            "description": "Our difference from other cryptocurrency companies is that we have a shopping infrastructure. Most cryptocurrencies are launched first, and then they try to create places where they can be used for transactions. Unfortunately, many fail at this and either disappear or lose value. Weecoins, on the other hand, is a cryptocurrency backed by Weecomi International, which has built tens of thousands of stores and a customer network of hundreds of thousands worldwide over seven years. From the moment Weecoins is launched, it already has ready-to-use stores and customers. Additionally, it is one of the rare cryptocurrencies with its own exchange. Weecomi International's proprietary gaming application, Weemobil, with 170,000 customers, will add further value by allowing payments with Weecoins."
+          },
+          "stockMarket": {
+            "title": "Mr. Özkan, can you elaborate on your own exchange?",
+            "description": "Yes, we have our own exchange called Weeswaps. This exchange hosts not only our cryptocurrencies but also allows users to trade the top 10 cryptocurrencies like Bitcoin, Ethereum, and Dash. Weeswaps holds the title of being the first official exchange in Kazakhstan and Kyrgyzstan and is also legally operating in Turkey.",
+            "slogan": "The Weecomi Wallet creates an ecosystem."
+          },
+          "detailText": "Özkan Cıbır: 'Weecoins and the Weecomi Wallet create an ecosystem where shopping, payments, and earning money are possible through a free mobile application. Weecoins, a universal and decentralized cryptocurrency wallet, enables users to shop, purchase deals, buy Bitcoin, Ethereum, and other cryptocurrencies with a credit card, send, receive, and store cryptocurrencies, and use the points and coins earned from transactions made within the Weecomi app for payments.'"
+        }
+      },
+      "cryptoCurrencyExpert": {
+        "title": "ÖZKAN CIBIR SELECTED AS THE BEST CRYPTOCURRENCY EXPERT OF THE YEAR",
+        "subtitle": "The Golden Angel Awards found their owners in a magnificent ceremony held at Istanbul MKM. Many prominent figures from business, society, sports, and arts were honored for their achievements. One of the most notable names of the night was Özkan Cıbır, a pioneer in the cryptocurrency sector, who received the Best Cryptocurrency Expert of the Year award.",
+        "description": "Since 2020, Cryptocurrency Expert Özkan Cıbır has been working in the cryptocurrency field and has been selected as the Cryptocurrency Expert of the Year. As one of the leading figures in Turkey, Cıbır organizes training sessions in various countries worldwide. The successful entrepreneur, who owns a local blockchain network, not only provides training but also develops AI-based trading robots. These robots offer special tokens to many firms and associations globally. Additionally, he hosts programs on various TV channels, sharing insights into the world of cryptocurrency with a broader audience.",
+        "africa": {
+          "title": "New Project in Africa",
+          "description": "Özkan Cıbır stated that they are preparing for a new project in Africa in 2024: ‘Apart from Turkey, we are running official projects in Azerbaijan, Russia, Kazakhstan, Georgia, and Kyrgyzstan. In 2024, we plan to conduct research and development studies in the African market. We are holding meetings with bureaucrats regarding the legal status of cryptocurrencies. We will lead significant projects and investments in these regions as well.’"
+        },
+        "risk": {
+          "title": "Ways to Trade with Minimum Risk",
+          "description": "Speaking at the award ceremony, Cıbır said, ‘We believe that cryptocurrency will become highly significant in the future, and we continue our efforts to prepare people for this new world. Under our blockchain, we have developed both a coin and a token. Security and reliability are crucial in this field, so we continuously innovate and develop our work with the support of technology. Our efforts are paying off and leading to success, strengthening our position both in Turkey and globally. With this innovative approach that we embrace at all times, we will continue to change negative perceptions in the sector and show people how to trade in cryptocurrency markets with minimum risk.’ Mentioning their Weecoins brand, Özkan Cıbır said, ‘Weecoins is the first and only patented cryptocurrency in Turkey, developed by us. We took an innovative step by establishing our blockchain network. Since 2020, we have been operating with official offices in 8 different countries and have investors in nearly 50 countries worldwide. Weecoins stands out with its feature of distributing monthly dividends to investors who hold their assets, making it unique in the cryptocurrency market. This development is seen as a significant milestone in Turkey’s cryptocurrency industry.’"
+        }
+      },
+      "shopping": {
+        "title": "A New Era in Shopping with Weecoins",
+        "subtitle": "Weecoins will popularize the use of cryptocurrencies in daily and local shopping worldwide.",
+        "description": "Özkan Cıbır, Founder of Weecomi International, which operates in countries such as Russia, Ukraine, Kazakhstan, and Turkey, stated that Weecoins is a subsidiary of Weecomi International, founded in 2013. With Weecoins, users will be able to complete their daily shopping such as flight tickets, hotel reservations, and online shopping by using cryptocurrencies on a single platform. Özkan Cıbır mentioned that Weecomi International has created a shopping bridge between customers and stores worldwide, with over 10,000 partner stores and nearly 270,000 customers. Leveraging this vast network, Weecomi aims to increase cryptocurrency usage by making Weecoins available for use by customers in partner stores in 2021. A total of 900,000,000 Weecoins will be produced, with production set to be completed over five years. Weecoins, which has investors in 20 countries, has risen from $0.08 to $0.30 since February, offering a 4x return.",
+        "freeMobile": {
+          "title": "Free Mobile App",
+          "description": "Özkan Cıbır stated that the free mobile application Weecoins Wallet creates an ecosystem where shopping, payments, and earning money are possible. With the Weecoins crypto wallet, users can shop with Weecoins, purchase cryptocurrencies with credit cards, send, receive, and store Bitcoin, Ethereum, and other cryptocurrencies, use points and coins earned from purchases made through the Weecomi app, and make payments via partnered payment platforms. Weeswaps is defined as Turkey's most innovative digital asset trading platform. Weeswaps users can make transactions at their desired prices without waiting, using fast buy and sell options. All digital assets can be stored in offline wallets with physical security."
+        }
+      },
+      "wedding": {
+        "title": "A Thousand Cryptos from the Groom's Relative",
+        "subtitle": "In Hatay Iskenderun, an interesting gift ceremony was held at the wedding of Oğuzhan and Özge Altunkürek. A family member, Hamza Özkan Cıbır, who is a cryptocurrency investor, gifted the bride and groom with a thousand cryptos, each worth 3 dollars. The bride’s father, Metin Buluç, stated that they had never encountered anything like this before and wished everyone good luck with digital currency.",
+        "cibir": "Cıbır said, 'Perhaps we have created the event of the future. Everything is becoming digital. Even at weddings, gifts can be given in this way.'"
+      },
+      "kripto": {
+        "title": "Özkan Cıbır Named Cryptocurrency Expert of the Year",
+        "subtitle": "Since 2020, Cıbır has been actively working in the cryptocurrency field in Turkey and conducting training sessions worldwide. The successful entrepreneur, who owns a local blockchain network, not only provides education but also develops AI-based trading robots. These robots offer special tokens for various companies and organizations worldwide. Additionally, he hosts programs on multiple TV channels, spreading knowledge about the cryptocurrency world to a broad audience."
+      },
+      "expert": {
+        "title": "Named Cryptocurrency Expert of the Year",
+        "subtitle": "A grand ceremony at Istanbul MKM honored the winners of the prestigious Golden Angel Awards, recognizing excellence in various fields from sports to arts. One of the evening’s highlights was Özkan Cıbır receiving the Cryptocurrency Expert of the Year award, recognizing his contributions as a leading figure in the sector."
       }
     }
   }

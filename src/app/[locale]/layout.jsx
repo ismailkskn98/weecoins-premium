@@ -52,7 +52,7 @@ export default async function RootLayout({ children, params }) {
       >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-            <main className="fluid gridContainer min-h-screen overflow-x-hidden font-inter">
+            <main className="fluid gridContainer min-h-screen font-inter">
               <Toaster position="top-center" richColors />
               <Header />
               {children}

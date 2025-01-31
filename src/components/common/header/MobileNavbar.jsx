@@ -16,8 +16,8 @@ export default function MobileNavbar({ isFixed = false }) {
   const navItems = [
     { path: "/", label: t("navbar.home") },
     { path: "/about", label: t("navbar.about") },
-    { path: "/ecosystem", label: t("navbar.ecosystem") },
-    { path: "/news-from-us", label: t("navbar.gallery") },
+    { path: "/our-projects", label: t("navbar.ourProjects") },
+    { path: "/news-from-us", label: t("navbar.newsFromUs") },
     { path: "/contact", label: t("navbar.contact") },
   ];
   return (

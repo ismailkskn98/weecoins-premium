@@ -1,15 +1,16 @@
-import SlugPage from "@/components/ecosystem/SlugPage";
+import SlugPage from "@/components/ourProjects/SlugPage";
 import { getTranslations } from "next-intl/server";
 import React from "react";
 
 export default async function page({ params }) {
   const slug = (await params).slug;
-  const t = await getTranslations("EcosystemPage");
+  const t = await getTranslations("OurProjectsPage");
   const cards = [
     {
       title: t("cards.weeZard.shortTitle"),
       slug: t("cards.weeZard.slug"),
       description: t("cards.weeZard.shortDescription"),
+      image: "weezard.png",
       sections: {
         howItWorks: {
           title: t("cards.weeZard.sections.howItWorks.title"),
@@ -31,6 +32,7 @@ export default async function page({ params }) {
       title: t("cards.weeCard.shortTitle"),
       slug: t("cards.weeCard.slug"),
       description: t("cards.weeCard.shortDescription"),
+      image: "weecard.png",
       sections: {
         howItWorks: {
           title: t("cards.weeCard.sections.howItWorks.title"),
@@ -52,6 +54,7 @@ export default async function page({ params }) {
       title: t("cards.weeSale.shortTitle"),
       slug: t("cards.weeSale.slug"),
       description: t("cards.weeSale.shortDescription"),
+      image: "weesale.png",
       sections: {
         howItWorks: {
           title: t("cards.weeSale.sections.howItWorks.title"),
@@ -73,6 +76,7 @@ export default async function page({ params }) {
       title: t("cards.weekobi.shortTitle"),
       slug: t("cards.weekobi.slug"),
       description: t("cards.weekobi.shortDescription"),
+      image: "weekobi.png",
       sections: {
         howItWorks: {
           title: t("cards.weekobi.sections.howItWorks.title"),
@@ -91,8 +95,8 @@ export default async function page({ params }) {
       date: t("cards.weekobi.date"),
     },
   ];
-  console.log(slug);
+
   const card = cards.filter((item) => item.slug === slug);
-  console.log(card);
+
   return <SlugPage card={card[0]} />;
 }

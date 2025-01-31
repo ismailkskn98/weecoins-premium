@@ -3,8 +3,8 @@
     "navbar": {
       "home": "Anasayfa",
       "about": "Hakkımızda",
-      "ecosystem": "Ekosistem",
-      "gallery": "Bizden Haberler",
+      "ourProjects": "Projelerimiz",
+      "newsFromUs": "Bizden Haberler",
       "contact": "İletişim"
     },
     "modToggle": {
@@ -100,7 +100,7 @@
       }
     }
   },
-  "EcosystemPage": {
+  "OurProjectsPage": {
     "title": "Yol Haritası",
     "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
     "cards": {
@@ -202,6 +202,72 @@
           }
         },
         "detailedText": "Weekobi, Weecoins Premium ekosistemine entegre edilmiş, mağazalar ve müşterileri bir araya getiren akıllı bir ticaret platformudur. Mağazalar, ücretsiz olarak sisteme katılarak yeni müşteriler kazanırken, Weepoint uygulaması üzerinden yaptıkları satışlardan komisyon ödeyerek satışa dayalı bir reklam modeliyle büyüme sağlarlar. Aynı zamanda, müşteriler alışveriş yaptıkça WCP kazanarak ekosistemin bir parçası haline gelirler."
+      }
+    }
+  },
+  "NewsFromUs": {
+    "title": "Hakkımızda",
+    "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
+    "newspapers": {
+      "weecoins": {
+        "title": "Weecomi, Weecoins ile cripto para sektöründe ezberleri bozdu",
+        "subtitle": "Weecomi international alt markası olan Weecoins ile kendi cripto parasını ve kendi borsasını faaliyete alarak cripto para sektörüne adım attı.",
+        "description": "Mobil cripto ödeme sistemi Weecoins, mobil ödemenin yerel alışveriş, e-ticaret, uçak bileti, otel rezervasyonun yanı sıra günlük ticarette, cripto para gönderip almanın ve para kazanmanın tek bir platform ve uygulamada olmasını sağlayacak şekilde hayata geçiyor. Weecomi international kurucu Başkanı Özkan Cıbır, 2013 yılından itibaren orta ve küçük İşletmelerin teknolojiye ayak uymalarını sağlayarak onları mobil ticarete taşıyor.",
+        "interview": {
+          "weecoinsInfo": {
+            "title": "Özkan Bey Weecomi İnternational ve Weecoins hakkında bilgi verir misiniz?",
+            "description": "Weecoins, 2013 senesinde faaliyete başlamış Türkiye, Azerbaycan, Rusya, Ukrayna, Kazakistan, Kırgızistan, Gürcistan’da faaliyet gösteren Weecomi International kuruluşudur. Weecoins, Weecomi İnternational’ın yıllardır sahada oluşturduğu mağazalarına ve müşterilerine daha cazip ödeme olanakları sağlamak için kuruldu. Weecoins kendi para birimi alt yapısını kurarak bu alış verişlerde müşterilerin weecoins kullanmasını sağlayarak kullanıcılarına ekstra indirimler ve kampanyalar sağlayacak. Hedefimiz dünyanın en büyük alış veriş topluluğunu kurmak ve hem bunu fiziki alış verişlerde hem de internet alış verişleri sayesinde e-ticaretle fiziki ticareti birleştirmek olacak.",
+            "slogan": "Bugünün ve geleceğin ekonomisinde yeni bir çığır açacağız"
+          },
+          "ozkanCibir": "Özkan Cıbır; “Weecoins bir pazar yeri olacak. İşletmeleri, yerel satış ekipleri, çağrı merkezleri ve yerel reklamlar ile dijitalleştireceğiz. İşletme ağı online ve toplu pazarlama ile desteklenecektir. Weecomi Mobil uygulama olarak ödeme sistemleri ile çözüm ortağı olacağız ve ödeme sistemlerinin havuzlarındaki işletmeler potansiyel Weecomi işletmesi olacaktır.",
+          "ozkanCibirSlogan": "Dünyayı değiştiren çılgın fikirlerdir.",
+          "cibir": "Cıbır; “2009 yılına kadar dünyada sadece 8 milyon milyoner vardı. 2014 yılından sonra dünyada bir milyoner patlaması oldu ve 2020 gelindiğinde bu sayı 17 milyonu aştı peki bu değişikliğin sebebi neydi? Son zamanlarda adından çokça bahsedilen ve dünyada sadece toplumun %2’si tarafından bilinen cripto paralar. Cripto paraların işlem yaptığı dünya çapındaki ilk 10 borsanın günlük işlem hacmi 56 milyon dolar. Evet, dünyada her şey 2000 li yıllara göre çok daha hızlı değişiyor. İşte burada fırsatı görenler bu değişime ayak uyduranlar hayallerine ulaşıyor.”",
+          "difference": {
+            "title": "Sizin diğer cripto para firmalarından farkınız nedir?",
+            "description": "Bizim diğer cripto para firmalarından farkımız bir alış veriş alt yapısına sahip olmamız. Dünyada çıkan bütün cripto paralar önce çıkıp sonra alış veriş yapacak yerler oluşturmaya çalışıyorlar. Maalesef bir çoğu bunu tam olarak başaramıyor ya kayboluyor ya da değerini yitiriyor. Weecoins ise üst markası olan Weecomi international’ın 7 yıl içerisinde dünya üzerinde kurduğu on binlerce mağazası ve yüzbinleri geçen müşteri ağına sahip bir cripto para. Çıktığı gün dünya üzerinde alış veriş yapılacak mağazaları ve müşterileri hazır. Aynı zamanda kendi borsası olan ender cripto paralardan bir tanesi. Weecomi internationalın kendi geliştirdiği oyun uygulaması olan Weemobil’in 170 bin müşterisine Weecoins ile ödeme yapması ayrıca bir değer katıyor."
+          },
+          "stockMarket": {
+            "title": "Özkan Bey kendi borsanızdan bahsettiğiniz tam olarak nedir?",
+            "description": "Evet, Weeswaps adında kendi borsamız var. Bu borsada hem kendi cripto paralarımız var hem de insanlar bu borsada bitcoin, ethereum, daşh gibi ilk 10’daki coinleri alıp satabiliyorlar. Kazakistan ve Kırgızistan’ın ilk resmi borsası olma ünvanı sahip olan Weeswaps, Türkiye’de de resmi olarak işlem yapmaktadır.",
+            "slogan": "Weecomi Cüzdan bir ekosistem oluşturuyor."
+          },
+          "detailText": "Özkan Cıbır; “Weecoins ve Weecomi Cüzdan, ücretsiz bir mobil uygulama ile alışverişin, ödemenin ve para kazanmanın mümkün olduğu bir ekosistem oluşturmaktadır. Evrensel, merkezi olmayan bir kripto para cüzdanı olan Weecoins kullanıcılarına, alışveriş yapma, fırsat satın alma, Bitcoin, Ethereum ve diğer kullanılabilen kripto paraların kredi kartı ile satın alımı, kripto paraları gönderme, alma ve saklama işlemlerini ve Weecomi uygulamasında yapılan alışverişlerden elde edilen puanların ve coinlerin kullanılmasını ve ödeme yapma imkanı sağlamaktadır."
+        }
+      },
+      "cryptoCurrencyExpert": {
+        "title": "ÖZKAN CIBIR, YILIN EN İYİ KRİPTO PARA UZMANI SEÇİLDİ",
+        "subtitle": "Altın Melek Ödülleri, İstanbul MKM'de düzenlenen görkemli bir törenle sahiplerini buldu. İş dünyasından cemiyet hayatına, spordan sanata pek çok alanda önemli isim başarıları ile ödüle layık görüldü. Gecenin dikkat çeken isimlerinden biri kripto para sektörünün öncülerinden Özkan Cıbır oldu. Cıbır, Yılın En İyi Kripto Para Uzmanı ödülünün sahibi oldu.",
+        "description": "Türkiye'de 2020 yılından bu yana kripto para alanında çalışmalar yürüten Kripto Para Uzmanı Özkan Cıbır, yılın Kripto Para Uzmanı seçildi. Türkiye’de alanında öncü isimlerden biri olan Cıbır, dünya genelinde birçok ülkede eğitimler düzenliyor. Yerli blok zinciri ağına sahip olan başarılı girişimci, sadece eğitimlerle kalmayıp yapay zeka tabanlı borsa robotları geliştiriyor. Bu robotlar, dünya çapında birçok firmaya ve derneğe özel tokenler sunuyor. Ayrıca, çeşitli TV kanallarında programlar yaparak, kripto para dünyasına dair bilgileri geniş kitlelere ulaştırıyor.",
+        "africa": {
+          "title": "Afrika’da yeni proje",
+          "description": "2024 yılında Afrika’da yeni bir proje için hazırlandıklarını ifade eden Özkan Cıbır, “Türkiye haricinde Azerbaycan, Rusya, Kazakistan, Gürcistan ve Kırgızistan'da resmi projeler yürütüyoruz. 2024 yılında Afrika pazarında araştırma ve geliştirme çalışmaları planlıyoruz. Kripto paranın yasal statüsü için bürokratlarla görüşmeler gerçekleştiriyoruz. Buralarda da öncülük edebileceğimiz çok önemli proje ve yatırımlarımız olacak.” dedi."
+        },
+        "risk": {
+          "title": "Minimum riskle işlem yapma yolları",
+          "description": "Ödül töreninde konuşan Cıbır, Gelecekte kripto paranın çok önemli bir konuma ulaşacağına inanıyoruz ve insanları bu yeni dünyaya hazırlama konusunda çalışmalarımızı yürütüyoruz. Kendi blok zincirimiz altında hem bir coin hem de bir token geliştirdik. Bu alanda güvenlik ve güvenirlilik çok önemli etkenlerden dolayısı ile biz de bu alandaki çalışmalarımızı teknolojinin de desteği ile sürekli yenileyerek ve geliştirerek sürdürüyoruz. Bu çabamız da karşılığını alıyor ve başarıya dönüşüyor. Bu başarı da hem Türkiye'de hem de dünyada konumumuzu güçlendiriyor. Her an benimsediğimiz bu yenilikçi yaklaşımla, sektördeki olumsuz düşünceleri değiştirmeye ve insanlara kripto para piyasalarında minimum riskle işlem yapma yollarını göstermeye devam edeceğiz.” İfadelerini kullandı. Geliştirdikleri Weecoins markasından da söz eden Özkan Cıbır, “Weecoins, bizim geliştirdiğimiz ve Türkiye'nin ilk ve tek patentli kripto parası olarak ön plana çıkıyor. Kripto para birimimizi, kendi blockchain ağımızı kurarak yenilikçi bir adım attık. 2020 yılından bu yana 8 farklı ülkede resmi ofislerimizle faaliyet gösteriyoruz ve dünya genelinde 50'ye yakın ülkede yatırımcılarımız bulunuyor. Weecoins, özellikle Hold yapan yatırımcılarına aylık kar payı dağıtmasıyla dikkat çekiyor ve bu özelliğiyle kripto para piyasasında kendine özgü bir yer ediniyor. Bu gelişme, Türkiye'deki kripto para piyasasında önemli bir kilometre taşı olarak görülüyor” dedi."
+        }
+      },
+      "shopping": {
+        "title": "Weecoins ile alışverişte yeni dönem",
+        "subtitle": "Weecoins, dünyada kripto para birimlerinin günlük ve yerel alışverişlerde kullanımını yaygınlaştıracak.",
+        "description": "Weecomi'nin Rusya Ukrayna, Kazakistan ve Türkiye gibi ülkelerde hizmet sunduğunu belirten Weecomi international Kurucu Başkanı Özkan Cıbır; Weecoins, 2013 yılında kurulan Weecomi International firmasının bir alt kuruluşudur. Weecoins ile kullanıcılar, uçak bileti, otel rezervasyonu ve online alışverişler gibi günlük alışverişlerini tek bir platform üzerinden kripto paraları kullanarak gerçekleştirebilecek. dedi. Weecomi International'in dünya üzerinde müşteriler ile mağazalar arasında bir alışveriş köprüsü kurduğunu belirten Özkan Cıbır; Weecomi International'in şu anda 10.000'i aşkın anlaşmalı mağazası ve yaklaşık 270.000 müşterisi bulunuyor. Bu büyük ağdan faydalanarak kripto para kullanımını arttırmak isteyen Weecomi, 2021 yılında anlaşmalı olduğu mağazalarda Weecoins'i müşterilerinin kullanımına açacak. Toplamda 900.000.000 adet üretilecek olan Weecoins'in üretimi 5 yılda tamamlanacak. 20 ülkede yatırımcısı bulunan Wecoins, şubat ayından bu yana 0,08 dolardan 0,30 dolara yükselerek 4 kat kazandırdı.",
+        "freeMobile": {
+          "title": "Ücretsiz mobil uygulama",
+          "description": "Özkan Cıbır; Ücretsiz bir mobil uygulama olan Weecoins Cüzdan, alışverişin, ödemenin ve para kazanmanın mümkün olduğu bir ekosistem oluşturuyor. Weecoins kripto cüzdanı olan cüzdan kullanıcılar Weecoins ile alışveriş, kripto para birimlerinin kredi kartı ile alımı, Bitcoin, Ethereum ve diğer kripto para birimlerini alma, gönderme ve saklama işlemleri, Weecomi uygulamasından yapılan alışverişlerden elde edilen puanları ve coin'leri kullanma imkanı ve ortak olunan ödeme platformları ile ödeme yapma imkanı sahip oluyorlar. Weeswaps'ı ise Türkiye'nin en yenilikçi dijital varlık işlem platformu olarak tanımlıyoruz. Weeswaps kullanıcıları, hızlı alış-satış seçenekleri ile işlemleri istedikleri fiyattan beklemeden gerçekleştirebiliyor. Tüm dijital varlıklar fiziksel güvenliği sağlanmış çevrimdışı cüzdanlarda muhafaza edebiliyorlar."
+        }
+      },
+      "wedding": {
+        "title": "Damadın yakınından bin kripto",
+        "subtitle": "Hatay İskenderun'da Oğuzhan ve Özge Altunkürek'in düğünlerinde ilginç bir takı merasimi düzenlendi. Kripto para yatırımcısı olan aile yakını Hamza Özkan Cıbır tarafından gelin ve damada her biri 3 dolar değerinde bin adet kripto para takıldı. Gelinin babası Metin Buluç, ilk defa böyle bir şeye denk geldiklerini belirterek, dijital paranın herkese hayırlı uğurlu olmasını diledi.",
+        "cibir": "Cıbır ise Belki de geleceğin olayını yaptık. Artık her şey dijitalleşiyor. Düğünlerde bile takılar bu şekilde yapılabiliyor dedi."
+      },
+      "kripto": {
+        "title": "Özkan Cıbır, Yılın En İyi Kripto Para Uzmanı seçildi",
+        "subtitle": "Türkiye'de 2020 yılından bu yana kripto para alanında çalışmalar yürüten Cıbır, aynı zamanda dünya genelinde birçok ülkede eğitimler düzenliyor. Yerli blok zinciri ağına sahip olan başarılı girişimci, sadece eğitimlerle kalmayıp yapay zeka tabanlı borsa robotları geliştiriyor. Bu robotlar, dünya çapında birçok firmaya ve derneğe özel tokenler sunuyor. Ayrıca, çeşitli TV kanallarında programlar yaparak, kripto para dünyasına dair bilgileri geniş kitlelere ulaştırıyor."
+      },
+      "expert": {
+        "title": "Yılın En İyi Kripto Para Uzmanı seçildi",
+        "subtitle": "İstanbul MKM'de düzenlenen görkemli bir törenle Altın Melek Ödülleri sahiplerini buldu. Çeşitli branşlarda verilen bu prestijli ödüller, spordan sanata kadar geniş bir yelpazede başarıları onurlandırdı. Gecenin dikkat çeken anlarından biri ise, kripto para sektöründeki öncü isimlerden Özkan Cıbır'ın Yılın En İyi Kripto Para Uzmanı ödülünü almasıydı."
       }
     }
   }

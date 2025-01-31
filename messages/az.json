@@ -3,8 +3,8 @@
     "navbar": {
       "home": "Əsas səhifə",
       "about": "Haqqımızda",
-      "ecosystem": "Ekosistem",
-      "gallery": "Qalereya",
+      "ourProjects": "Projelerimiz",
+      "newsFormUs": "Xəbərlərimiz",
       "contact": "Əlaqə"
     },
     "modToggle": {
@@ -102,7 +102,7 @@
       }
     }
   },
-  "EcosystemPage": {
+  "OurProjectsPage": {
     "title": "Yol Xəritəsi",
     "subtitle": "Başlanğıcdan bugünkü günə qədər ruhlandırıcı bir hekayə",
     "cards": {
@@ -207,6 +207,36 @@
           }
         },
         "detailedText": "Weekobi, Weecoins Premium ekosisteminə inteqrasiya olunmuş ağıllı ticarət platformasıdır. Mağazalar, müştərilərini cəlb etmək və satışlarını artırmaq üçün Weekobi-yə qoşula bilər. Həmçinin satış əsaslı reklam modeli ilə satıcılar, Weepoint tətbiqi vasitəsilə həyata keçirilən satışlardan komissiyalar ödəyir. Müştərilər alış-veriş edərək WCP qazanır və ekosistemin bir hissəsi olurlar."
+      }
+    }
+  },
+  "NewsFromUs": {
+    "title": "Hakkımızda",
+    "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
+    "newspapers": {
+      "weecoins": {
+        "title": "Weecomi, Weecoins ilə kriptovalyuta sektorunda yenilik etdi",
+        "subtitle": "Weecomi International, Weecoins alt markası ilə öz kriptovalyutasını və birjasını işə salaraq kriptovalyuta sektoruna qədəm qoydu."
+      },
+      "cryptoCurrencyExpert": {
+        "title": "ÖZKAN CIBIR, İLİN ƏN YAXŞI KRİPTO PULA UZMANI SEÇİLDİ",
+        "subtitle": "Qızıl Mələk Mükafatları İstanbul MKM-də möhtəşəm bir mərasimlə sahiblərinə təqdim edildi. Biznes, cəmiyyət, idman və incəsənət sahələrindən bir çox görkəmli şəxs nailiyyətlərinə görə mükafatlandırıldı. Gecənin diqqətçəkən adlarından biri kripto pul sektorunun öncüllərindən olan Özkan Cıbır oldu. Cıbır, ilin ən yaxşı kripto pul eksperti mükafatına layiq görüldü."
+      },
+      "shopping": {
+        "title": "Weecoins ilə alış-verişdə yeni dövr",
+        "subtitle": "Weecoins, dünyada kriptovalyutaların gündəlik və yerli alış-verişlərdə istifadəsini genişləndirəcək."
+      },
+      "wedding": {
+        "title": "Bəyin yaxınından min kripto",
+        "subtitle": "Hatay İskenderunda Oğuzhan və Özge Altunkürekin toyunda maraqlı bir takı mərasimi keçirildi. Kriptovalyuta investorları olan ailə yaxınlarından Hamza Özkan Cıbır, gəlinə və bəyə hər biri 3 dollar dəyərində min ədəd kriptovalyuta hədiyyə etdi. Gəlinin atası Metin Buluç, belə bir şeyə ilk dəfə rast gəldiklərini bildirərək, rəqəmsal pulun hər kəsə xeyirli olmasını arzuladı."
+      },
+      "kripto": {
+        "title": "Özkan Cıbır İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi seçildi",
+        "subtitle": "2020-ci ildən bəri Cıbır Türkiyədə kriptovalyuta sahəsində fəaliyyət göstərir və dünyanın müxtəlif ölkələrində təlimlər təşkil edir. Yerli blokçeyn şəbəkəsinə sahib uğurlu sahibkar yalnız tədrislə kifayətlənməyib, həm də süni intellekt əsaslı ticarət robotları inkişaf etdirir. Bu robotlar dünya miqyasında bir çox şirkət və təşkilata xüsusi tokenlər təqdim edir. Bundan əlavə, o, müxtəlif televiziya kanallarında verilişlər apararaq, kriptovalyuta dünyası ilə bağlı bilikləri geniş auditoriyaya çatdırır."
+      },
+      "expert": {
+        "title": "İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi seçildi",
+        "subtitle": "İstanbul MKM-də möhtəşəm bir mərasimdə Qızıl Mələk Mükafatları sahiblərinə təqdim olundu. İdmandan sənətə qədər müxtəlif sahələrdə verilən bu nüfuzlu mükafatlar, uğurları təltif etdi. Gecənin ən yaddaqalan anlarından biri isə kriptovalyuta sektorunun tanınmış simalarından biri olan Özkan Cıbırın 'İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi' mükafatını qazanması oldu."
       }
     }
   }

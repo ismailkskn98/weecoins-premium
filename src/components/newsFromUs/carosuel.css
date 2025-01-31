@@ -7,3 +7,9 @@
 .swiper-pagination-bullet-active {
   background-color: var(--color-light-ffc107);
 }
+
+/* .newspapersWrapper .swiper-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+} */

@@ -31,6 +31,7 @@ const config = {
           BBBBBB: "#BBBBBB",
           B48CDE: "#B48CDE",
           "040404": "#040404",
+          ozelDark: "#0f1115",
         },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

@@ -6,11 +6,15 @@ import dynamic from "next/dynamic";
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 export default function VideoCarouselContainer({ data }) {
-  const [currentVideo, setCurrentVideo] = useState({
-    videoUrl: `https://youtu.be/${data[10].id.videoId}`,
-    title: data[10].snippet.title,
-    thumbnail: data[10].snippet.thumbnails.high.url,
-  });
+  const [currentVideo, setCurrentVideo] = useState(
+    data
+      ? {
+          videoUrl: `https://youtu.be/${data[10].id.videoId}`,
+          title: data[10].snippet.title,
+          thumbnail: data[10].snippet.thumbnails.high.url,
+        }
+      : 1,
+  );
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = React.useRef(null);
   const backVideoRef = React.useRef(null);

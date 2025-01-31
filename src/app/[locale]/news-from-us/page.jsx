@@ -1,6 +1,7 @@
 import PageTitle from "@/components/common/PageTitle";
 import NewsFromUsMain from "@/components/newsFromUs";
 import VideoCarouselContainer from "@/components/newsFromUs/VideoCarouselContainer";
+import { getTranslations } from "next-intl/server";
 import React from "react";
 
 const getYoutubeVideos = async () => {
@@ -18,10 +19,11 @@ const getYoutubeVideos = async () => {
 
 export default async function NewsFromUs() {
   const data = await getYoutubeVideos();
+  const t = await getTranslations("NewsFromUs");
 
   return (
     <>
-      <PageTitle title={"Bizden Haberler"} subtitle={"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, voluptas?"} />
+      <PageTitle title={t("title")} subtitle={t("subtitle")} />
       <NewsFromUsMain>
         <VideoCarouselContainer data={data.videos} />
       </NewsFromUsMain>

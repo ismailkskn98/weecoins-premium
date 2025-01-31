@@ -4,7 +4,7 @@
       "home": "Əsas səhifə",
       "about": "Haqqımızda",
       "ourProjects": "Projelerimiz",
-      "newsFormUs": "Xəbərlərimiz",
+      "newsFromUs": "Xəbərlərimiz",
       "contact": "Əlaqə"
     },
     "modToggle": {
@@ -103,22 +103,22 @@
     }
   },
   "OurProjectsPage": {
-    "title": "Yol Xəritəsi",
-    "subtitle": "Başlanğıcdan bugünkü günə qədər ruhlandırıcı bir hekayə",
+    "title": "Layihələrimiz",
+    "subtitle": "Gələcəyi formalaşdıran layihələrimizlə tanış olun.",
     "cards": {
-      "WE3DUCATION": {
+      "wE3DUCATION": {
         "title": "WE3DUCATION",
         "slug": "we3education",
         "description": "Bu platform öyrənmək istəyən hər kəsə istənilən mövzuda, istənilən yerdə və istənilən vaxt keyfiyyətli təhsil almaq imkanı təqdim edir.",
         "date": "2025 - Birinci Rüb"
       },
-      "WE3STATE": {
+      "wE3STATE": {
         "title": "WE3STATE",
         "slug": "we3state",
         "description": "Trilyon dollarlıq həcmi olan qlobal daşınmaz əmlak bazarı dinamik strukturu və artan əhali tələbləri sayəsində böyük qazanc potensialına malikdir. Buna əsaslanaraq, sizə WCP vasitəsilə sərmayə qoya biləcəyiniz, yeni layihələrə şərik ola biləcəyiniz və tamamlanmış layihələrdən qazanc əldə edə biləcəyiniz bir ekosistem təklif edirik.",
         "date": "2025 - Birinci Yarımil"
       },
-      "WE3NERGY": {
+      "wE3NERGY": {
         "title": "WE3NERGY",
         "slug": "we3energy",
         "description": "WeeCoins Premium (WCP) ilə günəş və külək enerjisi layihələrinə sərmayə qoyaraq davamlı bir gələcək qurmaq üçün bu inqilabın bir hissəsi ola bilərsiniz. Blokçeyn texnologiyası sayəsində WCP sizə bərpa olunan enerji layihələrinə təhlükəsiz, şəffaf və effektiv şəkildə sərmayə qoymağa imkan verir.",
@@ -211,8 +211,8 @@
     }
   },
   "NewsFromUs": {
-    "title": "Hakkımızda",
-    "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
+    "title": "Bizdən Xəbərlər",
+    "subtitle": "Ən son yeniliklərdən xəbərdar olun.",
     "newspapers": {
       "weecoins": {
         "title": "Weecomi, Weecoins ilə kriptovalyuta sektorunda yenilik etdi",
@@ -239,5 +239,26 @@
         "subtitle": "İstanbul MKM-də möhtəşəm bir mərasimdə Qızıl Mələk Mükafatları sahiblərinə təqdim olundu. İdmandan sənətə qədər müxtəlif sahələrdə verilən bu nüfuzlu mükafatlar, uğurları təltif etdi. Gecənin ən yaddaqalan anlarından biri isə kriptovalyuta sektorunun tanınmış simalarından biri olan Özkan Cıbırın 'İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi' mükafatını qazanması oldu."
       }
     }
+  },
+  "ContactPage": {
+    "title": "Əlaqə",
+    "subtitle": "Bizimlə əlaqə saxlayın, sizi tanımaq istərdik.",
+    "form": {
+      "title": "Bağlantılarımızı Gücləndirək",
+      "subtitle": "Sualarınızı cavablandırmaqdan və əməkdaşlıq imkanlarını dəyərləndirməkdən məmnun olarıq.",
+      "name": {
+        "label": "Adınız"
+      },
+      "email": {
+        "label": "E-poçt ünvanınız"
+      },
+      "message": {
+        "label": "Mesajınız"
+      },
+      "button": "Mesajınızı Göndərin"
+    }
+  },
+  "Footer": {
+    "copyright": "WeeCoins Premium © Bütün Hüquqlar Qorunur."
   }
 }

@@ -20,7 +20,7 @@ export default function OurVision() {
           <LearnMore href={"/about"} />
         </div>
       </article>
-      <div className="absolute left-0 top-7 h-full max-h-[362px] w-full max-w-[362px]">
+      <div className="absolute left-0 top-7 hidden h-full max-h-[362px] w-full max-w-[362px] sm:block">
         <Image
           src="/images/our-vision-left.svg"
           alt="weecoins premium material"
@@ -29,7 +29,7 @@ export default function OurVision() {
           className="rotate-12 object-cover"
         />
       </div>
-      <div className="absolute bottom-7 right-3 h-full max-h-[362px] w-full max-w-[362px]">
+      <div className="absolute bottom-7 right-3 hidden h-full max-h-[362px] w-full max-w-[362px] sm:block">
         <Image
           src="/images/our-vision-right.svg"
           alt="weecoins premium material"

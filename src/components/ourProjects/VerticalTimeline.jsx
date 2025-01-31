@@ -76,29 +76,29 @@ export default function VerticalTimelineContainer() {
           iconStyle={{ display: "flex", justifyContent: "center", alignItems: "center" }}
           icon={
             item.icon ? (
-              <item.icon className="!h-6 !w-6 text-light-f88540 dark:text-light-f88540 md:!h-8 md:!w-8" />
+              <item.icon className="!h-6 !w-6 text-white xl:!h-8 xl:!w-8" />
             ) : (
               <Image src={`/images/${item.image}`} alt={item.image} width={60} height={60} className="h-full max-h-14 w-full max-w-14" />
             )
           }
-          date={item.date}
+          // date={item.date}
         >
           {item.slug ? (
             <Link
               href={`/our-projects/${item.slug}`}
-              className="text-xl font-semibold text-light-833E15 transition-all hover:text-black dark:text-white"
+              className="text-lg font-semibold text-light-833E15 transition-all hover:text-black dark:text-white"
             >
               {item.title}
             </Link>
           ) : (
-            <h3 className="text-xl font-semibold text-zinc-800 transition-all hover:text-black dark:text-white">{item.title}</h3>
+            <h3 className="text-lg font-semibold text-zinc-800 transition-all hover:text-black dark:text-white">{item.title}</h3>
           )}
-          <p className="text-zinc-700 dark:text-white/85">
+          <p className="">
             {item.description.length <= 345 ? item.description : `${item.description.slice(0, 400)}...`}
             {item.description.length > 345 && item.slug ? (
               <Link
                 href={`/our-projects/${item.slug}`}
-                className="rounded-md px-3 py-2 text-sm text-light-833E15 underline decoration-light-833E15 underline-offset-4 transition-all hover:text-black"
+                className="rounded-md px-3 py-2 text-sm text-light-833E15 underline decoration-light-833E15 underline-offset-4 transition-all hover:text-black dark:hover:text-white"
               >
                 Devamını Oku
               </Link>

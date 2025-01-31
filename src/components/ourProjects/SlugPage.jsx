@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function SlugPage({ card }) {
   return (
-    <section className="pageSection mt-5 pb-16 md:pb-24">
+    <section className="pageSection mt-20 pb-16 md:mt-5 md:pb-24">
       <main className="relative mx-auto flex w-full items-start py-8">
         <Sidebar slug={card.slug} />
         <motion.div initial={{ opacity: 0, animationDelay: 3 }} animate={{ opacity: 1 }} className="mx-auto max-w-5xl space-y-10">
@@ -28,7 +28,7 @@ export default function SlugPage({ card }) {
 
           <div className="rounded-2xl border border-muted bg-gradient-to-br from-background to-muted p-8 shadow-lg">
             <div className="mb-4 flex items-start gap-4">
-              <div className="rounded-xl bg-primary/10 p-3">
+              <div className="hidden rounded-xl bg-primary/10 p-3 md:block">
                 <Zap className="h-6 w-6 text-primary" />
               </div>
               <div>
@@ -39,7 +39,7 @@ export default function SlugPage({ card }) {
           </div>
           <div className="rounded-2xl border border-muted bg-gradient-to-br from-background to-muted p-8 shadow-lg">
             <div className="mb-4 flex items-start gap-4">
-              <div className="rounded-xl bg-green-500/10 p-3">
+              <div className="hidden rounded-xl bg-green-500/10 p-3 md:block">
                 <CheckCircle className="h-6 w-6 text-green-500" />
               </div>
               <div>
@@ -51,7 +51,7 @@ export default function SlugPage({ card }) {
 
           <div className="rounded-2xl border border-muted bg-gradient-to-br from-background to-muted p-8 shadow-lg">
             <div className="mb-4 flex items-start gap-4">
-              <div className="rounded-xl bg-blue-500/10 p-3">
+              <div className="hidden rounded-xl bg-blue-500/10 p-3 md:block">
                 <Info className="h-6 w-6 text-blue-500" />
               </div>
               <div>

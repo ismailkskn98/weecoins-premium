@@ -103,8 +103,8 @@
     }
   },
   "OurProjectsPage": {
-    "title": "Roadmap",
-    "subtitle": "An inspiring journey from the beginning to today",
+    "title": "Our Projects",
+    "subtitle": "Discover our projects shaping the future.",
     "cards": {
       "wE3DUCATION": {
         "title": "WE3DUCATION",
@@ -208,8 +208,8 @@
     }
   },
   "NewsFromUs": {
-    "title": "Hakkımızda",
-    "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
+    "title": "News from Us",
+    "subtitle": "Stay updated with the latest news.",
     "newspapers": {
       "weecoins": {
         "title": "Weecomi Disrupts the Crypto Industry with Weecoins",
@@ -272,5 +272,26 @@
         "subtitle": "A grand ceremony at Istanbul MKM honored the winners of the prestigious Golden Angel Awards, recognizing excellence in various fields from sports to arts. One of the evening’s highlights was Özkan Cıbır receiving the Cryptocurrency Expert of the Year award, recognizing his contributions as a leading figure in the sector."
       }
     }
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "subtitle": "Contact us, we’d love to meet you.",
+    "form": {
+      "title": "Let's Strengthen Our Connections",
+      "subtitle": "We would be happy to answer your questions and explore collaboration opportunities.",
+      "name": {
+        "label": "Your Name"
+      },
+      "email": {
+        "label": "Your Email Address"
+      },
+      "message": {
+        "label": "Your Message"
+      },
+      "button": "Send Your Message"
+    }
+  },
+  "Footer": {
+    "copyright": "WeeCoins Premium © All Rights Reserved."
   }
 }

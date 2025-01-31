@@ -101,8 +101,8 @@
     }
   },
   "OurProjectsPage": {
-    "title": "Yol Haritası",
-    "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
+    "title": "Projelerimiz",
+    "subtitle": "Geleceği şekillendiren projelerimizle tanışın.",
     "cards": {
       "wE3DUCATION": {
         "title": "WE3DUCATION",
@@ -206,8 +206,8 @@
     }
   },
   "NewsFromUs": {
-    "title": "Hakkımızda",
-    "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
+    "title": "Bizden Haberler",
+    "subtitle": "En son gelişmelerden haberdar olun.",
     "newspapers": {
       "weecoins": {
         "title": "Weecomi, Weecoins ile cripto para sektöründe ezberleri bozdu",
@@ -270,5 +270,26 @@
         "subtitle": "İstanbul MKM'de düzenlenen görkemli bir törenle Altın Melek Ödülleri sahiplerini buldu. Çeşitli branşlarda verilen bu prestijli ödüller, spordan sanata kadar geniş bir yelpazede başarıları onurlandırdı. Gecenin dikkat çeken anlarından biri ise, kripto para sektöründeki öncü isimlerden Özkan Cıbır'ın Yılın En İyi Kripto Para Uzmanı ödülünü almasıydı."
       }
     }
+  },
+  "ContactPage": {
+    "title": "İletişim",
+    "subtitle": "Bize ulaşın, sizinle tanışmak isteriz.",
+    "form": {
+      "title": "Bağlantılarımızı Güçlendirelim",
+      "subtitle": "Sorularınızı yanıtlamaktan ve iş birliği fırsatlarını değerlendirmekten memnuniyet duyarız.",
+      "name": {
+        "label": "Adınız"
+      },
+      "email": {
+        "label": "E-posta Adresiniz"
+      },
+      "message": {
+        "label": "Mesajınız"
+      },
+      "button": "Mesajınızı Gönderin"
+    }
+  },
+  "Footer": {
+    "copyright": "WeeCoins Premium © Tüm Hakları Saklıdır."
   }
 }

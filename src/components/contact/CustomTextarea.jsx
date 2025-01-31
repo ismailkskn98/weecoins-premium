@@ -19,7 +19,7 @@ export default function CustomTextarea(props) {
         }}
         rows={8}
         className={classNames(
-          "w-full resize-none rounded-md border border-solid bg-transparent py-10px pl-3 pr-8 text-sm text-zinc-700 focus:outline-1",
+          "w-full resize-none rounded-md border border-solid bg-transparent py-10px pl-3 pr-8 text-sm text-zinc-700 focus:outline-1 dark:text-zinc-300",
           {
             "border-zinc-300 focus:outline-1 focus:outline-light-f88540/30 dark:border-zinc-600": !meta.error,
             "border-red-500 focus:outline-none": meta.error,
@@ -29,7 +29,7 @@ export default function CustomTextarea(props) {
       {meta.touched && meta.error ? <div className="absolute -bottom-4 left-[2px] text-xs text-red-600">*{meta.error}</div> : null}
       <div
         className={classNames("pointer-events-none absolute rounded-md px-2 text-sm transition-all duration-300", {
-          "-top-[11px] left-1 bg-light-EAEEFE text-xs text-zinc-700 dark:bg-dark-0d0d0d":
+          "-top-[11px] left-1 bg-light-EAEEFE text-xs text-zinc-700 dark:bg-dark-0d0d0d dark:text-zinc-400":
             isFocusInput || (!isFocusInput && field.value.length),
           "left-2 top-4 bg-transparent text-sm text-zinc-600 dark:text-zinc-400": !isFocusInput && !field.value.length,
         })}

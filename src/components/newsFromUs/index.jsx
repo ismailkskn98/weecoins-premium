@@ -4,7 +4,7 @@ import NewspapersCarousel from "./NewspapersCarousel";
 
 export default function NewsFromUsMain({ children }) {
   return (
-    <section className="pageSection mb:pb-24 overflow-x-hidden pb-16">
+    <section className="pageSection mb:pb-24 pb-16">
       <div className="fluid absolute inset-0 -z-20 block sm:hidden">
         <PageGradientBg />
       </div>

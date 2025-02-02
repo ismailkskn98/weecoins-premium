@@ -30,7 +30,7 @@ export default function HeroContent() {
   return (
     <article
       ref={HeroContentRef}
-      className="flex w-full flex-col items-start justify-center gap-6 lg:items-start xl:w-auto 2xl:justify-start"
+      className="flex w-full flex-col items-center justify-center gap-6 lg:items-start xl:w-auto 2xl:justify-start"
     >
       <div className="relative">
         <Image
@@ -46,7 +46,7 @@ export default function HeroContent() {
         </h2>
       </div>
 
-      <p className="-mt-4 w-full max-w-[650px] font-inter text-[14px] text-zinc-800 dark:text-zinc-200 sm:text-[16px] md:text-[22px]">
+      <p className="-mt-4 w-full max-w-[650px] text-center font-inter text-[14px] text-zinc-800 dark:text-zinc-200 sm:text-start sm:text-[16px] md:text-[22px]">
         {t("hero.description")}
       </p>
       <div className="flex items-center gap-4 xl:mt-2 xl:gap-6">

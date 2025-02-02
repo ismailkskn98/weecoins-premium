@@ -7,7 +7,7 @@ import classNames from "classnames";
 export default function HeaderActions({ isTopShow = false, isFixed = false }) {
   return (
     <div
-      className={classNames("items-center gap-3 lg:gap-4", {
+      className={classNames("items-center gap-1 sm:gap-2 md:gap-3 lg:gap-4", {
         "flex xl:hidden": isTopShow,
         "hidden xl:flex": !isTopShow,
       })}

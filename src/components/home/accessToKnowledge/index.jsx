@@ -19,7 +19,7 @@ export default function AccessToKnowledge() {
   ];
 
   return (
-    <section className="mt-[92px] flex w-full flex-col items-center justify-center gap-[60px] overflow-x-hidden">
+    <section className="mt-[92px] flex w-full flex-col items-center justify-center gap-[60px]">
       <SectionTitle title={t("accessToKnowledge.title")} description={t("accessToKnowledge.description")} />
       <article className="mx-auto flex flex-col items-center gap-6 lg:flex-row">
         {cardItems.map((item, index) => (

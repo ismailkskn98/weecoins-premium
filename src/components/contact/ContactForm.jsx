@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
 import { Formik, Form } from "formik";
-import { contactSchema } from "./validationSchema";
 import CustomInput from "./CustomInput";
 import CustomTextarea from "./CustomTextarea";
 import { toast } from "sonner";
 import { useTranslations } from "next-intl";
+import * as Yup from "yup";
 
 const initialValues = {
   name: "",
@@ -15,6 +15,16 @@ const initialValues = {
 
 export default function ContactForm() {
   const t = useTranslations("ContactPage");
+
+  const ContactSchema = Yup.object().shape({
+    name: Yup.string()
+      .min(3, t("form.name.validation.minLength", { min: 3 }))
+      .required(t("form.name.validation.required")),
+    email: Yup.string().email(t("form.email.validation.email")).required(t("form.email.validation.required")),
+    message: Yup.string()
+      .min(10, t("form.message.validation.minLength", { min: 10 }))
+      .required(t("form.message.validation.required")),
+  });
   const handleSubmit = async (values, actions) => {
     try {
       const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/contact-form`, {
@@ -37,7 +47,7 @@ export default function ContactForm() {
   };
 
   return (
-    <Formik initialValues={initialValues} onSubmit={handleSubmit} validationSchema={contactSchema}>
+    <Formik initialValues={initialValues} onSubmit={handleSubmit} validationSchema={ContactSchema}>
       {({ isSubmitting }) => (
         <Form className="flex w-full flex-col gap-y-7 md:gap-y-9">
           <CustomInput name="name" type="text" id="name" label={t("form.name.label")} />

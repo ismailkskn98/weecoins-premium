@@ -243,19 +243,33 @@
   "ContactPage": {
     "title": "Əlaqə",
     "subtitle": "Bizimlə əlaqə saxlayın, sizi tanımaq istərdik.",
+    "text": "Sonsuz kainatda hər kəşf yeni bir baxış bucağı qazandırır. Gəlin əməkdaşlıqla sərhədləri aşaq və gələcəyimizi birlikdə formalaşdıraq.",
     "form": {
       "title": "Bağlantılarımızı Gücləndirək",
       "subtitle": "Sualarınızı cavablandırmaqdan və əməkdaşlıq imkanlarını dəyərləndirməkdən məmnun olarıq.",
       "name": {
-        "label": "Adınız"
+        "label": "Adınız",
+        "validation": {
+          "required": "Ad sahəsi mütləq doldurulmalıdır",
+          "minLength": "Adınız ən az {min} simvoldan ibarət olmalıdır"
+        }
       },
       "email": {
-        "label": "E-poçt ünvanınız"
+        "label": "E-poçt ünvanınız",
+        "validation": {
+          "required": "E-poçt sahəsi mütləq doldurulmalıdır",
+          "email": "Zəhmət olmasa, düzgün e-poçt ünvanı daxil edin"
+        }
       },
       "message": {
-        "label": "Mesajınız"
+        "label": "Mesajınız",
+        "validation": {
+          "required": "Mesaj sahəsi mütləq doldurulmalıdır",
+          "minLength": "Mesajınız ən az {min} simvoldan ibarət olmalıdır"
+        }
       },
-      "button": "Mesajınızı Göndərin"
+      "button": "Mesajınızı Göndərin",
+      "isSummitting": "Göndərilir..."
     }
   },
   "Footer": {

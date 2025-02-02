@@ -83,7 +83,7 @@ export default function NewspapersCarousel() {
       modules={[Navigation, Pagination, Autoplay]}
       className={classNames("w-full", {
         "h-[250px]": slidesPerView !== 2,
-        "h-[200px]": slidesPerView === 2,
+        "h-[150px]": slidesPerView === 2,
       })}
     >
       {items.map((item) => {
@@ -103,13 +103,13 @@ export default function NewspapersCarousel() {
                   className="h-full w-full object-cover transition-all duration-300 group-hover:scale-110"
                 />
               </div>
-              <div className="w-full px-3 pb-3">
-                <h5 className="text-start text-xs font-semibold capitalize text-zinc-700 md:text-sm">
+              <div className="absolute -inset-x-1 -bottom-1 w-[103%] bg-black/60 px-3 py-3 backdrop-blur-sm">
+                <h5 className="line-clamp-1 text-start text-xs font-semibold capitalize text-zinc-200 md:text-sm lg:line-clamp-none">
                   {item.title.length > 40
                     ? item.title.charAt(0).toUpperCase() + item.title.substring(1, 25).toLowerCase() + "..."
                     : item.title.charAt(0).toUpperCase() + item.title.substring(1).toLowerCase()}
                 </h5>
-                <div className="w-full text-start text-xs lowercase text-zinc-500">
+                <div className="w-full text-start text-xs lowercase text-zinc-200">
                   {item.subtitle.length > 80
                     ? item.subtitle.charAt(0).toUpperCase() +
                       item.subtitle.substring(1, window.innerWidth > 900 ? 80 : 35).toLowerCase() +

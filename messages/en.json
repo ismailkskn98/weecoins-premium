@@ -276,19 +276,33 @@
   "ContactPage": {
     "title": "Contact",
     "subtitle": "Contact us, we’d love to meet you.",
+    "text": "In the infinite universe, every discovery brings a new perspective. Let’s push the boundaries together through collaboration and shape the future.",
     "form": {
       "title": "Let's Strengthen Our Connections",
       "subtitle": "We would be happy to answer your questions and explore collaboration opportunities.",
       "name": {
-        "label": "Your Name"
+        "label": "Your Name",
+        "validation": {
+          "required": "The name field is required",
+          "minLength": "Your name must be at least {min} characters long"
+        }
       },
       "email": {
-        "label": "Your Email Address"
+        "label": "Your Email Address",
+        "validation": {
+          "required": "The email field is required",
+          "email": "Please enter a valid email address"
+        }
       },
       "message": {
-        "label": "Your Message"
+        "label": "Your Message",
+        "validation": {
+          "required": "The message field is required",
+          "minLength": "Your message must be at least {min} characters long"
+        }
       },
-      "button": "Send Your Message"
+      "button": "Send Your Message",
+      "isSummitting": "Sending..."
     }
   },
   "Footer": {

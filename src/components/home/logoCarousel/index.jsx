@@ -13,7 +13,7 @@ export default function LogoCarousel() {
     { path: "https://www.coinbase.com/tr/price/weecoins", image: "/images/carousel-images/Coinbase-New.png", title: "Coinbase" },
   ];
   return (
-    <section className="fluid gridContainer relative mt-4 flex h-36 w-full items-center overflow-hidden">
+    <section className="fluid gridContainer relative mt-1 flex h-36 w-full items-center overflow-hidden sm:mt-4">
       <div className="fluid absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-l from-light-EAEEFE/70 to-light-EAEEFE/80 dark:from-dark-0d0d0d/30 dark:to-dark-0d0d0d/60 sm:w-36 md:w-52 lg:w-64"></div>
       <div className="fluid absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-r from-light-EAEEFE/70 to-light-EAEEFE/80 dark:from-dark-0d0d0d/30 dark:to-dark-0d0d0d/60 sm:w-36 md:w-52 lg:w-64"></div>
 
@@ -37,9 +37,9 @@ export default function LogoCarousel() {
               <div className="flex items-center text-gray-600 hover:text-gray-900">
                 <Image
                   src={item.image}
-                  className="brightness-50 grayscale hover:brightness-75 hover:grayscale-0 dark:brightness-[1]"
-                  width={120}
-                  height={60}
+                  className="object-cover brightness-50 grayscale hover:brightness-75 hover:grayscale-0 dark:brightness-[1]"
+                  width={128}
+                  height={128}
                   alt={item.title}
                 />
               </div>

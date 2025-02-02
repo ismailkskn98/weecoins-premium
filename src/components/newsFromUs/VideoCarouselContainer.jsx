@@ -34,7 +34,7 @@ export default function VideoCarouselContainer({ data }) {
   };
 
   return (
-    <article className="flex w-full flex-col items-center gap-16 bg-transparent">
+    <article className="flex w-full flex-col items-center gap-12 bg-transparent sm:gap-16">
       <div className="fluid absolute inset-0 -z-20 hidden sm:block">
         <ReactPlayer
           ref={backVideoRef}

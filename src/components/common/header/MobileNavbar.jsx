@@ -44,14 +44,14 @@ export default function MobileNavbar({ isFixed = false }) {
               alt="weecoins logo black"
               width={250}
               height={45}
-              className="inline h-full max-h-11 w-full max-w-[250px] drop-shadow-lg dark:hidden"
+              className="inline h-full max-h-9 w-full max-w-[220px] drop-shadow-lg dark:hidden"
             />
             <Image
               src="/images/logo-text-white.png"
               alt="weecoins logo white"
               width={250}
               height={45}
-              className="hidden h-full max-h-11 w-full max-w-[250px] drop-shadow-lg dark:inline"
+              className="hidden h-full max-h-9 w-full max-w-[220px] drop-shadow-lg dark:inline"
             />
           </SheetTitle>
         </SheetHeader>

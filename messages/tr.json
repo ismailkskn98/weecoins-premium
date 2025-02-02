@@ -274,19 +274,33 @@
   "ContactPage": {
     "title": "İletişim",
     "subtitle": "Bize ulaşın, sizinle tanışmak isteriz.",
+    "text": "Sonsuz evrende her keşif, yeni bir bakış açısı kazandırır. İş birliğiyle sınırları aşalım ve geleceğinizi birlikte şekillendirelim.",
     "form": {
       "title": "Bağlantılarımızı Güçlendirelim",
       "subtitle": "Sorularınızı yanıtlamaktan ve iş birliği fırsatlarını değerlendirmekten memnuniyet duyarız.",
       "name": {
-        "label": "Adınız"
+        "label": "Adınız",
+        "validation": {
+          "required": "İsim alanı zorunludur",
+          "minLength": "Adınız en az {min} karakterden olusmalıdır"
+        }
       },
       "email": {
-        "label": "E-posta Adresiniz"
+        "label": "E-posta Adresiniz",
+        "validation": {
+          "required": "Email alanı zorunludur",
+          "email": "Lütfen geçerli bir email adresi girin"
+        }
       },
       "message": {
-        "label": "Mesajınız"
+        "label": "Mesajınız",
+        "validation": {
+          "required": "Mesaj alanı zorunludur",
+          "minLength": "Mesajınız en az {min} karakterden olusmalıdır"
+        }
       },
-      "button": "Mesajınızı Gönderin"
+      "button": "Mesajınızı Gönderin",
+      "isSummitting": "Gönderiliyor..."
     }
   },
   "Footer": {

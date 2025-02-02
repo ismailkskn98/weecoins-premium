@@ -45,8 +45,14 @@ export function Sidebar({ slug }) {
                   "text-zinc-700 hover:text-black dark:text-zinc-400 dark:hover:text-white": slug !== item.href,
                 })}
               >
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-dark-ozelDark drop-shadow-md backdrop-blur-md transition-all duration-200 group-hover:scale-105">
-                  <Image src={`/images/${item.image}`} alt={item.title} width={50} height={50} className="h-full max-h-9 w-full max-w-9" />
+                <span className="flex h-11 w-11 items-center justify-center rounded-full bg-dark-ozelDark p-1 drop-shadow-md backdrop-blur-md transition-all duration-200 group-hover:scale-105">
+                  <Image
+                    src={`/images/${item.image}`}
+                    alt={item.title}
+                    width={50}
+                    height={50}
+                    className="h-full max-h-9 w-full max-w-9 object-contain"
+                  />
                 </span>
                 <span className="text-nowrap text-sm">{item.title}</span>
               </Link>

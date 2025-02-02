@@ -11,19 +11,19 @@ export default function SlugPage({ card }) {
         <Sidebar slug={card.slug} />
         <motion.div initial={{ opacity: 0, animationDelay: 3 }} animate={{ opacity: 1 }} className="mx-auto max-w-5xl space-y-10">
           <div className="text-center">
-            <h1 className="bg-gradient-to-r from-light-833E15 to-black bg-clip-text text-center font-dmSans text-4xl font-bold text-transparent">
+            <h1 className="bg-gradient-to-r from-light-833E15 to-dark-ozelDark bg-clip-text text-center font-dmSans text-4xl font-bold text-transparent dark:to-light-f88540">
               {card.title}
             </h1>
-            <div className="mx-auto my-3 flex h-[200px] w-[200px] items-center justify-center overflow-hidden rounded-full bg-dark-ozelDark">
+            <div className="mx-auto my-3 flex h-[200px] w-[200px] items-center justify-center overflow-hidden rounded-full bg-transparent dark:my-6 dark:bg-[#e9e9e9]">
               <Image
-                src={`/images/${card.image}`}
+                src={`/images/${card.image}.png`}
                 alt=""
                 width={230}
                 height={230}
-                className={`${card.image === "weezard.png" ? "ml-[5px]" : ""} h-full w-full object-cover`}
+                className={`${card.image === "weezard" ? "ml-[5px]" : ""} h-full w-full object-contain`}
               />
             </div>
-            <p className="mx-auto max-w-2xl text-xl leading-relaxed text-muted-foreground">{card.description}</p>
+            <p className="mx-auto text-lg leading-relaxed text-muted-foreground">{card.description}</p>
           </div>
 
           <div className="rounded-2xl border border-muted bg-gradient-to-br from-background to-muted p-8 shadow-lg">

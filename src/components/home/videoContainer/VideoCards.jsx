@@ -33,10 +33,13 @@ export default function VideoCards() {
   return (
     <article className="grid w-full grid-cols-1 justify-items-center gap-y-5 sm:grid-cols-2 lg:grid-cols-4 lg:justify-items-start">
       {cards.map((card, index) => (
-        <div key={index} className="item-start flex max-w-64 flex-col gap-[10px] py-2 text-black dark:text-light-EAEEFE sm:py-5 lg:py-10">
+        <div
+          key={index}
+          className="flex max-w-64 flex-col items-center gap-[10px] py-2 text-black dark:text-light-EAEEFE sm:items-start sm:py-5 lg:py-10"
+        >
           <card.icon className="h-10 w-10" />
-          <h4 className="font-dmSans text-lg font-bold">{card.title}</h4>
-          <p className="font-inter text-base leading-6">{card.description}</p>
+          <h4 className="text-center font-dmSans text-lg font-bold sm:text-start">{card.title}</h4>
+          <p className="text-center font-inter text-base leading-6 sm:text-start">{card.description}</p>
         </div>
       ))}
     </article>

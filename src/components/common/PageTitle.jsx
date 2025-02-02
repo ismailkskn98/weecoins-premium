@@ -27,7 +27,7 @@ export default function PageTitle({ title, subtitle }) {
   }, []);
 
   return (
-    <section className="fluid gridContainer relative mt-32 h-auto py-4 shadow-sm md:mt-20 md:h-[300px]">
+    <section className="fluid gridContainer relative mt-32 h-auto py-8 shadow-sm md:mt-20 md:h-[300px]">
       <div className="fluid absolute inset-0 -z-20 bg-page-title-bg-light bg-cover bg-center bg-no-repeat dark:bg-page-title-bg-dark"></div>
       <div ref={pageTitleRef} className="relative mx-auto flex h-full flex-col items-center justify-center gap-4 px-6 text-center">
         <h1 className="bg-gradient-to-t from-light-833E15 to-dark-808080 bg-clip-text font-dmSans text-5xl font-bold text-transparent xl:text-7xl 2xl:text-8xl">

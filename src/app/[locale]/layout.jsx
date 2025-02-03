@@ -48,12 +48,12 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={locale} suppressHydrationWarning>
       <body
-        className={` ${DmSans.variable} ${Inter.variable} ${Switzer.variable} overflow-x-hidden bg-light-EAEEFE text-black antialiased dark:bg-dark-0d0d0d dark:text-light-EAEEFE`}
+        className={` ${DmSans.variable} ${Inter.variable} ${Switzer.variable} overflow-x-hidden bg-light-EAEEFE font-inter text-black antialiased dark:bg-dark-0d0d0d dark:text-light-EAEEFE`}
       >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-            <main className="fluid gridContainer min-h-screen overflow-x-hidden font-inter">
-              <Toaster position="top-center" richColors />
+            <Toaster position="top-center" richColors />
+            <main className="fluid gridContainer min-h-screen">
               <Header />
               {children}
               <Footer />

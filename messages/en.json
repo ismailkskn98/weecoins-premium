@@ -124,6 +124,9 @@
   "OurProjectsPage": {
     "title": "Our Projects",
     "subtitle": "Discover our projects shaping the future.",
+    "sidebar": {
+      "title": "Discover our OurProjects"
+    },
     "cards": {
       "wE3DUCATION": {
         "title": "WE3DUCATION",

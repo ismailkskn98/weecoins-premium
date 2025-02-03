@@ -30,7 +30,7 @@ export function Sidebar({ slug }) {
     },
   ];
   return (
-    <aside className="sticky top-[130px] z-10 hidden h-min w-min min-w-[210px] overflow-y-auto border-r px-4 lg:block">
+    <aside className="sticky top-[130px] z-10 hidden h-min w-min min-w-[210px] overflow-y-auto border-r border-gray-500/20 px-4 lg:block">
       <div className="item-start flex flex-col gap-4">
         <p className="text-nowrap text-base text-light-833E15/80 dark:text-light-f88540">Discover our OurProjects</p>
         <nav className="space-y-4">
@@ -42,7 +42,7 @@ export function Sidebar({ slug }) {
                 key={index}
                 className={classNames("group flex cursor-pointer items-center gap-2 py-1 transition-all duration-300", {
                   "text-light-833E15 dark:text-light-f88540": slug === item.href,
-                  "text-zinc-700 hover:text-black dark:text-zinc-400 dark:hover:text-white": slug !== item.href,
+                  "text-zinc-800 hover:text-black dark:text-zinc-300 dark:hover:text-white": slug !== item.href,
                 })}
               >
                 <span className="flex h-11 w-11 items-center justify-center rounded-full bg-dark-ozelDark p-1 drop-shadow-md backdrop-blur-md transition-all duration-200 group-hover:scale-105">

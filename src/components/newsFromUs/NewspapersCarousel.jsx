@@ -35,12 +35,12 @@ export default function NewspapersCarousel() {
       image: "shopping.webp",
       url: "https://www.haberler.com/guncel/weecoins-ile-alisveriste-yeni-donem-13656945-haberi/",
     },
-    {
-      title: t("newspapers.wedding.title"),
-      subtitle: t("newspapers.wedding.subtitle"),
-      image: "damat.webp",
-      url: "https://www.takvim.com.tr/yasam/2021/06/28/damadin-yakinindan-bin-kripto-yurttan-haberler",
-    },
+    // {
+    //   title: t("newspapers.wedding.title"),
+    //   subtitle: t("newspapers.wedding.subtitle"),
+    //   image: "damat.webp",
+    //   url: "https://www.takvim.com.tr/yasam/2021/06/28/damadin-yakinindan-bin-kripto-yurttan-haberler",
+    // },
     {
       title: t("newspapers.kripto.title"),
       subtitle: t("newspapers.kripto.subtitle"),
@@ -58,7 +58,7 @@ export default function NewspapersCarousel() {
   useEffect(() => {
     const updateSlidesPerView = () => {
       if (window.innerWidth > 1280) {
-        setSlidesPerView(5);
+        setSlidesPerView(4);
       } else if (window.innerWidth > 900) {
         setSlidesPerView(4);
       } else if (window.innerWidth > 700) {

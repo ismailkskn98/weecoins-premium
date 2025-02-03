@@ -25,7 +25,7 @@ export default function AccessToKnowledge() {
         {cardItems.map((item, index) => (
           <div
             key={index}
-            className="group flex h-full w-full flex-col items-center justify-center rounded-2xl border border-solid border-[#1B1B1B]/10 px-4 py-10 shadow-lg dark:border-light-EAEEFE/30 sm:px-10 md:max-w-[520px]"
+            className="group flex h-full w-full flex-col items-center justify-center rounded-2xl border border-solid border-[#1B1B1B]/10 bg-white px-4 py-10 shadow-lg dark:border-gray-800 dark:bg-transparent sm:px-10 md:max-w-[520px]"
           >
             <div>
               <Image

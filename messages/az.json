@@ -124,6 +124,9 @@
   "OurProjectsPage": {
     "title": "Layihələrimiz",
     "subtitle": "Gələcəyi formalaşdıran layihələrimizlə tanış olun.",
+    "sidebar": {
+      "title": "Layihələrimizi Kəşf Edin"
+    },
     "cards": {
       "wE3DUCATION": {
         "title": "WE3DUCATION",

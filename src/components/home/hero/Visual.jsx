@@ -40,7 +40,7 @@ export default function Visual() {
         alt="weecoins material"
         width={231}
         height={231}
-        className="heroLogo bottom-image absolute -bottom-52 right-0 z-20 hidden max-h-[200px] max-w-[200px] drop-shadow-2xl lg:inline xl:-bottom-[12.5rem] xl:-right-20 2xl:-bottom-52 2xl:-right-36 2xl:max-h-[231px] 2xl:max-w-[231px]"
+        className="heroLogo bottom-image absolute -bottom-52 right-0 z-20 hidden max-h-[200px] max-w-[200px] drop-shadow-2xl lg:inline xl:-bottom-[12.5rem] xl:-right-20 2xl:-bottom-56 2xl:-right-28 2xl:max-h-[231px] 2xl:max-w-[231px]"
       />
     </article>
   );

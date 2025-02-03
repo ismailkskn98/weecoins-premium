@@ -14,13 +14,20 @@ export default function SlugPage({ card }) {
             <h1 className="bg-gradient-to-r from-light-833E15 to-dark-ozelDark bg-clip-text text-center font-dmSans text-4xl font-bold text-transparent dark:to-light-f88540">
               {card.title}
             </h1>
-            <div className="mx-auto my-3 flex h-[200px] w-[200px] items-center justify-center overflow-hidden rounded-full bg-transparent dark:my-6 dark:bg-[#e9e9e9]">
+            <div className="mx-auto my-3 flex h-[200px] w-[200px] items-center justify-center overflow-hidden rounded-full bg-black/30 shadow-lg dark:my-6">
               <Image
-                src={`/images/${card.image}.webp`}
-                alt=""
+                src={`/images/${card.image}-slug-dark.webp`}
+                alt={card.image}
                 width={230}
                 height={230}
-                className={`${card.image === "weezard" ? "ml-[5px]" : ""} h-full w-full object-contain`}
+                className={`${card.image === "weezard" ? "ml-[5px]" : ""} block h-full w-full object-contain drop-shadow-lg dark:hidden`}
+              />
+              <Image
+                src={`/images/${card.image}-slug-dark.webp`}
+                alt={card.image}
+                width={230}
+                height={230}
+                className={`${card.image === "weezard" ? "ml-[5px]" : ""} hidden h-full w-full object-contain drop-shadow-lg dark:block`}
               />
             </div>
             <p className="mx-auto text-lg leading-relaxed text-muted-foreground">{card.description}</p>
@@ -39,7 +46,7 @@ export default function SlugPage({ card }) {
           </div>
           <div className="rounded-2xl border border-muted bg-white p-8 shadow-lg dark:bg-dark-ozelDark">
             <div className="mb-4 flex items-start gap-4">
-              <div className="hidden rounded-xl bg-green-500/10 p-3 md:block">
+              <div className="hidden rounded-xl bg-green-100 p-3 md:block">
                 <CheckCircle className="h-6 w-6 text-green-500" />
               </div>
               <div>
@@ -51,7 +58,7 @@ export default function SlugPage({ card }) {
 
           <div className="rounded-2xl border border-muted bg-white p-8 shadow-lg dark:bg-dark-ozelDark">
             <div className="mb-4 flex items-start gap-4">
-              <div className="hidden rounded-xl bg-blue-500/10 p-3 md:block">
+              <div className="hidden rounded-xl bg-blue-100 p-3 md:block">
                 <Info className="h-6 w-6 text-blue-500" />
               </div>
               <div>

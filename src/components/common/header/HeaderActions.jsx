@@ -18,7 +18,7 @@ export default function HeaderActions({ isTopShow = false, isFixed = false }) {
         isFixed={isFixed}
         target={"_blank"}
         href={"https://backoffice.weecoins.org/"}
-        label={"Back Office"}
+        label={"BackOffice"}
         isTopShow={isTopShow}
       />
     </div>

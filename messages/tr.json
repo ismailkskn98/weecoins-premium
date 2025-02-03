@@ -122,6 +122,9 @@
   "OurProjectsPage": {
     "title": "Projelerimiz",
     "subtitle": "Geleceği şekillendiren projelerimizle tanışın.",
+    "sidebar": {
+      "title": "Projelerimizi Keşfedin"
+    },
     "cards": {
       "wE3DUCATION": {
         "title": "WE3DUCATION",

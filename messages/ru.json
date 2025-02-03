@@ -123,6 +123,9 @@
   "OurProjectsPage": {
     "title": "Наши проекты",
     "subtitle": "Познакомьтесь с нашими проектами, формирующими будущее.",
+    "sidebar": {
+      "title": "Откройте для себя наши проекты"
+    },
     "cards": {
       "wE3DUCATION": {
         "title": "WE3DUCATION",

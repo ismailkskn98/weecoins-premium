@@ -48,6 +48,7 @@
 }
 
 .title-svg {
+  transform: rotate(180deg);
   animation: titleSvgAnimation 2s alternate infinite ease-in-out;
   animation-delay: 0.5s;
 }

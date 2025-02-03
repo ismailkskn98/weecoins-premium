@@ -10,11 +10,9 @@ const getSuccessStories = async () => {
   // console.log(process.env.NEXT_PUBLIC_BASE_URL);
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/success-stories`);
-    console.log("Response Status:", response.status);
-    console.log("Response Content-Type:", response.headers.get("content-type"));
-
-    const text = await response.text();
-    console.log("Response Body:", text);
+    if (!response.ok) {
+      throw new Error(`API Hatası: ${response.status}`);
+    }
     return response.json();
   } catch (error) {
     console.log(error);

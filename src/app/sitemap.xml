@@ -1,0 +1,26 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://weecoinspremium.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://weecoinspremium.com/about</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weecoinspremium.com/contact</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://weecoinspremium.com/news-from-us</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://weecoinspremium.com/our-projects</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://weecoinspremium.com/not-found</loc>
+    <priority>0.1</priority>
+  </url>
+</urlset>

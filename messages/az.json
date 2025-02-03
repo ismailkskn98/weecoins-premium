@@ -13,6 +13,11 @@
       "system": "Sistem"
     }
   },
+  "NotFoundPage": {
+    "title1": "Səhifə tapılmadı",
+    "title2": "Əsas səhifəyə qayıdın",
+    "button": "Əsas səhifə"
+  },
   "HomePage": {
     "hero": {
       "description": "Layihələrimizə qoşulun və prestijli həyat sürün. Gözləntilərinizə uyğun investisiya imkanları WeeCoins Premium ilə sizi gözləyir.",

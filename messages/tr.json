@@ -13,6 +13,11 @@
       "system": "Sistem"
     }
   },
+  "NotFoundPage": {
+    "title1": "Sayfa Bulunamadı",
+    "title2": "Ana sayfaya dönün",
+    "button": "Anasayfa"
+  },
   "HomePage": {
     "hero": {
       "description": "Projelerimize katılın ve prestijli bir yaşam sürün. Beklentilerinize uygun yatırım fırsatları WeeCoins Premium ile sizleri bekliyor.",

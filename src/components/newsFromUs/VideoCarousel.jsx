@@ -48,11 +48,11 @@ export default function VideoCarousel({ activeVideo, currentVideo, items }) {
       })}
     >
       {items ? (
-        items.map((item) => {
+        items.map((item, index) => {
           // console.log(item);
           return (
             <SwiperSlide
-              key={item.id.videoId}
+              key={index}
               onClick={() => activeVideo(item.id.videoId, item.snippet.title, item.snippet.thumbnails.high.url)}
               className="group relative cursor-pointer overflow-hidden rounded-xl"
             >

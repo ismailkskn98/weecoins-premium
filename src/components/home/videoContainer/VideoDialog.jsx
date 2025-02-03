@@ -10,15 +10,15 @@ export default function VideoDialog() {
   const videoLanguage = () => {
     switch (locale) {
       case "tr":
-        return "https://www.youtube.com/embed/HMaECBWoMYQ?si=Ga7WOii-P__dLmQL";
+        return "https://www.youtube-nocookie.com/embed/HMaECBWoMYQ?si=Ga7WOii-P__dLmQL";
       case "en":
-        return "https://www.youtube.com/embed/QiGK2NL6i0I?si=HmVeS2LDHIlObKmB";
+        return "https://www.youtube-nocookie.com/embed/QiGK2NL6i0I?si=HmVeS2LDHIlObKmB";
       case "ru":
-        return "https://www.youtube.com/embed/B4fLCwE30sI?si=mYjcbseQHunxHXO1";
+        return "https://www.youtube-nocookie.com/embed/B4fLCwE30sI?si=mYjcbseQHunxHXO1";
       case "az":
-        return "https://www.youtube.com/embed/HnYK8dgSsO4?si=BJp22ddd_E6U6FdV";
+        return "https://www.youtube-nocookie.com/embed/HnYK8dgSsO4?si=BJp22ddd_E6U6FdV";
       default:
-        return "https://www.youtube.com/embed/QiGK2NL6i0I?si=HmVeS2LDHIlObKmB";
+        return "https://www.youtube-nocookie.com/embed/QiGK2NL6i0I?si=HmVeS2LDHIlObKmB";
     }
   };
 

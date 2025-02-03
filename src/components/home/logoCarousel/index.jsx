@@ -5,12 +5,12 @@ import Image from "next/image";
 
 export default function LogoCarousel() {
   const items = [
-    { path: "https://www.criptoswaps.com/trading/wcsusdt", image: "/images/carousel-images/criptoswaps.png", title: "Criptoswaps" },
-    { path: "https://coinpaprika.com/tr/coin/wcs-weecoins", image: "/images/carousel-images/Coinpaprika.png", title: "Coinpaprika" },
-    { path: "https://coinmarketcap.com/currencies/weecoins", image: "/images/carousel-images/CoinMarketCap.png", title: "CoinMarketCap" },
-    { path: "https://coincost.net/en/currency/weecoins", image: "/images/carousel-images/coincostlogo.png", title: "CoinCost" },
-    { path: "https://azbit.com/exchange/WCS_USDT", image: "/images/carousel-images/Azbit-AZ.png", title: "Azbit" },
-    { path: "https://www.coinbase.com/tr/price/weecoins", image: "/images/carousel-images/Coinbase-New.png", title: "Coinbase" },
+    { path: "https://www.criptoswaps.com/trading/wcsusdt", image: "/images/carousel-images/criptoswaps.webp", title: "Criptoswaps" },
+    { path: "https://coinpaprika.com/tr/coin/wcs-weecoins", image: "/images/carousel-images/Coinpaprika.webp", title: "Coinpaprika" },
+    { path: "https://coinmarketcap.com/currencies/weecoins", image: "/images/carousel-images/CoinMarketCap.webp", title: "CoinMarketCap" },
+    { path: "https://coincost.net/en/currency/weecoins", image: "/images/carousel-images/coincostlogo.webp", title: "CoinCost" },
+    { path: "https://azbit.com/exchange/WCS_USDT", image: "/images/carousel-images/Azbit-AZ.webp", title: "Azbit" },
+    { path: "https://www.coinbase.com/tr/price/weecoins", image: "/images/carousel-images/Coinbase-New.webp", title: "Coinbase" },
   ];
   return (
     <section className="fluid gridContainer relative mt-1 flex h-36 w-full items-center overflow-hidden sm:mt-4">

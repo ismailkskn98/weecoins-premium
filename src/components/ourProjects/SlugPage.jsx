@@ -16,7 +16,7 @@ export default function SlugPage({ card }) {
             </h1>
             <div className="mx-auto my-3 flex h-[200px] w-[200px] items-center justify-center overflow-hidden rounded-full bg-transparent dark:my-6 dark:bg-[#e9e9e9]">
               <Image
-                src={`/images/${card.image}.png`}
+                src={`/images/${card.image}.webp`}
                 alt=""
                 width={230}
                 height={230}
@@ -26,36 +26,36 @@ export default function SlugPage({ card }) {
             <p className="mx-auto text-lg leading-relaxed text-muted-foreground">{card.description}</p>
           </div>
 
-          <div className="rounded-2xl border border-muted bg-gradient-to-br from-background to-muted p-8 shadow-lg">
+          <div className="rounded-2xl border border-muted bg-white p-8 shadow-lg dark:bg-dark-ozelDark">
             <div className="mb-4 flex items-start gap-4">
               <div className="hidden rounded-xl bg-primary/10 p-3 md:block">
                 <Zap className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h2 className="mb-2 text-2xl font-semibold">{card.sections.howItWorks.title}</h2>
+                <h2 className="mb-2 text-2xl font-semibold text-black dark:text-white">{card.sections.howItWorks.title}</h2>
                 <p className="leading-relaxed text-muted-foreground">{card.sections.howItWorks.content}</p>
               </div>
             </div>
           </div>
-          <div className="rounded-2xl border border-muted bg-gradient-to-br from-background to-muted p-8 shadow-lg">
+          <div className="rounded-2xl border border-muted bg-white p-8 shadow-lg dark:bg-dark-ozelDark">
             <div className="mb-4 flex items-start gap-4">
               <div className="hidden rounded-xl bg-green-500/10 p-3 md:block">
                 <CheckCircle className="h-6 w-6 text-green-500" />
               </div>
               <div>
-                <h2 className="mb-2 text-2xl font-semibold">{card.sections.whyUse.title}</h2>
+                <h2 className="mb-2 text-2xl font-semibold text-black dark:text-white">{card.sections.whyUse.title}</h2>
                 <p className="leading-relaxed text-muted-foreground">{card.sections.whyUse.content}</p>
               </div>
             </div>
           </div>
 
-          <div className="rounded-2xl border border-muted bg-gradient-to-br from-background to-muted p-8 shadow-lg">
+          <div className="rounded-2xl border border-muted bg-white p-8 shadow-lg dark:bg-dark-ozelDark">
             <div className="mb-4 flex items-start gap-4">
               <div className="hidden rounded-xl bg-blue-500/10 p-3 md:block">
                 <Info className="h-6 w-6 text-blue-500" />
               </div>
               <div>
-                <h2 className="mb-2 text-2xl font-semibold">{card.sections.contribution.title}</h2>
+                <h2 className="mb-2 text-2xl font-semibold text-black dark:text-white">{card.sections.contribution.title}</h2>
                 <p className="leading-relaxed text-muted-foreground">{card.sections.contribution.content}</p>
               </div>
             </div>

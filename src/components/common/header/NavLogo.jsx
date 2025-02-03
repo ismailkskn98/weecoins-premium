@@ -6,7 +6,7 @@ export default function NavLogo({ isFixed }) {
   return (
     <Link href="/">
       <Image
-        src={!isFixed ? "/images/logo-text-black.png" : "/images/logo-text-white.png"}
+        src={!isFixed ? "/images/logo-text-black.webp" : "/images/logo-text-white.webp"}
         alt="weecoins premium logo black"
         width={300}
         height={150}
@@ -14,7 +14,7 @@ export default function NavLogo({ isFixed }) {
         quality={100}
       />
       <Image
-        src={"/images/logo-text-white.png"}
+        src={"/images/logo-text-white.webp"}
         alt="weecoins premium logo black"
         width={300}
         height={150}

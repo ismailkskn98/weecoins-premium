@@ -86,14 +86,14 @@ export default function VerticalTimelineContainer() {
             ) : (
               <Link href={`/our-projects/${item.slug}`}>
                 <Image
-                  src={`/images/${item.image}.png`}
+                  src={`/images/${item.image}.webp`}
                   alt={item.image}
                   width={300}
                   height={300}
                   className="hidden h-full max-h-14 w-full max-w-14 object-contain dark:block"
                 />
                 <Image
-                  src={item.image == "weezard" ? `/images/${item.image}.png` : `/images/${item.image}-dark.png`}
+                  src={item.image == "weezard" ? `/images/${item.image}.webp` : `/images/${item.image}-dark.webp`}
                   alt={item.image}
                   width={300}
                   height={300}

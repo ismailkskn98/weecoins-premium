@@ -9,12 +9,12 @@ export default function AccessToKnowledge() {
     {
       title: t("accessToKnowledge.cards.discoverThePower.title"),
       description: t("accessToKnowledge.cards.discoverThePower.description"),
-      image: "/images/access-card-1.png",
+      image: "/images/access-card-1.webp",
     },
     {
       title: t("accessToKnowledge.cards.whyWeecoins.title"),
       description: t("accessToKnowledge.cards.whyWeecoins.description"),
-      image: "/images/access-card-2.png",
+      image: "/images/access-card-2.webp",
     },
   ];
 

@@ -55,6 +55,24 @@
         }
       }
     },
+    "chartAndTable": {
+      "title": "WEECOINS PREMIUM",
+      "description": "TOTAL SUPPLY AND DISTRIBUTION",
+      "chartTitle": "Distribution Chart",
+      "table": {
+        "title": "Detailed Distribution",
+        "category": "Category",
+        "mount": "Amount",
+        "total": "Total",
+        "categories": {
+          "marketing": "Marketing",
+          "projectSustainability": "Project/Sustainability",
+          "teamAdvisor": "Team/Advisor",
+          "development": "Development",
+          "circulation": "Circulation"
+        }
+      }
+    },
     "successStories": {
       "title": "Success Stories",
       "description": "Here you can find the experiences and success stories of our users. Browse through the inspiring stories and share your own."
@@ -62,7 +80,7 @@
     "ourVision": {
       "title": "Sharing Our Vision",
       "description": "Learn more about our company's mission and values. Explore our success stories and let's shape the future together.",
-      "button": "Our Roadmap",
+      "button": "Our Projects",
       "learnMore": "Learn More"
     }
   },
@@ -70,6 +88,7 @@
     "title": "About Us",
     "subtitle": "We are an inspiring story from the beginning to today",
     "home": "Home",
+    "goToContact": "Request Information",
     "content": {
       "title": "WEECOINS Premium Technology",
       "description": "WeeCoins Premium is an innovative crypto ecosystem that aims to expand financial freedom and economic participation by using blockchain technology. Built on the WeeGold network, which enables secure, fast, and low-cost transactions, our system provides users with a unique digital asset experience.",

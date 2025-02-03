@@ -46,3 +46,17 @@
     transform: translateY(10px);
   }
 }
+
+.title-svg {
+  animation: titleSvgAnimation 2s alternate infinite ease-in-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes titleSvgAnimation {
+  0% {
+    transform: translateY(0) rotate(180deg);
+  }
+  100% {
+    transform: translateY(8px) rotate(180deg);
+  }
+}

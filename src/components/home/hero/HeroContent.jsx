@@ -6,6 +6,7 @@ import Image from "next/image";
 import React, { useRef } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
+import "./hero.css";
 
 gsap.registerPlugin(useGSAP);
 
@@ -39,9 +40,9 @@ export default function HeroContent() {
           width={150}
           height={90}
           alt="WeeCoins Premium logo"
-          className="absolute -left-12 -top-5 -z-10 h-full w-full max-w-[200px] -rotate-180 object-cover sm:-left-14 sm:max-w-[220px] md:-left-20 md:-top-11 md:max-w-[280px] lg:-left-24 lg:max-w-[360px] xl:-left-32 xl:max-w-[390px]"
+          className="title-svg absolute -left-12 -top-5 -z-10 h-full w-full max-w-[200px] object-cover drop-shadow-md sm:-left-14 sm:max-w-[220px] md:-left-20 md:-top-11 md:max-w-[280px] lg:-left-24 lg:max-w-[360px] xl:-left-32 xl:max-w-[390px]"
         />
-        <h2 className="realtive flex flex-col items-center bg-gradient-to-t from-light-833E15 to-dark-0d0d0d bg-clip-text font-dmSans text-[50px] font-bold text-transparent dark:to-dark-808080 sm:text-[60px] md:text-[80px] lg:items-start 2xl:text-[100px]">
+        <h2 className="realtive flex flex-col items-center bg-gradient-to-t from-light-833E15 to-dark-0d0d0d bg-clip-text font-dmSans text-[50px] font-bold text-transparent drop-shadow-sm dark:to-dark-808080 sm:text-[60px] md:text-[80px] lg:items-start 2xl:text-[100px]">
           WeeCoins<span className="-mt-9">Premium</span>
         </h2>
       </div>

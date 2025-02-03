@@ -50,7 +50,7 @@ export default function NewspapersCarousel() {
     {
       title: t("newspapers.expert.title"),
       subtitle: t("newspapers.expert.subtitle"),
-      image: "expert-1.png",
+      image: "expert-1.webp",
       url: "https://www.haberler.com/teknoloji/ozkan-cibir-yilin-en-iyi-kripto-para-uzmani-16723228-haberi",
     },
   ];

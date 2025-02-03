@@ -40,14 +40,14 @@ export default function MobileNavbar({ isFixed = false }) {
         <SheetHeader className="flex h-full max-h-14 w-full items-center justify-start">
           <SheetTitle className="flex h-full w-full items-center justify-start">
             <Image
-              src="/images/logo-text-black.png"
+              src="/images/logo-text-black.webp"
               alt="weecoins logo black"
               width={250}
               height={45}
               className="inline h-full max-h-9 w-full max-w-[220px] drop-shadow-lg dark:hidden"
             />
             <Image
-              src="/images/logo-text-white.png"
+              src="/images/logo-text-white.webp"
               alt="weecoins logo white"
               width={250}
               height={45}

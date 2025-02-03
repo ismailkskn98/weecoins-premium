@@ -11,22 +11,22 @@ export function Sidebar({ slug }) {
     {
       title: "WeeZard",
       href: t("cards.weeZard.slug"),
-      image: "weezard.png",
+      image: "weezard.webp",
     },
     {
       title: "WeeCard",
       href: t("cards.weeCard.slug"),
-      image: "weecard.png",
+      image: "weecard.webp",
     },
     {
       title: "WeeSale",
       href: t("cards.weeSale.slug"),
-      image: "weesale.png",
+      image: "weesale.webp",
     },
     {
       title: "WeeCobi",
       href: t("cards.weekobi.slug"),
-      image: "weekobi.png",
+      image: "weekobi.webp",
     },
   ];
   return (

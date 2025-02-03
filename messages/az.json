@@ -55,6 +55,24 @@
         }
       }
     },
+    "chartAndTable": {
+      "title": "WEECOINS PREMIUM",
+      "description": "ÜMUMİ TƏKLİF VƏ PAYLANMA",
+      "chartTitle": "Paylanma Qrafiki",
+      "table": {
+        "title": "Ətraflı Paylanma",
+        "category": "Kateqoriya",
+        "mount": "Miqdar",
+        "total": "Cəmi",
+        "categories": {
+          "marketing": "Marketinq",
+          "projectSustainability": "Layihə/Davamlılıq",
+          "teamAdvisor": "Komanda/Məsləhətçi",
+          "development": "İnkişaf",
+          "circulation": "Dövriyyə"
+        }
+      }
+    },
     "successStories": {
       "title": "Uğur hekayələri",
       "description": "Burada istifadəçilərimizin təcrübələrini və uğur hekayələrini tapa bilərsiniz. İlham verici hekayələrə nəzər salın və öz hekayənizi paylaşın."
@@ -62,7 +80,7 @@
     "ourVision": {
       "title": "Vizyonumuzu paylaşırıq",
       "description": "Şirkətimizin missiyası və dəyərləri haqqında daha çox məlumat əldə edin. Uğur hekayələrimizi araşdırın və gələcəyi birlikdə formalaşdıraq.",
-      "button": "Yol xəritəmiz",
+      "button": "Layihələrimiz",
       "learnMore": "Ətraflı məlumat"
     }
   },
@@ -70,6 +88,7 @@
     "title": "Haqqımızda",
     "subtitle": "Bugün ən başından günümüzə ilham verən bir hekayəyik",
     "home": "Əsas səhifə",
+    "goToContact": "Məlumat Tələb Edin",
     "content": {
       "title": "WEECOINS Premium Texnologiyası",
       "description": "WeeCoins Premium, blockchain texnologiyasından istifadə edərək maliyyə azadlığını və iqtisadi iştirakını genişləndirməyi hədəfləyən innovativ bir kripto ekosistemidir. Təhlükəsiz, sürətli və aşağı xərclərlə əməliyyatlar etməyə imkan verən WeeGold şəbəkəsi üzərində qurulmuş sistemimiz, istifadəçilərimizə bənzərsiz bir rəqəmsal aktiv təcrübəsi təqdim edir.",

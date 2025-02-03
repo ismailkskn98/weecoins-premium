@@ -7,7 +7,7 @@ export default function ContactImage() {
   return (
     <article className="max-h-h-auto relative h-full w-full max-w-[480px] rounded-xl lg:max-h-[500] lg:max-w-[484px] xl:max-h-[536px] xl:max-w-[520px]">
       <Image
-        src={"/images/contact-image.png"}
+        src={"/images/contact-image.webp"}
         alt="weecoins contact image"
         width={680}
         height={700}

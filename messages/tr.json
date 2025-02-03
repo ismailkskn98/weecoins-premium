@@ -59,16 +59,35 @@
       "title": "Başarı Hikayeleri",
       "description": "Burada kullanıcılarımızın deneyimlerini ve başarı hikayelerini bulabilirsiniz. İlham verici hikayelere göz atın ve kendi hikayenizi paylaşın."
     },
+    "chartAndTable": {
+      "title": "WEECOINS PREMIUM",
+      "description": "TOPLAM ARZ VE DAĞILIMI",
+      "chartTitle": "Dağılım Grafiği",
+      "table": {
+        "title": "Detaylı Dağılım",
+        "category": "Kategori",
+        "mount": "Miktar",
+        "total": "Toplam",
+        "categories": {
+          "marketing": "Pazarlama",
+          "projectSustainability": "Proje/sürdürülebilirlik",
+          "teamAdvisor": "Takım/Danışman",
+          "development": "Geliştirme",
+          "circulation": "Dolaşım"
+        }
+      }
+    },
     "ourVision": {
       "title": "Vizyonumuzu Paylaşıyoruz",
       "description": "Şirketimizin misyonu ve değerleri hakkında daha fazla bilgi edinin. Başarı hikayelerimizi inceleyin ve geleceğe birlikte yön verelim.",
-      "button": "Yol Haritamız"
+      "button": "Projelerimiz"
     }
   },
   "AboutPage": {
     "title": "Hakkımızda",
     "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
     "home": "Anasayfa",
+    "goToContact": "Bilgi Talep Edin",
     "content": {
       "title": "WEECOINS Premium Teknolojisi",
       "description": "WeeCoins Premium, blockchain teknolojisini kullanarak finansal özgürlüğü ve ekonomik katılımı genişletmeyi hedefleyen yenilikçi bir kripto ekosistemidir. Güvenli, hızlı ve düşük maliyetli işlem yapabilmeyi sağlayan WeeGold ağı üzerine inşa edilen sistemimiz, kullanıcılarımıza benzersiz bir dijital varlık deneyimi sunmaktadır.",
@@ -235,7 +254,7 @@
         }
       },
       "cryptoCurrencyExpert": {
-        "title": "ÖZKAN CIBIR, YILIN EN İYİ KRİPTO PARA UZMANI SEÇİLDİ",
+        "title": "Özkan Cıbır, Yılın En İyi Kripto Para Uzmanı seçildi",
         "subtitle": "Altın Melek Ödülleri, İstanbul MKM'de düzenlenen görkemli bir törenle sahiplerini buldu. İş dünyasından cemiyet hayatına, spordan sanata pek çok alanda önemli isim başarıları ile ödüle layık görüldü. Gecenin dikkat çeken isimlerinden biri kripto para sektörünün öncülerinden Özkan Cıbır oldu. Cıbır, Yılın En İyi Kripto Para Uzmanı ödülünün sahibi oldu.",
         "description": "Türkiye'de 2020 yılından bu yana kripto para alanında çalışmalar yürüten Kripto Para Uzmanı Özkan Cıbır, yılın Kripto Para Uzmanı seçildi. Türkiye’de alanında öncü isimlerden biri olan Cıbır, dünya genelinde birçok ülkede eğitimler düzenliyor. Yerli blok zinciri ağına sahip olan başarılı girişimci, sadece eğitimlerle kalmayıp yapay zeka tabanlı borsa robotları geliştiriyor. Bu robotlar, dünya çapında birçok firmaya ve derneğe özel tokenler sunuyor. Ayrıca, çeşitli TV kanallarında programlar yaparak, kripto para dünyasına dair bilgileri geniş kitlelere ulaştırıyor.",
         "africa": {
@@ -262,7 +281,7 @@
         "cibir": "Cıbır ise Belki de geleceğin olayını yaptık. Artık her şey dijitalleşiyor. Düğünlerde bile takılar bu şekilde yapılabiliyor dedi."
       },
       "kripto": {
-        "title": "Özkan Cıbır, Yılın En İyi Kripto Para Uzmanı seçildi",
+        "title": "Özkan Cıbır, Yılın En İyi Kripto Para Uzmanı seçildi.",
         "subtitle": "Türkiye'de 2020 yılından bu yana kripto para alanında çalışmalar yürüten Cıbır, aynı zamanda dünya genelinde birçok ülkede eğitimler düzenliyor. Yerli blok zinciri ağına sahip olan başarılı girişimci, sadece eğitimlerle kalmayıp yapay zeka tabanlı borsa robotları geliştiriyor. Bu robotlar, dünya çapında birçok firmaya ve derneğe özel tokenler sunuyor. Ayrıca, çeşitli TV kanallarında programlar yaparak, kripto para dünyasına dair bilgileri geniş kitlelere ulaştırıyor."
       },
       "expert": {

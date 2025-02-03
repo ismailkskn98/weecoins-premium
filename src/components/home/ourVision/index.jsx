@@ -16,7 +16,7 @@ export default function OurVision() {
           <SectionTitle title={t("ourVision.title")} description={t("ourVision.description")} />
         </div>
         <div className="flex items-center justify-center gap-4">
-          <BlackButton href="/roadMap" label={t("ourVision.button")} isTopShow={false} isFixed={false} />
+          <BlackButton href="/our-projects" label={t("ourVision.button")} isTopShow={false} isFixed={false} />
           <LearnMore href={"/about"} />
         </div>
       </article>

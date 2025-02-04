@@ -7,7 +7,7 @@ const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 export default function VideoCarouselContainer({ data }) {
   const [currentVideo, setCurrentVideo] = useState(
-    data
+    data.length > 0
       ? {
           videoUrl: `https://youtu.be/${data[10].id.videoId}`,
           title: data[10].snippet.title,

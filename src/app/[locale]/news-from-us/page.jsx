@@ -24,9 +24,7 @@ export default async function NewsFromUs() {
   return (
     <>
       <PageTitle title={t("title")} subtitle={t("subtitle")} />
-      <NewsFromUsMain>
-        <VideoCarouselContainer data={data.videos} />
-      </NewsFromUsMain>
+      <NewsFromUsMain isData={data.length > 0 ? true : false}>{data.length > 0 && <VideoCarouselContainer data={data} />}</NewsFromUsMain>
     </>
   );
 }

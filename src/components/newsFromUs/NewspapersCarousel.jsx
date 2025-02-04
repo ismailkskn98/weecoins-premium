@@ -103,7 +103,7 @@ export default function NewspapersCarousel() {
                   className="h-full w-full object-cover transition-all duration-300 group-hover:scale-110"
                 />
               </div>
-              <div className="absolute -inset-x-1 -bottom-1 w-[103%] bg-black/60 px-3 py-3 backdrop-blur-sm">
+              <div className="absolute -inset-x-1 -bottom-1 w-[103%] bg-black/60 px-3 py-3 backdrop-blur-sm sm:px-5 sm:py-5">
                 <h5 className="line-clamp-1 text-start text-xs font-semibold capitalize text-zinc-200 md:text-sm lg:line-clamp-none">
                   {item.title.length > 40
                     ? item.title.charAt(0).toUpperCase() + item.title.substring(1, 25).toLowerCase() + "..."

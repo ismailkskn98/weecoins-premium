@@ -32,9 +32,9 @@
           "title": "Smart Contracts",
           "description": "Your transactions are secure and guaranteed with smart contract technology developed using Solidity."
         },
-        "automaticLiquidityPool": {
-          "title": "Automatic Liquidity Pool",
-          "description": "Provides ease of transaction with the ability to automatically create and manage liquidity pools."
+        "whyWeecoins": {
+          "title": "Why WeeCoins Premium?",
+          "description": "Join the WeeCoins Premium family to secure your place in the future of finance!"
         },
         "stakingYieldFarming": {
           "title": "Staking Yield Farming",
@@ -52,11 +52,15 @@
       "cards": {
         "discoverThePower": {
           "title": "Discover the Power of Knowledge",
-          "description": "Access unlimited learning opportunities with WeeCoins Premium. Whether you want to specialize in a subject or pick up a new hobby, you can find the content you're looking for on the WCP platform."
+          "description": "Discover unlimited learning opportunities with WeeCoins Premium. Whether you want to specialize in a field or pick up a new hobby, you can easily find what you're looking for in WCP’s rich content world. Start exploring and push the boundaries of knowledge! Get ready for a journey where you will be inspired at every step and grow as you discover. Move forward with the light of knowledge and take yourself one step further every day.",
+          "badge1": "Unlimited Learning",
+          "badge2": "Premium Content"
         },
         "whyWeecoins": {
-          "title": "Why Education with WeeCoins Premium?",
-          "description": "Payments made using WCP gain value with every educational transaction. Each new lesson, each new participant, increases the value of WCP and expands the ecosystem."
+          "title": "Why Should You Trade with WeeCoins Premium?",
+          "description": "Payments made using WCP gain value with every transaction in trade, investment, and the digital economy. Each new user and each new transaction increases the value of WCP, expanding the ecosystem. WeeCoins Premium offers a fast, reliable, and low-cost payment solution, enabling individuals and businesses to make the most of blockchain technology. Join the WCP ecosystem and secure your place in the future of digital finance!",
+          "badge1": "Secure Transactions",
+          "badge2": "Fast Payments"
         }
       }
     },
@@ -95,8 +99,27 @@
     "home": "Home",
     "goToContact": "Request Information",
     "content": {
-      "title": "WEECOINS Premium Technology",
-      "description": "WeeCoins Premium is an innovative crypto ecosystem that aims to expand financial freedom and economic participation by using blockchain technology. Built on the WeeGold network, which enables secure, fast, and low-cost transactions, our system provides users with a unique digital asset experience.",
+      "top": {
+        "title": "About Us – WeeCoins Premium",
+        "cards": {
+          "global": {
+            "title": "Global Reach",
+            "content": "Entering the software industry in 2013, Weecomi International has led technological advancements by launching numerous innovative projects in the global market."
+          },
+          "security": {
+            "title": "Secure Infrastructure",
+            "content": "In 2019, we invested in blockchain technologies and developed our own network, Weescan. Through the Weescan network, we created exclusive token projects for many football clubs and expanded the digital asset ecosystem."
+          },
+          "social": {
+            "title": "Social Responsibility",
+            "content": "As part of our social responsibility projects, we conduct aid activities in many regions, primarily in Africa."
+          }
+        },
+        "descriptionP1": "WeeCoins Premium is an innovative digital asset developed under the umbrella of Weecomi International. Entering the software industry in 2013, Weecomi International has led technological advancements by launching numerous innovative projects in the global market.",
+        "descriptionP2": "In 2019, we invested in blockchain technologies and developed our own network, Weescan. Through the Weescan network, we created exclusive token projects for many football clubs and expanded the digital asset ecosystem. With the strength of this infrastructure, we launched WeeCoins and ushered in a new era in the digital finance world with WeeCoins Premium in May 2024.",
+        "descriptionP3": "WeeCoins Premium is more than just an investment tool; it is a fast and secure payment ecosystem that offers real-world applications. Through our blockchain-based solutions, we aim to provide individuals and businesses with access to a more inclusive and fair financial system.",
+        "descriptionP4": "Additionally, as part of our social responsibility projects, we conduct aid activities in many regions, primarily in Africa. We use technology not only for financial gain but also to create social benefits and contribute to building a sustainable future. As WeeCoins Premium, we will continue to make a difference in the digital finance world with our strong infrastructure, innovative projects, and commitment to social responsibility."
+      },
       "cards": {
         "safe": {
           "title": "Safe",
@@ -113,16 +136,32 @@
       },
       "ourMission": {
         "title": "Our Mission",
-        "description": "Our mission is to facilitate transactions with crypto assets, increase access to financial systems for individuals and businesses, and create a fairer economy."
+        "description": "As Weecoins Premium, our mission is to make transactions with crypto assets easy and reliable, increasing individuals' and businesses' access to financial systems. By promoting the use of digital assets, we aim to create an inclusive, transparent, and fair economy for everyone. By surpassing the limitations of traditional financial systems, we provide innovative solutions that enable our users to access low-cost, fast, and secure payment solutions. We strive to make crypto assets not just an investment tool but an actively used payment method in daily life."
       },
       "ourVision": {
         "title": "Our Vision",
-        "description": "To make blockchain technology accessible to everyone and become a widely used digital payment and investment tool globally."
+        "description": "Weecoins Premium's vision is to make blockchain technology accessible to everyone and become a globally adopted digital payment and investment tool. With our reliable infrastructure and user-friendly platform, we are creating an ecosystem that supports individuals and businesses in achieving financial freedom. Our goal is to become one of the cornerstones of the digital economy, enabling millions worldwide to access fast, secure, and decentralized financial services. By leading technological advancements, Weecoins Premium will continue to build the financial world of the future today.\n\n🚀Let's shape the future economy together."
       },
       "linkCard": {
         "title": "Why WeeCoins Premium?",
-        "description": "The WeeCoins Premium ecosystem offers many services beyond just a cryptocurrency, such as shopping at partner stores, asset transfers, and smart contracts. Join the WeeCoins Premium family to take your place in the future of finance!",
-        "learnMore": "Learn More"
+        "content": "WeeCoins Premium goes beyond being just a cryptocurrency, offering a comprehensive digital economy ecosystem that provides users with secure, fast, and innovative financial solutions.",
+        "descriptionP1": {
+          "title": "Real-World Use Cases",
+          "content": "WeeCoins Premium is not just an investment asset; it is also a versatile digital payment tool that enables shopping at partnered stores, making online and physical payments, transferring assets, and utilizing smart contracts."
+        },
+        "descriptionP2": {
+          "title": "A Strong and Sustainable Ecosystem",
+          "content": "With an advanced blockchain infrastructure, WCP offers fast transaction confirmation times and low-cost transfers, establishing a reliable financial system. Each new transaction and user strengthens the network, increasing WCP’s value."
+        },
+        "descriptionP3": {
+          "title": "The Key to Financial Freedom",
+          "content": "Operating independently of traditional banking systems, we provide a structure that ensures equal access to financial services for everyone. With cross-border transfers, decentralized finance (DeFi) solutions, and easy accessibility, WCP promises financial freedom to its users."
+        },
+        "descriptionP4": {
+          "title": "Investing in the Future",
+          "content": "WeeCoins Premium moves forward with a vision that leads technological advancements. With a constantly updated infrastructure, a growing user base, and expanding use cases, we are shaping the future of digital finance."
+        },
+        "detailedText": "Join the WeeCoins Premium family to secure your place in the financial world of the future!"
       }
     }
   },

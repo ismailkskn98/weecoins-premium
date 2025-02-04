@@ -11,7 +11,7 @@ export default function AboutMain() {
       <PageGradientBg />
       <AboutTitle />
       <AboutCards />
-      <main className="relative mx-auto flex w-full flex-col items-center justify-between gap-24 pb-16 lg:flex-row lg:items-start xl:w-10/12">
+      <main className="relative mx-auto flex w-full flex-col items-center justify-between gap-24 pb-16 lg:flex-row lg:items-start">
         <AboutLeft />
         <AboutRight />
       </main>

@@ -32,9 +32,9 @@
           "title": "Akıllı Sözleşmeler",
           "description": "Solidity dili kullanılarak geliştirilen akıllı sözleşme teknolojisi ile işlemleriniz güvenli ve garantilidir."
         },
-        "automaticLiquidityPool": {
-          "title": "Otomatik Likidite Havuzu",
-          "description": "Likidite havuzlarını otomatik olarak oluşturma ve yönetme özelliği ile işlem kolaylığı sağlar."
+        "whyWeecoins": {
+          "title": "Neden WeeCoins Premium?",
+          "description": "Geleceğin finans dünyasında yerinizi almak için siz de WeeCoins Premium ailesine katılın!"
         },
         "stakingYieldFarming": {
           "title": "Verim Tarımı Staking",
@@ -52,11 +52,15 @@
       "cards": {
         "discoverThePower": {
           "title": "Bilginin Gücünü Keşfedin",
-          "description": "WeeCoins Premium ile sınırsız öğrenme olanaklarına erişin. İster bir konuda uzmanlaşın, ister yeni bir hobi edinin, WCP’nin sunduğu platformda aradığınız içeriği bulabilirsiniz."
+          "description": "WeeCoins Premium ile sınırsız öğrenme olanaklarına erişin. İster bir konuda uzmanlaşın, ister yeni bir hobi edinin, WCP’nin sunduğu zengin içerik dünyasında aradığınızı kolayca bulabilirsiniz. Keşfetmeye başlayın ve bilginin sınırlarını zorlayın! Her adımda ilham alacağınız, keşfettikçe büyüyeceğiniz bir yolculuğa çıkmaya hazır olun. Bilginin ışığında ilerleyin ve her gün kendinizi bir adım daha ileri taşıyın.",
+          "badge1": "Sınırsız Öğrenme",
+          "badge2": "Premium İçerik"
         },
         "whyWeecoins": {
-          "title": "Neden WeeCoins Premium ile Eğitim?",
-          "description": "WCP kullanarak yapılan ödemeler, eğitim alanında gerçekleştirilen her işlemle birlikte değer kazanır. Her yeni ders, her yeni katılımcı, WCP’nin değerini artırarak ekosistemi genişletir."
+          "title": "Neden WeeCoins Premium ile İşlem Yapmalısınız?",
+          "description": "WCP kullanarak yapılan ödemeler, ticaret, yatırım ve dijital ekonomi alanlarında gerçekleştirilen her işlemle birlikte değer kazanır. Her yeni kullanıcı, her yeni işlem, WCP’nin değerini artırarak ekosistemi genişletir. WeeCoins Premium, hızlı, güvenilir ve düşük maliyetli bir ödeme çözümü sunarak, bireylerin ve işletmelerin blokzincir teknolojisinden en iyi şekilde faydalanmasını sağlar. WCP ekosistemine katılarak geleceğin dijital finans dünyasında yerinizi alın!",
+          "badge1": "Güvenli İşlemler",
+          "badge2": "Hızlı Ödemeler"
         }
       }
     },
@@ -94,8 +98,27 @@
     "home": "Anasayfa",
     "goToContact": "Bilgi Talep Edin",
     "content": {
-      "title": "WEECOINS Premium Teknolojisi",
-      "description": "WeeCoins Premium, blockchain teknolojisini kullanarak finansal özgürlüğü ve ekonomik katılımı genişletmeyi hedefleyen yenilikçi bir kripto ekosistemidir. Güvenli, hızlı ve düşük maliyetli işlem yapabilmeyi sağlayan WeeGold ağı üzerine inşa edilen sistemimiz, kullanıcılarımıza benzersiz bir dijital varlık deneyimi sunmaktadır.",
+      "top": {
+        "title": "Hakkımızda – WeeCoins Premium",
+        "cards": {
+          "global": {
+            "title": "Global Erişim",
+            "content": "2013 yılında yazılım sektörüne giriş yapan Weecomi International, global pazarda birçok yenilikçi projeye imza atarak teknolojik gelişmelere öncülük etmiştir."
+          },
+          "security": {
+            "title": "Güvenli Altyapı",
+            "content": "2019 yılında blokzincir teknolojilerine yatırım yaparak kendi ağı olan Weescan’ı geliştirdik. Weescan ağı sayesinde birçok futbol kulübü için özel token projeleri oluşturduk ve dijital varlık ekosistemini genişlettik."
+          },
+          "social": {
+            "title": "Sosyal Sorumluluk",
+            "content": "Sosyal sorumluluk projeleri kapsamında Afrika başta olmak üzere birçok bölgede yardım faaliyetleri yürütmekteyiz."
+          }
+        },
+        "descriptionP1": "WeeCoins Premium, Weecomi International çatısı altında geliştirilen yenilikçi bir dijital varlıktır. 2013 yılında yazılım sektörüne giriş yapan Weecomi International, global pazarda birçok yenilikçi projeye imza atarak teknolojik gelişmelere öncülük etmiştir.",
+        "descriptionP2": "2019 yılında blokzincir teknolojilerine yatırım yaparak kendi ağı olan Weescan’ı geliştirdik. Weescan ağı sayesinde birçok futbol kulübü için özel token projeleri oluşturduk ve dijital varlık ekosistemini genişlettik. Bu altyapının gücüyle WeeCoins’i piyasaya sürdük ve 2024 yılının Mayıs ayında WeeCoins Premium ile dijital finans dünyasında yeni bir dönemi başlattık.",
+        "descriptionP3": "WeeCoins Premium, sadece bir yatırım aracı olmanın ötesinde, gerçek kullanım alanları sunan, hızlı ve güvenli bir ödeme ekosistemidir. Blokzincir tabanlı çözümlerimizle, bireylerin ve işletmelerin daha erişilebilir ve adil bir finansal sisteme ulaşmasını sağlamayı hedefliyoruz.",
+        "descriptionP4": "Ayrıca, sosyal sorumluluk projeleri kapsamında Afrika başta olmak üzere birçok bölgede yardım faaliyetleri yürütmekteyiz. Teknolojiyi sadece finansal kazanç için değil, aynı zamanda toplumsal fayda yaratmak için de kullanıyor, sürdürülebilir bir gelecek inşa etmeye katkıda bulunuyoruz. WeeCoins Premium olarak, güçlü altyapımız, yenilikçi projelerimiz ve sosyal sorumluluk bilincimizle dijital finans dünyasında fark yaratmaya devam edeceğiz."
+      },
       "cards": {
         "safe": {
           "title": "Güvenli",
@@ -112,15 +135,32 @@
       },
       "ourMission": {
         "title": "Misyonumuz",
-        "description": "Kripto varlıklarla işlem yapmayı kolaylaştırarak, bireylerin ve işletmelerin finansal sistemlere erişimini artırmak ve daha adil bir ekonomi oluşturmaktır."
+        "description": "Weecoins Premium olarak misyonumuz, kripto varlıklarla işlem yapmayı kolay ve güvenilir hale getirerek bireylerin ve işletmelerin finansal sistemlere erişimini artırmaktır. Dijital varlıkların kullanımını teşvik ederek, herkes için kapsayıcı, şeffaf ve adil bir ekonomi oluşturmayı hedefliyoruz. Geleneksel finans sistemlerinin sınırlarını aşarak, kullanıcılarımızın düşük maliyetli, hızlı ve güvenli ödeme çözümlerine erişmesini sağlamak için yenilikçi çözümler sunuyoruz. Kripto varlıkların yalnızca yatırım aracı değil, günlük hayatta aktif olarak kullanılan bir ödeme yöntemi haline gelmesi için çalışıyoruz."
       },
       "ourVision": {
         "title": "Vizyonumuz",
-        "description": "Blockchain teknolojisini herkes için erişilebilir hale getirerek, global çapta yaygın olarak kullanılan bir dijital ödeme ve yatırım aracı olmak."
+        "description": "Weecoins Premium’un vizyonu, blockchain teknolojisini herkes için erişilebilir hale getirerek, küresel çapta benimsenen bir dijital ödeme ve yatırım aracı olmaktır. Güvenilir altyapımız ve kullanıcı dostu platformumuz sayesinde, bireylerin ve işletmelerin finansal özgürlüğe ulaşmasını destekleyen bir ekosistem yaratıyoruz. Hedefimiz, dijital ekonominin temel taşlarından biri haline gelerek, dünya genelinde milyonlarca insanın hızlı, güvenli ve merkeziyetsiz finansal hizmetlere erişmesini sağlamaktır. Weecoins Premium, teknolojik gelişmelere öncülük ederek, geleceğin finans dünyasını bugünden inşa etmeye devam edecektir.\n\n🚀Geleceğin ekonomisini birlikte şekillendirelim."
       },
       "linkCard": {
         "title": "Neden WeeCoins Premium?",
-        "description": "WeeCoins Premium ekosistemi, yalnızca bir kripto para birimi olmanın ötesinde, anlaşmalı mağazalarda alışveriş yapma, varlık transferi ve akıllı sözleşmeler gibi birçok hizmet sunarak geniş bir kullanım alanına sahiptir. Geleceğin finans dünyasında yerinizi almak için siz de WeeCoins Premium ailesine katılın!"
+        "content": "WeeCoins Premium, sadece bir kripto para birimi olmanın ötesinde, kapsamlı bir dijital ekonomi ekosistemi sunarak kullanıcılarına güvenli, hızlı ve yenilikçi finansal çözümler sağlar.",
+        "descriptionP1": {
+          "title": "Gerçek Hayatta Kullanım Alanları",
+          "content": "WeeCoins Premium, yalnızca yatırım amaçlı bir varlık değildir; aynı zamanda anlaşmalı mağazalarda alışveriş yapma, online ve fiziksel ödemeler gerçekleştirme, varlık transferleri yapma ve akıllı sözleşmeler kullanma gibi birçok işlevi barındıran çok yönlü bir dijital ödeme aracıdır."
+        },
+        "descriptionP2": {
+          "title": "Güçlü ve Sürdürülebilir Ekosistem",
+          "content": "WCP, gelişmiş blockchain altyapısıyla, hızlı işlem onay süreleri ve düşük maliyetli transferler sunarak güvenilir bir finansal sistem oluşturur. Ekosistemdeki her yeni işlem ve kullanıcı, WCP’nin değerini artırarak ağı daha güçlü hale getirir."
+        },
+        "descriptionP3": {
+          "title": "Finansal Özgürlüğün Anahtarı",
+          "content": "Geleneksel bankacılık sistemlerinden bağımsız olarak, herkesin eşit şartlarda finansal hizmetlere erişmesini sağlayan bir yapı sunuyoruz. Sınır ötesi transferler, merkeziyetsiz finans (DeFi) çözümleri ve kolay erişim imkanıyla, WCP kullanıcılarına finansal özgürlük vadediyor."
+        },
+        "descriptionP4": {
+          "title": "Geleceğe Yatırım",
+          "content": "WeeCoins Premium, teknolojik gelişmelere öncülük eden bir vizyonla hareket eder. Sürekli güncellenen altyapısı, büyüyen kullanıcı ağı ve gelişen kullanım alanları ile dijital finansın geleceğini inşa ediyoruz."
+        },
+        "detailedText": "Geleceğin finans dünyasında yerinizi almak için siz de WeeCoins Premium ailesine katılın!"
       }
     }
   },

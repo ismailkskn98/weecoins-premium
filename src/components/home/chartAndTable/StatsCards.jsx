@@ -11,11 +11,10 @@ export default function StatsCards() {
   const t = useTranslations("HomePage");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-
   const stats = [
     {
-      title: t("chartAndTable.table.categories.circulation"),
-      value: "450",
+      title: t("chartAndTable.table.categories.projectSustainability"),
+      value: "30",
       icon: Coins,
       gradient: "from-primary/10 to-secondary/10 ",
       iconBg: "bg-zinc-200",
@@ -23,7 +22,7 @@ export default function StatsCards() {
     },
     {
       title: t("chartAndTable.table.categories.marketing"),
-      value: "60",
+      value: "510",
       icon: TrendingUp,
       gradient: "from-secondary/10 to-accent/10 ",
       iconBg: "bg-green-200",
@@ -31,7 +30,7 @@ export default function StatsCards() {
     },
     {
       title: t("chartAndTable.table.categories.development"),
-      value: "21.6",
+      value: "18",
       icon: Code,
       gradient: "from-accent/10 to-muted/10 ",
       iconBg: "bg-yellow-200",
@@ -39,7 +38,7 @@ export default function StatsCards() {
     },
     {
       title: t("chartAndTable.table.categories.teamAdvisor"),
-      value: "84",
+      value: "42",
       icon: Users,
       gradient: "from-muted/10 to-primary/10 ",
       iconBg: "bg-red-200",

@@ -1,4 +1,5 @@
 import SectionTitle from "@/components/common/SectionTitle";
+import { Rocket, Shield } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
@@ -9,12 +10,16 @@ export default function AccessToKnowledge() {
     {
       title: t("accessToKnowledge.cards.discoverThePower.title"),
       description: t("accessToKnowledge.cards.discoverThePower.description"),
-      image: "/images/access-card-1.webp",
+      badge1: t("accessToKnowledge.cards.discoverThePower.badge1"),
+      badge2: t("accessToKnowledge.cards.discoverThePower.badge2"),
+      image: "/images/access-card-3.webp",
     },
     {
       title: t("accessToKnowledge.cards.whyWeecoins.title"),
       description: t("accessToKnowledge.cards.whyWeecoins.description"),
-      image: "/images/access-card-2.webp",
+      badge1: t("accessToKnowledge.cards.whyWeecoins.badge1"),
+      badge2: t("accessToKnowledge.cards.whyWeecoins.badge2"),
+      image: "/images/access-card-4.webp",
     },
   ];
 
@@ -25,22 +30,32 @@ export default function AccessToKnowledge() {
         {cardItems.map((item, index) => (
           <div
             key={index}
-            className="group flex h-full w-full flex-col items-center justify-center rounded-2xl border border-solid border-[#1B1B1B]/10 bg-white px-4 py-10 shadow-lg dark:border-gray-800 dark:bg-transparent sm:px-10 md:max-w-[520px]"
+            className="group h-full w-full max-w-[600px] rounded-2xl border border-solid border-[#1B1B1B]/10 bg-white px-4 py-5 shadow-lg dark:border-gray-800 dark:bg-transparent sm:px-10 sm:py-10"
           >
-            <div>
+            <div className="float-left">
               <Image
                 src={item.image}
                 width={330}
                 height={330}
                 alt="weecoins access to knowledge image"
-                className="h-full w-full max-w-[280px] object-cover drop-shadow-lg -hue-rotate-180 transition-transform duration-300 group-hover:scale-105 sm:max-w-[400px] md:max-w-[520px]"
+                className="float-left h-full w-full max-w-[150px] object-cover drop-shadow-2xl transition-transform duration-300 group-hover:scale-105"
               />
             </div>
-            <div className="flex flex-col items-center justify-center gap-2 bg-gradient-to-t from-light-833E15 to-black bg-clip-text text-center text-transparent dark:from-light-EAEEFE dark:to-light-EAEEFE md:gap-0">
-              <h4 className="text-wrap font-dmSans text-xl font-bold leading-9 sm:text-2xl md:text-nowrap md:leading-[60px]">
-                {item.title}
-              </h4>
-              <p className="font-inter text-sm font-light leading-5 sm:text-base sm:leading-[23px]">{item.description}</p>
+            <div className="space-y-2">
+              <h4 className="text-wrap font-dmSans text-lg font-semibold text-black dark:text-zinc-100 sm:text-2xl">{item.title}</h4>
+              <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1 rounded-full px-3 py-1 text-xs text-zinc-800 shadow-md dark:text-zinc-300">
+                  <Rocket className="mr-1 h-4 w-4" />
+                  {item.badge1}
+                </div>
+                <div className="flex items-center gap-1 rounded-full px-3 py-1 text-xs text-zinc-800 shadow-md dark:text-zinc-300">
+                  <Shield className="mr-1 h-4 w-4" />
+                  {item.badge2}
+                </div>
+              </div>
+              <p className="text-justify font-inter text-xs font-light leading-5 text-zinc-700 dark:text-zinc-300 sm:text-base sm:leading-[23px]">
+                {item.description}
+              </p>
             </div>
           </div>
         ))}

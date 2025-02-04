@@ -32,9 +32,9 @@
           "title": "Ağıllı müqavilələr",
           "description": "Solidity dili istifadə edilərək hazırlanmış ağıllı müqavilə texnologiyası ilə əməliyyatlarınız təhlükəsiz və zəmanətlidir."
         },
-        "automaticLiquidityPool": {
-          "title": "Avtomatik likvidlik hovuzu",
-          "description": "Likvidlik hovuzlarını avtomatik olaraq yaratmaq və idarə etmək imkanı ilə əməliyyat rahatlığı təmin edir."
+        "whyWeecoins": {
+          "title": "Niyə WeeCoins Premium?",
+          "description": "Gələcəyin maliyyə dünyasında yerinizi tutmaq üçün siz də WeeCoins Premium ailəsinə qoşulun!"
         },
         "stakingYieldFarming": {
           "title": "Staking Yield Farming",
@@ -51,12 +51,16 @@
       "description": "Onlayn təhsil, əlçatanlığı və elastikliyi sayəsində dünya üzrə daha çox seçilən bir öyrənmə metodu halına gəlib. Bu platforma hər kəsə, hər yerdə, hər zaman keyfiyyətli təhsil alma fürsəti təqdim edir.",
       "cards": {
         "discoverThePower": {
-          "title": "Bilməyin gücünü kəşf edin",
-          "description": "WeeCoins Premium ilə sonsuz öyrənmə imkanlarına daxil olun. İstər bir sahədə mütəxəssis olun, istər yeni bir hobbi əldə edin, WCP platformasında axtardığınız məzmunu tapacaqsınız."
+          "title": "Biliyin Gücünü Kəşf Edin",
+          "description": "WeeCoins Premium ilə sonsuz öyrənmə imkanlarına çıxış əldə edin. İstər bir sahədə ixtisaslaşın, istər yeni bir hobbi qazanın, WCP-nin təqdim etdiyi zəngin məzmun dünyasında axtardığınızı asanlıqla tapa bilərsiniz. Kəşf etməyə başlayın və biliyin sərhədlərini aşın! Hər addımda ilham alacağınız, kəşf etdikcə böyüyəcəyiniz bir səyahətə çıxmağa hazır olun. Biliyin işığında irəliləyin və hər gün özünüzü bir addım daha irəli aparın.",
+          "badge1": "Sonsuz Öyrənmə",
+          "badge2": "Premium Məzmun"
         },
         "whyWeecoins": {
-          "title": "Niyə WeeCoins Premium ilə Təhsil?",
-          "description": "WCP istifadə edərək edilən ödənişlər, hər təhsil əməliyyatı ilə dəyər qazanır. Hər yeni dərs, hər yeni iştirakçı, WCP-nin dəyərini artırır və ekosistemi genişləndirir."
+          "title": "Niyə WeeCoins Premium ilə Əməliyyat Etməlisiniz?",
+          "description": "WCP istifadə edilərək edilən ödənişlər, ticarət, investisiya və rəqəmsal iqtisadiyyat sahələrində həyata keçirilən hər bir əməliyyatla dəyər qazanır. Hər yeni istifadəçi və hər yeni əməliyyat WCP-nin dəyərini artıraraq ekosistemi genişləndirir. WeeCoins Premium, sürətli, etibarlı və aşağı xərcli bir ödəniş həlli təqdim edərək, fərdlərin və bizneslərin blokçeyn texnologiyasından maksimum faydalanmasını təmin edir. WCP ekosisteminə qoşularaq gələcəyin rəqəmsal maliyyə dünyasında yerinizi tutun!",
+          "badge1": "Təhlükəsiz Əməliyyatlar",
+          "badge2": "Sürətli Ödənişlər"
         }
       }
     },
@@ -95,8 +99,27 @@
     "home": "Əsas səhifə",
     "goToContact": "Məlumat Tələb Edin",
     "content": {
-      "title": "WEECOINS Premium Texnologiyası",
-      "description": "WeeCoins Premium, blockchain texnologiyasından istifadə edərək maliyyə azadlığını və iqtisadi iştirakını genişləndirməyi hədəfləyən innovativ bir kripto ekosistemidir. Təhlükəsiz, sürətli və aşağı xərclərlə əməliyyatlar etməyə imkan verən WeeGold şəbəkəsi üzərində qurulmuş sistemimiz, istifadəçilərimizə bənzərsiz bir rəqəmsal aktiv təcrübəsi təqdim edir.",
+      "top": {
+        "title": "Haqqımızda – WeeCoins Premium",
+        "cards": {
+          "global": {
+            "title": "Qlobal Əhatə",
+            "content": "2013-cü ildə proqram təminatı sektoruna daxil olan Weecomi International, qlobal bazarda bir çox innovativ layihəyə imza ataraq texnoloji inkişaflara liderlik etmişdir."
+          },
+          "security": {
+            "title": "Təhlükəsiz İnfrastruktur",
+            "content": "2019-cu ildə blokçeyn texnologiyalarına sərmayə qoyaraq öz şəbəkəmiz olan Weescan-ı inkişaf etdirdik. Weescan şəbəkəsi sayəsində bir çox futbol klubu üçün xüsusi token layihələri yaratdıq və rəqəmsal aktiv ekosistemini genişləndirdik."
+          },
+          "social": {
+            "title": "Sosial Məsuliyyət",
+            "content": "Sosial məsuliyyət layihələrimiz çərçivəsində xüsusilə Afrika olmaqla bir çox bölgədə yardım fəaliyyətləri həyata keçiririk."
+          }
+        },
+        "descriptionP1": "WeeCoins Premium, Weecomi International çətiri altında inkişaf etdirilmiş innovativ bir rəqəmsal aktivdir. 2013-cü ildə proqram təminatı sektoruna daxil olan Weecomi International, qlobal bazarda bir çox innovativ layihəyə imza ataraq texnoloji inkişaflara liderlik etmişdir.",
+        "descriptionP2": "2019-cu ildə blokçeyn texnologiyalarına sərmayə qoyaraq öz şəbəkəmiz olan Weescan-ı inkişaf etdirdik. Weescan şəbəkəsi sayəsində bir çox futbol klubu üçün xüsusi token layihələri yaratdıq və rəqəmsal aktiv ekosistemini genişləndirdik. Bu infrastrukturun gücü ilə WeeCoins-i bazara çıxardıq və 2024-cü ilin may ayında WeeCoins Premium ilə rəqəmsal maliyyə dünyasında yeni bir dövrə başladıq.",
+        "descriptionP3": "WeeCoins Premium, yalnız bir sərmayə aləti olmaqdan daha çox, real istifadə sahələri təqdim edən, sürətli və təhlükəsiz bir ödəniş ekosistemidir. Blokçeyn əsaslı həllərimizlə fərdlərin və bizneslərin daha əlçatan və ədalətli bir maliyyə sisteminə çatmasını təmin etməyi hədəfləyirik.",
+        "descriptionP4": "Bundan əlavə, sosial məsuliyyət layihələrimiz çərçivəsində xüsusilə Afrika olmaqla bir çox bölgədə yardım fəaliyyətləri həyata keçiririk. Texnologiyanı yalnız maliyyə qazancı üçün deyil, həm də sosial fayda yaratmaq üçün istifadə edirik və davamlı bir gələcək qurmağa töhfə veririk. WeeCoins Premium olaraq, güclü infrastrukturumuz, innovativ layihələrimiz və sosial məsuliyyət şüurumuzla rəqəmsal maliyyə dünyasında fərq yaratmağa davam edəcəyik."
+      },
       "cards": {
         "safe": {
           "title": "Təhlükəsiz",
@@ -113,16 +136,32 @@
       },
       "ourMission": {
         "title": "Missiyamız",
-        "description": "Kripto aktivlərlə əməliyyat etməyi asanlaşdıraraq, fərdlərin və müəssisələrin maliyyə sistemlərinə girişini artırmaq və daha ədalətli bir iqtisadiyyat yaratmaq."
+        "description": "Weecoins Premium olaraq missiyamız, kripto aktivlərlə əməliyyatları asan və etibarlı hala gətirərək fərdlərin və bizneslərin maliyyə sistemlərinə çıxışını artırmaqdır. Rəqəmsal aktivlərin istifadəsini təşviq edərək hər kəs üçün inklüziv, şəffaf və ədalətli bir iqtisadiyyat yaratmağı hədəfləyirik. Ənənəvi maliyyə sistemlərinin sərhədlərini aşaraq, istifadəçilərimizin aşağı maliyyətli, sürətli və təhlükəsiz ödəniş həllərinə çıxışını təmin etmək üçün innovativ həllər təqdim edirik. Kripto aktivlərin yalnız sərmayə aləti deyil, gündəlik həyatda aktiv istifadə edilən bir ödəniş vasitəsinə çevrilməsi üçün çalışırıq."
       },
       "ourVision": {
         "title": "Vizyonumuz",
-        "description": "Blockchain texnologiyasını hər kəs üçün əlçatan edərək, qlobal səviyyədə geniş şəkildə istifadə olunan rəqəmsal ödəmə və investisiya vasitəsi olmaq."
+        "description": "Weecoins Premium-un vizyonu, blockchain texnologiyasını hər kəs üçün əlçatan edərək, qlobal miqyasda qəbul edilən rəqəmsal ödəniş və investisiya vasitəsi olmaqdır. Etibarlı infrastrukturumuz və istifadəçi dostu platformamız sayəsində fərdlərin və bizneslərin maliyyə azadlığına çatmasına dəstək olan bir ekosistem yaradırıq. Məqsədimiz, rəqəmsal iqtisadiyyatın əsas sütunlarından biri olaraq, dünya üzrə milyonlarla insanın sürətli, təhlükəsiz və mərkəzsiz maliyyə xidmətlərinə çıxışını təmin etməkdir. Texnoloji inkişafa liderlik edərək, Weecoins Premium gələcəyin maliyyə dünyasını bu gündən qurmağa davam edəcəkdir.\n\n🚀Gələcəyin iqtisadiyyatını birlikdə formalaşdıraq."
       },
       "linkCard": {
         "title": "Niyə WeeCoins Premium?",
-        "description": "WeeCoins Premium ekosistemi yalnız bir kripto valyuta olmaqla yanaşı, mağazalarda alış-veriş etmək, aktiv transferləri və ağıllı müqavilələr kimi bir çox xidmət təqdim edir. Gələcəyin maliyyə dünyasında yerinizi almaq üçün siz də WeeCoins Premium ailəsinə qoşulun!",
-        "learnMore": "Ətraflı məlumat"
+        "content": "WeeCoins Premium sadəcə bir kriptovalyuta deyil, eyni zamanda istifadəçilərə təhlükəsiz, sürətli və innovativ maliyyə həlləri təqdim edən geniş bir rəqəmsal iqtisadiyyat ekosistemidir.",
+        "descriptionP1": {
+          "title": "Real Həyatda İstifadə Sahələri",
+          "content": "WeeCoins Premium təkcə bir sərmayə aktivi deyil; o, eyni zamanda tərəfdaş mağazalarda alış-veriş etmək, onlayn və fiziki ödənişlər həyata keçirmək, aktiv transferləri aparmaq və ağıllı müqavilələrdən istifadə etmək kimi çoxfunksiyalı rəqəmsal ödəniş vasitəsidir."
+        },
+        "descriptionP2": {
+          "title": "Güclü və Davamlı Ekosistem",
+          "content": "İnkişaf etmiş blokçeyn infrastrukturu ilə WCP, sürətli əməliyyat təsdiqləmə müddətləri və aşağı xərc tələb edən transferlər təqdim edərək etibarlı maliyyə sistemi yaradır. Ekosistemə qoşulan hər yeni əməliyyat və istifadəçi WCP-nin dəyərini artıraraq şəbəkəni gücləndirir."
+        },
+        "descriptionP3": {
+          "title": "Maliyyə Azadlığının Açarı",
+          "content": "Ənənəvi bank sistemlərindən asılı olmadan, hər kəsin bərabər şərtlərlə maliyyə xidmətlərinə çıxışını təmin edən bir sistem təqdim edirik. Sərhədlərarası köçürmələr, mərkəzləşdirilməmiş maliyyə (DeFi) həlləri və asan giriş imkanı ilə WCP istifadəçilərinə maliyyə azadlığı vəd edir."
+        },
+        "descriptionP4": {
+          "title": "Gələcəyə İnvestisiya",
+          "content": "WeeCoins Premium, texnoloji inkişaflara rəhbərlik edən bir vizyonla irəliləyir. Davamlı yenilənən infrastrukturu, böyüyən istifadəçi şəbəkəsi və genişlənən tətbiq sahələri ilə biz rəqəmsal maliyyənin gələcəyini formalaşdırırıq."
+        },
+        "detailedText": "Gələcəyin maliyyə dünyasında yerinizi almaq üçün siz də WeeCoins Premium ailəsinə qoşulun!"
       }
     }
   },

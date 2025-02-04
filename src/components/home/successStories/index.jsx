@@ -31,7 +31,7 @@ export default function SuccessStories({ data }) {
     <section className="relative mb-[60px] mt-[92px] flex flex-col items-center justify-center gap-10 overflow-x-hidden text-center">
       <SectionTitle title={t("successStories.title")} description={t("successStories.description")} />
       <article className="overflow-x-hidden">
-        <div className="relative flex max-h-[780px] w-full items-center justify-center gap-5 overflow-hidden rounded-lg md:shadow-xl">
+        <div className="relative flex max-h-[600px] w-full items-center justify-center gap-5 overflow-hidden rounded-lg md:shadow-xl">
           <Marquee vertical pauseOnHover className="hidden [--duration:20s] sm:block">
             {firstRow.map((item, index) => (
               <MarqueeCard

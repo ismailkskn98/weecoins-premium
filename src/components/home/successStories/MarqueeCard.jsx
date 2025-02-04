@@ -16,10 +16,18 @@ function formatTarih(tarihMetni) {
 
 export default function MarqueeCard({ description, avatar, name, date, flag }) {
   return (
-    <div className="flex h-full max-h-[257px] w-full max-w-[325px] flex-col items-start gap-5 rounded-2xl border border-solid border-light-F1F1F1 bg-white px-10 py-10 shadow-lg dark:border-light-EAEEFE/30 dark:bg-dark-040404">
-      <p className="text-start font-inter text-base leading-6 text-black dark:text-white">{description}</p>
+    <div className="flex h-full max-h-[257px] w-full max-w-[325px] flex-col items-start gap-5 rounded-2xl border border-solid border-light-F1F1F1 bg-white px-6 py-6 shadow-lg dark:border-light-EAEEFE/30 dark:bg-dark-040404">
+      <p className="line-clamp-4 text-start font-inter text-sm text-black dark:text-white">{description}</p>
       <div className="flex items-center gap-2">
-        <Image src={avatar} alt={name} className="max-h-[42px] max-w-[42px] rounded-full" width={42} height={42} />
+        <div className="max-h-[42px] max-w-[42px] overflow-hidden rounded-full">
+          <Image
+            src={avatar ? avatar : "https://avatar.vercel.sh/john"}
+            alt={name}
+            className="h-fullobject-cover w-full"
+            width={42}
+            height={42}
+          />
+        </div>
         <div className="flex flex-col items-start">
           <div className="flex items-center gap-2">
             <span className="text-nowrap font-inter text-sm font-medium capitalize text-black dark:text-white">{name}</span>
@@ -31,7 +39,7 @@ export default function MarqueeCard({ description, avatar, name, date, flag }) {
               className="h-full max-h-[14px] w-full max-w-[20px]"
             />
           </div>
-          <span className="font-inter text-sm font-light leading-6 text-black dark:text-white">{formatTarih(date)}</span>
+          <span className="font-inter text-sm font-light text-black dark:text-white">{formatTarih(date)}</span>
         </div>
       </div>
     </div>

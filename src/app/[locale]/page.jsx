@@ -5,14 +5,24 @@ import LogoCarousel from "@/components/home/logoCarousel";
 import OurVision from "@/components/home/ourVision";
 import SuccessStories from "@/components/home/successStories";
 import VideoContainer from "@/components/home/videoContainer";
+import { data as jsonData } from "@/components/home/successStories/data";
 
 const getSuccessStories = async () => {
   // console.log(process.env.NEXT_PUBLIC_BASE_URL);
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/success-stories`);
+    const response = await fetch(`https://backoffice.weecoins.org/getWcpStories`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded", // Form verisi göndereceğimizi belirtiyoruz
+      },
+      body: new URLSearchParams({
+        whoiam: "Wee.Coins!Premium2030",
+      }).toString(),
+    });
     if (!response.ok) {
       throw new Error(`API Hatası: ${response.status}`);
     }
+
     return response.json();
   } catch (error) {
     console.log(error);
@@ -21,7 +31,7 @@ const getSuccessStories = async () => {
 
 export default async function Home() {
   const data = await getSuccessStories();
-  // console.log(data);
+
   return (
     <>
       <Hero />
@@ -29,7 +39,7 @@ export default async function Home() {
       <VideoContainer />
       <AccessToKnowledge />
       <ChartAndTableMain />
-      <SuccessStories data={data} />
+      <SuccessStories data={data && data.length > 0 ? data : jsonData} />
       <OurVision />
     </>
   );

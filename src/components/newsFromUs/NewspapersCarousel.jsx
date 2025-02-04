@@ -111,9 +111,7 @@ export default function NewspapersCarousel() {
                 </h5>
                 <div className="w-full text-start text-xs lowercase text-zinc-200">
                   {item.subtitle.length > 80
-                    ? item.subtitle.charAt(0).toUpperCase() +
-                      item.subtitle.substring(1, window.innerWidth > 900 ? 80 : 35).toLowerCase() +
-                      "..."
+                    ? item.subtitle.charAt(0).toUpperCase() + item.subtitle.substring(1, 80).toLowerCase() + "..."
                     : item.subtitle.charAt(0).toUpperCase() + item.subtitle.substring(1).toLowerCase()}
                 </div>
               </div>

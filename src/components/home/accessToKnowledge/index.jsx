@@ -1,13 +1,14 @@
 import SectionTitle from "@/components/common/SectionTitle";
 import { Rocket, Shield } from "lucide-react";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import React from "react";
+import CardImage from "./CardImage";
 
 export default function AccessToKnowledge() {
   const t = useTranslations("HomePage");
   const cardItems = [
     {
+      id: 1,
       title: t("accessToKnowledge.cards.discoverThePower.title"),
       description: t("accessToKnowledge.cards.discoverThePower.description"),
       badge1: t("accessToKnowledge.cards.discoverThePower.badge1"),
@@ -15,6 +16,7 @@ export default function AccessToKnowledge() {
       image: "/images/access-card-3.webp",
     },
     {
+      id: 2,
       title: t("accessToKnowledge.cards.whyWeecoins.title"),
       description: t("accessToKnowledge.cards.whyWeecoins.description"),
       badge1: t("accessToKnowledge.cards.whyWeecoins.badge1"),
@@ -32,28 +34,20 @@ export default function AccessToKnowledge() {
             key={index}
             className="group h-full w-full max-w-[600px] rounded-2xl border border-solid border-[#1B1B1B]/10 bg-white px-4 py-5 shadow-lg dark:border-gray-800 dark:bg-transparent sm:px-10 sm:py-10"
           >
-            <div className="float-left">
-              <Image
-                src={item.image}
-                width={330}
-                height={330}
-                alt="weecoins access to knowledge image"
-                className="float-left h-full w-full max-w-[150px] object-cover drop-shadow-2xl transition-transform duration-300 group-hover:scale-105"
-              />
-            </div>
+            {item && <CardImage cardNumber={item.id} />}
             <div className="space-y-2">
               <h4 className="text-wrap font-dmSans text-lg font-semibold text-black dark:text-zinc-100 sm:text-2xl">{item.title}</h4>
               <div className="flex items-center gap-2">
-                <div className="flex items-center gap-1 rounded-full px-3 py-1 text-xs text-zinc-800 shadow-md dark:text-zinc-300">
+                <div className="hidden items-center gap-1 text-nowrap rounded-full px-3 py-1 text-xs text-zinc-800 shadow-md dark:text-zinc-300 sm:flex">
                   <Rocket className="mr-1 h-4 w-4" />
                   {item.badge1}
                 </div>
-                <div className="flex items-center gap-1 rounded-full px-3 py-1 text-xs text-zinc-800 shadow-md dark:text-zinc-300">
+                <div className="flex items-center gap-1 text-nowrap rounded-full px-3 py-1 text-xs text-zinc-800 shadow-md dark:text-zinc-300">
                   <Shield className="mr-1 h-4 w-4" />
                   {item.badge2}
                 </div>
               </div>
-              <p className="text-justify font-inter text-xs font-light leading-5 text-zinc-700 dark:text-zinc-300 sm:text-base sm:leading-[23px]">
+              <p className="text-justify font-inter text-sm font-light leading-5 text-zinc-700 dark:text-zinc-300 sm:text-base sm:leading-[23px]">
                 {item.description}
               </p>
             </div>

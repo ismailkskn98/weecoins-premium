@@ -32,7 +32,7 @@ export function Sidebar({ slug }) {
   return (
     <aside className="sticky top-[130px] z-10 hidden h-min w-min min-w-[210px] overflow-y-auto border-r border-gray-500/20 px-4 lg:block">
       <div className="item-start flex flex-col gap-4">
-        <p className="text-nowrap text-base text-light-833E15/80 dark:text-light-f88540">Discover our OurProjects</p>
+        <p className="text-nowrap text-base text-light-833E15/80 dark:text-light-f88540">{t("sidebar.title")}</p>
         <nav className="space-y-4">
           {menuItems.map((item, index) => {
             // console.log(item.href);

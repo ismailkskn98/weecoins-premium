@@ -9,19 +9,19 @@ export default function VideoCarouselContainer({ data }) {
   const [currentVideo, setCurrentVideo] = useState(
     data.length > 0
       ? {
-          videoUrl: `https://youtu.be/${data[10].id.videoId}`,
-          title: data[10].snippet.title,
+          videoUrl: `https://youtu.be/${data[1].id.videoId}`,
+          title: data[1].snippet.title,
         }
       : {
           videoUrl: `https://youtu.be/ezTGPkDZTcw`,
           title: "WEECOINS - Hayallerine Aralanan Kapı",
         },
   );
+  console.log(data[1]);
 
   const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef(null);
   const backVideoRef = useRef(null);
-
   const activeVideo = (videoId, title) => {
     setIsPlaying(false);
     setCurrentVideo({

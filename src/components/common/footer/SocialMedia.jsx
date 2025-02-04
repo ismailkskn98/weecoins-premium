@@ -1,34 +1,55 @@
 "use client";
 import React from "react";
 import { Link } from "@/i18n/routing";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { Tooltip } from "react-tooltip";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 
 export default function SocialMedia() {
   const socialItems = [
     {
-      href: "#",
+      href: "https://www.facebook.com/weecomiinternational",
       icon: FaFacebookF,
       tooltipContent: "Facebook",
       tooltipDataId: "facebook-tooltip",
     },
     {
-      href: "#",
+      href: "https://x.com/Wcs_robot",
+      icon: FaXTwitter,
+      tooltipContent: "Twitter",
+      tooltipDataId: "twitter-tooltip",
+    },
+    {
+      href: "https://www.instagram.com/weecoins_weecomi_international/",
+      icon: FaInstagram,
+      tooltipContent: "Instagram",
+      tooltipDataId: "instagram-tooltip",
+    },
+    {
+      href: "https://www.youtube.com/c/Weecoins",
+      icon: FaYoutube,
+      tooltipContent: "Youtube",
+      tooltipDataId: "instagram-tooltip",
+    },
+    {
+      href: "https://tr.linkedin.com/company/weecomi-weecoins",
       icon: FaLinkedinIn,
       tooltipContent: "LinkedIn",
       tooltipDataId: "linkedIn-tooltip",
     },
     {
-      href: "#",
-      icon: FaXTwitter,
-      tooltipContent: "Twitter",
-      tooltipDataId: "twitter-tooltip",
+      href: "https://www.tiktok.com/@weecoins_",
+      icon: FaTiktok,
+      tooltipContent: "Tiktok",
+      tooltipDataId: "tiktok-tooltip",
     },
   ];
 
   return (
-    <article className="flex items-center gap-3">
+    <article className="flex items-center gap-2 sm:gap-3">
       {socialItems.map((item, index) => (
         <Link
           key={index}

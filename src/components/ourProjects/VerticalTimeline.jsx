@@ -16,29 +16,6 @@ import Image from "next/image";
 export default function VerticalTimelineContainer() {
   const t = useTranslations("OurProjectsPage");
   const cards = [
-    {
-      title: t("cards.wE3DUCATION.title"),
-      description: t("cards.wE3DUCATION.description"),
-      date: t("cards.wE3DUCATION.date"),
-      // icon: FaBookOpen,
-      icon: IoMdBook,
-      image: null,
-    },
-    {
-      title: t("cards.wE3STATE.title"),
-      description: t("cards.wE3STATE.description"),
-      date: t("cards.wE3STATE.date"),
-      icon: FaChartLine,
-      image: null,
-    },
-    {
-      title: t("cards.wE3NERGY.title"),
-      description: t("cards.wE3NERGY.description"),
-      date: t("cards.wE3NERGY.date"),
-      // icon: BiSolidZap,
-      icon: GoZap,
-      image: null,
-    },
     //
     {
       title: t("cards.weeZard.shortTitle"),
@@ -71,6 +48,29 @@ export default function VerticalTimelineContainer() {
       date: t("cards.weekobi.date"),
       icon: null,
       image: "weekobi",
+    },
+    {
+      title: t("cards.wE3DUCATION.title"),
+      description: t("cards.wE3DUCATION.description"),
+      date: t("cards.wE3DUCATION.date"),
+      // icon: FaBookOpen,
+      icon: IoMdBook,
+      image: null,
+    },
+    {
+      title: t("cards.wE3STATE.title"),
+      description: t("cards.wE3STATE.description"),
+      date: t("cards.wE3STATE.date"),
+      icon: FaChartLine,
+      image: null,
+    },
+    {
+      title: t("cards.wE3NERGY.title"),
+      description: t("cards.wE3NERGY.description"),
+      date: t("cards.wE3NERGY.date"),
+      // icon: BiSolidZap,
+      icon: GoZap,
+      image: null,
     },
   ];
 

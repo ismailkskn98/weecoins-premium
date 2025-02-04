@@ -3,6 +3,8 @@ import { CheckCircle, Info, Zap } from "lucide-react";
 import { Sidebar } from "./Sidebar";
 import { motion } from "motion/react";
 import Image from "next/image";
+import { Link } from "@/i18n/routing";
+import { FiExternalLink } from "react-icons/fi";
 
 export default function SlugPage({ card }) {
   return (
@@ -14,7 +16,11 @@ export default function SlugPage({ card }) {
             <h1 className="bg-gradient-to-r from-light-833E15 to-dark-ozelDark bg-clip-text text-center font-dmSans text-4xl font-bold text-transparent dark:to-light-f88540">
               {card.title}
             </h1>
-            <div className="mx-auto my-3 flex h-[200px] w-[200px] items-center justify-center overflow-hidden rounded-full bg-black/30 shadow-lg dark:my-6">
+            <Link
+              href={card.href}
+              target="_blank"
+              className="mx-auto my-3 flex h-[200px] w-[200px] items-center justify-center overflow-hidden rounded-full bg-black/30 shadow-lg dark:my-6"
+            >
               <Image
                 src={`/images/${card.image}-slug-dark.webp`}
                 alt={card.image}
@@ -29,8 +35,18 @@ export default function SlugPage({ card }) {
                 height={230}
                 className={`${card.image === "weezard" ? "ml-[5px]" : ""} hidden h-full w-full object-contain drop-shadow-lg dark:block`}
               />
-            </div>
-            <p className="mx-auto text-lg leading-relaxed text-muted-foreground">{card.description}</p>
+            </Link>
+            <p className="mx-auto text-lg leading-relaxed text-muted-foreground">
+              {card.description}
+              <Link
+                href={card.href}
+                target="_blank"
+                className="ml-2 inline-flex items-center gap-1 text-nowrap capitalize text-light-f88540 underline transition-all duration-200 hover:text-light-833E15"
+              >
+                {card.image}
+                <FiExternalLink />
+              </Link>
+            </p>
           </div>
 
           <div className="rounded-2xl border border-muted bg-white p-8 shadow-lg dark:bg-dark-ozelDark">

@@ -11,6 +11,7 @@ export default async function page({ params }) {
       slug: t("cards.weeZard.slug"),
       description: t("cards.weeZard.shortDescription"),
       image: "weezard",
+      href: "https://weezard.org",
       sections: {
         howItWorks: {
           title: t("cards.weeZard.sections.howItWorks.title"),
@@ -33,6 +34,7 @@ export default async function page({ params }) {
       slug: t("cards.weeCard.slug"),
       description: t("cards.weeCard.shortDescription"),
       image: "weecard",
+      href: "https://weecard.org",
       sections: {
         howItWorks: {
           title: t("cards.weeCard.sections.howItWorks.title"),
@@ -55,6 +57,7 @@ export default async function page({ params }) {
       slug: t("cards.weeSale.slug"),
       description: t("cards.weeSale.shortDescription"),
       image: "weesale",
+      href: "https://weesale.shop",
       sections: {
         howItWorks: {
           title: t("cards.weeSale.sections.howItWorks.title"),
@@ -77,6 +80,7 @@ export default async function page({ params }) {
       slug: t("cards.weekobi.slug"),
       description: t("cards.weekobi.shortDescription"),
       image: "weekobi",
+      href: "https://weecomi.com/",
       sections: {
         howItWorks: {
           title: t("cards.weekobi.sections.howItWorks.title"),

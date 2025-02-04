@@ -6,7 +6,11 @@ import React from "react";
 
 const getYoutubeVideos = async () => {
   try {
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/youtube`);
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/youtube`, {
+      next: {
+        revalidate: 3600 * 24,
+      },
+    });
 
     if (!response.ok) {
       throw new Error("Veri çekme işlemi başarısız oldu.");
@@ -20,11 +24,12 @@ const getYoutubeVideos = async () => {
 export default async function NewsFromUs() {
   const data = await getYoutubeVideos();
   const t = await getTranslations("NewsFromUs");
-
   return (
     <>
       <PageTitle title={t("title")} subtitle={t("subtitle")} />
-      <NewsFromUsMain isData={data.length > 0 ? true : false}>{data.length > 0 && <VideoCarouselContainer data={data} />}</NewsFromUsMain>
+      <NewsFromUsMain isData={data.videos.length > 0 ? true : false}>
+        {data.videos.length > 0 && <VideoCarouselContainer data={data.videos} />}
+      </NewsFromUsMain>
     </>
   );
 }

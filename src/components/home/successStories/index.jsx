@@ -28,7 +28,10 @@ export default function SuccessStories({ data }) {
   }, []);
 
   return (
-    <section className="relative mb-[60px] mt-[92px] flex flex-col items-center justify-center gap-10 overflow-x-hidden text-center">
+    <section
+      id="successStories"
+      className="relative mb-[60px] mt-[92px] flex flex-col items-center justify-center gap-10 overflow-x-hidden text-center"
+    >
       <SectionTitle title={t("successStories.title")} description={t("successStories.description")} />
       <article className="overflow-x-hidden">
         <div className="relative flex max-h-[600px] w-full items-center justify-center gap-5 overflow-hidden rounded-lg md:shadow-xl">
@@ -41,6 +44,7 @@ export default function SuccessStories({ data }) {
                 avatar={item.image}
                 date={item.created_at}
                 flag={item.language}
+                id={item.id}
               />
             ))}
           </Marquee>
@@ -53,6 +57,7 @@ export default function SuccessStories({ data }) {
                 avatar={item.image}
                 date={item.created_at}
                 flag={item.language}
+                id={item.id}
               />
             ))}
           </Marquee>
@@ -65,6 +70,7 @@ export default function SuccessStories({ data }) {
                 avatar={item.image}
                 date={item.created_at}
                 flag={item.language}
+                id={item.id}
               />
             ))}
           </Marquee>

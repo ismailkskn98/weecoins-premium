@@ -35,7 +35,6 @@ export function ModeToggle({ isFixed }) {
       <DropdownMenuContent align="end" className="border-none bg-light-EAEEFE text-black dark:bg-[#111] dark:text-white">
         <DropdownMenuItem onClick={() => setTheme("light")}>{t("modToggle.light")}</DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("dark")}>{t("modToggle.dark")}</DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("system")}>{t("modToggle.system")}</DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );

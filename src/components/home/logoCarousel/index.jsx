@@ -8,12 +8,16 @@ import { Link } from "@/i18n/routing";
 
 export default function LogoCarousel() {
   const items = [
-    { href: "https://www.criptoswaps.com/trading/wcsusdt", image: "/images/carousel-images/criptoswaps.webp", title: "Criptoswaps" },
-    { href: "https://coinpaprika.com/tr/coin/wcs-weecoins", image: "/images/carousel-images/Coinpaprika.webp", title: "Coinpaprika" },
+    { href: "https://www.criptoswaps.com/trading/wcpusdt", image: "/images/carousel-images/criptoswaps.webp", title: "Criptoswaps" },
+    {
+      href: "https://coinpaprika.com/tr/coin/wcp-weecoins-premium/",
+      image: "/images/carousel-images/Coinpaprika.webp",
+      title: "Coinpaprika",
+    },
     { href: "https://coinmarketcap.com/currencies/weecoins", image: "/images/carousel-images/CoinMarketCap.webp", title: "CoinMarketCap" },
-    { href: "https://coincost.net/en/currency/weecoins", image: "/images/carousel-images/coincostlogo.webp", title: "CoinCost" },
-    { href: "https://azbit.com/exchange/WCS_USDT", image: "/images/carousel-images/Azbit-AZ.webp", title: "Azbit" },
-    { href: "https://www.coinbase.com/tr/price/weecoins", image: "/images/carousel-images/Coinbase-New.webp", title: "Coinbase" },
+    { href: "https://coincost.net/en/currency/weecoins-premium", image: "/images/carousel-images/coincostlogo.webp", title: "CoinCost" },
+    { href: "https://azbit.com/exchange/WCP_USDT", image: "/images/carousel-images/Azbit-AZ.webp", title: "Azbit" },
+    { href: "https://www.coinbase.com/price/weecoins-premium", image: "/images/carousel-images/Coinbase-New.webp", title: "Coinbase" },
     { href: "https://www.coingecko.com/tr/coins/weecoins-premium", image: "/images/carousel-images/coingecko-1.webp", title: "CoinGecko" },
   ];
 

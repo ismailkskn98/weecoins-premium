@@ -6,9 +6,11 @@ import OurVision from "@/components/home/ourVision";
 import SuccessStories from "@/components/home/successStories";
 import VideoContainer from "@/components/home/videoContainer";
 import { data as jsonData } from "@/components/home/successStories/data";
+import { customMetaData } from "@/components/MetaData";
+
+export const metadata = { ...customMetaData, title: "Weecoins Premium | Home" };
 
 const getSuccessStories = async () => {
-  // console.log(process.env.NEXT_PUBLIC_BASE_URL);
   try {
     const response = await fetch(`https://backoffice.weecoins.org/getWcpStories`, {
       method: "POST",

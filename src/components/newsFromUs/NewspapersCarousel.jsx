@@ -78,7 +78,7 @@ export default function NewspapersCarousel() {
     <Swiper
       spaceBetween={slidesPerView === 2 ? 20 : 50}
       slidesPerView={slidesPerView}
-      autoplay={{ delay: 2000, pauseOnMouseEnter: true }}
+      autoplay={{ delay: 200000, pauseOnMouseEnter: true }}
       loop={true}
       modules={[Navigation, Pagination, Autoplay]}
       className={classNames("w-full", {
@@ -88,21 +88,18 @@ export default function NewspapersCarousel() {
     >
       {items.map((item) => {
         return (
-          <SwiperSlide key={item.title} className="group relative cursor-pointer overflow-hidden rounded-xl">
-            <Link
-              href={item.url}
-              target="_blank"
-              className="group flex h-full w-full flex-col items-center justify-center gap-3 bg-light-EAEEFE"
-            >
+          <SwiperSlide key={item.title} className="group relative cursor-pointer overflow-hidden rounded-xl bg-black">
+            <Link href={item.url} target="_blank" className="group flex h-full w-full flex-col items-center justify-center gap-3 bg-black">
               <div className="h-[101%] w-[101%] overflow-hidden">
                 <Image
                   src={`/images/${item.image}`}
                   alt={item.title}
                   width={400}
                   height={360}
-                  className="h-full w-full object-cover transition-all duration-300 group-hover:scale-110"
+                  className="gray h-full w-full object-cover sepia transition-all duration-300 hover:sepia-0 group-hover:scale-110"
                 />
               </div>
+              {/* <div style={{ background: "radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%)" }} className="absolute inset-0" /> */}
               <div className="absolute -inset-x-1 -bottom-1 w-[103%] bg-black/60 px-3 py-3 backdrop-blur-sm sm:px-5 sm:py-5">
                 <h5 className="line-clamp-1 text-start text-xs font-semibold capitalize text-zinc-200 md:text-sm lg:line-clamp-none">
                   {item.title.length > 40

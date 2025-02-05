@@ -51,7 +51,7 @@ export default async function RootLayout({ children, params }) {
         className={` ${DmSans.variable} ${Inter.variable} ${Switzer.variable} overflow-x-hidden bg-light-EAEEFE font-inter text-black antialiased dark:bg-dark-0d0d0d dark:text-light-EAEEFE`}
       >
         <NextIntlClientProvider messages={messages}>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
             <Toaster position="top-center" richColors />
             <main className="fluid gridContainer min-h-screen">
               <Header />

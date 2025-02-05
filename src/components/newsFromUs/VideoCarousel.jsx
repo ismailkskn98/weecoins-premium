@@ -54,14 +54,14 @@ export default function VideoCarousel({ activeVideo, currentVideo, items }) {
             <SwiperSlide
               key={index}
               onClick={() => activeVideo(item.id.videoId, item.snippet.title, item.snippet.thumbnails.high.url)}
-              className="group relative cursor-pointer overflow-hidden rounded-xl"
+              className="group relative cursor-pointer overflow-hidden rounded-xl bg-red-300"
             >
               <Image
                 src={item.snippet.thumbnails.high.url}
                 alt={item.snippet.title}
                 width={400}
                 height={360}
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover object-center"
               />
               <div className="absolute inset-x-0 bottom-0 hidden origin-bottom scale-y-0 rounded-b-xl bg-black/70 px-3 py-5 text-center text-xs text-white transition-all duration-200 group-hover:scale-y-100 sm:block">
                 {item.snippet.title}

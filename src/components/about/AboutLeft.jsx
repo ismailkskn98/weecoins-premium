@@ -11,7 +11,7 @@ export default function AboutLeft() {
           <Target className="h-8 w-8 text-white" />
         </div>
         <div className="flex flex-col items-start gap-4">
-          <h3 className="text-3xl font-semibold text-zinc-900">{t("content.ourMission.title")}</h3>
+          <h3 className="text-3xl font-semibold text-zinc-900 dark:text-white">{t("content.ourMission.title")}</h3>
           <p className="text-zinc-800 dark:text-zinc-300">{t("content.ourMission.description")}</p>
         </div>
       </div>
@@ -20,7 +20,7 @@ export default function AboutLeft() {
           <Compass className="h-8 w-8 text-white" />
         </div>
         <div className="flex flex-col items-start gap-4">
-          <h3 className="text-3xl font-semibold text-zinc-900">{t("content.ourVision.title")}</h3>
+          <h3 className="text-3xl font-semibold text-zinc-900 dark:text-white">{t("content.ourVision.title")}</h3>
           <p className="whitespace-pre-line text-zinc-800 dark:text-zinc-300">{t("content.ourVision.description")}</p>
         </div>
       </div>

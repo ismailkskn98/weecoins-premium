@@ -13,14 +13,6 @@ export default function StatsCards() {
   const isInView = useInView(ref, { once: true });
   const stats = [
     {
-      title: t("chartAndTable.table.categories.projectSustainability"),
-      value: "30",
-      icon: Coins,
-      gradient: "from-primary/10 to-secondary/10 ",
-      iconBg: "bg-zinc-200",
-      iconColor: "text-zinc-500",
-    },
-    {
       title: t("chartAndTable.table.categories.marketing"),
       value: "510",
       icon: TrendingUp,
@@ -29,20 +21,28 @@ export default function StatsCards() {
       iconColor: "text-green-400",
     },
     {
-      title: t("chartAndTable.table.categories.development"),
-      value: "18",
-      icon: Code,
-      gradient: "from-accent/10 to-muted/10 ",
-      iconBg: "bg-yellow-200",
-      iconColor: "text-yellow-500",
-    },
-    {
       title: t("chartAndTable.table.categories.teamAdvisor"),
       value: "42",
       icon: Users,
       gradient: "from-muted/10 to-primary/10 ",
       iconBg: "bg-red-200",
       iconColor: "text-red-400",
+    },
+    {
+      title: t("chartAndTable.table.categories.projectSustainability"),
+      value: "30",
+      icon: Coins,
+      gradient: "from-primary/10 to-secondary/10 ",
+      iconBg: "bg-zinc-200",
+      iconColor: "text-zinc-500",
+    },
+    {
+      title: t("chartAndTable.table.categories.development"),
+      value: "18",
+      icon: Code,
+      gradient: "from-accent/10 to-muted/10 ",
+      iconBg: "bg-yellow-200",
+      iconColor: "text-yellow-500",
     },
   ];
 

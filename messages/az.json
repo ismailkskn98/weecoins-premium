@@ -1,4 +1,9 @@
 {
+  "Metadata": {
+    "title": "Weecoins Premium",
+    "description": "Weecoins Premium: Dayanıqlı və innovativ investisiya imkanları ilə kripto dünyasında lider.",
+    "keywords": "Weecoins Premium, kripto valyuta, virtual valyuta, blokçeyn, kripto sərmayə"
+  },
   "Header": {
     "navbar": {
       "home": "Əsas səhifə",
@@ -84,7 +89,8 @@
     },
     "successStories": {
       "title": "Uğur hekayələri",
-      "description": "Burada istifadəçilərimizin təcrübələrini və uğur hekayələrini tapa bilərsiniz. İlham verici hekayələrə nəzər salın və öz hekayənizi paylaşın."
+      "description": "Burada istifadəçilərimizin təcrübələrini və uğur hekayələrini tapa bilərsiniz. İlham verici hekayələrə nəzər salın və öz hekayənizi paylaşın.",
+      "backButton": "Uğur Hekayələrinə Qayıt"
     },
     "ourVision": {
       "title": "Vizyonumuzu paylaşırıq",

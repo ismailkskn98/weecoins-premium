@@ -12,6 +12,7 @@ export default function ContactImage() {
         width={680}
         height={700}
         quality={100}
+        priority
         className="h-full w-full rounded-xl object-cover"
       />
       <div className="absolute inset-x-0 bottom-8 flex flex-col items-start justify-center gap-2 px-3">

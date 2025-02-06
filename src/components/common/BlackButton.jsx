@@ -2,7 +2,7 @@ import { Link } from "@/i18n/routing";
 import classNames from "classnames";
 import React from "react";
 
-export default function BlackButton({ label, href, ReactIcon, target, isFixed = false, isTopShow = false }) {
+const BlackButton = React.memo(({ label, href, ReactIcon, target, isFixed = false, isTopShow = false }) => {
   return (
     <Link
       href={href}
@@ -20,4 +20,6 @@ export default function BlackButton({ label, href, ReactIcon, target, isFixed = 
       {ReactIcon && <ReactIcon className="h-5 w-5" />}
     </Link>
   );
-}
+});
+
+export default BlackButton;

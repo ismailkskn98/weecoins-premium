@@ -1,4 +1,9 @@
 {
+  "Metadata": {
+    "title": "Weecoins Premium",
+    "description": "Weecoins Premium: Sürdürülebilir ve yenilikçi yatırım fırsatlarıyla kripto dünyasında lider.",
+    "keywords": "Weecoins Premium, kripto para, sanal para, blockchain, kripto yatırımı"
+  },
   "Header": {
     "navbar": {
       "home": "Anasayfa",
@@ -66,7 +71,8 @@
     },
     "successStories": {
       "title": "Başarı Hikayeleri",
-      "description": "Burada kullanıcılarımızın deneyimlerini ve başarı hikayelerini bulabilirsiniz. İlham verici hikayelere göz atın ve kendi hikayenizi paylaşın."
+      "description": "Burada kullanıcılarımızın deneyimlerini ve başarı hikayelerini bulabilirsiniz. İlham verici hikayelere göz atın ve kendi hikayenizi paylaşın.",
+      "backButton": "Başarı Hikayelerine Geri Dön"
     },
     "chartAndTable": {
       "title": "WEECOINS PREMIUM",

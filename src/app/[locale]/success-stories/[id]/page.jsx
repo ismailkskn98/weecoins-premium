@@ -1,9 +1,18 @@
-import SuccessStoryPage from "@/components/home/successStories/SuccessStoryPage";
 import React from "react";
-import { customMetaData } from "@/components/MetaData";
 import { notFound } from "next/navigation";
+import { generateMetadata as layoutMetadata } from "../../layout";
+import { getTranslations } from "next-intl/server";
+import dynamic from "next/dynamic";
 
-export const metadata = { ...customMetaData, title: "Weecoins Premium | Success Stories" };
+export async function generateMetadata({ params }) {
+  const t = await getTranslations({ locale: params.locale });
+  const defaultMetaData = await layoutMetadata({ params });
+
+  return {
+    ...defaultMetaData,
+    title: `${t("Metadata.title")} | ${t("HomePage.successStories.title")}`,
+  };
+}
 
 const getSuccessStoryById = async (id) => {
   try {
@@ -35,6 +44,8 @@ const getSuccessStoryById = async (id) => {
     throw notFound();
   }
 };
+
+const SuccessStoryPage = dynamic(() => import("@/components/home/successStories/SuccessStoryPage"));
 
 export default async function SuccessStorie({ params }) {
   const { id } = await params;

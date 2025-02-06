@@ -1,6 +1,18 @@
 import SlugPage from "@/components/ourProjects/SlugPage";
-import { getTranslations } from "next-intl/server";
 import React from "react";
+
+import { generateMetadata as layoutMetadata } from "../../layout";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata({ params }) {
+  const t = await getTranslations({ locale: params.locale });
+  const defaultMetaData = await layoutMetadata({ params });
+
+  return {
+    ...defaultMetaData,
+    title: `${t("Metadata.title")} | ${t("Header.navbar.ourProjects")}`,
+  };
+}
 
 export default async function page({ params }) {
   const slug = (await params).slug;

@@ -13,17 +13,11 @@ gsap.registerPlugin(useGSAP);
 export default function HeroContent() {
   const t = useTranslations("HomePage");
   const HeroContentRef = useRef(null);
-  const HeroContentImageRef = useRef(null);
 
   useGSAP(() => {
     gsap.from(HeroContentRef.current, {
-      scale: 0,
-      duration: 0.3,
-    });
-  }, []);
-  useGSAP(() => {
-    gsap.from(HeroContentImageRef.current, {
       opacity: 0,
+      delay: 0.5,
       duration: 0.3,
     });
   }, []);
@@ -35,7 +29,6 @@ export default function HeroContent() {
     >
       <div className="relative">
         <Image
-          ref={HeroContentImageRef}
           src="/images/weecoins-text-bg.svg"
           width={150}
           height={90}

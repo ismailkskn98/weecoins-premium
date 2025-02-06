@@ -13,6 +13,7 @@ export default function Footer() {
             alt="weecoins logo footer"
             width={350}
             height={200}
+            quality={50}
             className="max-h-[350px] max-w-[200px] object-contain"
           />
         </article>

@@ -84,7 +84,7 @@ export default function ChartAndTableMain() {
       <SectionTitle title={t("chartAndTable.title")} description={t("chartAndTable.description")} />
       <StatsCards />
       <section className="flex w-full flex-col items-center justify-center gap-8 lg:flex-row lg:items-start lg:justify-between">
-        <article className="to-dark w-full flex-1 rounded-lg border bg-white p-6 shadow-lg dark:bg-dark-ozelDark">
+        <article className="to-dark w-full flex-1 rounded-lg border bg-white p-6 shadow-lg dark:border-gray-800 dark:bg-[#0A0A0A]">
           <h2 className="mb-4 text-center text-lg font-semibold text-zinc-900 dark:text-zinc-200 md:text-start">
             {t("chartAndTable.table.title")}
           </h2>
@@ -112,7 +112,7 @@ export default function ChartAndTableMain() {
           </div>
         </article>
 
-        <article className="max-w-9/12 w-full rounded-lg border bg-white p-3 shadow-lg dark:border-gray-800 dark:bg-dark-ozelDark sm:max-w-full sm:p-6 lg:w-auto lg:min-w-[600px]">
+        <article className="max-w-9/12 w-full rounded-lg border bg-white p-3 shadow-lg dark:border-gray-800 dark:bg-[#0A0A0A] sm:max-w-full sm:p-6 lg:w-auto lg:min-w-[600px]">
           <h2 className="mb-0 flex items-center gap-1 text-center text-lg font-semibold text-foreground sm:mb-4 md:text-start">
             {t("chartAndTable.chartTitle")} <FaPercentage />
           </h2>

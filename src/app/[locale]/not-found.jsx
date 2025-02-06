@@ -1,6 +1,18 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
+import { generateMetadata as layoutMetadata } from "./layout";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata({ params }) {
+  const t = await getTranslations({ locale: params.locale });
+  const defaultMetaData = await layoutMetadata({ params });
+
+  return {
+    ...defaultMetaData,
+    title: `${t("Metadata.title")} | ${t("NotFoundPage.title1")}`,
+  };
+}
 
 export default function NotFound() {
   const t = useTranslations("NotFoundPage");

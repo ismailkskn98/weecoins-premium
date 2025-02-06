@@ -1,16 +1,32 @@
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { ThemeProvider } from "@/components/theme-provider";
 import { NextIntlClientProvider } from "next-intl";
 import "../globals.css";
 import Header from "@/components/common/header";
 import localFont from "next/font/local";
-import { customMetaData } from "@/components/MetaData";
+
 import Footer from "@/components/common/footer";
 import { Toaster } from "@/components/ui/sonner";
 
-export const metadata = { ...customMetaData };
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale: locale });
+
+  return {
+    title: t("Metadata.title"),
+    description: t("Metadata.description"),
+    keywords: t("Metadata.keywords"),
+    robots: "index, follow",
+    icons: {
+      icon: [
+        { url: "/images/favicon.ico", type: "image/png", sizes: "192x192" },
+        { url: "/images/favicon.ico", type: "image/png", sizes: "512x512" },
+      ],
+    },
+  };
+}
 
 const DmSans = localFont({
   src: [

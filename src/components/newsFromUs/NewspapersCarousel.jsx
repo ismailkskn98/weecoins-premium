@@ -88,25 +88,44 @@ export default function NewspapersCarousel() {
     >
       {items.map((item) => {
         return (
-          <SwiperSlide key={item.title} className="group relative cursor-pointer overflow-hidden rounded-xl bg-black">
+          <SwiperSlide
+            key={item.title}
+            className="group relative cursor-pointer overflow-hidden rounded-xl border border-solid border-gray-900 bg-black"
+          >
             <Link href={item.url} target="_blank" className="group flex h-full w-full flex-col items-center justify-center gap-3 bg-black">
-              <div className="h-[101%] w-[101%] overflow-hidden">
+              <div className="h-full w-full overflow-hidden">
                 <Image
                   src={`/images/${item.image}`}
                   alt={item.title}
                   width={400}
                   height={360}
-                  className="gray h-full w-full object-cover sepia transition-all duration-300 hover:sepia-0 group-hover:scale-110"
+                  className="h-full w-full object-cover transition-all duration-300 group-hover:scale-110"
                 />
               </div>
               {/* <div style={{ background: "radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%)" }} className="absolute inset-0" /> */}
-              <div className="absolute -inset-x-1 -bottom-1 w-[103%] bg-black/60 px-3 py-3 backdrop-blur-sm sm:px-5 sm:py-5">
-                <h5 className="line-clamp-1 text-start text-xs font-semibold capitalize text-zinc-200 md:text-sm lg:line-clamp-none">
+              <div className="absolute inset-x-0 -bottom-1 w-full bg-black/60 px-2 py-3 backdrop-blur-sm mobileL:px-3 sm:py-5 xl:px-5">
+                <Image
+                  src="/images/newspaper-card.svg"
+                  alt="weecoins premium newspaper card image"
+                  width={70}
+                  height={70}
+                  quality={40}
+                  className="absolute inset-0 -top-6 h-6 w-full rotate-180"
+                />
+                <Image
+                  src="/images/logo-xl-newspaper.webp"
+                  alt="weecoins premium logo"
+                  width={70}
+                  height={70}
+                  quality={40}
+                  className="absolute -top-8 right-4 h-10 w-10 drop-shadow-[0_0_5px_#ffc107] transition-all duration-500 group-hover:rotate-[360deg] sm:-top-9 sm:right-5 sm:h-12 sm:w-12 lg:-top-10 xl:h-14 xl:w-14"
+                />
+                <h5 className="line-clamp-1 text-start text-xs font-semibold capitalize text-zinc-200 md:text-sm">
                   {item.title.length > 40
                     ? item.title.charAt(0).toUpperCase() + item.title.substring(1, 25).toLowerCase() + "..."
                     : item.title.charAt(0).toUpperCase() + item.title.substring(1).toLowerCase()}
                 </h5>
-                <div className="w-full text-start text-xs lowercase text-zinc-200">
+                <div className="mb-1 mt-1 line-clamp-2 w-full text-start text-xs lowercase text-zinc-300 sm:mb-0">
                   {item.subtitle.length > 80
                     ? item.subtitle.charAt(0).toUpperCase() + item.subtitle.substring(1, 80).toLowerCase() + "..."
                     : item.subtitle.charAt(0).toUpperCase() + item.subtitle.substring(1).toLowerCase()}

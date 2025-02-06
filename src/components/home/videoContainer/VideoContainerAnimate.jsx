@@ -44,6 +44,7 @@ export default function VideoContainerAnimate() {
           alt="weecoins material"
           width={240}
           height={240}
+          quality={50}
           className="max-h-[240px] max-w-[240px] object-cover drop-shadow-xl"
         />
       </div>
@@ -53,6 +54,7 @@ export default function VideoContainerAnimate() {
           alt="weecoins material"
           width={240}
           height={240}
+          quality={50}
           className="max-h-[240px] max-w-[240px] object-cover drop-shadow-xl"
         />
       </div>

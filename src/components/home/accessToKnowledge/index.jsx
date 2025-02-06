@@ -1,11 +1,43 @@
+"use client";
 import SectionTitle from "@/components/common/SectionTitle";
 import { Rocket, Shield } from "lucide-react";
 import { useTranslations } from "next-intl";
 import React from "react";
 import CardImage from "./CardImage";
+// import { gsap } from "gsap";
+// import { useGSAP } from "@gsap/react";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+// gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export default function AccessToKnowledge() {
   const t = useTranslations("HomePage");
+
+  // useGSAP(() => {
+  //   gsap.from(materialTopRef.current, {
+  //     x: 300,
+  //     rotateY: "50deg",
+  //     ease: "none",
+  //     scrollTrigger: {
+  //       trigger: ".video-container",
+  //       start: "top 70%",
+  //       end: "35% end",
+  //       scrub: 1,
+  //     },
+  //   });
+  //   gsap.from(materialBottomRef.current, {
+  //     x: -300,
+  //     rotateY: "50deg",
+  //     ease: "none",
+  //     scrollTrigger: {
+  //       trigger: ".video-container",
+  //       start: "top 70%",
+  //       end: "35% end",
+  //       scrub: 1,
+  //     },
+  //   });
+  // }, []);
+
   const cardItems = [
     {
       id: 1,

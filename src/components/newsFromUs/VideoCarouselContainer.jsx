@@ -2,10 +2,13 @@
 import React, { useState, useRef, useEffect } from "react";
 import VideoCarousel from "./VideoCarousel";
 import dynamic from "next/dynamic";
+import htmlEncoderDecoder from "html-encoder-decoder";
 
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 export default function VideoCarouselContainer({ data }) {
+  let encoded = null;
+
   const [currentVideo, setCurrentVideo] = useState(
     data.length > 0
       ? {
@@ -41,7 +44,9 @@ export default function VideoCarouselContainer({ data }) {
       <div className="bg-backdrop-blur-lg absolute inset-0 -z-10 hidden sm:block"></div>
       <div className="absolute inset-0 -z-10 hidden backdrop-blur-[110px] sm:block"></div>
       <div className="relative flex flex-col items-center gap-4 text-white">
-        <h2 className="text-center font-dmSans text-3xl font-semibold lg:text-4xl">{currentVideo.title}</h2>
+        <h2 className="text-center font-dmSans text-3xl font-semibold lg:text-4xl">
+          {(encoded = htmlEncoderDecoder.decode(currentVideo.title))}
+        </h2>
       </div>
       <div className="mx-auto h-[420px] w-full overflow-hidden rounded-2xl sm:w-11/12 lg:h-[520px] lg:w-10/12 xl:w-8/12">
         <ReactPlayer
@@ -56,7 +61,7 @@ export default function VideoCarouselContainer({ data }) {
           volume={0.4}
           progressInterval={800}
           onProgress={() => {
-            console.log(videoRef.current.getCurrentTime());
+            // console.log(videoRef.current.getCurrentTime());
             // getCurrentTime()	Videonun şu anki süresini alır.
             // seekTo(seconds)	Videoyu belirli bir saniyeye sarar.
             backVideoRef.current.seekTo(videoRef.current.getCurrentTime());

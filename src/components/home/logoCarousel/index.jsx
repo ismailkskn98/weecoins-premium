@@ -48,7 +48,7 @@ export default function LogoCarousel() {
                 className="h-14 object-cover brightness-50 grayscale hover:brightness-75 hover:grayscale-0 dark:brightness-[1] sm:h-20 md:h-[110px]"
                 width={128}
                 height={128}
-                quality={100}
+                quality={50}
                 alt={item.title}
               />
             </Link>

@@ -1,4 +1,9 @@
 {
+  "Metadata": {
+    "title": "Weecoins Premium",
+    "description": "Weecoins Premium: A leader in the crypto world with sustainable and innovative investment opportunities.",
+    "keywords": "Weecoins Premium, cryptocurrency, virtual currency, blockchain, crypto investment"
+  },
   "Header": {
     "navbar": {
       "home": "Home",
@@ -84,7 +89,8 @@
     },
     "successStories": {
       "title": "Success Stories",
-      "description": "Here you can find the experiences and success stories of our users. Browse through the inspiring stories and share your own."
+      "description": "Here you can find the experiences and success stories of our users. Browse through the inspiring stories and share your own.",
+      "backButton": "Back to Success Stories"
     },
     "ourVision": {
       "title": "Sharing Our Vision",

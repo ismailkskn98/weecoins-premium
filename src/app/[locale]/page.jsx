@@ -6,21 +6,40 @@ import OurVision from "@/components/home/ourVision";
 import SuccessStories from "@/components/home/successStories";
 import VideoContainer from "@/components/home/videoContainer";
 import { data as jsonData } from "@/components/home/successStories/data";
-import { customMetaData } from "@/components/MetaData";
+import { generateMetadata as layoutMetadata } from "./layout";
+import { getTranslations } from "next-intl/server";
+import { cache } from "react";
 
-export const metadata = { ...customMetaData, title: "Weecoins Premium | Home" };
+export async function generateMetadata({ params }) {
+  const t = await getTranslations({ locale: params.locale });
+  const defaultMetaData = await layoutMetadata({ params });
+
+  return {
+    ...defaultMetaData,
+    title: `${t("Metadata.title")} | ${t("Header.navbar.home")}`,
+  };
+}
 
 const getSuccessStories = async () => {
   try {
-    const response = await fetch(`https://backoffice.weecoins.org/getWcpStories`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded", // Form verisi göndereceğimizi belirtiyoruz
+    const response = await fetch(
+      `https://backoffice.weecoins.org/getWcpStories`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded", // Form verisi göndereceğimizi belirtiyoruz
+        },
+        body: new URLSearchParams({
+          whoiam: "Wee.Coins!Premium2030",
+        }).toString(),
       },
-      body: new URLSearchParams({
-        whoiam: "Wee.Coins!Premium2030",
-      }).toString(),
-    });
+      {
+        next: {
+          cache: "force-cache",
+          revalidate: 3600 * 24,
+        },
+      },
+    );
     if (!response.ok) {
       throw new Error(`API Hatası: ${response.status}`);
     }
@@ -32,7 +51,8 @@ const getSuccessStories = async () => {
 };
 
 export default async function Home() {
-  const data = await getSuccessStories();
+  const fetchedData = await getSuccessStories();
+  const successStoriesData = fetchedData && fetchedData.length > 0 ? fetchedData : jsonData;
 
   return (
     <>
@@ -41,7 +61,7 @@ export default async function Home() {
       <VideoContainer />
       <AccessToKnowledge />
       <ChartAndTableMain />
-      <SuccessStories data={data && data.length > 0 ? data : jsonData} />
+      <SuccessStories data={successStoriesData} />
       <OurVision />
     </>
   );

@@ -1,7 +1,7 @@
 "use client";
 import { formatDate } from "@/utils/formatDate";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { MdDateRange } from "react-icons/md";
 import { MdLanguage } from "react-icons/md";
 import { FaInstagram, FaFacebook } from "react-icons/fa";
@@ -10,6 +10,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { Link } from "@/i18n/routing";
 import { FaArrowLeft } from "react-icons/fa6";
 import { motion } from "motion/react";
+import { useTranslations } from "next-intl";
 
 /* {
     id: 83,
@@ -27,6 +28,14 @@ import { motion } from "motion/react";
 } */
 
 export default function SuccessStoryPage({ successStory }) {
+  const t = useTranslations("HomePage");
+  const [randomImage, setRandomImage] = useState(null);
+
+  useEffect(() => {
+    setRandomImage(`/images/story-${Math.floor(Math.random() * 5) + 1}.webp`);
+  }, []);
+
+  if (!randomImage) return null;
   const getContactType = () => {
     switch (successStory.contact_type) {
       case "phone":
@@ -67,23 +76,36 @@ export default function SuccessStoryPage({ successStory }) {
       animate={{ transform: "translateY(0px)", opacity: 1 }}
       className="pageSection fluid gridContainer relative bg-light-EAEEFE dark:bg-dark-0d0d0d xl:pt-32"
     >
-      <div className="fluid bg-success-stories-bg absolute -inset-0 bg-repeat opacity-5 dark:opacity-[.01]"></div>
-      <section className="mb:mt-16 mobileM:px-4 mobileS:px-3 relative z-20 mx-auto mb-16 mt-24 overflow-hidden rounded-xl border border-solid border-gray-300 bg-light-EAEEFE px-2 py-11 shadow-lg dark:border-gray-800 dark:bg-dark-0d0d0d sm:px-8 sm:py-14 md:px-16 md:py-20 xl:mt-8 xl:w-10/12 2xl:w-9/12">
-        <Link href={"/#successStories"} className="group absolute left-6 top-6 flex items-center gap-2">
+      <div className="fluid absolute -inset-0 bg-success-stories-bg bg-repeat opacity-5 dark:opacity-[.01]"></div>
+      <section className="mb:mt-16 relative z-20 mx-auto mb-16 mt-24 overflow-hidden rounded-xl border border-solid border-gray-300 bg-light-EAEEFE px-2 py-11 shadow-lg dark:border-gray-800 dark:bg-dark-0d0d0d mobileS:px-3 mobileM:px-4 sm:px-8 sm:py-14 md:px-16 md:py-20 xl:mt-8 xl:w-10/12 2xl:w-9/12">
+        <Link
+          href={"/#successStories"}
+          className="group absolute left-6 top-6 flex items-center gap-2 rounded-lg bg-black/10 px-4 py-2 text-white backdrop-blur-md"
+        >
           <FaArrowLeft className="transition-all duration-200 group-hover:-translate-x-1" />
-          <span>Back to Success Stories</span>
+          <span>{t("successStories.backButton")}</span>
         </Link>
 
         <div className="fluid absolute inset-x-0 top-0 -z-10 flex h-60 items-center justify-center bg-gradient-to-r from-slate-300 to-slate-200 dark:from-dark-040404 dark:to-dark-040404/50">
-          <span className="text-center font-switzer text-6xl tracking-wider text-slate-300 dark:text-gray-900 sm:text-7xl md:text-8xl">
+          <Image
+            src={randomImage}
+            alt="success story image"
+            width={1920}
+            height={1080}
+            priority
+            quality={90}
+            className="absolute inset-0 -z-10 h-full w-full object-cover object-center"
+          />
+          <div className="absolute inset-x-0 bottom-0 h-9 w-full bg-gradient-to-t from-white/30 to-transparent dark:from-black/60" />
+          <span className="text-center font-switzer text-6xl tracking-wider text-slate-300/30 dark:text-gray-500/50 sm:text-7xl md:text-8xl">
             {successStory.name}
           </span>
         </div>
         <div className="h-28 w-full sm:h-20" />
-        <main className="mx-auto w-full space-y-8 sm:space-y-12 md:space-y-16">
+        <main className="mx-auto w-full space-y-8 sm:space-y-11 md:space-y-12">
           <article className="w-full">
-            <div className="mobileL:gap-3 flex items-center gap-2">
-              <div className="mobileL:h-36 mobileL:w-36 mobileM:h-32 mobileM:w-32 h-28 w-28 overflow-hidden rounded-2xl bg-gradient-to-t from-slate-300 to-light-EAEEFE p-2 drop-shadow-md dark:from-dark-0d0d0d/90 dark:to-dark-ozelDark sm:h-48 sm:w-48 sm:p-3">
+            <div className="flex items-center gap-2 mobileL:gap-3">
+              <div className="h-28 w-28 overflow-hidden rounded-2xl bg-gradient-to-t from-slate-300 to-light-EAEEFE p-2 drop-shadow-md dark:from-dark-0d0d0d/90 dark:to-dark-ozelDark mobileM:h-32 mobileM:w-32 mobileL:h-36 mobileL:w-36 sm:h-48 sm:w-48 sm:p-3">
                 <Image
                   src={successStory.image ? successStory.image : "https://avatar.vercel.sh/john"}
                   alt={successStory.name}
@@ -93,20 +115,24 @@ export default function SuccessStoryPage({ successStory }) {
                   className="h-full w-full rounded-2xl object-cover object-center drop-shadow-sm"
                 />
               </div>
-              <div className="flex h-full flex-col items-start justify-between gap-3 sm:gap-5">
+              <div className="mt-3 flex h-full flex-col items-start justify-between gap-3 sm:gap-5">
                 <div className="flex flex-col items-start gap-3">
-                  <h4 className="mobileL:text-2xl text-nowrap text-xl font-bold sm:text-4xl md:text-5xl">{successStory.name}</h4>
+                  <h4 className="text-nowrap text-xl font-bold text-zinc-900 dark:text-zinc-200 mobileL:text-2xl sm:text-4xl md:text-5xl">
+                    {successStory.name}
+                  </h4>
 
-                  <div className="ml-1 flex flex-col items-start gap-3 text-slate-600 sm:flex-row sm:items-center">
+                  <div className="ml-1 flex flex-col items-start gap-3 text-zinc-600 dark:text-zinc-400 sm:flex-row sm:items-center">
                     <div className="flex items-center gap-1">
                       <MdDateRange className="text-lg sm:text-xl" />
-                      <span className="mobileL:text-sm text-nowrap text-xs sm:text-base">{formatDate(successStory.created_at)}</span>
+                      <span className="text-nowrap text-xs mobileL:text-sm sm:text-base">{formatDate(successStory.created_at)}</span>
                     </div>
                     {successStory.language && (
                       <div className="flex items-center gap-1">
                         <MdLanguage className="text-lg sm:text-xl" />
                         <div className="flex items-center gap-1">
-                          <span className="mobileL:text-sm text-xs sm:text-base">Language: </span>
+                          <span className="text-nowrap text-xs mobileL:text-sm sm:text-base">
+                            Language: <span className="uppercase">{successStory.language}</span>
+                          </span>
                           <Image
                             src={`https://flagcdn.com/24x18/${successStory.language.toLowerCase()}.png`}
                             alt=""

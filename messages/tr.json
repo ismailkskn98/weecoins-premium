@@ -1,0 +1,383 @@
+{
+  "Metadata": {
+    "title": "Weecoins Premium",
+    "description": "Weecoins Premium: Sürdürülebilir ve yenilikçi yatırım fırsatlarıyla kripto dünyasında lider.",
+    "keywords": "Weecoins Premium, kripto para, sanal para, blockchain, kripto yatırımı"
+  },
+  "Header": {
+    "navbar": {
+      "home": "Anasayfa",
+      "about": "Hakkımızda",
+      "ourProjects": "Projelerimiz",
+      "newsFromUs": "Bizden Haberler",
+      "contact": "İletişim"
+    },
+    "modToggle": {
+      "dark": "Koyu",
+      "light": "Açık",
+      "system": "Sistem"
+    }
+  },
+  "NotFoundPage": {
+    "title1": "Sayfa Bulunamadı",
+    "title2": "Ana sayfaya dönün",
+    "button": "Anasayfa"
+  },
+  "HomePage": {
+    "hero": {
+      "description": "Projelerimize katılın ve prestijli bir yaşam sürün. Beklentilerinize uygun yatırım fırsatları WeeCoins Premium ile sizleri bekliyor.",
+      "button": "Bize Ulaşın",
+      "learnMore": "Detaylı bilgi"
+    },
+    "videoContainer": {
+      "title": "Meet WEECOINS Premium",
+      "description": "WCP, blok zinciri teknolojisi aracılığıyla yenilenebilir enerji projelerine güvenli, şeffaf ve verimli bir şekilde yatırım yapmanızı sağlar.",
+      "cards": {
+        "smartContracts": {
+          "title": "Akıllı Sözleşmeler",
+          "description": "Solidity dili kullanılarak geliştirilen akıllı sözleşme teknolojisi ile işlemleriniz güvenli ve garantilidir."
+        },
+        "whyWeecoins": {
+          "title": "Neden WeeCoins Premium?",
+          "description": "Geleceğin finans dünyasında yerinizi almak için siz de WeeCoins Premium ailesine katılın!"
+        },
+        "stakingYieldFarming": {
+          "title": "Verim Tarımı Staking",
+          "description": "Kullanıcılara tokenlarını stake ederek veya likidite sağlayarak ödül kazanma fırsatı sunar."
+        },
+        "joinNow": {
+          "title": "Hemen Katılın",
+          "description": "WeeCoins Premium'un eğitim platformuna bugün katılın ve yenilikçi bir öğrenme deneyiminin parçası olun."
+        }
+      }
+    },
+    "accessToKnowledge": {
+      "title": "Bilgiye Sınırsız Erişim",
+      "description": "Çevrimiçi eğitim, erişilebilirliği ve esnekliği nedeniyle dünya çapında giderek daha fazla tercih edilen bir öğrenme yöntemi haline geldi. Bu platform herkese her konuda, her yerde, her zaman kaliteli eğitim alma fırsatını sunuyor.",
+      "cards": {
+        "discoverThePower": {
+          "title": "Bilginin Gücünü Keşfedin",
+          "description": "WeeCoins Premium ile sınırsız öğrenme olanaklarına erişin. İster bir konuda uzmanlaşın, ister yeni bir hobi edinin, WCP’nin sunduğu zengin içerik dünyasında aradığınızı kolayca bulabilirsiniz. Keşfetmeye başlayın ve bilginin sınırlarını zorlayın! Her adımda ilham alacağınız, keşfettikçe büyüyeceğiniz bir yolculuğa çıkmaya hazır olun. Bilginin ışığında ilerleyin ve her gün kendinizi bir adım daha ileri taşıyın.",
+          "badge1": "Sınırsız Öğrenme",
+          "badge2": "Premium İçerik"
+        },
+        "whyWeecoins": {
+          "title": "Neden WeeCoins Premium ile İşlem Yapmalısınız?",
+          "description": "WCP kullanarak yapılan ödemeler, ticaret, yatırım ve dijital ekonomi alanlarında gerçekleştirilen her işlemle birlikte değer kazanır. Her yeni kullanıcı, her yeni işlem, WCP’nin değerini artırarak ekosistemi genişletir. WeeCoins Premium, hızlı, güvenilir ve düşük maliyetli bir ödeme çözümü sunarak, bireylerin ve işletmelerin blokzincir teknolojisinden en iyi şekilde faydalanmasını sağlar. WCP ekosistemine katılarak geleceğin dijital finans dünyasında yerinizi alın!",
+          "badge1": "Güvenli İşlemler",
+          "badge2": "Hızlı Ödemeler"
+        }
+      }
+    },
+    "successStories": {
+      "title": "Başarı Hikayeleri",
+      "description": "Burada kullanıcılarımızın deneyimlerini ve başarı hikayelerini bulabilirsiniz. İlham verici hikayelere göz atın ve kendi hikayenizi paylaşın.",
+      "backButton": "Başarı Hikayelerine Geri Dön"
+    },
+    "chartAndTable": {
+      "title": "WEECOINS PREMIUM",
+      "description": "TOPLAM ARZ VE DAĞILIMI",
+      "chartTitle": "Dağılım Grafiği",
+      "table": {
+        "title": "Detaylı Dağılım",
+        "category": "Kategori",
+        "mount": "Miktar",
+        "total": "Toplam",
+        "categories": {
+          "marketing": "Pazarlama",
+          "projectSustainability": "Proje/sürdürülebilirlik",
+          "teamAdvisor": "Takım/Danışman",
+          "development": "Geliştirme",
+          "circulation": "Dolaşım"
+        }
+      }
+    },
+    "ourVision": {
+      "title": "Vizyonumuzu Paylaşıyoruz",
+      "description": "Şirketimizin misyonu ve değerleri hakkında daha fazla bilgi edinin. Başarı hikayelerimizi inceleyin ve geleceğe birlikte yön verelim.",
+      "button": "Projelerimiz"
+    }
+  },
+  "AboutPage": {
+    "title": "Hakkımızda",
+    "subtitle": "Bugün en başından günümüze ilham veren bir hikayeyiz",
+    "home": "Anasayfa",
+    "goToContact": "Bilgi Talep Edin",
+    "content": {
+      "top": {
+        "title": "Hakkımızda – WeeCoins Premium",
+        "cards": {
+          "global": {
+            "title": "Global Erişim",
+            "content": "2013 yılında yazılım sektörüne giriş yapan Weecomi International, global pazarda birçok yenilikçi projeye imza atarak teknolojik gelişmelere öncülük etmiştir."
+          },
+          "security": {
+            "title": "Güvenli Altyapı",
+            "content": "2019 yılında blokzincir teknolojilerine yatırım yaparak kendi ağı olan Weescan’ı geliştirdik. Weescan ağı sayesinde birçok futbol kulübü için özel token projeleri oluşturduk ve dijital varlık ekosistemini genişlettik."
+          },
+          "social": {
+            "title": "Sosyal Sorumluluk",
+            "content": "Sosyal sorumluluk projeleri kapsamında Afrika başta olmak üzere birçok bölgede yardım faaliyetleri yürütmekteyiz."
+          }
+        },
+        "descriptionP1": "WeeCoins Premium, Weecomi International çatısı altında geliştirilen yenilikçi bir dijital varlıktır. 2013 yılında yazılım sektörüne giriş yapan Weecomi International, global pazarda birçok yenilikçi projeye imza atarak teknolojik gelişmelere öncülük etmiştir.",
+        "descriptionP2": "2019 yılında blokzincir teknolojilerine yatırım yaparak kendi ağı olan Weescan’ı geliştirdik. Weescan ağı sayesinde birçok futbol kulübü için özel token projeleri oluşturduk ve dijital varlık ekosistemini genişlettik. Bu altyapının gücüyle WeeCoins’i piyasaya sürdük ve 2024 yılının Mayıs ayında WeeCoins Premium ile dijital finans dünyasında yeni bir dönemi başlattık.",
+        "descriptionP3": "WeeCoins Premium, sadece bir yatırım aracı olmanın ötesinde, gerçek kullanım alanları sunan, hızlı ve güvenli bir ödeme ekosistemidir. Blokzincir tabanlı çözümlerimizle, bireylerin ve işletmelerin daha erişilebilir ve adil bir finansal sisteme ulaşmasını sağlamayı hedefliyoruz.",
+        "descriptionP4": "Ayrıca, sosyal sorumluluk projeleri kapsamında Afrika başta olmak üzere birçok bölgede yardım faaliyetleri yürütmekteyiz. Teknolojiyi sadece finansal kazanç için değil, aynı zamanda toplumsal fayda yaratmak için de kullanıyor, sürdürülebilir bir gelecek inşa etmeye katkıda bulunuyoruz. WeeCoins Premium olarak, güçlü altyapımız, yenilikçi projelerimiz ve sosyal sorumluluk bilincimizle dijital finans dünyasında fark yaratmaya devam edeceğiz."
+      },
+      "cards": {
+        "safe": {
+          "title": "Güvenli",
+          "description": "Proof-of-Stake konsensüs mekanizmasıyla çalışan WeeGold ağı, maksimum güvenlik sağlar."
+        },
+        "speed": {
+          "title": "Hızlı",
+          "description": "Optimize edilmiş blok zinciri yapımız sayesinde işlemler anında gerçekleşir."
+        },
+        "cost": {
+          "title": "Güvenli",
+          "description": "Kullanıcılarımızın daha düşük işlem ücretleriyle işlem yapmasını sağlıyoruz."
+        }
+      },
+      "ourMission": {
+        "title": "Misyonumuz",
+        "description": "Weecoins Premium olarak misyonumuz, kripto varlıklarla işlem yapmayı kolay ve güvenilir hale getirerek bireylerin ve işletmelerin finansal sistemlere erişimini artırmaktır. Dijital varlıkların kullanımını teşvik ederek, herkes için kapsayıcı, şeffaf ve adil bir ekonomi oluşturmayı hedefliyoruz. Geleneksel finans sistemlerinin sınırlarını aşarak, kullanıcılarımızın düşük maliyetli, hızlı ve güvenli ödeme çözümlerine erişmesini sağlamak için yenilikçi çözümler sunuyoruz. Kripto varlıkların yalnızca yatırım aracı değil, günlük hayatta aktif olarak kullanılan bir ödeme yöntemi haline gelmesi için çalışıyoruz."
+      },
+      "ourVision": {
+        "title": "Vizyonumuz",
+        "description": "Weecoins Premium’un vizyonu, blockchain teknolojisini herkes için erişilebilir hale getirerek, küresel çapta benimsenen bir dijital ödeme ve yatırım aracı olmaktır. Güvenilir altyapımız ve kullanıcı dostu platformumuz sayesinde, bireylerin ve işletmelerin finansal özgürlüğe ulaşmasını destekleyen bir ekosistem yaratıyoruz. Hedefimiz, dijital ekonominin temel taşlarından biri haline gelerek, dünya genelinde milyonlarca insanın hızlı, güvenli ve merkeziyetsiz finansal hizmetlere erişmesini sağlamaktır. Weecoins Premium, teknolojik gelişmelere öncülük ederek, geleceğin finans dünyasını bugünden inşa etmeye devam edecektir.\n\n🚀Geleceğin ekonomisini birlikte şekillendirelim."
+      },
+      "linkCard": {
+        "title": "Neden WeeCoins Premium?",
+        "content": "WeeCoins Premium, sadece bir kripto para birimi olmanın ötesinde, kapsamlı bir dijital ekonomi ekosistemi sunarak kullanıcılarına güvenli, hızlı ve yenilikçi finansal çözümler sağlar.",
+        "descriptionP1": {
+          "title": "Gerçek Hayatta Kullanım Alanları",
+          "content": "WeeCoins Premium, yalnızca yatırım amaçlı bir varlık değildir; aynı zamanda anlaşmalı mağazalarda alışveriş yapma, online ve fiziksel ödemeler gerçekleştirme, varlık transferleri yapma ve akıllı sözleşmeler kullanma gibi birçok işlevi barındıran çok yönlü bir dijital ödeme aracıdır."
+        },
+        "descriptionP2": {
+          "title": "Güçlü ve Sürdürülebilir Ekosistem",
+          "content": "WCP, gelişmiş blockchain altyapısıyla, hızlı işlem onay süreleri ve düşük maliyetli transferler sunarak güvenilir bir finansal sistem oluşturur. Ekosistemdeki her yeni işlem ve kullanıcı, WCP’nin değerini artırarak ağı daha güçlü hale getirir."
+        },
+        "descriptionP3": {
+          "title": "Finansal Özgürlüğün Anahtarı",
+          "content": "Geleneksel bankacılık sistemlerinden bağımsız olarak, herkesin eşit şartlarda finansal hizmetlere erişmesini sağlayan bir yapı sunuyoruz. Sınır ötesi transferler, merkeziyetsiz finans (DeFi) çözümleri ve kolay erişim imkanıyla, WCP kullanıcılarına finansal özgürlük vadediyor."
+        },
+        "descriptionP4": {
+          "title": "Geleceğe Yatırım",
+          "content": "WeeCoins Premium, teknolojik gelişmelere öncülük eden bir vizyonla hareket eder. Sürekli güncellenen altyapısı, büyüyen kullanıcı ağı ve gelişen kullanım alanları ile dijital finansın geleceğini inşa ediyoruz."
+        },
+        "detailedText": "Geleceğin finans dünyasında yerinizi almak için siz de WeeCoins Premium ailesine katılın!"
+      }
+    }
+  },
+  "OurProjectsPage": {
+    "title": "Projelerimiz",
+    "subtitle": "Geleceği şekillendiren projelerimizle tanışın.",
+    "sidebar": {
+      "title": "Projelerimizi Keşfedin"
+    },
+    "cards": {
+      "wE3DUCATION": {
+        "title": "WE3DUCATION",
+        "description": "Bu platform; öğrenmek isteyen herkese, herhangi bir konuda, herhangi bir yerde ve herhangi bir zamanda kaliteli eğitim alma fırsatı sunuyor.",
+        "date": "2025 - İlk Çeyrek"
+      },
+      "wE3STATE": {
+        "title": "WE3STATE",
+        "description": "Global emlak piyasası, trilyonlarca dolarlık büyüklüğüyle, dinamik yapısı ve sürekli artan nüfusun getirdiği ihtiyaçlarla büyük bir kar potansiyeline sahiptir. Buradan hareketle size WCP kullanarak yatırım yapabileceğiniz, yeni başlayacak projelere ortak olabileceğiniz ve tamamlanan projelerden kar payı alabileceğiniz bir ekosistem sunuyoruz.",
+        "date": "2025 - İlk Yarım"
+      },
+      "wE3NERGY": {
+        "title": "WE3NERGY",
+        "description": "WeeCoins Premium (WCP) ile siz de bu devrimin bir parçası olabilir; güneş ve rüzgar enerjisi projelerine yatırım yaparak sürdürülebilir bir gelecek inşa edebilirsiniz. WCP, blokzincir teknolojisi sayesinde, yenilenebilir enerji projelerine güvenli, şeffaf ve etkin bir yolla yatırım yapmanızı sağlar.",
+        "date": "2026 - İlk Çeyrek"
+      },
+      "weeZard": {
+        "slug": "a-part-of-the-weecoins-ecosystem",
+        "shortTitle": "WeeZard – Weecoins Ekosisteminin Bir Parçası",
+        "shortDescription": "WeeZard, Weecoins Premium ekosistemine dahil olan yenilikçi bir projedir. Kullanıcılarına hem eğlence hem de kazanç fırsatı sunan bu oyun platformu, Weecoins ekosistemine katkı sağlayarak WCP’nin benimsenmesini artırır.",
+        "date": "2026 - İlk Çeyrek",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Nasıl Çalışır?",
+            "content": "Weecoins Premium, blokzincir teknolojisine dayalı, güvenilir ve sürdürülebilir bir finansal sistem sunar. Kullanıcılar, ekosistem içindeki farklı projeler aracılığıyla WCP kazanabilir, yatırım yapabilir ve ticaret gerçekleştirebilir. Weecoins ekosistemi, merkeziyetsiz bir yapı ile şeffaflık ve güven sunarken, projelerin birbirini destekleyerek büyümesini sağlar."
+          },
+          "whyUse": {
+            "title": "WeeZard’ı Neden Kullanmalısınız?",
+            "content": "Eğlenirken Kazan – WeeZard, kullanıcılarına Jackpot, Kazı Kazan ve Mayın Tarlası gibi eğlenceli oyunlar sunarak WCP kazanma imkanı sağlar.\nMiner ve Cryptonaut Oyunları ile Pasif Gelir – Kullanıcılar, oyun oynayarak düzenli olarak WCP biriktirebilir.\nEkip Kurarak Daha Fazla Kazan – WeeZard, referans sistemi sayesinde kullanıcıların arkadaşlarını davet ederek ek gelir elde etmesine olanak tanır."
+          },
+          "contribution": {
+            "title": "WeeZard Weecoins Ekosistemine Nasıl Katkı Sağlıyor?",
+            "content": "WCP Kullanımını Artırır: Oyun içinde WCP kullanımı teşvik edilerek ekosistemin büyümesine katkı sağlanır.\nGlobal Yayılım Sağlar: WeeZard, dünya çapında kullanıcıları kendine çeker ve Weecoins Premium’un bilinirliğini artırır.\nSürekli Dolaşım Sağlar: Kullanıcılar kazandıkları WCP’leri farklı Weecoins projelerinde (WeeCard, WeeSale, WeePoint) kullanabilir.\nWCP’nin Değerini Destekler: Oyun içi ekonomi, WCP’nin dolaşımda kalmasını sağlayarak ekosistemin sürdürülebilirliğini artırır."
+          }
+        },
+        "detailedText": "WeeZard, Weecoins Premium ekosistemine dahil olan yenilikçi bir projedir. Kullanıcılarına hem eğlence hem de kazanç fırsatı sunan bu oyun platformu, Weecoins ekosistemine katkı sağlayarak WCP’nin benimsenmesini artırır."
+      },
+      "weeCard": {
+        "slug": "the-digital-business-card-solution-of-weecoins-ecosystem",
+        "shortTitle": "WeeCard – Weecoins Ekosisteminin Dijital Kartvizit Çözümü",
+        "shortDescription": "WeeCard, Weecoins Premium ekosistemine entegre edilmiş yenilikçi bir dijital kartvizit çözümüdür. Geleneksel kartvizitleri dijital dünyaya taşıyan WeeCard, bireylerin ve işletmelerin profesyonel kimliklerini modern bir şekilde paylaşmalarını sağlar. Aynı zamanda Weecoins ekosisteminin büyümesine katkıda bulunarak WCP kullanımını artırır.",
+        "date": "2026 - İlk Çeyrek",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Nasıl Çalışır?",
+            "content": "Weecoins Premium, blokzincir tabanlı, merkeziyetsiz bir finansal sistemdir. Kullanıcılar WCP kazanabilir, yatırım yapabilir ve ticaret yaparak ekosistemde aktif rol oynayabilir. Weecoins ekosistemi, farklı projeleri destekleyerek sürdürülebilir bir büyüme sağlar."
+          },
+          "whyUse": {
+            "title": "WeeCard’ı Neden Kullanmalısınız?",
+            "content": "Dijital Kartvizit Çözümü: WeeCard, bireylerin ve işletmelerin tüm iletişim bilgilerini QR kodlar ve özel bağlantılar aracılığıyla paylaşmalarını sağlar.\nHer Zaman Güncel: Fiziksel kartvizitlerin aksine, bilgileriniz sürekli güncellenebilir ve değişiklikler anında yansıtılabilir.\nİş Bağlantılarınızı Geliştirin: Sosyal medya hesaplarınızı, web sitenizi ve diğer profesyonel bilgilerinizi tek bir kartvizitte toplayarak ağınızı genişletin.\nWeeCard ile Gelir Elde Edin: Kullanıcılar, WeeCard satışlarını yaparak WCP kazanabilir ve Weecoins ekosisteminden faydalanabilir."
+          },
+          "contribution": {
+            "title": "WeeCard Weecoins Ekosistemine Nasıl Katkı Sağlıyor?",
+            "content": "WCP Kullanımını Artırır: WeeCard yalnızca WCP ile satın alınabilir, bu da Weecoins ekosistemine sürekli bir talep oluşturur.\nGlobal Kullanımı Destekler: Weecoins Premium’u kullanan bireyler ve işletmeler, dijital kartvizitlerini dünya çapında paylaşarak ekosistemin bilinirliğini artırır.\nEkosistem İçinde Entegrasyon Sağlar: WeeCard sahipleri, kazandıkları WCP’leri WeeZard, WeeSale ve WeePoint gibi diğer Weecoins projelerinde kullanabilir.\nWCP’nin Değerini Artırır: Kullanıcılar ve işletmeler, profesyonel ağlarını genişletmek için WeeCard’a yatırım yaparak ekosistemin sürdürülebilirliğini destekler."
+          }
+        },
+        "detailedText": "WeeCard, Weecoins Premium ekosistemine entegre edilmiş yenilikçi bir dijital kartvizit çözümüdür. Geleneksel kartvizitleri dijital dünyaya taşıyan WeeCard, bireylerin ve işletmelerin profesyonel kimliklerini modern bir şekilde paylaşmalarını sağlar. Aynı zamanda Weecoins ekosisteminin büyümesine katkıda bulunarak WCP kullanımını artırır."
+      },
+      "weeSale": {
+        "slug": "the-innovative-e-commerce-platform-of-weecoins-ecosystem",
+        "shortTitle": "WeeSale – Weecoins Ekosisteminin Yenilikçi Alışveriş Platformu",
+        "shortDescription": "WeeSale, Weecoins Premium ekosistemine entegre edilmiş güvenli ve kârlı bir e-ticaret platformudur. Kullanıcıların sıfır ve ikinci el ürünleri alıp satmasını sağlayan WeeSale, WCP kullanımını teşvik ederek ekosistemin büyümesine katkı sağlar.",
+        "date": "2026 - İlk Çeyrek",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Nasıl Çalışır?",
+            "content": "Weecoins Premium, blokzincir tabanlı bir finansal sistemdir ve ekosistemdeki farklı projeleri destekleyerek WCP’nin benimsenmesini artırır. Kullanıcılar WeeCard, WeeZard, WeePoint ve WeeSale gibi projeler aracılığıyla WCP kazanabilir, harcayabilir ve yatırım yapabilir."
+          },
+          "whyUse": {
+            "title": "WeeSale’ı Neden Kullanmalısınız?",
+            "content": "Güvenli ve Kolay Alışveriş: Kullanıcılar, ikinci el veya sıfır ürünlerini güvenli bir şekilde satışa çıkarabilir ve alıcılarla doğrudan iletişim kurabilir.\nWCP ile Satış Yapın: WeeSale, kullanıcıların ürünlerini WCP ile satışa koymasını teşvik ederek ekosistem içindeki işlem hacmini artırır.\nDaha Fazla Kazanç Fırsatı: Kendi referans linkinizle başkalarını WeeSale’e üye yaparak onların platformda yaptığı doping, ek ilan ve diğer işlemlerinden pasif gelir elde edebilirsiniz.\nGlobal Pazar: Çok dilli altyapısı sayesinde WeeSale, dünya çapında bir pazar olmayı hedefler ve her ülkeden kullanıcıların ekosisteme dahil olmasını sağlar."
+          },
+          "contribution": {
+            "title": "WeeSale Weecoins Ekosistemine Nasıl Katkı Sağlıyor?",
+            "content": "WCP Dolaşımını Artırır: Satıcılar, ürünlerini ön plana çıkarmak ve daha fazla satış yapmak için doping hizmetleri ve ek ilan haklarını WCP ile satın alır.\nEkosistemin Küresel Yayılımını Destekler: WeeSale, Weecoins Premium ekosisteminin tanıtımını ve küresel benimsenmesini artıran projelerden biridir.\nKullanıcıları Ekosistem İçinde Tutar: Kullanıcılar kazandıkları WCP’leri WeeZard, WeeCard ve WeePoint gibi diğer ekosistem projelerinde kullanabilir.\nWeecoins’in Değerini Destekler: Platform içindeki WCP kullanımı, coin’in dolaşımda kalmasını ve sürekli talep görmesini sağlayarak değerini artırır."
+          }
+        },
+        "detailedText": "WeeSale, Weecoins Premium ekosistemine entegre edilmiş güvenli ve kârlı bir e-ticaret platformudur. Kullanıcıların sıfır ve ikinci el ürünleri alıp satmasını sağlayan WeeSale, WCP kullanımını teşvik ederek ekosistemin büyümesine katkı sağlar."
+      },
+      "weekobi": {
+        "slug": "the-innovative-commerce-and-loyalty-system-of-weecoins-ecosystem",
+        "shortTitle": "Weekobi – Weecoins Ekosisteminin Yenilikçi Ticaret ve Sadakat Sistemi",
+        "shortDescription": "Weekobi, Weecoins Premium ekosistemine entegre edilmiş, mağazalar ve müşterileri bir araya getiren akıllı bir ticaret platformudur. Mağazalar, ücretsiz olarak sisteme katılarak yeni müşteriler kazanırken, Weepoint uygulaması üzerinden yaptıkları satışlardan komisyon ödeyerek satışa dayalı bir reklam modeliyle büyüme sağlarlar. Aynı zamanda, müşteriler alışveriş yaptıkça WCP kazanarak ekosistemin bir parçası haline gelirler.",
+        "date": "2026 - İlk Çeyrek",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Nasıl Çalışır?",
+            "content": "Weecoins Premium, blokzincir tabanlı bir finansal sistemdir. Kullanıcılar, ekosistem içindeki projeler aracılığıyla WCP kazanabilir, harcayabilir ve ticaret yapabilir. Weekobi, mağazalar ve müşteriler için gelir elde etme fırsatları sunarak ekosistemi büyütür."
+          },
+          "whyUse": {
+            "title": "Weekobi’yi Neden Kullanmalısınız?",
+            "content": "Daha Fazla Müşteri Kazanın: Weekobi, mağazaların hedefledikleri kitleye daha hızlı ulaşmalarını sağlar.\nWeecoins Ekosisteminde Yer Alın: Alışveriş yaparak WCP kazanabilir ve bu WCP’yi diğer Weecoins projelerinde harcayabilirsiniz.\nReklam Modeliyle Satışları Artırın: Satış yaparak veya sistem üzerinden yapılan diğer işlemlerle hem mağaza hem de kullanıcı kazançlı çıkabilir."
+          },
+          "contribution": {
+            "title": "Weekobi Weecoins Ekosistemine Nasıl Katkı Sağlıyor?",
+            "content": "WCP’nin Talep Görmesini Sağlar: Weekobi, mağazaların ve müşterilerin WCP kazanmasını sağlayarak ekosistemde coin’e olan talebi artırır.\nGlobal Yayılım Sağlar: Mağazalar, Weekobi’ye katıldıkça Weecoins Premium’un globaldeki kullanıcı sayısı artar.\nEkosistemin Değerini Destekler: Kullanıcılar ve mağazalar, kazandıkları WCP’yi diğer projelerde kullanarak ekosistemi daha da güçlendirir."
+          }
+        },
+        "detailedText": "Weekobi, Weecoins Premium ekosistemine entegre edilmiş, mağazalar ve müşterileri bir araya getiren akıllı bir ticaret platformudur. Mağazalar, ücretsiz olarak sisteme katılarak yeni müşteriler kazanırken, Weepoint uygulaması üzerinden yaptıkları satışlardan komisyon ödeyerek satışa dayalı bir reklam modeliyle büyüme sağlarlar. Aynı zamanda, müşteriler alışveriş yaptıkça WCP kazanarak ekosistemin bir parçası haline gelirler."
+      }
+    }
+  },
+  "NewsFromUs": {
+    "title": "Bizden Haberler",
+    "subtitle": "En son gelişmelerden haberdar olun.",
+    "newspapers": {
+      "title": "Haberler",
+      "weecoins": {
+        "title": "Weecomi, Weecoins ile cripto para sektöründe ezberleri bozdu",
+        "subtitle": "Weecomi international alt markası olan Weecoins ile kendi cripto parasını ve kendi borsasını faaliyete alarak cripto para sektörüne adım attı.",
+        "description": "Mobil cripto ödeme sistemi Weecoins, mobil ödemenin yerel alışveriş, e-ticaret, uçak bileti, otel rezervasyonun yanı sıra günlük ticarette, cripto para gönderip almanın ve para kazanmanın tek bir platform ve uygulamada olmasını sağlayacak şekilde hayata geçiyor. Weecomi international kurucu Başkanı Özkan Cıbır, 2013 yılından itibaren orta ve küçük İşletmelerin teknolojiye ayak uymalarını sağlayarak onları mobil ticarete taşıyor.",
+        "interview": {
+          "weecoinsInfo": {
+            "title": "Özkan Bey Weecomi İnternational ve Weecoins hakkında bilgi verir misiniz?",
+            "description": "Weecoins, 2013 senesinde faaliyete başlamış Türkiye, Azerbaycan, Rusya, Ukrayna, Kazakistan, Kırgızistan, Gürcistan’da faaliyet gösteren Weecomi International kuruluşudur. Weecoins, Weecomi İnternational’ın yıllardır sahada oluşturduğu mağazalarına ve müşterilerine daha cazip ödeme olanakları sağlamak için kuruldu. Weecoins kendi para birimi alt yapısını kurarak bu alış verişlerde müşterilerin weecoins kullanmasını sağlayarak kullanıcılarına ekstra indirimler ve kampanyalar sağlayacak. Hedefimiz dünyanın en büyük alış veriş topluluğunu kurmak ve hem bunu fiziki alış verişlerde hem de internet alış verişleri sayesinde e-ticaretle fiziki ticareti birleştirmek olacak.",
+            "slogan": "Bugünün ve geleceğin ekonomisinde yeni bir çığır açacağız"
+          },
+          "ozkanCibir": "Özkan Cıbır; “Weecoins bir pazar yeri olacak. İşletmeleri, yerel satış ekipleri, çağrı merkezleri ve yerel reklamlar ile dijitalleştireceğiz. İşletme ağı online ve toplu pazarlama ile desteklenecektir. Weecomi Mobil uygulama olarak ödeme sistemleri ile çözüm ortağı olacağız ve ödeme sistemlerinin havuzlarındaki işletmeler potansiyel Weecomi işletmesi olacaktır.",
+          "ozkanCibirSlogan": "Dünyayı değiştiren çılgın fikirlerdir.",
+          "cibir": "Cıbır; “2009 yılına kadar dünyada sadece 8 milyon milyoner vardı. 2014 yılından sonra dünyada bir milyoner patlaması oldu ve 2020 gelindiğinde bu sayı 17 milyonu aştı peki bu değişikliğin sebebi neydi? Son zamanlarda adından çokça bahsedilen ve dünyada sadece toplumun %2’si tarafından bilinen cripto paralar. Cripto paraların işlem yaptığı dünya çapındaki ilk 10 borsanın günlük işlem hacmi 56 milyon dolar. Evet, dünyada her şey 2000 li yıllara göre çok daha hızlı değişiyor. İşte burada fırsatı görenler bu değişime ayak uyduranlar hayallerine ulaşıyor.”",
+          "difference": {
+            "title": "Sizin diğer cripto para firmalarından farkınız nedir?",
+            "description": "Bizim diğer cripto para firmalarından farkımız bir alış veriş alt yapısına sahip olmamız. Dünyada çıkan bütün cripto paralar önce çıkıp sonra alış veriş yapacak yerler oluşturmaya çalışıyorlar. Maalesef bir çoğu bunu tam olarak başaramıyor ya kayboluyor ya da değerini yitiriyor. Weecoins ise üst markası olan Weecomi international’ın 7 yıl içerisinde dünya üzerinde kurduğu on binlerce mağazası ve yüzbinleri geçen müşteri ağına sahip bir cripto para. Çıktığı gün dünya üzerinde alış veriş yapılacak mağazaları ve müşterileri hazır. Aynı zamanda kendi borsası olan ender cripto paralardan bir tanesi. Weecomi internationalın kendi geliştirdiği oyun uygulaması olan Weemobil’in 170 bin müşterisine Weecoins ile ödeme yapması ayrıca bir değer katıyor."
+          },
+          "stockMarket": {
+            "title": "Özkan Bey kendi borsanızdan bahsettiğiniz tam olarak nedir?",
+            "description": "Evet, Weeswaps adında kendi borsamız var. Bu borsada hem kendi cripto paralarımız var hem de insanlar bu borsada bitcoin, ethereum, daşh gibi ilk 10’daki coinleri alıp satabiliyorlar. Kazakistan ve Kırgızistan’ın ilk resmi borsası olma ünvanı sahip olan Weeswaps, Türkiye’de de resmi olarak işlem yapmaktadır.",
+            "slogan": "Weecomi Cüzdan bir ekosistem oluşturuyor."
+          },
+          "detailText": "Özkan Cıbır; “Weecoins ve Weecomi Cüzdan, ücretsiz bir mobil uygulama ile alışverişin, ödemenin ve para kazanmanın mümkün olduğu bir ekosistem oluşturmaktadır. Evrensel, merkezi olmayan bir kripto para cüzdanı olan Weecoins kullanıcılarına, alışveriş yapma, fırsat satın alma, Bitcoin, Ethereum ve diğer kullanılabilen kripto paraların kredi kartı ile satın alımı, kripto paraları gönderme, alma ve saklama işlemlerini ve Weecomi uygulamasında yapılan alışverişlerden elde edilen puanların ve coinlerin kullanılmasını ve ödeme yapma imkanı sağlamaktadır."
+        }
+      },
+      "cryptoCurrencyExpert": {
+        "title": "Özkan Cıbır, Yılın En İyi Kripto Para Uzmanı seçildi",
+        "subtitle": "Altın Melek Ödülleri, İstanbul MKM'de düzenlenen görkemli bir törenle sahiplerini buldu. İş dünyasından cemiyet hayatına, spordan sanata pek çok alanda önemli isim başarıları ile ödüle layık görüldü. Gecenin dikkat çeken isimlerinden biri kripto para sektörünün öncülerinden Özkan Cıbır oldu. Cıbır, Yılın En İyi Kripto Para Uzmanı ödülünün sahibi oldu.",
+        "description": "Türkiye'de 2020 yılından bu yana kripto para alanında çalışmalar yürüten Kripto Para Uzmanı Özkan Cıbır, yılın Kripto Para Uzmanı seçildi. Türkiye’de alanında öncü isimlerden biri olan Cıbır, dünya genelinde birçok ülkede eğitimler düzenliyor. Yerli blok zinciri ağına sahip olan başarılı girişimci, sadece eğitimlerle kalmayıp yapay zeka tabanlı borsa robotları geliştiriyor. Bu robotlar, dünya çapında birçok firmaya ve derneğe özel tokenler sunuyor. Ayrıca, çeşitli TV kanallarında programlar yaparak, kripto para dünyasına dair bilgileri geniş kitlelere ulaştırıyor.",
+        "africa": {
+          "title": "Afrika’da yeni proje",
+          "description": "2024 yılında Afrika’da yeni bir proje için hazırlandıklarını ifade eden Özkan Cıbır, “Türkiye haricinde Azerbaycan, Rusya, Kazakistan, Gürcistan ve Kırgızistan'da resmi projeler yürütüyoruz. 2024 yılında Afrika pazarında araştırma ve geliştirme çalışmaları planlıyoruz. Kripto paranın yasal statüsü için bürokratlarla görüşmeler gerçekleştiriyoruz. Buralarda da öncülük edebileceğimiz çok önemli proje ve yatırımlarımız olacak.” dedi."
+        },
+        "risk": {
+          "title": "Minimum riskle işlem yapma yolları",
+          "description": "Ödül töreninde konuşan Cıbır, Gelecekte kripto paranın çok önemli bir konuma ulaşacağına inanıyoruz ve insanları bu yeni dünyaya hazırlama konusunda çalışmalarımızı yürütüyoruz. Kendi blok zincirimiz altında hem bir coin hem de bir token geliştirdik. Bu alanda güvenlik ve güvenirlilik çok önemli etkenlerden dolayısı ile biz de bu alandaki çalışmalarımızı teknolojinin de desteği ile sürekli yenileyerek ve geliştirerek sürdürüyoruz. Bu çabamız da karşılığını alıyor ve başarıya dönüşüyor. Bu başarı da hem Türkiye'de hem de dünyada konumumuzu güçlendiriyor. Her an benimsediğimiz bu yenilikçi yaklaşımla, sektördeki olumsuz düşünceleri değiştirmeye ve insanlara kripto para piyasalarında minimum riskle işlem yapma yollarını göstermeye devam edeceğiz.” İfadelerini kullandı. Geliştirdikleri Weecoins markasından da söz eden Özkan Cıbır, “Weecoins, bizim geliştirdiğimiz ve Türkiye'nin ilk ve tek patentli kripto parası olarak ön plana çıkıyor. Kripto para birimimizi, kendi blockchain ağımızı kurarak yenilikçi bir adım attık. 2020 yılından bu yana 8 farklı ülkede resmi ofislerimizle faaliyet gösteriyoruz ve dünya genelinde 50'ye yakın ülkede yatırımcılarımız bulunuyor. Weecoins, özellikle Hold yapan yatırımcılarına aylık kar payı dağıtmasıyla dikkat çekiyor ve bu özelliğiyle kripto para piyasasında kendine özgü bir yer ediniyor. Bu gelişme, Türkiye'deki kripto para piyasasında önemli bir kilometre taşı olarak görülüyor” dedi."
+        }
+      },
+      "shopping": {
+        "title": "Weecoins ile alışverişte yeni dönem",
+        "subtitle": "Weecoins, dünyada kripto para birimlerinin günlük ve yerel alışverişlerde kullanımını yaygınlaştıracak.",
+        "description": "Weecomi'nin Rusya Ukrayna, Kazakistan ve Türkiye gibi ülkelerde hizmet sunduğunu belirten Weecomi international Kurucu Başkanı Özkan Cıbır; Weecoins, 2013 yılında kurulan Weecomi International firmasının bir alt kuruluşudur. Weecoins ile kullanıcılar, uçak bileti, otel rezervasyonu ve online alışverişler gibi günlük alışverişlerini tek bir platform üzerinden kripto paraları kullanarak gerçekleştirebilecek. dedi. Weecomi International'in dünya üzerinde müşteriler ile mağazalar arasında bir alışveriş köprüsü kurduğunu belirten Özkan Cıbır; Weecomi International'in şu anda 10.000'i aşkın anlaşmalı mağazası ve yaklaşık 270.000 müşterisi bulunuyor. Bu büyük ağdan faydalanarak kripto para kullanımını arttırmak isteyen Weecomi, 2021 yılında anlaşmalı olduğu mağazalarda Weecoins'i müşterilerinin kullanımına açacak. Toplamda 900.000.000 adet üretilecek olan Weecoins'in üretimi 5 yılda tamamlanacak. 20 ülkede yatırımcısı bulunan Wecoins, şubat ayından bu yana 0,08 dolardan 0,30 dolara yükselerek 4 kat kazandırdı.",
+        "freeMobile": {
+          "title": "Ücretsiz mobil uygulama",
+          "description": "Özkan Cıbır; Ücretsiz bir mobil uygulama olan Weecoins Cüzdan, alışverişin, ödemenin ve para kazanmanın mümkün olduğu bir ekosistem oluşturuyor. Weecoins kripto cüzdanı olan cüzdan kullanıcılar Weecoins ile alışveriş, kripto para birimlerinin kredi kartı ile alımı, Bitcoin, Ethereum ve diğer kripto para birimlerini alma, gönderme ve saklama işlemleri, Weecomi uygulamasından yapılan alışverişlerden elde edilen puanları ve coin'leri kullanma imkanı ve ortak olunan ödeme platformları ile ödeme yapma imkanı sahip oluyorlar. Weeswaps'ı ise Türkiye'nin en yenilikçi dijital varlık işlem platformu olarak tanımlıyoruz. Weeswaps kullanıcıları, hızlı alış-satış seçenekleri ile işlemleri istedikleri fiyattan beklemeden gerçekleştirebiliyor. Tüm dijital varlıklar fiziksel güvenliği sağlanmış çevrimdışı cüzdanlarda muhafaza edebiliyorlar."
+        }
+      },
+      "wedding": {
+        "title": "Damadın yakınından bin kripto",
+        "subtitle": "Hatay İskenderun'da Oğuzhan ve Özge Altunkürek'in düğünlerinde ilginç bir takı merasimi düzenlendi. Kripto para yatırımcısı olan aile yakını Hamza Özkan Cıbır tarafından gelin ve damada her biri 3 dolar değerinde bin adet kripto para takıldı. Gelinin babası Metin Buluç, ilk defa böyle bir şeye denk geldiklerini belirterek, dijital paranın herkese hayırlı uğurlu olmasını diledi.",
+        "cibir": "Cıbır ise Belki de geleceğin olayını yaptık. Artık her şey dijitalleşiyor. Düğünlerde bile takılar bu şekilde yapılabiliyor dedi."
+      },
+      "kripto": {
+        "title": "Özkan Cıbır, Yılın En İyi Kripto Para Uzmanı seçildi.",
+        "subtitle": "Türkiye'de 2020 yılından bu yana kripto para alanında çalışmalar yürüten Cıbır, aynı zamanda dünya genelinde birçok ülkede eğitimler düzenliyor. Yerli blok zinciri ağına sahip olan başarılı girişimci, sadece eğitimlerle kalmayıp yapay zeka tabanlı borsa robotları geliştiriyor. Bu robotlar, dünya çapında birçok firmaya ve derneğe özel tokenler sunuyor. Ayrıca, çeşitli TV kanallarında programlar yaparak, kripto para dünyasına dair bilgileri geniş kitlelere ulaştırıyor."
+      },
+      "expert": {
+        "title": "Yılın En İyi Kripto Para Uzmanı seçildi",
+        "subtitle": "İstanbul MKM'de düzenlenen görkemli bir törenle Altın Melek Ödülleri sahiplerini buldu. Çeşitli branşlarda verilen bu prestijli ödüller, spordan sanata kadar geniş bir yelpazede başarıları onurlandırdı. Gecenin dikkat çeken anlarından biri ise, kripto para sektöründeki öncü isimlerden Özkan Cıbır'ın Yılın En İyi Kripto Para Uzmanı ödülünü almasıydı."
+      }
+    }
+  },
+  "ContactPage": {
+    "title": "İletişim",
+    "subtitle": "Bize ulaşın, sizinle tanışmak isteriz.",
+    "text": "Sonsuz evrende her keşif, yeni bir bakış açısı kazandırır. İş birliğiyle sınırları aşalım ve geleceğinizi birlikte şekillendirelim.",
+    "form": {
+      "title": "Bağlantılarımızı Güçlendirelim",
+      "subtitle": "Sorularınızı yanıtlamaktan ve iş birliği fırsatlarını değerlendirmekten memnuniyet duyarız.",
+      "name": {
+        "label": "Adınız",
+        "validation": {
+          "required": "İsim alanı zorunludur",
+          "minLength": "Adınız en az {min} karakterden olusmalıdır"
+        }
+      },
+      "email": {
+        "label": "E-posta Adresiniz",
+        "validation": {
+          "required": "Email alanı zorunludur",
+          "email": "Lütfen geçerli bir email adresi girin"
+        }
+      },
+      "message": {
+        "label": "Mesajınız",
+        "validation": {
+          "required": "Mesaj alanı zorunludur",
+          "minLength": "Mesajınız en az {min} karakterden olusmalıdır"
+        }
+      },
+      "button": "Mesajınızı Gönderin",
+      "isSummitting": "Gönderiliyor..."
+    }
+  },
+  "Footer": {
+    "copyright": "WeeCoins Premium © Tüm Hakları Saklıdır."
+  }
+}

@@ -1,0 +1,63 @@
+.heroGradientLight {
+  background: var(--color-light-183ec2);
+  background: linear-gradient(10deg, var(--color-gradient-f7cf68) 0%, var(--color-light-eaeefe) 75%);
+}
+.heroGradientDark {
+  background: var(--color-light-183ec2);
+  background: linear-gradient(10deg, var(--color-gradient-f7cf68) 0%, var(--color-dark-0d0d0d) 75%);
+}
+
+.center-image {
+  animation: centerImageAnimation 2.5s alternate infinite ease-in-out;
+}
+
+@keyframes centerImageAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.top-image {
+  animation: topImageAnimation 2s alternate infinite ease-in-out;
+}
+
+@keyframes topImageAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.bottom-image {
+  animation: bottomImageAnimation 2s alternate infinite ease-in-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes bottomImageAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.title-svg {
+  transform: rotate(180deg);
+  animation: titleSvgAnimation 2s alternate infinite ease-in-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes titleSvgAnimation {
+  0% {
+    transform: translateY(0) rotate(180deg);
+  }
+  100% {
+    transform: translateY(8px) rotate(180deg);
+  }
+}

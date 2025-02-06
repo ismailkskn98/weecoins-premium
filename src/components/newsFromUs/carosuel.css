@@ -1,0 +1,15 @@
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -2rem !important;
+}
+.swiper-pagination-bullet {
+  background-color: white;
+}
+.swiper-pagination-bullet-active {
+  background-color: var(--color-light-ffc107);
+}
+
+/* .newspapersWrapper .swiper-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+} */

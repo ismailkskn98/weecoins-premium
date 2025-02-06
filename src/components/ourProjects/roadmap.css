@@ -1,0 +1,50 @@
+.vertical-timeline-element-content {
+  @apply border border-muted bg-gradient-to-br from-[#FEFEFE] to-[#F5F5F5] p-8 shadow-lg dark:from-light-833E15 dark:to-dark-0d0d0d;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: none !important;
+  @apply overflow-hidden bg-gradient-to-br from-[#FEFEFE] to-[#F5F5F5] p-2 shadow-md dark:from-light-833E15 dark:to-dark-0d0d0d dark:p-0;
+}
+.vertical-timeline-element-icon svg {
+  left: unset;
+  top: unset;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  @apply relative h-6 w-6 text-zinc-800 dark:text-zinc-200;
+}
+
+.vertical-timeline:before {
+  @apply bg-[#FEFEFE] dark:bg-[#0B0B0B];
+}
+
+.vertical-timeline-element-content p {
+  @apply text-sm leading-7 text-zinc-700 dark:text-white/85;
+}
+
+.vertical-timeline-element {
+  @apply m-4;
+}
+
+@media screen and (width < 1170px) {
+  .vertical-timeline-element-icon {
+    left: -1px !important;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 3px !important;
+  }
+}
+@media screen and (width < 900px) {
+  .vertical-timeline-element-content {
+    padding: 1rem;
+    margin-left: 50px;
+  }
+  .vertical-timeline-element {
+    margin: 0 !important;
+    margin: 1.5rem 0 !important;
+  }
+  .vertical-timeline {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}

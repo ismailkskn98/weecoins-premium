@@ -1,0 +1,384 @@
+{
+  "Metadata": {
+    "title": "Weecoins Premium",
+    "description": "Weecoins Premium: A leader in the crypto world with sustainable and innovative investment opportunities.",
+    "keywords": "Weecoins Premium, cryptocurrency, virtual currency, blockchain, crypto investment"
+  },
+  "Header": {
+    "navbar": {
+      "home": "Home",
+      "about": "About Us",
+      "ourProjects": "Our Projects",
+      "newsFromUs": "News From Us",
+      "contact": "Contact"
+    },
+    "modToggle": {
+      "dark": "Dark",
+      "light": "Light",
+      "system": "System"
+    }
+  },
+  "NotFoundPage": {
+    "title1": "Page Not Found",
+    "title2": "Go to Home Page",
+    "button": "Home"
+  },
+  "HomePage": {
+    "hero": {
+      "description": "Join our projects and live a prestigious life. Investment opportunities that meet your expectations are waiting for you with WeeCoins Premium.",
+      "button": "Contact Us",
+      "learnMore": "Learn More"
+    },
+    "videoContainer": {
+      "title": "Meet WEECOINS Premium",
+      "description": "WCP allows you to invest in renewable energy projects securely, transparently, and efficiently through blockchain technology.",
+      "cards": {
+        "smartContracts": {
+          "title": "Smart Contracts",
+          "description": "Your transactions are secure and guaranteed with smart contract technology developed using Solidity."
+        },
+        "whyWeecoins": {
+          "title": "Why WeeCoins Premium?",
+          "description": "Join the WeeCoins Premium family to secure your place in the future of finance!"
+        },
+        "stakingYieldFarming": {
+          "title": "Staking Yield Farming",
+          "description": "Offers users the opportunity to earn rewards by staking tokens or providing liquidity."
+        },
+        "joinNow": {
+          "title": "Join Now",
+          "description": "Join WeeCoins Premium's educational platform today and become part of an innovative learning experience."
+        }
+      }
+    },
+    "accessToKnowledge": {
+      "title": "Unlimited Access to Knowledge",
+      "description": "Online education has become a preferred method of learning worldwide due to its accessibility and flexibility. This platform offers everyone the opportunity to receive quality education anywhere, anytime, on any subject.",
+      "cards": {
+        "discoverThePower": {
+          "title": "Discover the Power of Knowledge",
+          "description": "Discover unlimited learning opportunities with WeeCoins Premium. Whether you want to specialize in a field or pick up a new hobby, you can easily find what you're looking for in WCP’s rich content world. Start exploring and push the boundaries of knowledge! Get ready for a journey where you will be inspired at every step and grow as you discover. Move forward with the light of knowledge and take yourself one step further every day.",
+          "badge1": "Unlimited Learning",
+          "badge2": "Premium Content"
+        },
+        "whyWeecoins": {
+          "title": "Why Should You Trade with WeeCoins Premium?",
+          "description": "Payments made using WCP gain value with every transaction in trade, investment, and the digital economy. Each new user and each new transaction increases the value of WCP, expanding the ecosystem. WeeCoins Premium offers a fast, reliable, and low-cost payment solution, enabling individuals and businesses to make the most of blockchain technology. Join the WCP ecosystem and secure your place in the future of digital finance!",
+          "badge1": "Secure Transactions",
+          "badge2": "Fast Payments"
+        }
+      }
+    },
+    "chartAndTable": {
+      "title": "WEECOINS PREMIUM",
+      "description": "TOTAL SUPPLY AND DISTRIBUTION",
+      "chartTitle": "Distribution Chart",
+      "table": {
+        "title": "Detailed Distribution",
+        "category": "Category",
+        "mount": "Amount",
+        "total": "Total",
+        "categories": {
+          "marketing": "Marketing",
+          "projectSustainability": "Project/Sustainability",
+          "teamAdvisor": "Team/Advisor",
+          "development": "Development",
+          "circulation": "Circulation"
+        }
+      }
+    },
+    "successStories": {
+      "title": "Success Stories",
+      "description": "Here you can find the experiences and success stories of our users. Browse through the inspiring stories and share your own.",
+      "backButton": "Back to Success Stories"
+    },
+    "ourVision": {
+      "title": "Sharing Our Vision",
+      "description": "Learn more about our company's mission and values. Explore our success stories and let's shape the future together.",
+      "button": "Our Projects",
+      "learnMore": "Learn More"
+    }
+  },
+  "AboutPage": {
+    "title": "About Us",
+    "subtitle": "We are an inspiring story from the beginning to today",
+    "home": "Home",
+    "goToContact": "Request Information",
+    "content": {
+      "top": {
+        "title": "About Us – WeeCoins Premium",
+        "cards": {
+          "global": {
+            "title": "Global Reach",
+            "content": "Entering the software industry in 2013, Weecomi International has led technological advancements by launching numerous innovative projects in the global market."
+          },
+          "security": {
+            "title": "Secure Infrastructure",
+            "content": "In 2019, we invested in blockchain technologies and developed our own network, Weescan. Through the Weescan network, we created exclusive token projects for many football clubs and expanded the digital asset ecosystem."
+          },
+          "social": {
+            "title": "Social Responsibility",
+            "content": "As part of our social responsibility projects, we conduct aid activities in many regions, primarily in Africa."
+          }
+        },
+        "descriptionP1": "WeeCoins Premium is an innovative digital asset developed under the umbrella of Weecomi International. Entering the software industry in 2013, Weecomi International has led technological advancements by launching numerous innovative projects in the global market.",
+        "descriptionP2": "In 2019, we invested in blockchain technologies and developed our own network, Weescan. Through the Weescan network, we created exclusive token projects for many football clubs and expanded the digital asset ecosystem. With the strength of this infrastructure, we launched WeeCoins and ushered in a new era in the digital finance world with WeeCoins Premium in May 2024.",
+        "descriptionP3": "WeeCoins Premium is more than just an investment tool; it is a fast and secure payment ecosystem that offers real-world applications. Through our blockchain-based solutions, we aim to provide individuals and businesses with access to a more inclusive and fair financial system.",
+        "descriptionP4": "Additionally, as part of our social responsibility projects, we conduct aid activities in many regions, primarily in Africa. We use technology not only for financial gain but also to create social benefits and contribute to building a sustainable future. As WeeCoins Premium, we will continue to make a difference in the digital finance world with our strong infrastructure, innovative projects, and commitment to social responsibility."
+      },
+      "cards": {
+        "safe": {
+          "title": "Safe",
+          "description": "The WeeGold network, which operates with the Proof-of-Stake consensus mechanism, provides maximum security."
+        },
+        "speed": {
+          "title": "Fast",
+          "description": "Thanks to our optimized blockchain structure, transactions happen instantly."
+        },
+        "cost": {
+          "title": "Cost-effective",
+          "description": "We ensure that our users can perform transactions with lower fees."
+        }
+      },
+      "ourMission": {
+        "title": "Our Mission",
+        "description": "As Weecoins Premium, our mission is to make transactions with crypto assets easy and reliable, increasing individuals' and businesses' access to financial systems. By promoting the use of digital assets, we aim to create an inclusive, transparent, and fair economy for everyone. By surpassing the limitations of traditional financial systems, we provide innovative solutions that enable our users to access low-cost, fast, and secure payment solutions. We strive to make crypto assets not just an investment tool but an actively used payment method in daily life."
+      },
+      "ourVision": {
+        "title": "Our Vision",
+        "description": "Weecoins Premium's vision is to make blockchain technology accessible to everyone and become a globally adopted digital payment and investment tool. With our reliable infrastructure and user-friendly platform, we are creating an ecosystem that supports individuals and businesses in achieving financial freedom. Our goal is to become one of the cornerstones of the digital economy, enabling millions worldwide to access fast, secure, and decentralized financial services. By leading technological advancements, Weecoins Premium will continue to build the financial world of the future today.\n\n🚀Let's shape the future economy together."
+      },
+      "linkCard": {
+        "title": "Why WeeCoins Premium?",
+        "content": "WeeCoins Premium goes beyond being just a cryptocurrency, offering a comprehensive digital economy ecosystem that provides users with secure, fast, and innovative financial solutions.",
+        "descriptionP1": {
+          "title": "Real-World Use Cases",
+          "content": "WeeCoins Premium is not just an investment asset; it is also a versatile digital payment tool that enables shopping at partnered stores, making online and physical payments, transferring assets, and utilizing smart contracts."
+        },
+        "descriptionP2": {
+          "title": "A Strong and Sustainable Ecosystem",
+          "content": "With an advanced blockchain infrastructure, WCP offers fast transaction confirmation times and low-cost transfers, establishing a reliable financial system. Each new transaction and user strengthens the network, increasing WCP’s value."
+        },
+        "descriptionP3": {
+          "title": "The Key to Financial Freedom",
+          "content": "Operating independently of traditional banking systems, we provide a structure that ensures equal access to financial services for everyone. With cross-border transfers, decentralized finance (DeFi) solutions, and easy accessibility, WCP promises financial freedom to its users."
+        },
+        "descriptionP4": {
+          "title": "Investing in the Future",
+          "content": "WeeCoins Premium moves forward with a vision that leads technological advancements. With a constantly updated infrastructure, a growing user base, and expanding use cases, we are shaping the future of digital finance."
+        },
+        "detailedText": "Join the WeeCoins Premium family to secure your place in the financial world of the future!"
+      }
+    }
+  },
+  "OurProjectsPage": {
+    "title": "Our Projects",
+    "subtitle": "Discover our projects shaping the future.",
+    "sidebar": {
+      "title": "Discover our OurProjects"
+    },
+    "cards": {
+      "wE3DUCATION": {
+        "title": "WE3DUCATION",
+        "description": "Bu platform; öğrenmek isteyen herkese, herhangi bir konuda, herhangi bir yerde ve herhangi bir zamanda kaliteli eğitim alma fırsatı sunuyor.",
+        "date": "2025 - İlk Çeyrek"
+      },
+      "wE3STATE": {
+        "title": "WE3STATE",
+        "description": "Global emlak piyasası, trilyonlarca dolarlık büyüklüğüyle, dinamik yapısı ve sürekli artan nüfusun getirdiği ihtiyaçlarla büyük bir kar potansiyeline sahiptir. Buradan hareketle size WCP kullanarak yatırım yapabileceğiniz, yeni başlayacak projelere ortak olabileceğiniz ve tamamlanan projelerden kar payı alabileceğiniz bir ekosistem sunuyoruz.",
+        "date": "2025 - İlk Yarım"
+      },
+      "wE3NERGY": {
+        "title": "WE3NERGY",
+        "description": "WeeCoins Premium (WCP) ile siz de bu devrimin bir parçası olabilir; güneş ve rüzgar enerjisi projelerine yatırım yaparak sürdürülebilir bir gelecek inşa edebilirsiniz. WCP, blokzincir teknolojisi sayesinde, yenilenebilir enerji projelerine güvenli, şeffaf ve etkin bir yolla yatırım yapmanızı sağlar.",
+        "date": "2026 - İlk Çeyrek"
+      },
+      "weeZard": {
+        "slug": "a-part-of-the-weecoins-ecosystem",
+        "shortTitle": "WeeZard – A Part of the Weecoins Ecosystem",
+        "shortDescription": "WeeZard is an innovative project integrated into the Weecoins Premium ecosystem. This gaming platform offers users both entertainment and earning opportunities, contributing to the adoption of WCP within the Weecoins ecosystem.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "How Does the Weecoins Premium Ecosystem Work?",
+            "content": "Weecoins Premium offers a decentralized financial system built on blockchain technology. Users can earn WCP, make investments, and trade, while different projects within the ecosystem support each other to drive growth. Weecoins Ecosystem ensures transparency and security while fostering sustainability."
+          },
+          "whyUse": {
+            "title": "Why Should You Use WeeZard?",
+            "content": "Earn While Having Fun – WeeZard offers games like Jackpot, Scratch and Win, and Minesweeper, allowing users to earn WCP while playing.\nMining and Cryptonaut Games for Passive Income – Users can accumulate WCP regularly by playing games.\nBuild Teams for More Earnings – Through the referral system, WeeZard allows users to earn extra income by inviting friends."
+          },
+          "contribution": {
+            "title": "How Does WeeZard Contribute to the Weecoins Ecosystem?",
+            "content": "Increase WCP Usage: WeeZard promotes the use of WCP through in-game mechanics, contributing to the growth of the ecosystem.\nGlobal Reach: WeeZard attracts global users, increasing awareness of Weecoins Premium.\nContinuous Circulation: Users can spend the WCP earned in WeeZard on other Weecoins projects like WeeCard, WeeSale, and WeePoint.\nSupport the Value of WCP: The in-game economy encourages the circulation of WCP, strengthening the ecosystem’s sustainability."
+          }
+        },
+        "detailedText": "WeeZard is an innovative project integrated into the Weecoins Premium ecosystem. This gaming platform offers users both entertainment and earning opportunities, contributing to the adoption of WCP within the Weecoins ecosystem."
+      },
+      "weeCard": {
+        "slug": "the-digital-business-card-solution-of-weecoins-ecosystem",
+        "shortTitle": "WeeCard – The Digital Business Card Solution of the Weecoins Ecosystem",
+        "shortDescription": "WeeCard is an innovative digital business card solution integrated into the Weecoins Premium ecosystem. It brings traditional business cards into the digital age, allowing individuals and businesses to share their professional identities in a modern way, while also contributing to the growth of the Weecoins ecosystem by increasing the use of WCP.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "How Does the Weecoins Premium Ecosystem Work?",
+            "content": "Weecoins Premium is a blockchain-based decentralized financial system. Users can earn WCP, invest, and trade within the ecosystem. It supports various projects to drive the adoption of WCP and expand the ecosystem."
+          },
+          "whyUse": {
+            "title": "Why Should You Use WeeCard?",
+            "content": "Digital Business Card Solution: WeeCard allows individuals and businesses to share their contact details through QR codes and unique links.\nAlways Up-to-Date: Unlike physical business cards, your information can be continuously updated and changes are reflected instantly.\nExpand Your Network: Collect all your professional details including social media, website, and more into one business card to grow your network.\nEarn Revenue with WeeCard: Users can earn WCP by selling WeeCards and engage with the Weecoins ecosystem."
+          },
+          "contribution": {
+            "title": "How Does WeeCard Contribute to the Weecoins Ecosystem?",
+            "content": "Increase WCP Usage: WeeCard is only available for purchase using WCP, creating continuous demand within the ecosystem.\nSupport Global Adoption: Individuals and businesses sharing their digital cards across the globe help increase the visibility of Weecoins Premium.\nIntegration Across Ecosystem: WeeCard holders can use their earned WCP within other Weecoins projects like WeeZard, WeeSale, and WeePoint.\nSupport the Value of WCP: Using WeeCard strengthens the Weecoins ecosystem and drives up the value of WCP."
+          }
+        },
+        "detailedText": "WeeCard is an innovative digital business card solution integrated into the Weecoins Premium ecosystem. It brings traditional business cards into the digital age, allowing individuals and businesses to share their professional identities in a modern way, while also contributing to the growth of the Weecoins ecosystem by increasing the use of WCP."
+      },
+      "weeSale": {
+        "slug": "the-innovative-e-commerce-platform-of-weecoins-ecosystem",
+        "shortTitle": "WeeSale – The Innovative E-Commerce Platform of the Weecoins Ecosystem",
+        "shortDescription": "WeeSale is a secure and profitable e-commerce platform integrated into the Weecoins Premium ecosystem. It allows users to buy and sell both new and second-hand products, while promoting the use of WCP and contributing to the growth of the ecosystem.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "How Does the Weecoins Premium Ecosystem Work?",
+            "content": "Weecoins Premium is a blockchain-based decentralized financial system. Users can earn, spend, and trade WCP within various projects, including WeeCard, WeeZard, WeePoint, and WeeSale."
+          },
+          "whyUse": {
+            "title": "Why Should You Use WeeSale?",
+            "content": "Safe and Easy Shopping: Users can securely list and purchase new or second-hand products directly with buyers.\nSell Using WCP: WeeSale promotes the use of WCP for listing products, enhancing the ecosystem’s transaction volume.\nMore Earning Opportunities: You can earn passive income by referring others to the platform and receiving commissions for their activities.\nGlobal Marketplace: With its multilingual infrastructure, WeeSale is designed to attract users from around the world, expanding the ecosystem's global reach."
+          },
+          "contribution": {
+            "title": "How Does WeeSale Contribute to the Weecoins Ecosystem?",
+            "content": "Increase WCP Circulation: Sellers can buy promotions and additional listings with WCP, ensuring continuous demand for the coin.\nSupport Global Reach: WeeSale helps expand the Weecoins Premium ecosystem globally by increasing user participation.\nKeep Users Engaged: Users can spend their earned WCP across other Weecoins projects like WeeZard, WeeCard, and WeePoint.\nSupport the Value of WCP: The use of WCP within the platform helps keep the coin in circulation, supporting its value and the ecosystem."
+          }
+        },
+        "detailedText": "WeeSale is a secure and profitable e-commerce platform integrated into the Weecoins Premium ecosystem. It allows users to buy and sell both new and second-hand products, while promoting the use of WCP and contributing to the growth of the ecosystem."
+      },
+      "weekobi": {
+        "slug": "the-innovative-commerce-and-loyalty-system-of-weecoins-ecosystem",
+        "shortTitle": "Weekobi – The Innovative Commerce and Loyalty System of the Weecoins Ecosystem",
+        "shortDescription": "Weekobi is an intelligent commerce platform integrated into the Weecoins Premium ecosystem, bringing together stores and customers. Stores can join the system for free, attracting new customers, while growing through a sales-based advertising model where they pay commissions for the sales made through the Weepoint app. Customers earn WCP as they shop, becoming part of the ecosystem.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "How Does the Weecoins Premium Ecosystem Work?",
+            "content": "Weecoins Premium is a decentralized blockchain-based financial system. Users can earn, spend, and trade WCP through projects like WeeZard, WeeSale, WeePoint, and Weekobi, enhancing the ecosystem's growth."
+          },
+          "whyUse": {
+            "title": "Why Should You Use Weekobi?",
+            "content": "Attract More Customers: Weekobi helps stores reach their target audience more quickly.\nBe Part of the Weecoins Ecosystem: Earn WCP by shopping and use it across the entire ecosystem.\nBoost Sales with the Advertising Model: Stores and users can benefit from a sales-based advertising model that increases revenue."
+          },
+          "contribution": {
+            "title": "How Does Weekobi Contribute to the Weecoins Ecosystem?",
+            "content": "Increase Demand for WCP: Weekobi allows stores and customers to earn WCP, which increases demand for the coin.\nSupport Global Expansion: As more stores join Weekobi, the global user base of Weecoins Premium grows.\nSupport the Value of the Ecosystem: Users and stores can use their earned WCP across other ecosystem projects, further strengthening the ecosystem."
+          }
+        },
+        "detailedText": "Weekobi is an intelligent commerce platform integrated into the Weecoins Premium ecosystem, bringing together stores and customers. Stores can join the system for free, attracting new customers, while growing through a sales-based advertising model where they pay commissions for the sales made through the Weepoint app. Customers earn WCP as they shop, becoming part of the ecosystem."
+      }
+    }
+  },
+  "NewsFromUs": {
+    "title": "News from Us",
+    "subtitle": "Stay updated with the latest news.",
+    "newspapers": {
+      "title": "News",
+      "weecoins": {
+        "title": "Weecomi Disrupts the Crypto Industry with Weecoins",
+        "subtitle": "Weecomi International has entered the cryptocurrency industry by launching its own cryptocurrency and exchange under its sub-brand Weecoins.",
+        "description": "The mobile crypto payment system Weecoins is being launched as a platform and application that will enable users to send and receive cryptocurrency and earn money while facilitating mobile payments for local shopping, e-commerce, flight tickets, hotel reservations, and daily transactions. Weecomi International's Founder and President Özkan Cıbır has been helping small and medium-sized businesses adapt to technology and transition into mobile commerce since 2013.",
+        "interview": {
+          "weecoinsInfo": {
+            "title": "Mr. Özkan, can you provide information about Weecomi International and Weecoins?",
+            "description": "Weecoins was established in 2013 as a subsidiary of Weecomi International, operating in Turkey, Azerbaijan, Russia, Ukraine, Kazakhstan, Kyrgyzstan, and Georgia. Weecoins was created to provide more attractive payment options to the stores and customers that Weecomi International has built over the years. By establishing its own currency infrastructure, Weecoins encourages customers to use Weecoins for transactions, offering additional discounts and promotions. Our goal is to build the world's largest shopping community and merge physical and online commerce through e-commerce.",
+            "slogan": "We will break new ground in today's and future economies."
+          },
+          "ozkanCibir": "Özkan Cıbır: 'Weecoins will be a marketplace. We will digitize businesses through local sales teams, call centers, and local advertisements. The business network will be supported by online and mass marketing. As the Weecomi mobile application, we will act as a payment system partner, and businesses within the payment system pools will have the potential to become Weecomi businesses.'",
+          "ozkanCibirSlogan": "Crazy ideas change the world.",
+          "cibir": "Cıbır: 'Until 2009, there were only 8 million millionaires worldwide. After 2014, there was a millionaire boom, and by 2020, this number exceeded 17 million. So, what caused this change? It was cryptocurrencies, which are widely discussed today but known by only 2% of the global population. The daily trading volume of the world's top 10 cryptocurrency exchanges is $56 million. Yes, the world is changing much faster than it did in the 2000s. Those who see the opportunity and adapt to this change achieve their dreams.'",
+          "difference": {
+            "title": "What sets you apart from other cryptocurrency companies?",
+            "description": "Our difference from other cryptocurrency companies is that we have a shopping infrastructure. Most cryptocurrencies are launched first, and then they try to create places where they can be used for transactions. Unfortunately, many fail at this and either disappear or lose value. Weecoins, on the other hand, is a cryptocurrency backed by Weecomi International, which has built tens of thousands of stores and a customer network of hundreds of thousands worldwide over seven years. From the moment Weecoins is launched, it already has ready-to-use stores and customers. Additionally, it is one of the rare cryptocurrencies with its own exchange. Weecomi International's proprietary gaming application, Weemobil, with 170,000 customers, will add further value by allowing payments with Weecoins."
+          },
+          "stockMarket": {
+            "title": "Mr. Özkan, can you elaborate on your own exchange?",
+            "description": "Yes, we have our own exchange called Weeswaps. This exchange hosts not only our cryptocurrencies but also allows users to trade the top 10 cryptocurrencies like Bitcoin, Ethereum, and Dash. Weeswaps holds the title of being the first official exchange in Kazakhstan and Kyrgyzstan and is also legally operating in Turkey.",
+            "slogan": "The Weecomi Wallet creates an ecosystem."
+          },
+          "detailText": "Özkan Cıbır: 'Weecoins and the Weecomi Wallet create an ecosystem where shopping, payments, and earning money are possible through a free mobile application. Weecoins, a universal and decentralized cryptocurrency wallet, enables users to shop, purchase deals, buy Bitcoin, Ethereum, and other cryptocurrencies with a credit card, send, receive, and store cryptocurrencies, and use the points and coins earned from transactions made within the Weecomi app for payments.'"
+        }
+      },
+      "cryptoCurrencyExpert": {
+        "title": "ÖZKAN CIBIR SELECTED AS THE BEST CRYPTOCURRENCY EXPERT OF THE YEAR",
+        "subtitle": "The Golden Angel Awards found their owners in a magnificent ceremony held at Istanbul MKM. Many prominent figures from business, society, sports, and arts were honored for their achievements. One of the most notable names of the night was Özkan Cıbır, a pioneer in the cryptocurrency sector, who received the Best Cryptocurrency Expert of the Year award.",
+        "description": "Since 2020, Cryptocurrency Expert Özkan Cıbır has been working in the cryptocurrency field and has been selected as the Cryptocurrency Expert of the Year. As one of the leading figures in Turkey, Cıbır organizes training sessions in various countries worldwide. The successful entrepreneur, who owns a local blockchain network, not only provides training but also develops AI-based trading robots. These robots offer special tokens to many firms and associations globally. Additionally, he hosts programs on various TV channels, sharing insights into the world of cryptocurrency with a broader audience.",
+        "africa": {
+          "title": "New Project in Africa",
+          "description": "Özkan Cıbır stated that they are preparing for a new project in Africa in 2024: ‘Apart from Turkey, we are running official projects in Azerbaijan, Russia, Kazakhstan, Georgia, and Kyrgyzstan. In 2024, we plan to conduct research and development studies in the African market. We are holding meetings with bureaucrats regarding the legal status of cryptocurrencies. We will lead significant projects and investments in these regions as well.’"
+        },
+        "risk": {
+          "title": "Ways to Trade with Minimum Risk",
+          "description": "Speaking at the award ceremony, Cıbır said, ‘We believe that cryptocurrency will become highly significant in the future, and we continue our efforts to prepare people for this new world. Under our blockchain, we have developed both a coin and a token. Security and reliability are crucial in this field, so we continuously innovate and develop our work with the support of technology. Our efforts are paying off and leading to success, strengthening our position both in Turkey and globally. With this innovative approach that we embrace at all times, we will continue to change negative perceptions in the sector and show people how to trade in cryptocurrency markets with minimum risk.’ Mentioning their Weecoins brand, Özkan Cıbır said, ‘Weecoins is the first and only patented cryptocurrency in Turkey, developed by us. We took an innovative step by establishing our blockchain network. Since 2020, we have been operating with official offices in 8 different countries and have investors in nearly 50 countries worldwide. Weecoins stands out with its feature of distributing monthly dividends to investors who hold their assets, making it unique in the cryptocurrency market. This development is seen as a significant milestone in Turkey’s cryptocurrency industry.’"
+        }
+      },
+      "shopping": {
+        "title": "A New Era in Shopping with Weecoins",
+        "subtitle": "Weecoins will popularize the use of cryptocurrencies in daily and local shopping worldwide.",
+        "description": "Özkan Cıbır, Founder of Weecomi International, which operates in countries such as Russia, Ukraine, Kazakhstan, and Turkey, stated that Weecoins is a subsidiary of Weecomi International, founded in 2013. With Weecoins, users will be able to complete their daily shopping such as flight tickets, hotel reservations, and online shopping by using cryptocurrencies on a single platform. Özkan Cıbır mentioned that Weecomi International has created a shopping bridge between customers and stores worldwide, with over 10,000 partner stores and nearly 270,000 customers. Leveraging this vast network, Weecomi aims to increase cryptocurrency usage by making Weecoins available for use by customers in partner stores in 2021. A total of 900,000,000 Weecoins will be produced, with production set to be completed over five years. Weecoins, which has investors in 20 countries, has risen from $0.08 to $0.30 since February, offering a 4x return.",
+        "freeMobile": {
+          "title": "Free Mobile App",
+          "description": "Özkan Cıbır stated that the free mobile application Weecoins Wallet creates an ecosystem where shopping, payments, and earning money are possible. With the Weecoins crypto wallet, users can shop with Weecoins, purchase cryptocurrencies with credit cards, send, receive, and store Bitcoin, Ethereum, and other cryptocurrencies, use points and coins earned from purchases made through the Weecomi app, and make payments via partnered payment platforms. Weeswaps is defined as Turkey's most innovative digital asset trading platform. Weeswaps users can make transactions at their desired prices without waiting, using fast buy and sell options. All digital assets can be stored in offline wallets with physical security."
+        }
+      },
+      "wedding": {
+        "title": "A Thousand Cryptos from the Groom's Relative",
+        "subtitle": "In Hatay Iskenderun, an interesting gift ceremony was held at the wedding of Oğuzhan and Özge Altunkürek. A family member, Hamza Özkan Cıbır, who is a cryptocurrency investor, gifted the bride and groom with a thousand cryptos, each worth 3 dollars. The bride’s father, Metin Buluç, stated that they had never encountered anything like this before and wished everyone good luck with digital currency.",
+        "cibir": "Cıbır said, 'Perhaps we have created the event of the future. Everything is becoming digital. Even at weddings, gifts can be given in this way.'"
+      },
+      "kripto": {
+        "title": "Özkan Cıbır Named Cryptocurrency Expert of the Year",
+        "subtitle": "Since 2020, Cıbır has been actively working in the cryptocurrency field in Turkey and conducting training sessions worldwide. The successful entrepreneur, who owns a local blockchain network, not only provides education but also develops AI-based trading robots. These robots offer special tokens for various companies and organizations worldwide. Additionally, he hosts programs on multiple TV channels, spreading knowledge about the cryptocurrency world to a broad audience."
+      },
+      "expert": {
+        "title": "Named Cryptocurrency Expert of the Year",
+        "subtitle": "A grand ceremony at Istanbul MKM honored the winners of the prestigious Golden Angel Awards, recognizing excellence in various fields from sports to arts. One of the evening’s highlights was Özkan Cıbır receiving the Cryptocurrency Expert of the Year award, recognizing his contributions as a leading figure in the sector."
+      }
+    }
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "subtitle": "Contact us, we’d love to meet you.",
+    "text": "In the infinite universe, every discovery brings a new perspective. Let’s push the boundaries together through collaboration and shape the future.",
+    "form": {
+      "title": "Let's Strengthen Our Connections",
+      "subtitle": "We would be happy to answer your questions and explore collaboration opportunities.",
+      "name": {
+        "label": "Your Name",
+        "validation": {
+          "required": "The name field is required",
+          "minLength": "Your name must be at least {min} characters long"
+        }
+      },
+      "email": {
+        "label": "Your Email Address",
+        "validation": {
+          "required": "The email field is required",
+          "email": "Please enter a valid email address"
+        }
+      },
+      "message": {
+        "label": "Your Message",
+        "validation": {
+          "required": "The message field is required",
+          "minLength": "Your message must be at least {min} characters long"
+        }
+      },
+      "button": "Send Your Message",
+      "isSummitting": "Sending..."
+    }
+  },
+  "Footer": {
+    "copyright": "WeeCoins Premium © All Rights Reserved."
+  }
+}

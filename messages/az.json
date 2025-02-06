@@ -1,0 +1,351 @@
+{
+  "Metadata": {
+    "title": "Weecoins Premium",
+    "description": "Weecoins Premium: Dayanıqlı və innovativ investisiya imkanları ilə kripto dünyasında lider.",
+    "keywords": "Weecoins Premium, kripto valyuta, virtual valyuta, blokçeyn, kripto sərmayə"
+  },
+  "Header": {
+    "navbar": {
+      "home": "Əsas səhifə",
+      "about": "Haqqımızda",
+      "ourProjects": "Projelerimiz",
+      "newsFromUs": "Bizdən Xəbərlər",
+      "contact": "Əlaqə"
+    },
+    "modToggle": {
+      "dark": "Qaranlıq",
+      "light": "Açıq",
+      "system": "Sistem"
+    }
+  },
+  "NotFoundPage": {
+    "title1": "Səhifə tapılmadı",
+    "title2": "Əsas səhifəyə qayıdın",
+    "button": "Əsas səhifə"
+  },
+  "HomePage": {
+    "hero": {
+      "description": "Layihələrimizə qoşulun və prestijli həyat sürün. Gözləntilərinizə uyğun investisiya imkanları WeeCoins Premium ilə sizi gözləyir.",
+      "button": "Bizimlə Əlaqə",
+      "learnMore": "Ətraflı məlumat"
+    },
+    "videoContainer": {
+      "title": "WEECOINS Premium ilə tanış olun",
+      "description": "WCP, blockchain texnologiyası vasitəsilə bərpa olunan enerji layihələrinə təhlükəsiz, şəffaf və səmərəli şəkildə yatırım etməyinizi təmin edir.",
+      "cards": {
+        "smartContracts": {
+          "title": "Ağıllı müqavilələr",
+          "description": "Solidity dili istifadə edilərək hazırlanmış ağıllı müqavilə texnologiyası ilə əməliyyatlarınız təhlükəsiz və zəmanətlidir."
+        },
+        "whyWeecoins": {
+          "title": "Niyə WeeCoins Premium?",
+          "description": "Gələcəyin maliyyə dünyasında yerinizi tutmaq üçün siz də WeeCoins Premium ailəsinə qoşulun!"
+        },
+        "stakingYieldFarming": {
+          "title": "Staking Yield Farming",
+          "description": "İstifadəçilərə tokenləri stake edərək və ya likvidlik təmin edərək mükafat qazanmaq imkanı verir."
+        },
+        "joinNow": {
+          "title": "İndi qoşulun",
+          "description": "WeeCoins Premium-un təhsil platformasına bu gün qoşulun və yenilikçi bir öyrənmə təcrübəsinin bir hissəsi olun."
+        }
+      }
+    },
+    "accessToKnowledge": {
+      "title": "Bilməyə sonsuz giriş",
+      "description": "Onlayn təhsil, əlçatanlığı və elastikliyi sayəsində dünya üzrə daha çox seçilən bir öyrənmə metodu halına gəlib. Bu platforma hər kəsə, hər yerdə, hər zaman keyfiyyətli təhsil alma fürsəti təqdim edir.",
+      "cards": {
+        "discoverThePower": {
+          "title": "Biliyin Gücünü Kəşf Edin",
+          "description": "WeeCoins Premium ilə sonsuz öyrənmə imkanlarına çıxış əldə edin. İstər bir sahədə ixtisaslaşın, istər yeni bir hobbi qazanın, WCP-nin təqdim etdiyi zəngin məzmun dünyasında axtardığınızı asanlıqla tapa bilərsiniz. Kəşf etməyə başlayın və biliyin sərhədlərini aşın! Hər addımda ilham alacağınız, kəşf etdikcə böyüyəcəyiniz bir səyahətə çıxmağa hazır olun. Biliyin işığında irəliləyin və hər gün özünüzü bir addım daha irəli aparın.",
+          "badge1": "Sonsuz Öyrənmə",
+          "badge2": "Premium Məzmun"
+        },
+        "whyWeecoins": {
+          "title": "Niyə WeeCoins Premium ilə Əməliyyat Etməlisiniz?",
+          "description": "WCP istifadə edilərək edilən ödənişlər, ticarət, investisiya və rəqəmsal iqtisadiyyat sahələrində həyata keçirilən hər bir əməliyyatla dəyər qazanır. Hər yeni istifadəçi və hər yeni əməliyyat WCP-nin dəyərini artıraraq ekosistemi genişləndirir. WeeCoins Premium, sürətli, etibarlı və aşağı xərcli bir ödəniş həlli təqdim edərək, fərdlərin və bizneslərin blokçeyn texnologiyasından maksimum faydalanmasını təmin edir. WCP ekosisteminə qoşularaq gələcəyin rəqəmsal maliyyə dünyasında yerinizi tutun!",
+          "badge1": "Təhlükəsiz Əməliyyatlar",
+          "badge2": "Sürətli Ödənişlər"
+        }
+      }
+    },
+    "chartAndTable": {
+      "title": "WEECOINS PREMIUM",
+      "description": "ÜMUMİ TƏKLİF VƏ PAYLANMA",
+      "chartTitle": "Paylanma Qrafiki",
+      "table": {
+        "title": "Ətraflı Paylanma",
+        "category": "Kateqoriya",
+        "mount": "Miqdar",
+        "total": "Cəmi",
+        "categories": {
+          "marketing": "Marketinq",
+          "projectSustainability": "Layihə/Davamlılıq",
+          "teamAdvisor": "Komanda/Məsləhətçi",
+          "development": "İnkişaf",
+          "circulation": "Dövriyyə"
+        }
+      }
+    },
+    "successStories": {
+      "title": "Uğur hekayələri",
+      "description": "Burada istifadəçilərimizin təcrübələrini və uğur hekayələrini tapa bilərsiniz. İlham verici hekayələrə nəzər salın və öz hekayənizi paylaşın.",
+      "backButton": "Uğur Hekayələrinə Qayıt"
+    },
+    "ourVision": {
+      "title": "Vizyonumuzu paylaşırıq",
+      "description": "Şirkətimizin missiyası və dəyərləri haqqında daha çox məlumat əldə edin. Uğur hekayələrimizi araşdırın və gələcəyi birlikdə formalaşdıraq.",
+      "button": "Layihələrimiz",
+      "learnMore": "Ətraflı məlumat"
+    }
+  },
+  "AboutPage": {
+    "title": "Haqqımızda",
+    "subtitle": "Bugün ən başından günümüzə ilham verən bir hekayəyik",
+    "home": "Əsas səhifə",
+    "goToContact": "Məlumat Tələb Edin",
+    "content": {
+      "top": {
+        "title": "Haqqımızda – WeeCoins Premium",
+        "cards": {
+          "global": {
+            "title": "Qlobal Əhatə",
+            "content": "2013-cü ildə proqram təminatı sektoruna daxil olan Weecomi International, qlobal bazarda bir çox innovativ layihəyə imza ataraq texnoloji inkişaflara liderlik etmişdir."
+          },
+          "security": {
+            "title": "Təhlükəsiz İnfrastruktur",
+            "content": "2019-cu ildə blokçeyn texnologiyalarına sərmayə qoyaraq öz şəbəkəmiz olan Weescan-ı inkişaf etdirdik. Weescan şəbəkəsi sayəsində bir çox futbol klubu üçün xüsusi token layihələri yaratdıq və rəqəmsal aktiv ekosistemini genişləndirdik."
+          },
+          "social": {
+            "title": "Sosial Məsuliyyət",
+            "content": "Sosial məsuliyyət layihələrimiz çərçivəsində xüsusilə Afrika olmaqla bir çox bölgədə yardım fəaliyyətləri həyata keçiririk."
+          }
+        },
+        "descriptionP1": "WeeCoins Premium, Weecomi International çətiri altında inkişaf etdirilmiş innovativ bir rəqəmsal aktivdir. 2013-cü ildə proqram təminatı sektoruna daxil olan Weecomi International, qlobal bazarda bir çox innovativ layihəyə imza ataraq texnoloji inkişaflara liderlik etmişdir.",
+        "descriptionP2": "2019-cu ildə blokçeyn texnologiyalarına sərmayə qoyaraq öz şəbəkəmiz olan Weescan-ı inkişaf etdirdik. Weescan şəbəkəsi sayəsində bir çox futbol klubu üçün xüsusi token layihələri yaratdıq və rəqəmsal aktiv ekosistemini genişləndirdik. Bu infrastrukturun gücü ilə WeeCoins-i bazara çıxardıq və 2024-cü ilin may ayında WeeCoins Premium ilə rəqəmsal maliyyə dünyasında yeni bir dövrə başladıq.",
+        "descriptionP3": "WeeCoins Premium, yalnız bir sərmayə aləti olmaqdan daha çox, real istifadə sahələri təqdim edən, sürətli və təhlükəsiz bir ödəniş ekosistemidir. Blokçeyn əsaslı həllərimizlə fərdlərin və bizneslərin daha əlçatan və ədalətli bir maliyyə sisteminə çatmasını təmin etməyi hədəfləyirik.",
+        "descriptionP4": "Bundan əlavə, sosial məsuliyyət layihələrimiz çərçivəsində xüsusilə Afrika olmaqla bir çox bölgədə yardım fəaliyyətləri həyata keçiririk. Texnologiyanı yalnız maliyyə qazancı üçün deyil, həm də sosial fayda yaratmaq üçün istifadə edirik və davamlı bir gələcək qurmağa töhfə veririk. WeeCoins Premium olaraq, güclü infrastrukturumuz, innovativ layihələrimiz və sosial məsuliyyət şüurumuzla rəqəmsal maliyyə dünyasında fərq yaratmağa davam edəcəyik."
+      },
+      "cards": {
+        "safe": {
+          "title": "Təhlükəsiz",
+          "description": "Proof-of-Stake konsensus mexanizması ilə işləyən WeeGold şəbəkəsi maksimum təhlükəsizlik təmin edir."
+        },
+        "speed": {
+          "title": "Sürətli",
+          "description": "Optimallaşdırılmış blokçeyn strukturumuz sayəsində əməliyyatlar dərhal həyata keçirilir."
+        },
+        "cost": {
+          "title": "Aşağı xərclər",
+          "description": "İstifadəçilərimizin daha aşağı əməliyyat haqqı ilə əməliyyat etmələrini təmin edirik."
+        }
+      },
+      "ourMission": {
+        "title": "Missiyamız",
+        "description": "Weecoins Premium olaraq missiyamız, kripto aktivlərlə əməliyyatları asan və etibarlı hala gətirərək fərdlərin və bizneslərin maliyyə sistemlərinə çıxışını artırmaqdır. Rəqəmsal aktivlərin istifadəsini təşviq edərək hər kəs üçün inklüziv, şəffaf və ədalətli bir iqtisadiyyat yaratmağı hədəfləyirik. Ənənəvi maliyyə sistemlərinin sərhədlərini aşaraq, istifadəçilərimizin aşağı maliyyətli, sürətli və təhlükəsiz ödəniş həllərinə çıxışını təmin etmək üçün innovativ həllər təqdim edirik. Kripto aktivlərin yalnız sərmayə aləti deyil, gündəlik həyatda aktiv istifadə edilən bir ödəniş vasitəsinə çevrilməsi üçün çalışırıq."
+      },
+      "ourVision": {
+        "title": "Vizyonumuz",
+        "description": "Weecoins Premium-un vizyonu, blockchain texnologiyasını hər kəs üçün əlçatan edərək, qlobal miqyasda qəbul edilən rəqəmsal ödəniş və investisiya vasitəsi olmaqdır. Etibarlı infrastrukturumuz və istifadəçi dostu platformamız sayəsində fərdlərin və bizneslərin maliyyə azadlığına çatmasına dəstək olan bir ekosistem yaradırıq. Məqsədimiz, rəqəmsal iqtisadiyyatın əsas sütunlarından biri olaraq, dünya üzrə milyonlarla insanın sürətli, təhlükəsiz və mərkəzsiz maliyyə xidmətlərinə çıxışını təmin etməkdir. Texnoloji inkişafa liderlik edərək, Weecoins Premium gələcəyin maliyyə dünyasını bu gündən qurmağa davam edəcəkdir.\n\n🚀Gələcəyin iqtisadiyyatını birlikdə formalaşdıraq."
+      },
+      "linkCard": {
+        "title": "Niyə WeeCoins Premium?",
+        "content": "WeeCoins Premium sadəcə bir kriptovalyuta deyil, eyni zamanda istifadəçilərə təhlükəsiz, sürətli və innovativ maliyyə həlləri təqdim edən geniş bir rəqəmsal iqtisadiyyat ekosistemidir.",
+        "descriptionP1": {
+          "title": "Real Həyatda İstifadə Sahələri",
+          "content": "WeeCoins Premium təkcə bir sərmayə aktivi deyil; o, eyni zamanda tərəfdaş mağazalarda alış-veriş etmək, onlayn və fiziki ödənişlər həyata keçirmək, aktiv transferləri aparmaq və ağıllı müqavilələrdən istifadə etmək kimi çoxfunksiyalı rəqəmsal ödəniş vasitəsidir."
+        },
+        "descriptionP2": {
+          "title": "Güclü və Davamlı Ekosistem",
+          "content": "İnkişaf etmiş blokçeyn infrastrukturu ilə WCP, sürətli əməliyyat təsdiqləmə müddətləri və aşağı xərc tələb edən transferlər təqdim edərək etibarlı maliyyə sistemi yaradır. Ekosistemə qoşulan hər yeni əməliyyat və istifadəçi WCP-nin dəyərini artıraraq şəbəkəni gücləndirir."
+        },
+        "descriptionP3": {
+          "title": "Maliyyə Azadlığının Açarı",
+          "content": "Ənənəvi bank sistemlərindən asılı olmadan, hər kəsin bərabər şərtlərlə maliyyə xidmətlərinə çıxışını təmin edən bir sistem təqdim edirik. Sərhədlərarası köçürmələr, mərkəzləşdirilməmiş maliyyə (DeFi) həlləri və asan giriş imkanı ilə WCP istifadəçilərinə maliyyə azadlığı vəd edir."
+        },
+        "descriptionP4": {
+          "title": "Gələcəyə İnvestisiya",
+          "content": "WeeCoins Premium, texnoloji inkişaflara rəhbərlik edən bir vizyonla irəliləyir. Davamlı yenilənən infrastrukturu, böyüyən istifadəçi şəbəkəsi və genişlənən tətbiq sahələri ilə biz rəqəmsal maliyyənin gələcəyini formalaşdırırıq."
+        },
+        "detailedText": "Gələcəyin maliyyə dünyasında yerinizi almaq üçün siz də WeeCoins Premium ailəsinə qoşulun!"
+      }
+    }
+  },
+  "OurProjectsPage": {
+    "title": "Layihələrimiz",
+    "subtitle": "Gələcəyi formalaşdıran layihələrimizlə tanış olun.",
+    "sidebar": {
+      "title": "Layihələrimizi Kəşf Edin"
+    },
+    "cards": {
+      "wE3DUCATION": {
+        "title": "WE3DUCATION",
+        "slug": "we3education",
+        "description": "Bu platform öyrənmək istəyən hər kəsə istənilən mövzuda, istənilən yerdə və istənilən vaxt keyfiyyətli təhsil almaq imkanı təqdim edir.",
+        "date": "2025 - Birinci Rüb"
+      },
+      "wE3STATE": {
+        "title": "WE3STATE",
+        "slug": "we3state",
+        "description": "Trilyon dollarlıq həcmi olan qlobal daşınmaz əmlak bazarı dinamik strukturu və artan əhali tələbləri sayəsində böyük qazanc potensialına malikdir. Buna əsaslanaraq, sizə WCP vasitəsilə sərmayə qoya biləcəyiniz, yeni layihələrə şərik ola biləcəyiniz və tamamlanmış layihələrdən qazanc əldə edə biləcəyiniz bir ekosistem təklif edirik.",
+        "date": "2025 - Birinci Yarımil"
+      },
+      "wE3NERGY": {
+        "title": "WE3NERGY",
+        "slug": "we3energy",
+        "description": "WeeCoins Premium (WCP) ilə günəş və külək enerjisi layihələrinə sərmayə qoyaraq davamlı bir gələcək qurmaq üçün bu inqilabın bir hissəsi ola bilərsiniz. Blokçeyn texnologiyası sayəsində WCP sizə bərpa olunan enerji layihələrinə təhlükəsiz, şəffaf və effektiv şəkildə sərmayə qoymağa imkan verir.",
+        "date": "2026 - Birinci Rüb"
+      },
+      "weeZard": {
+        "slug": "a-part-of-the-weecoins-ecosystem",
+        "shortTitle": "WeeZard – Weecoins Ekosisteminin Bir Parçası",
+        "shortDescription": "WeeZard, Weecoins Premium ekosisteminə daxil olan yenilikçi bir layihədir. Bu oyun platforması istifadəçilərə həm əyləncə, həm də qazanc imkanı təqdim edərək WCP-nin Weecoins ekosistemində qəbul edilməsinə töhfə verir.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Necə İşləyir?",
+            "content": "Weecoins Premium, blokçeyn texnologiyasına əsaslanan mərkəzləşdirilməmiş maliyyə sistemidir. İstifadəçilər, ekosistem daxilindəki fərqli layihələr vasitəsilə WCP qazana bilər, investisiya edə bilər və ticarət edə bilər. Weecoins ekosistemi, şəffaflıq və təhlükəsizlik təmin edərkən, layihələrin bir-birini dəstəkləyərək böyüməsinə imkan verir."
+          },
+          "whyUse": {
+            "title": "Niyə WeeZard istifadə etməlisiniz?",
+            "content": "Əylənərək Qazanın – WeeZard, istifadəçilərə Jackpot, Kazı Kazan və Mayın Tarlası kimi oyunlar təqdim edərək WCP qazanma imkanı təmin edir.\nMiner və Cryptonaut Oyunları ilə Passiv Gəlir – İstifadəçilər oyun oynayaraq müntəzəm olaraq WCP toplaya bilərlər.\nKomanda Quraraq Daha Çox Qazanın – WeeZard, referans sistemi ilə istifadəçilərə dostlarını dəvət edərək əlavə gəlir əldə etməyə imkan verir."
+          },
+          "contribution": {
+            "title": "WeeZard Weecoins Ekosisteminə Necə Töfhə Verir?",
+            "content": "WCP İstifadəsini Artırır: Oyun içində WCP istifadəni təşviq edərək ekosistemin böyüməsinə dəstək olur.\nQlobal Yayılma: WeeZard, dünya miqyasında istifadəçiləri özünə cəlb edir və Weecoins Premium-un tanınmasını artırır.\nDavamlı Dövriyyə Yaradılır: İstifadəçilər qazandıqları WCP-ləri WeeZard-da digər Weecoins layihələrində (WeeCard, WeeSale, WeePoint) istifadə edə bilərlər.\nWCP-nin Dəyərini Dəstəkləyir: Oyun içi iqtisadiyyat, WCP-nin dövriyyədə qalmasına və ekosistemin davamlı olmasına kömək edir."
+          }
+        },
+        "detailedText": "WeeZard, Weecoins Premium ekosisteminə daxil olan yenilikçi bir layihədir. Bu oyun platforması istifadəçilərə həm əyləncə, həm də qazanc imkanı təqdim edərək WCP-nin Weecoins ekosistemində qəbul edilməsinə töhfə verir."
+      },
+      "weeCard": {
+        "slug": "the-digital-business-card-solution-of-weecoins-ecosystem",
+        "shortTitle": "WeeCard – Weecoins Ekosisteminin Dijital Kartvizit Həlli",
+        "shortDescription": "WeeCard, Weecoins Premium ekosisteminə inteqrasiya olunmuş yenilikçi bir dijital kartvizit həllidir. Ənənəvi kartvizitləri rəqəmsal dünyaya daşıyan WeeCard, fərdlərə və müəssisələrə peşəkar kimliklərini müasir şəkildə paylaşmağa imkan verir, eyni zamanda WCP istifadəsini artıraraq Weecoins ekosisteminin böyüməsinə töhfə verir.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Necə İşləyir?",
+            "content": "Weecoins Premium, blokçeyn əsasında qurulmuş mərkəzləşdirilməmiş maliyyə sistemidir. İstifadəçilər WCP qazana, investisiya edə və ticarət edə bilərlər. Weecoins ekosistemi, müxtəlif layihələri dəstəkləyərək WCP-nin qəbul edilməsini artırır."
+          },
+          "whyUse": {
+            "title": "Niyə WeeCard istifadə etməlisiniz?",
+            "content": "Dijital Kartvizit Həlli: WeeCard, istifadəçilərə QR kodlar və xüsusi keçidlər vasitəsilə bütün əlaqə məlumatlarını paylaşmağa imkan verir.\nHəmişə Yenilənə Bilən: Fiziki kartvizitlərdən fərqli olaraq, məlumatlarınız hər zaman yenilənə bilər və dəyişikliklər dərhal göstərilə bilər.\nİş Bağlantılarınızı Genişləndirin: Sosial media hesablarınızı, veb saytınızı və digər peşəkar məlumatlarınızı bir kartvizitdə toplayaraq şəbəkənizi genişləndirin.\nWeeCard ilə Gəlir Qazanın: İstifadəçilər WeeCard satışları edərək WCP qazana və Weecoins ekosistemindən faydalana bilərlər."
+          },
+          "contribution": {
+            "title": "WeeCard Weecoins Ekosisteminə Necə Töfhə Verir?",
+            "content": "WCP İstifadəsini Artırır: WeeCard yalnız WCP ilə alınır, bu da Weecoins ekosistemində davamlı tələb yaradır.\nQlobal Yayılmanı Dəstəkləyir: Weecoins Premium-u istifadə edən fərdlər və müəssisələr, dijital kartvizitlərini dünya miqyasında paylaşaraq ekosistemin tanınmasını artırır.\nEkosistem Daxilində İnteqrasiya Yaradılır: WeeCard sahibləri qazandıqları WCP-ləri WeeZard, WeeSale və WeePoint kimi digər Weecoins layihələrində istifadə edə bilərlər.\nWCP-nin Dəyərini Artırır: İstifadəçilər və müəssisələr, peşəkar şəbəkələrini genişləndirmək üçün WeeCard-ə investisiya edərək ekosistemin davamlılığını dəstəkləyirlər."
+          }
+        },
+        "detailedText": "WeeCard, Weecoins Premium ekosisteminə inteqrasiya olunmuş yenilikçi bir dijital kartvizit həllidir. Ənənəvi kartvizitləri rəqəmsal dünyaya daşıyan WeeCard, fərdlərə və müəssisələrə peşəkar kimliklərini müasir şəkildə paylaşmağa imkan verir, eyni zamanda WCP istifadəsini artıraraq Weecoins ekosisteminin böyüməsinə töhfə verir."
+      },
+      "weeSale": {
+        "slug": "the-innovative-e-commerce-platform-of-weecoins-ecosystem",
+        "shortTitle": "WeeSale – Weecoins Ekosisteminin Yenilikçi Ticarət Platforması",
+        "shortDescription": "WeeSale, Weecoins Premium ekosisteminə inteqrasiya olunmuş təhlükəsiz və gəlirli bir elektron ticarət platformasıdır. İstifadəçilərə yeni və ikinci əl məhsullarını almaq və satmaq imkanı təqdim edən WeeSale, WCP istifadəsini təşviq edərək ekosistemin böyüməsinə dəstək verir.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Necə İşləyir?",
+            "content": "Weecoins Premium, blokçeyn əsasında qurulmuş mərkəzləşdirilməmiş maliyyə sistemidir və ekosistem daxilindəki müxtəlif layihələri dəstəkləyərək WCP-nin qəbul edilməsini artırır. İstifadəçilər WeeCard, WeeZard, WeePoint və WeeSale kimi layihələr vasitəsilə WCP qazana, istifadə edə və investisiya edə bilərlər."
+          },
+          "whyUse": {
+            "title": "Niyə WeeSale istifadə etməlisiniz?",
+            "content": "Təhlükəsiz və Asan Alış-veriş: İstifadəçilər məhsullarını təhlükəsiz şəkildə sata bilər və alıcılarla birbaşa əlaqə quraraq məhsul alışı həyata keçirə bilərlər.\nWCP ilə Satış Edin: WeeSale, istifadəçilərin məhsullarını WCP ilə satmalarını təşviq edərək ekosistem daxilində əməliyyat həcmini artırır.\nDaha Çox Qazanc İmkanı: Öz referans linkinizlə başqalarını WeeSale-ə dəvət edərək onların platformada etdikləri doping, əlavə elan və digər əməliyyatlardan passiv gəlir əldə edə bilərsiniz.\nQlobal Bazar: Çoxdilli altyapısı ilə WeeSale, dünya miqyasında bir bazar olmağı hədəfləyir, beləliklə Weecoins ekosistemi daha da genişlənir."
+          },
+          "contribution": {
+            "title": "WeeSale Weecoins Ekosisteminə Necə Töfhə Verir?",
+            "content": "WCP-nin Dövriyyəsini Artırır: Satıcılar, əlavə reklam promosyonları almaq üçün WCP istifadə edə bilərlər ki, bu da WCP-nin dövriyyədə qalmasını təmin edir.\nQlobal Yayılmanı Dəstəkləyir: WeeSale daha çox istifadəçi cəlb etməklə, Weecoins Premium ekosistemini qlobal miqyasda genişləndirir.\nİstifadəçilərini Maraqlı Saxlayır: WeeSale platformasında qazandığınız WCP-ləri WeeZard, WeeCard və WeePoint kimi digər layihələrdə istifadə edərək ekosistemi daha da gücləndirirsiniz.\nWCP-nin Dəyərini Artırır: Platformada WCP istifadəsi sayəsində ekosistemin dəyəri artır."
+          }
+        },
+        "detailedText": "WeeSale, Weecoins Premium ekosisteminə inteqrasiya olunmuş təhlükəsiz və gəlirli bir elektron ticarət platformasıdır. İstifadəçilərə yeni və ikinci əl məhsullarını almaq və satmaq imkanı təqdim edən WeeSale, WCP istifadəsini təşviq edərək ekosistemin böyüməsinə dəstək verir."
+      },
+      "weekobi": {
+        "slug": "the-innovative-commerce-and-loyalty-system-of-weecoins-ecosystem",
+        "shortTitle": "Weekobi – Weecoins Ekosisteminin Ticarət və Loyallıq Sistemi",
+        "shortDescription": "Weekobi, Weecoins Premium ekosisteminə inteqrasiya olunmuş ağıllı ticarət platformasıdır. Mağazalar, müştərilərini cəlb etmək və satışlarını artırmaq üçün Weekobi-yə qoşula bilər. Həmçinin satış əsaslı reklam modeli ilə satıcılar, Weepoint tətbiqi vasitəsilə həyata keçirilən satışlardan komissiyalar ödəyir. Müştərilər alış-veriş edərək WCP qazanır və ekosistemin bir hissəsi olurlar.",
+        "date": "2026 - Q1",
+        "sections": {
+          "howItWorks": {
+            "title": "Weecoins Premium Ekosistemi Necə İşləyir?",
+            "content": "Weecoins Premium, blokçeyn texnologiyası ilə qurulmuş mərkəzləşdirilməmiş maliyyə sistemidir. İstifadəçilər WeeZard, WeeSale, WeePoint və Weekobi kimi layihələrdən faydalanaraq WCP qazanır və digər ekosistem layihələrində istifadə edirlər."
+          },
+          "whyUse": {
+            "title": "Niyə Weekobi istifadə etməlisiniz?",
+            "content": "Daha çox Müştəri Cəlb Edin: Weekobi, mağazaların hədəf auditoriyalarına daha sürətli çatmalarını təmin edir.\nWeecoins Ekosisteminin Bir Parçası Olun: Alış-veriş edərək WCP qazanmaq və qazancınızı digər ekosistem layihələrində istifadə etmək imkanı.\nSatışları Artırın: Mağazalar, satış əsaslı reklam modeli ilə gəlir əldə edə bilər və daha çox müştəri cəlb edərək gəlirlərini artırar."
+          },
+          "contribution": {
+            "title": "Weekobi Weecoins Ekosisteminə Necə Töfhə Verir?",
+            "content": "WCP-nin Tələbini Artırır: Weekobi mağazalar və müştərilər arasında WCP istifadəsini təşviq edir, bu da WCP-nin dövriyyə həcmini artırır.\nQlobal Yayılma: Mağazalar, Weekobi-yə qoşulmaqla, Weecoins Premium ekosisteminin qlobal miqyasda inkişafına dəstək olur.\nEkosistemin Gücləndirilməsi: İstifadəçilər qazandıqları WCP-ni digər ekosistem layihələrində istifadə edərək bütün ekosistemi gücləndirirlər."
+          }
+        },
+        "detailedText": "Weekobi, Weecoins Premium ekosisteminə inteqrasiya olunmuş ağıllı ticarət platformasıdır. Mağazalar, müştərilərini cəlb etmək və satışlarını artırmaq üçün Weekobi-yə qoşula bilər. Həmçinin satış əsaslı reklam modeli ilə satıcılar, Weepoint tətbiqi vasitəsilə həyata keçirilən satışlardan komissiyalar ödəyir. Müştərilər alış-veriş edərək WCP qazanır və ekosistemin bir hissəsi olurlar."
+      }
+    }
+  },
+  "NewsFromUs": {
+    "title": "Bizdən Xəbərlər",
+    "subtitle": "Ən son yeniliklərdən xəbərdar olun.",
+    "newspapers": {
+      "title": "Xəbərlər",
+      "weecoins": {
+        "title": "Weecomi, Weecoins ilə kriptovalyuta sektorunda yenilik etdi",
+        "subtitle": "Weecomi International, Weecoins alt markası ilə öz kriptovalyutasını və birjasını işə salaraq kriptovalyuta sektoruna qədəm qoydu."
+      },
+      "cryptoCurrencyExpert": {
+        "title": "ÖZKAN CIBIR, İLİN ƏN YAXŞI KRİPTO PULA UZMANI SEÇİLDİ",
+        "subtitle": "Qızıl Mələk Mükafatları İstanbul MKM-də möhtəşəm bir mərasimlə sahiblərinə təqdim edildi. Biznes, cəmiyyət, idman və incəsənət sahələrindən bir çox görkəmli şəxs nailiyyətlərinə görə mükafatlandırıldı. Gecənin diqqətçəkən adlarından biri kripto pul sektorunun öncüllərindən olan Özkan Cıbır oldu. Cıbır, ilin ən yaxşı kripto pul eksperti mükafatına layiq görüldü."
+      },
+      "shopping": {
+        "title": "Weecoins ilə alış-verişdə yeni dövr",
+        "subtitle": "Weecoins, dünyada kriptovalyutaların gündəlik və yerli alış-verişlərdə istifadəsini genişləndirəcək."
+      },
+      "wedding": {
+        "title": "Bəyin yaxınından min kripto",
+        "subtitle": "Hatay İskenderunda Oğuzhan və Özge Altunkürekin toyunda maraqlı bir takı mərasimi keçirildi. Kriptovalyuta investorları olan ailə yaxınlarından Hamza Özkan Cıbır, gəlinə və bəyə hər biri 3 dollar dəyərində min ədəd kriptovalyuta hədiyyə etdi. Gəlinin atası Metin Buluç, belə bir şeyə ilk dəfə rast gəldiklərini bildirərək, rəqəmsal pulun hər kəsə xeyirli olmasını arzuladı."
+      },
+      "kripto": {
+        "title": "Özkan Cıbır İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi seçildi",
+        "subtitle": "2020-ci ildən bəri Cıbır Türkiyədə kriptovalyuta sahəsində fəaliyyət göstərir və dünyanın müxtəlif ölkələrində təlimlər təşkil edir. Yerli blokçeyn şəbəkəsinə sahib uğurlu sahibkar yalnız tədrislə kifayətlənməyib, həm də süni intellekt əsaslı ticarət robotları inkişaf etdirir. Bu robotlar dünya miqyasında bir çox şirkət və təşkilata xüsusi tokenlər təqdim edir. Bundan əlavə, o, müxtəlif televiziya kanallarında verilişlər apararaq, kriptovalyuta dünyası ilə bağlı bilikləri geniş auditoriyaya çatdırır."
+      },
+      "expert": {
+        "title": "İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi seçildi",
+        "subtitle": "İstanbul MKM-də möhtəşəm bir mərasimdə Qızıl Mələk Mükafatları sahiblərinə təqdim olundu. İdmandan sənətə qədər müxtəlif sahələrdə verilən bu nüfuzlu mükafatlar, uğurları təltif etdi. Gecənin ən yaddaqalan anlarından biri isə kriptovalyuta sektorunun tanınmış simalarından biri olan Özkan Cıbırın 'İlin Ən Yaxşı Kriptovalyuta Mütəxəssisi' mükafatını qazanması oldu."
+      }
+    }
+  },
+  "ContactPage": {
+    "title": "Əlaqə",
+    "subtitle": "Bizimlə əlaqə saxlayın, sizi tanımaq istərdik.",
+    "text": "Sonsuz kainatda hər kəşf yeni bir baxış bucağı qazandırır. Gəlin əməkdaşlıqla sərhədləri aşaq və gələcəyimizi birlikdə formalaşdıraq.",
+    "form": {
+      "title": "Bağlantılarımızı Gücləndirək",
+      "subtitle": "Sualarınızı cavablandırmaqdan və əməkdaşlıq imkanlarını dəyərləndirməkdən məmnun olarıq.",
+      "name": {
+        "label": "Adınız",
+        "validation": {
+          "required": "Ad sahəsi mütləq doldurulmalıdır",
+          "minLength": "Adınız ən az {min} simvoldan ibarət olmalıdır"
+        }
+      },
+      "email": {
+        "label": "E-poçt ünvanınız",
+        "validation": {
+          "required": "E-poçt sahəsi mütləq doldurulmalıdır",
+          "email": "Zəhmət olmasa, düzgün e-poçt ünvanı daxil edin"
+        }
+      },
+      "message": {
+        "label": "Mesajınız",
+        "validation": {
+          "required": "Mesaj sahəsi mütləq doldurulmalıdır",
+          "minLength": "Mesajınız ən az {min} simvoldan ibarət olmalıdır"
+        }
+      },
+      "button": "Mesajınızı Göndərin",
+      "isSummitting": "Göndərilir..."
+    }
+  },
+  "Footer": {
+    "copyright": "WeeCoins Premium © Bütün Hüquqlar Qorunur."
+  }
+}
